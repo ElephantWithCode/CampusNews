@@ -570,6 +570,8 @@ public class UsersImformationActivity extends AppCompatActivity implements View.
                 break;
             case R.id.user_write:
                 Toast.makeText(this, "Modify Something", Toast.LENGTH_SHORT).show();
+                Intent intent = new Intent(UsersImformationActivity.this, OtherInformationActivity.class);
+                startActivity(intent);
                 break;
             default:
                 break;

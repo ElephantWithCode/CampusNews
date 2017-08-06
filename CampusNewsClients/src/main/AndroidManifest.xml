@@ -61,7 +61,7 @@
         <activity android:name=".activity.DiscussionActivity" />
         <activity android:name=".activity.LargeActivity" />
         <activity android:name=".activity.EditPortraitActivity" />
-        <activity android:name=".activity.OtherInformationActivity"/>
+        <activity android:name=".activity.OtherInformationActivity" />
         <activity
             android:name="com.mob.tools.MobUIShell"
             android:configChanges="keyboardHidden|orientation|screenSize"
@@ -71,8 +71,12 @@
         <receiver
             android:name=".receiver.ImageLoadReceiver"
             android:enabled="true"
-            android:exported="false">
-        </receiver>
+            android:exported="false" />
+
+        <activity android:name=".activity.HisTopicActivity" />
+        <activity android:name=".activity.HisFocusActivity" />
+        <activity android:name=".activity.HisFansActivity" />
+        <activity android:name=".activity.EditPersonalInformationActivity"></activity>
     </application>
 
 </manifest>

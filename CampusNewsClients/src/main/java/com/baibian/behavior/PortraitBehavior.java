@@ -8,6 +8,7 @@ import android.support.v7.widget.Toolbar;
 import android.util.AttributeSet;
 import android.util.Log;
 import android.view.View;
+import android.view.ViewGroup;
 
 import de.hdodenhof.circleimageview.CircleImageView;
 
@@ -33,7 +34,7 @@ public class PortraitBehavior extends CoordinatorLayout.Behavior<CircleImageView
             mStartY = dependency.getY();
             mStartHeight = child.getLayoutParams().height;
         }
-        percent = dependency.getY() / mStartY;
+        percent = Math.abs(dependency.getY() / mStartY);
         child.setScaleX(percent);
         child.setScaleY(percent);
         Log.d("child_bug_transition", child.getX() + "  " + child.getY());

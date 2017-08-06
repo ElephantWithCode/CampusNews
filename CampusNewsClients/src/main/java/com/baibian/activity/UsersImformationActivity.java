@@ -1,16 +1,11 @@
 package com.baibian.activity;
 
-import android.content.BroadcastReceiver;
-import android.content.Context;
 import android.content.Intent;
 import android.content.IntentFilter;
 import android.content.SharedPreferences;
 import android.graphics.Bitmap;
-import android.graphics.BitmapFactory;
-import android.media.Image;
 import android.net.Uri;
 import android.os.Bundle;
-import android.os.Environment;
 import android.os.Handler;
 import android.os.Message;
 import android.os.StrictMode;
@@ -21,7 +16,6 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.support.v7.widget.Toolbar;
-import android.util.Base64;
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.Menu;
@@ -42,13 +36,12 @@ import android.widget.Toast;
 import com.baibian.R;
 import com.baibian.adapter.Users_Viwepager_Adapter;
 import com.baibian.bean.PeriodicalItem;
-import com.baibian.listener.OnPeriodicalItemClickListener;
+import com.baibian.listener.OnRecyclerViewItemClickListener;
 import com.baibian.listener.ReceiverImageLoadingHelper;
 import com.baibian.receiver.ImageLoadReceiver;
 import com.baibian.tool.HttpTool;
 import com.baibian.tool.SpaceItemDecoration;
 import com.baibian.tool.ToastTools;
-import com.baibian.view.TipView;
 import com.flyco.dialog.listener.OnOperItemClickL;
 import com.flyco.dialog.widget.ActionSheetDialog;
 import com.squareup.okhttp.Response;
@@ -56,11 +49,7 @@ import com.squareup.okhttp.Response;
 import org.json.JSONArray;
 import org.json.JSONObject;
 
-import java.io.ByteArrayInputStream;
-import java.io.ByteArrayOutputStream;
-import java.io.FileNotFoundException;
 import java.io.IOException;
-import java.io.InputStream;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -160,9 +149,9 @@ public class UsersImformationActivity extends AppCompatActivity implements View.
 
     class PeriodicalAdapter extends RecyclerView.Adapter<PeriodicalAdapter.MyViewHolder> {
 
-        private OnPeriodicalItemClickListener mItemListener;
+        private OnRecyclerViewItemClickListener mItemListener;
 
-        public void setOnClickItemListener(OnPeriodicalItemClickListener listener){
+        public void setOnClickItemListener(OnRecyclerViewItemClickListener listener){
             mItemListener = listener;
         }
         @Override
@@ -353,7 +342,7 @@ public class UsersImformationActivity extends AppCompatActivity implements View.
         llm = new LinearLayoutManager(this);
         llm.setOrientation(LinearLayoutManager.HORIZONTAL);
         periodicalAdapter = new PeriodicalAdapter();
-        periodicalAdapter.setOnClickItemListener(new OnPeriodicalItemClickListener() {
+        periodicalAdapter.setOnClickItemListener(new OnRecyclerViewItemClickListener() {
             @Override
             public void onItemClick(View view, int position) {
                 ToastTools.ToastShow("Test" + position);
@@ -449,6 +438,7 @@ public class UsersImformationActivity extends AppCompatActivity implements View.
             case R.id.like_button:
 
                 break;*/
+
             case R.id.collapsing_bar_background_image:
                 final ActionSheetDialog dialog = new ActionSheetDialog(UsersImformationActivity.this, items, view);
                 dialog.isTitleShow(false).show();
@@ -492,10 +482,12 @@ public class UsersImformationActivity extends AppCompatActivity implements View.
                 finish();
                 overridePendingTransition(R.anim.slide_in_left, R.anim.slide_out_right);
                 break;
-            case R.id.edit_personal_signal://????????????
+            case R.id.edit_personal_signal:/*//????????????
                 Intent intent=new Intent(UsersImformationActivity.this,Edit_Information_Activity.class);
                 intent.putExtra("responseString", UserInformation);
-                startActivityForResult(intent, EDIT_REQUEST);
+                startActivityForResult(intent, EDIT_REQUEST);*/
+                Intent intent = new Intent(UsersImformationActivity.this, EditPersonalInformationActivity.class);
+                startActivity(intent);
                 overridePendingTransition(R.anim.slide_in_right, R.anim.slide_out_left);
                 break;
             case R.id.user_portrait:

@@ -29,6 +29,12 @@ repositories {
         dirs '..\\CampusNewsClients\\libs'
     }
 }
+repositories {
+    maven { url "https://oss.sonatype.org/content/repositories/snapshots/" }
+}
+dependencies {
+    compile 'com.github.gabrielemariotti.recyclerview:recyclerview-animators:0.3.0-SNAPSHOT@aar'
+}
 dependencies {
     compile project(':library_SlidingMenu')
     compile files('libs/jsoup-1.7.2.jar')
@@ -46,4 +52,24 @@ dependencies {
     compile 'com.github.jd-alexander:LikeButton:0.2.0'
     compile 'de.hdodenhof:circleimageview:2.1.0'
     compile 'com.android.support.constraint:constraint-layout:1.0.2'
+}
+dependencies {
+    compile 'com.android.support.constraint:constraint-layout:+'
+}
+dependencies {
+    compile 'com.android.support:support-v4:25.+'
+    compile 'com.android.support:recyclerview-v7:25.+'
+}
+dependencies {
+    compile 'com.android.support:support-v4:25.+'
+}
+dependencies {
+    compile 'com.android.support:support-v4:25.+'
+    compile 'com.android.support:recyclerview-v7:25.+'
+}
+dependencies {
+    compile 'com.android.support.constraint:constraint-layout:+'
+}
+dependencies {
+    compile 'com.android.support.constraint:constraint-layout:+'
 }

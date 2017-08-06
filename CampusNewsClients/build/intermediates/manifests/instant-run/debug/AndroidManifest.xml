@@ -76,8 +76,12 @@
         <receiver
             android:name="com.baibian.receiver.ImageLoadReceiver"
             android:enabled="true"
-            android:exported="false" >
-        </receiver>
+            android:exported="false" />
+
+        <activity android:name="com.baibian.activity.HisTopicActivity" />
+        <activity android:name="com.baibian.activity.HisFocusActivity" />
+        <activity android:name="com.baibian.activity.HisFansActivity" />
+        <activity android:name="com.baibian.activity.EditPersonalInformationActivity" />
 
         <provider
             android:name="com.android.tools.fd.runtime.InstantRunContentProvider"

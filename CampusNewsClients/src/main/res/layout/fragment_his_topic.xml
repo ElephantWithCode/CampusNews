@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content" android:layout_height="wrap_content"
+    android:layout_margin="@dimen/text_margin">
+
+    <TextView
+        android:id="@+id/topic_title"
+        android:text="个人的命运由个人掌握"
+        android:textSize="@dimen/user_large_text_size"
+        android:textColor="@color/text_color_pure_black_user_information"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/topic_content"
+        android:textSize="@dimen/other_small_text_size"
+        android:text="啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊"
+        android:layout_below="@id/topic_title"
+        android:layout_marginTop="@dimen/gap_in_user_information"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@id/topic_title" />
+    <TextView
+        android:id="@+id/focus_amount"
+        android:layout_marginTop="10dp"
+        android:text="关注 140"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@id/topic_content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/favor_amount"
+        android:layout_marginTop="10dp"
+        android:layout_toStartOf="@id/focus_amount"
+        android:layout_alignBottom="@id/focus_amount"
+        android:layout_marginEnd="10dp"
+        android:text="点赞 666"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/data"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:text="06-09"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+</RelativeLayout>

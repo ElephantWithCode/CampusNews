@@ -278,6 +278,10 @@
 		<item>中非共和国,236,71,62301|62302|62303|62304</item>
 		<item>中国,86,42,46006|46007|46005|46002|46003|46000|46001</item>
     </string-array>
+    <string-array name="spinner_genders">
+        <item>男</item>
+        <item>女</item>
+    </string-array>
     <attr format="reference" name="constraintSet"/>
     <attr format="reference" name="drawerArrowStyle"/>
     <attr format="dimension" name="height"/>
@@ -999,6 +1003,7 @@
     <color name="tabTransparent">#10ffffff</color>
     <color name="tab_text_highlight">#ffd6d2cf</color>
     <color name="tab_text_normal">#ffd9d2cc</color>
+    <color name="text_color_pure_black_user_information">#000000</color>
     <color name="title_text_color">#ffffffff</color>
     <color name="title_text_color_night">#ffb1b1b1</color>
     <item name="toolbar_bg" type="color">@color/activity_bg_color</item>
@@ -1541,6 +1546,7 @@
     <dimen name="feedback_image_padding">180.0dip</dimen>
     <dimen name="feedback_sumbit_thumbnail_size">50.0dip</dimen>
     <dimen name="gap_in_user_information">7dp</dimen>
+    <dimen name="general_user_small_padding">10dp</dimen>
     <dimen name="head_size">40.0dip</dimen>
     <dimen name="header_footer_left_right_padding">30.0dip</dimen>
     <dimen name="header_footer_top_bottom_padding">12.0dip</dimen>
@@ -1584,6 +1590,7 @@
     <dimen name="notification_subtext_size">13sp</dimen>
     <dimen name="notification_top_pad">10dp</dimen>
     <dimen name="notification_top_pad_large_text">5dp</dimen>
+    <dimen name="other_small_text_size">16sp</dimen>
     <dimen name="popover_drawable_padding">6.0dip</dimen>
     <dimen name="popover_item_width">85.0dip</dimen>
     <dimen name="popover_row_margin_top">28.0dip</dimen>
@@ -1627,14 +1634,19 @@
     <dimen name="tab_space_plus1">3.0dip</dimen>
     <dimen name="tab_space_top">4.0dip</dimen>
     <dimen name="tab_space_unselected_top">6.0sp</dimen>
+    <dimen name="text_margin">16dp</dimen>
+    <dimen name="text_size_middle_16_dp">16sp</dimen>
     <dimen name="title_bar_height">60.0dip</dimen>
     <dimen name="tool_bar_back_text_size">22sp</dimen>
+    <dimen name="tool_bar_translationz_dp">5dp</dimen>
     <dimen name="top_category_height">40.0dip</dimen>
     <dimen name="top_category_scroll_item_margin">8.0dip</dimen>
     <dimen name="top_category_scroll_text_padding">5.0dip</dimen>
+    <dimen name="topic_item_content_text_size">18sp</dimen>
     <dimen name="user_information_imageview_padding_right">10dp</dimen>
     <dimen name="user_information_margin_start">22dp</dimen>
     <dimen name="user_large_text_size">18sp</dimen>
+    <dimen name="user_name_text_size">18sp</dimen>
     <dimen name="widget_margin">8.0dip</dimen>
     <drawable name="notification_template_icon_bg">#3333B5E5</drawable>
     <drawable name="notification_template_icon_low_bg">#0cffffff</drawable>
@@ -1712,6 +1724,7 @@
     <string name="app_copyright">© CSDN csdn.com（Sisyphus测试项目，严禁传播）</string>
     <string name="app_name">论道</string>
     <string name="appbar_scrolling_view_behavior" translatable="false">android.support.design.widget.AppBarLayout$ScrollingViewBehavior</string>
+    <string name="birth_date">生日</string>
     <string name="bottom_sheet_behavior" translatable="false">android.support.design.widget.BottomSheetBehavior</string>
     <string name="cancel">取消</string>
     <string name="character_counter_pattern" translatable="false">%1$d / %2$d</string>
@@ -1731,6 +1744,7 @@
     <string name="drawer_right_logout_hint_text">"登录后 可关注好友评论和收藏        （测试项目，严禁传播；如有侵权请联系QQ1142182057删除。）"</string>
     <string name="drawer_right_tip_no_login">未登录</string>
     <string name="edit_personal_signal">编辑个性签名</string>
+    <string name="email_number">邮箱号</string>
     <string name="exit_not_account">注销当前账号</string>
     <string name="favorite_btn_cancel">取消</string>
     <string name="favorite_btn_delete">删除</string>
@@ -1738,7 +1752,9 @@
     <string name="focus">关注</string>
     <string name="forget_password">忘记密码</string>
     <string name="frindly_reminder">友情提示</string>
+    <string name="gender">性别</string>
     <string name="haved_account">该账号已存在</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="hello_world">Hello world!</string>
     <string name="hot">热门</string>
     <string name="integration">综合</string>
@@ -1758,14 +1774,17 @@
     <string name="login_succeed">登录成功</string>
     <string name="maxadd">最多添加</string>
     <string name="maxadd2">个~</string>
+    <string name="nick_name">昵称</string>
     <string name="password_toggle_content_description">Toggle password visibility</string>
     <string name="path_password_eye" translatable="false">M12,4.5C7,4.5 2.73,7.61 1,12c1.73,4.39 6,7.5 11,7.5s9.27,-3.11 11,-7.5c-1.73,-4.39 -6,-7.5 -11,-7.5zM12,17c-2.76,0 -5,-2.24 -5,-5s2.24,-5 5,-5 5,2.24 5,5 -2.24,5 -5,5zM12,9c-1.66,0 -3,1.34 -3,3s1.34,3 3,3 3,-1.34 3,-3 -1.34,-3 -3,-3z</string>
     <string name="path_password_eye_mask_strike_through" translatable="false">M2,4.27 L19.73,22 L22.27,19.46 L4.54,1.73 L4.54,1 L23,1 L23,23 L1,23 L1,4.27 Z</string>
     <string name="path_password_eye_mask_visible" translatable="false">M2,4.27 L2,4.27 L4.54,1.73 L4.54,1.73 L4.54,1 L23,1 L23,23 L1,23 L1,4.27 Z</string>
     <string name="path_password_strike_through" translatable="false">M3.27,4.27 L19.74,20.74</string>
     <string name="pattern_update">发现%1$d条更新</string>
+    <string name="phone_number">手机号</string>
     <string name="please6to16">请输入6~16位密码</string>
     <string name="please_account">请输入正确账号</string>
+    <string name="portrait">头像</string>
     <string name="portrait_image_save_file_dir_name">LunDao</string>
     <string name="portrait_image_save_file_name">head_portrait</string>
     <string name="real_time">实时</string>
@@ -1794,6 +1813,7 @@
     <string name="setting_use_swipe">左右翻页</string>
     <string name="signIn_OK">登录成功</string>
     <string name="signUp_OK">注册成功</string>
+    <string name="signature">签名</string>
     <string name="smssdk_add_contact">添加</string>
     <string name="smssdk_back">返回 </string>
     <string name="smssdk_cancel">取消</string>
@@ -1986,6 +2006,9 @@
 
         
             <item name="android:windowNoTitle">true</item>
+    </style>
+    <style name="AppTheme." parent="AppBaseTheme">
+            <item name="android:listDivider">@drawable/divider_bg</item>
     </style>
     <style name="Base.AlertDialog.AppCompat" parent="android:Widget">
         <item name="android:layout">@layout/abc_alert_dialog_material</item>

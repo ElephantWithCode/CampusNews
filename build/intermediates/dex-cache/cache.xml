@@ -21,6 +21,15 @@
     </item>
     <item
         is-multidex="true"
+        jar="C:\Users\Ellly\Desktop\SourceCodeTempOnDesktop\CampusNews\CampusNewsClients\build\intermediates\exploded-aar\com.github.gabrielemariotti.recyclerview\recyclerview-animators\0.3.0-SNAPSHOT\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="940a4e6d5d64deee58c07673cb65a4557e1637af">
+        <dex dex="C:\Users\Ellly\Desktop\SourceCodeTempOnDesktop\CampusNews\CampusNewsClients\build\intermediates\transforms\dex\debug\folders\1000\10\com.github.gabrielemariotti.recyclerview-recyclerview-animators-0.3.0-SNAPSHOT_a32f0d1b952e45bff6512bdcf9865276cb3399a3\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="C:\Users\Ellly\Desktop\SourceCodeTempOnDesktop\CampusNews\CampusNewsClients\libs\jsoup-1.7.2.jar"
         jumboMode="true"
         optimize="true"
@@ -61,7 +70,7 @@
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="81622a878718976a3a80780c8613c1399bf1c6ff">
+        sha1="0ebac5617031e3d941071258b38d5c69c3a513a7">
         <dex dex="C:\Users\Ellly\Desktop\SourceCodeTempOnDesktop\CampusNews\CampusNewsClients\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_d8c7e075e4c9670dd5123bd2f7d7a56014de0361\classes.dex" />
     </item>
     <item

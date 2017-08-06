@@ -6,4 +6,8 @@
         <item>@color/indicator_3</item>
         <item>@color/indicator_4</item>
     </array>
+    <string-array name="spinner_genders">
+        <item>男</item>
+        <item>女</item>
+    </string-array>
 </resources>

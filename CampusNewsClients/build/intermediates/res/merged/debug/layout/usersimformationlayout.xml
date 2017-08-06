@@ -37,8 +37,8 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:id="@+id/back_nav_toolbar"
-                    android:drawableStart="@drawable/ic_toast_bury"
-                    android:drawableLeft="@drawable/ic_toast_bury"
+                    android:drawableStart="@mipmap/back_direction"
+                    android:drawableLeft="@mipmap/back_direction"
                     android:text="返回"
                     android:textColor="#ffffff"
                     android:textSize="22sp"
@@ -519,6 +519,7 @@
         android:layout_height="100dp"
         android:src="@drawable/default_round_head"
         app:layout_behavior=".behavior.PortraitBehavior"
+        android:translationZ="10dp"
         app:layout_anchor="@id/scroll_view"
         app:layout_anchorGravity="top|center_horizontal"/>
 </android.support.design.widget.CoordinatorLayout>

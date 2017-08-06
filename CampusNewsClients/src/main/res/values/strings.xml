@@ -105,5 +105,16 @@
     <string name="portrait_image_save_file_dir_name">LunDao</string>
     <string name="portrait_image_save_file_name">head_portrait</string>
 
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="portrait">头像</string>
+    <string name="signature">签名</string>
+    <string name="nick_name">昵称</string>
+    <string name="gender">性别</string>
+    <string name="birth_date">生日</string>
+    <string name="phone_number">手机号</string>
+    <string name="email_number">邮箱号</string>
+    <string name="residence">居住地</string>
+
 
 </resources>

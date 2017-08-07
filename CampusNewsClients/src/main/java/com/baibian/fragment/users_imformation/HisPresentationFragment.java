@@ -3,6 +3,7 @@ package com.baibian.fragment.users_imformation;
 import android.content.Context;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
+import android.support.v4.content.ContextCompat;
 import android.support.v7.widget.DividerItemDecoration;
 import android.support.v7.widget.GridLayoutManager;
 import android.support.v7.widget.LinearLayoutManager;
@@ -15,15 +16,16 @@ import com.baibian.R;
 import com.baibian.bean.HisPresentationContent;
 import com.baibian.fragment.users_imformation.dummy.DummyContent;
 import com.baibian.fragment.users_imformation.dummy.DummyContent.DummyItem;
+import com.baibian.tool.DataTools;
 import com.baibian.tool.RecyclerViewCommonTool.CommonAdapter;
 import com.baibian.tool.RecyclerViewCommonTool.ViewHolder;
+import com.baibian.tool.SpaceItemDecoration;
 
 import java.util.List;
 
 /**
  * A fragment representing a list of Items.
  * <p/>
- * Activities containing this fragment MUST implement the {@link OnListFragmentInteractionListener}
  * interface.
  */
 public class HisPresentationFragment extends Fragment {
@@ -69,6 +71,7 @@ public class HisPresentationFragment extends Fragment {
         if (view instanceof RecyclerView) {
             Context context = view.getContext();
             RecyclerView recyclerView = (RecyclerView) view;
+            recyclerView.addItemDecoration(new SpaceItemDecoration(DataTools.dip2px(getContext(), 4), false));
             if (mColumnCount <= 1) {
                 recyclerView.setLayoutManager(new LinearLayoutManager(context));
             } else {
@@ -81,7 +84,7 @@ public class HisPresentationFragment extends Fragment {
 
                 }
             });
-            recyclerView.addItemDecoration(new DividerItemDecoration(getContext(), DividerItemDecoration.VERTICAL));
+
         }
         return view;
     }

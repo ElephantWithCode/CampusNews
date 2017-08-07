@@ -3,6 +3,7 @@ package com.baibian.fragment.users_imformation;
 import android.content.Context;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
+import android.support.v4.content.ContextCompat;
 import android.support.v7.widget.DividerItemDecoration;
 import android.support.v7.widget.GridLayoutManager;
 import android.support.v7.widget.LinearLayoutManager;
@@ -13,8 +14,10 @@ import android.view.ViewGroup;
 
 import com.baibian.R;
 import com.baibian.bean.HisUserContent;
+import com.baibian.tool.DataTools;
 import com.baibian.tool.RecyclerViewCommonTool.CommonAdapter;
 import com.baibian.tool.RecyclerViewCommonTool.ViewHolder;
+import com.baibian.tool.SpaceItemDecoration;
 
 /**
  * A fragment representing a list of Items.
@@ -75,7 +78,7 @@ public class UserFragment extends Fragment {
                     //TODO
                 }
             });
-            recyclerView.addItemDecoration(new DividerItemDecoration(getContext(), DividerItemDecoration.VERTICAL));
+            recyclerView.addItemDecoration(new SpaceItemDecoration(DataTools.dip2px(getContext(), 4), false));
         }
         return view;
     }

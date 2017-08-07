@@ -350,7 +350,7 @@ public class UsersImformationActivity extends AppCompatActivity implements View.
         });
         periodicalRecyView.setLayoutManager(llm);
         periodicalRecyView.setAdapter(periodicalAdapter);
-        periodicalRecyView.addItemDecoration(new SpaceItemDecoration(15));
+        periodicalRecyView.addItemDecoration(new SpaceItemDecoration(15, true));
         periodicalRecyView.addOnScrollListener(new RecyclerView.OnScrollListener() {
             @Override
             public void onScrollStateChanged(RecyclerView recyclerView, int newState) {

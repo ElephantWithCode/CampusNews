@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="wrap_content" android:layout_height="wrap_content"
-    android:padding="@dimen/general_user_small_padding">
+    android:padding="@dimen/general_user_small_padding"
+    android:background="#ffffff">
 
     <de.hdodenhof.circleimageview.CircleImageView
         android:src="@drawable/default_round_head"
@@ -33,6 +34,7 @@
         android:layout_below="@id/user_personal_signal"
         android:layout_alignStart="@id/user_name"
         android:orientation="horizontal"
+        android:gravity="center_vertical"
         android:id="@+id/user_honor_layout"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content">
@@ -45,15 +47,16 @@
             android:layout_height="wrap_content" />
         <ImageView
             android:id="@+id/honor_icon"
+            android:src="@drawable/ic_action_more"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" />
     </LinearLayout>
-    <Button
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentTop="true"
-        android:id="@+id/focus_action"
+    <com.baibian.view.RevealFollowButton
+        android:id="@+id/reveal_follow_btn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textSize="@dimen/text_size_middle_16_dp"
-        android:text="关注ta" />
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true">
+
+    </com.baibian.view.RevealFollowButton>
 </RelativeLayout>

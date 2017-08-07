@@ -8,8 +8,8 @@ package com.flyco.dialog;
 
 public final class R {
     public static final class id {
-        public static final int ll_content = 0x7f0f01e4;
-        public static final int triangle_view = 0x7f0f01e5;
+        public static final int ll_content = 0x7f0f01e9;
+        public static final int triangle_view = 0x7f0f01ea;
     }
     public static final class layout {
         public static final int popup_base = 0x7f04007d;

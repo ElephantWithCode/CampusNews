@@ -1,5 +1,6 @@
 package com.baibian.activity;
 
+import android.support.v4.content.ContextCompat;
 import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -7,24 +8,30 @@ import android.support.v7.widget.DividerItemDecoration;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.support.v7.widget.Toolbar;
+import android.widget.LinearLayout;
 
 import com.baibian.R;
 import com.baibian.bean.HisFansContent;
 import com.baibian.bean.HisFansContent.HisFans;
 import com.baibian.tool.RecyclerViewCommonTool.CommonAdapter;
 import com.baibian.tool.RecyclerViewCommonTool.ViewHolder;
+import com.baibian.tool.ToastTools;
+import com.baibian.view.RevealFollowButton;
+import com.bumptech.glide.Glide;
+
+import de.hdodenhof.circleimageview.CircleImageView;
 
 public class HisFansActivity extends AppCompatActivity {
 
-    RecyclerView mRecyclerView;
-    Toolbar mToolbar;
-
+    private RecyclerView mRecyclerView;
+    private Toolbar mToolbar;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_his_fans);
         mRecyclerView = (RecyclerView) findViewById(R.id.recycler_view);
         mToolbar = (Toolbar) findViewById(R.id.tool_bar);
+
         initRecyclerView();
         initToolbar();
     }
@@ -40,11 +47,28 @@ public class HisFansActivity extends AppCompatActivity {
 
     private void initRecyclerView() {
         mRecyclerView.setLayoutManager(new LinearLayoutManager(this));
-        mRecyclerView.addItemDecoration(new DividerItemDecoration(this, DividerItemDecoration.VERTICAL));
+        DividerItemDecoration itemDecoration = new DividerItemDecoration(this, DividerItemDecoration.VERTICAL);
+        itemDecoration.setDrawable(ContextCompat.getDrawable(this, R.drawable.divider_item_decoration_drawable));
+        mRecyclerView.addItemDecoration(itemDecoration);
         mRecyclerView.setAdapter(new CommonAdapter<HisFans>(this, R.layout.fans_information_layout, HisFansContent.FANSES){
             @Override
             public void convert(ViewHolder holder, HisFans fans) {
 
+                RevealFollowButton mFollowButton = (RevealFollowButton) holder.getItemView().findViewById(R.id.reveal_follow_btn);
+                CircleImageView mUserPortrait= (CircleImageView) holder.getItemView().findViewById(R.id.user_portrait);
+                LinearLayout mHonorLayout = (LinearLayout) holder.getItemView().findViewById(R.id.user_honor_layout);
+
+                //TODO add honors onto mHonorLayout
+                mFollowButton.setOnFollowedClickListener(new RevealFollowButton.OnFollowedClickListener() {
+                    @Override
+                    public void onFollowedClick(boolean isFollowed) {
+                        if (isFollowed) {
+                            ToastTools.ToastShow("Followed");
+                        } else {
+                            ToastTools.ToastShow("UnFollowed");
+                        }
+                    }
+                });
             }
         });
     }

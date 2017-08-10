@@ -37,8 +37,8 @@ import com.baibian.R;
 import com.baibian.adapter.Users_Viwepager_Adapter;
 import com.baibian.bean.PeriodicalItem;
 import com.baibian.listener.OnRecyclerViewItemClickListener;
-import com.baibian.listener.ReceiverImageLoadingHelper;
-import com.baibian.receiver.ImageLoadReceiver;
+import com.baibian.listener.ReceiverTasksHelper;
+import com.baibian.receiver.TasksReceiver;
 import com.baibian.tool.HttpTool;
 import com.baibian.tool.SpaceItemDecoration;
 import com.baibian.tool.ToastTools;
@@ -72,7 +72,6 @@ public class UsersImformationActivity extends AppCompatActivity implements View.
     private EditText personalized_signature_edit;
     private Response informationResponse;
     private Handler handler;
-    private TextView username;
     private final int EDIT_REQUEST=1;
     private String UserInformation;
 
@@ -108,10 +107,25 @@ public class UsersImformationActivity extends AppCompatActivity implements View.
 
     private Bitmap mBitmap;
     private Handler imageLoadHandler;
-    private ImageLoadReceiver receiver;
+    private TasksReceiver receiver;
 
     private ImageView collapsingBarLayoutBackground;
     private Bitmap mBackGroundBitmap;
+
+    private TextView username;
+    private TextView likeAmounts;
+    private TextView focusAmounts;
+    private TextView focusedAmounts;
+    private TextView genderAgeConstellation;
+    private TextView userLevel;
+    private TextView collegeName;
+    private TextView provinceCity;
+    /**
+     * Remained
+     */
+    private TextView myTopic;
+    private TextView myPoint;
+    private TextView myPresentation;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -268,8 +282,8 @@ public class UsersImformationActivity extends AppCompatActivity implements View.
         /**
          * To receive broadcast from EditPortraitActivity that notify the change of image.
          */
-        receiver = new ImageLoadReceiver();
-        receiver.setImageLoadingHelper(new ReceiverImageLoadingHelper() {
+        receiver = new TasksReceiver();
+        receiver.setImageLoadingHelper(new ReceiverTasksHelper() {
             @Override
             public void doTasks() {
                 Log.d("load_image", "LoadImage");
@@ -308,6 +322,12 @@ public class UsersImformationActivity extends AppCompatActivity implements View.
     }
 
     private void initVariousViews() {
+        likeAmounts = (TextView) findViewById(R.id.like_amount);
+        focusAmounts = (TextView) findViewById(R.id.focus_amount);
+        focusedAmounts = (TextView) findViewById(R.id.focused_amount);
+        collegeName = (TextView) findViewById(R.id.college_name);
+        provinceCity = (TextView) findViewById(R.id.province_city);
+        genderAgeConstellation = (TextView) findViewById(R.id.gender_age_constellation);
         collapsingBarLayoutBackground = (ImageView) findViewById(R.id.collapsing_bar_background_image);
         userPortrait = (CircleImageView) findViewById(R.id.user_portrait);
         editPersonalSignal = (TextView) findViewById(R.id.edit_personal_signal);
@@ -527,17 +547,19 @@ public class UsersImformationActivity extends AppCompatActivity implements View.
                 }
                 break;
             case FROM_ALBUM:
-                final Uri uri = data.getData();
-                new Thread(){
-                    @Override
-                    public void run() {
-                        mBackGroundBitmap = EditPortraitActivity.getBitmapFromUri(uri, UsersImformationActivity.this);
-                        EditPortraitActivity.setSaveImageShared(mBackGroundBitmap, FILE_NAME);
-                        Message alMsg = new Message();
-                        alMsg.what = FROM_ALBUM;
-                        imageLoadHandler.sendMessage(alMsg);
-                    }
-                }.start();
+                if (data != null) {
+                    final Uri uri = data.getData();
+                    new Thread(){
+                        @Override
+                        public void run() {
+                            mBackGroundBitmap = EditPortraitActivity.getBitmapFromUri(uri, UsersImformationActivity.this);
+                            EditPortraitActivity.setSaveImageShared(mBackGroundBitmap, FILE_NAME);
+                            Message alMsg = new Message();
+                            alMsg.what = FROM_ALBUM;
+                            imageLoadHandler.sendMessage(alMsg);
+                        }
+                    }.start();
+                }
             default:
                 break;
         }

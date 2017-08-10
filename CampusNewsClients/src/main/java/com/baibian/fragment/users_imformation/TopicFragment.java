@@ -13,6 +13,7 @@ import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.TextView;
 
 import com.baibian.R;
 import com.baibian.bean.HisTopicContent;
@@ -88,7 +89,11 @@ public class TopicFragment extends Fragment {
 
                 @Override
                 public void convert(ViewHolder holder, HisTopicContent.HisTopic hisTopicContent) {
-
+                    TextView topicTitle = (TextView) holder.getItemView().findViewById(R.id.topic_title);
+                    TextView topicContent = (TextView) holder.getItemView().findViewById(R.id.topic_content);
+                    TextView favorAmount = (TextView) holder.getItemView().findViewById(R.id.favor_amount);
+                    TextView focusAmount = (TextView) holder.getItemView().findViewById(R.id.focus_amount);
+                    TextView date = (TextView) holder.getItemView().findViewById(R.id.date);
                 }
             });
             recyclerView.addItemDecoration(new SpaceItemDecoration(DataTools.dip2px(getContext(), 4), false));

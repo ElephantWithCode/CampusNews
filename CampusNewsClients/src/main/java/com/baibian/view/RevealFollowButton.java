@@ -117,7 +117,7 @@ public class RevealFollowButton extends FrameLayout {
         mUnFollowTv.setTextColor(Color.BLACK);
     }
 
-    protected void setFollowed(boolean isFollowed, boolean needAnimate) {
+    public void setFollowed(boolean isFollowed, boolean needAnimate) {
         mIsFollowed = isFollowed;
         if (isFollowed) {
             mUnFollowTv.setVisibility(View.VISIBLE);

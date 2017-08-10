@@ -11,6 +11,7 @@ import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.TextView;
 
 import com.baibian.R;
 import com.baibian.bean.HisPresentationContent;
@@ -82,6 +83,11 @@ public class HisPresentationFragment extends Fragment {
                 @Override
                 public void convert(ViewHolder holder, HisPresentationContent.HisPresentation presentation) {
 
+                    TextView presentationTitle = (TextView) holder.getItemView().findViewById(R.id.presentation_title);
+                    TextView likeAmounts = (TextView) holder.getItemView().findViewById(R.id.favor_amount);
+                    TextView focusAmounts = (TextView) holder.getItemView().findViewById(R.id.focus_amount);
+                    TextView date = (TextView) holder.getItemView().findViewById(R.id.date);
+                    
                 }
             });
 

@@ -47,9 +47,10 @@
             android:layout_height="wrap_content" />
         <ImageView
             android:id="@+id/honor_icon"
-            android:src="@drawable/ic_action_more"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content" />
+            android:src="@drawable/ic_personal_achievement"
+            android:padding="@dimen/adjust_small_gap"
+            android:layout_width="@dimen/personal_image_size"
+            android:layout_height="@dimen/personal_image_size" />
     </LinearLayout>
     <com.baibian.view.RevealFollowButton
         android:id="@+id/reveal_follow_btn"

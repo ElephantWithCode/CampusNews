@@ -9,6 +9,7 @@ import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.support.v7.widget.Toolbar;
 import android.widget.LinearLayout;
+import android.widget.TextView;
 
 import com.baibian.R;
 import com.baibian.bean.HisFansContent;
@@ -18,6 +19,8 @@ import com.baibian.tool.RecyclerViewCommonTool.ViewHolder;
 import com.baibian.tool.ToastTools;
 import com.baibian.view.RevealFollowButton;
 import com.bumptech.glide.Glide;
+
+import org.w3c.dom.Text;
 
 import de.hdodenhof.circleimageview.CircleImageView;
 
@@ -57,7 +60,12 @@ public class HisFansActivity extends AppCompatActivity {
                 RevealFollowButton mFollowButton = (RevealFollowButton) holder.getItemView().findViewById(R.id.reveal_follow_btn);
                 CircleImageView mUserPortrait= (CircleImageView) holder.getItemView().findViewById(R.id.user_portrait);
                 LinearLayout mHonorLayout = (LinearLayout) holder.getItemView().findViewById(R.id.user_honor_layout);
+                TextView mUserName = (TextView) holder.getItemView().findViewById(R.id.user_name);
+                TextView mUserPersonalSignature = (TextView) holder.getItemView().findViewById(R.id.user_personal_signal);
+                TextView mUserLevel = (TextView) holder.getItemView().findViewById(R.id.user_level);
 
+
+                Glide.with(HisFansActivity.this).load("http://imgsrc.baidu.com/image/c0%3Dshijue1%2C0%2C0%2C294%2C40/sign=30161d0030292df583cea456d4583615/e1fe9925bc315c609050b3c087b1cb13485477dc.jpg").crossFade().into(mUserPortrait);
                 //TODO add honors onto mHonorLayout
                 mFollowButton.setOnFollowedClickListener(new RevealFollowButton.OnFollowedClickListener() {
                     @Override

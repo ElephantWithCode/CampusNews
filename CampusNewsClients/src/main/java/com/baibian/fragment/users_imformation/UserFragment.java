@@ -11,6 +11,7 @@ import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.TextView;
 
 import com.baibian.R;
 import com.baibian.bean.HisUserContent;
@@ -18,6 +19,10 @@ import com.baibian.tool.DataTools;
 import com.baibian.tool.RecyclerViewCommonTool.CommonAdapter;
 import com.baibian.tool.RecyclerViewCommonTool.ViewHolder;
 import com.baibian.tool.SpaceItemDecoration;
+import com.baibian.view.RevealFollowButton;
+import com.bumptech.glide.Glide;
+
+import de.hdodenhof.circleimageview.CircleImageView;
 
 /**
  * A fragment representing a list of Items.
@@ -76,6 +81,12 @@ public class UserFragment extends Fragment {
                 @Override
                 public void convert(ViewHolder holder, HisUserContent.User user) {
                     //TODO
+                    CircleImageView userPortrait = (CircleImageView) holder.getItemView().findViewById(R.id.user_portrait);
+                    TextView userName = (TextView) holder.getItemView().findViewById(R.id.user_name);
+                    TextView userPersonalSignature = (TextView) holder.getItemView().findViewById(R.id.user_personal_signal);
+                    RevealFollowButton followButton = (RevealFollowButton) holder.getItemView().findViewById(R.id.focus_action);
+
+                    Glide.with(getContext()).load("http://imgsrc.baidu.com/image/c0%3Dshijue1%2C0%2C0%2C294%2C40/sign=8694cad471899e516c8332572aceb346/0eb30f2442a7d9337bfbfd5aa74bd11373f00143.jpg").crossFade().into(userPortrait);
                 }
             });
             recyclerView.addItemDecoration(new SpaceItemDecoration(DataTools.dip2px(getContext(), 4), false));

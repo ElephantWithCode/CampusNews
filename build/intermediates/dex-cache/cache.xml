@@ -70,8 +70,17 @@
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="0ebac5617031e3d941071258b38d5c69c3a513a7">
+        sha1="acd04eeeaea7c96465470e5a0bef7b30b84f65ba">
         <dex dex="C:\Users\Ellly\Desktop\SourceCodeTempOnDesktop\CampusNews\CampusNewsClients\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_d8c7e075e4c9670dd5123bd2f7d7a56014de0361\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Ellly\.android\build-cache\2e0c8652fb9c1a35b888e1cd2c4e25f194f0f099\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="8a9836ec36fa869e3c2fa9a6d6cbd5c342fd9858">
+        <dex dex="C:\Users\Ellly\Desktop\SourceCodeTempOnDesktop\CampusNews\CampusNewsClients\build\intermediates\transforms\dex\debug\folders\1000\10\classes_63077bf20792882e552e48e02b1f99f41985f197\classes.dex" />
     </item>
     <item
         is-multidex="true"

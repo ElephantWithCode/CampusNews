@@ -48,7 +48,7 @@
     </RelativeLayout>
 
     <TextView
-        android:id="@+id/data"
+        android:id="@+id/date"
         android:layout_alignParentEnd="true"
         android:layout_alignParentTop="true"
         android:padding="@dimen/gap_in_user_information"
@@ -58,11 +58,11 @@
     <View
         android:layout_width="match_parent"
         android:layout_height="1dp"
-        android:background="#f9f9f9"
+        android:background="@color/top_category_bar_background_day"
         android:layout_alignParentTop="true" />
     <View
         android:layout_width="match_parent"
         android:layout_height="1dp"
-        android:background="#f9f9f9"
+        android:background="@color/top_category_bar_background_day"
         android:layout_alignParentBottom="true"/>
 </RelativeLayout>

@@ -31,6 +31,7 @@ MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\Ellly\.android\bu
 MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\Ellly\.android\build-cache\b9965bafda82946fc50d4a417251f1f10ad9937c\output\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\Ellly\.android\build-cache\b256409736e30d0a072e169a07eb027a49a3ae95\output\AndroidManifest.xml:20:5-43
 MERGED from [de.hdodenhof:circleimageview:2.1.0] C:\Users\Ellly\.android\build-cache\0226137638ece7c4e0dc2008784d26bf82f8c93a\output\AndroidManifest.xml:5:5-7:41
+MERGED from [com.contrarywind:Android-PickerView:3.2.6] C:\Users\Ellly\.android\build-cache\2e0c8652fb9c1a35b888e1cd2c4e25f194f0f099\output\AndroidManifest.xml:7:5-9:41
 MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Ellly\.android\build-cache\28e4799317c9c951ffaaf7c23fc8bbd14b2155dc\output\AndroidManifest.xml:5:5-7:41
 MERGED from [com.android.support:support-v4:25.3.1] C:\Users\Ellly\.android\build-cache\d08c1f549f8a8a4595d084a82f639d55c47b685d\output\AndroidManifest.xml:21:5-23:54
 MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\Ellly\.android\build-cache\476b10bb5a62485045e51446864aefe7be7ddb5a\output\AndroidManifest.xml:21:5-23:60
@@ -236,14 +237,14 @@ ADDED from C:\Users\Ellly\Desktop\SourceCodeTempOnDesktop\CampusNews\CampusNewsC
 		ADDED from C:\Users\Ellly\Desktop\SourceCodeTempOnDesktop\CampusNews\CampusNewsClients\src\main\AndroidManifest.xml:68:13-72
 	android:name
 		ADDED from C:\Users\Ellly\Desktop\SourceCodeTempOnDesktop\CampusNews\CampusNewsClients\src\main\AndroidManifest.xml:66:13-52
-receiver#com.baibian.receiver.ImageLoadReceiver
+receiver#com.baibian.receiver.TasksReceiver
 ADDED from C:\Users\Ellly\Desktop\SourceCodeTempOnDesktop\CampusNews\CampusNewsClients\src\main\AndroidManifest.xml:71:9-74:40
 	android:enabled
 		ADDED from C:\Users\Ellly\Desktop\SourceCodeTempOnDesktop\CampusNews\CampusNewsClients\src\main\AndroidManifest.xml:73:13-35
 	android:exported
 		ADDED from C:\Users\Ellly\Desktop\SourceCodeTempOnDesktop\CampusNews\CampusNewsClients\src\main\AndroidManifest.xml:74:13-37
 	android:name
-		ADDED from C:\Users\Ellly\Desktop\SourceCodeTempOnDesktop\CampusNews\CampusNewsClients\src\main\AndroidManifest.xml:72:13-55
+		ADDED from C:\Users\Ellly\Desktop\SourceCodeTempOnDesktop\CampusNews\CampusNewsClients\src\main\AndroidManifest.xml:72:13-51
 activity#com.baibian.activity.HisTopicActivity
 ADDED from C:\Users\Ellly\Desktop\SourceCodeTempOnDesktop\CampusNews\CampusNewsClients\src\main\AndroidManifest.xml:76:9-63
 	android:name

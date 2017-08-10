@@ -74,7 +74,7 @@
             android:windowSoftInputMode="stateHidden|adjustResize" />
 
         <receiver
-            android:name="com.baibian.receiver.ImageLoadReceiver"
+            android:name="com.baibian.receiver.TasksReceiver"
             android:enabled="true"
             android:exported="false" />
 

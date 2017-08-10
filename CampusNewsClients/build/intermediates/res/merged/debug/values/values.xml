@@ -761,6 +761,15 @@
     <color name="pgc_text_normal_night">#ff999999</color>
     <color name="pgc_text_verified">#ff42a4ff</color>
     <color name="pgc_text_verified_night">#ff42a4ff</color>
+    <color name="pickerview_bgColor_default">#FFFFFFFF</color>
+    <color name="pickerview_bgColor_overlay">#60000000</color>
+    <color name="pickerview_bg_topbar">#f5f5f5</color>
+    <color name="pickerview_timebtn_nor">#057dff</color>
+    <color name="pickerview_timebtn_pre">#c2daf5</color>
+    <color name="pickerview_topbar_title">#000000</color>
+    <color name="pickerview_wheelview_textcolor_center">#2a2a2a</color>
+    <color name="pickerview_wheelview_textcolor_divider">#d5d5d5</color>
+    <color name="pickerview_wheelview_textcolor_out">#a8a8a8</color>
     <color name="pinyin_bg">#ffffffff</color>
     <color name="pinyin_bg_night">#ff2b2b2b</color>
     <color name="player_controller_bg">#ffffffff</color>
@@ -1035,6 +1044,7 @@
     <color name="update_description_night">#ff505050</color>
     <color name="update_item_layout_bg_night">#ff303030</color>
     <color name="white">#FFFFFF</color>
+    <color name="white_background_color">#ffffff</color>
     <color name="why_indicator_selected">#ff7d7d7d</color>
     <color name="why_indicator_unselected">#ffcecece</color>
     <color name="write_comment_hint_text">#ff999999</color>
@@ -1384,6 +1394,11 @@
             <enum name="screen" value="15"/>
         </attr></declare-styleable>
     <declare-styleable name="ViewStubCompat"><attr name="android:layout"/><attr name="android:inflatedId"/><attr name="android:id"/></declare-styleable>
+    <declare-styleable name="pickerview"><attr name="pickerview_gravity">
+            <enum name="center" value="17"/>
+            <enum name="left" value="3"/>
+            <enum name="right" value="5"/>
+        </attr><attr format="dimension" name="pickerview_textSize"/><attr format="color" name="pickerview_textColorOut"/><attr format="color" name="pickerview_textColorCenter"/><attr format="color" name="pickerview_dividerColor"/><attr format="float" name="pickerview_lineSpacingMultiplier"/></declare-styleable>
     <dimen name="abc_action_bar_content_inset_material">16dp</dimen>
     <dimen name="abc_action_bar_content_inset_with_nav">72dp</dimen>
     <dimen name="abc_action_bar_default_height">48.0dip</dimen>
@@ -1468,6 +1483,7 @@
     <dimen name="abc_text_size_title_material_toolbar">20dp</dimen>
     <dimen name="account_avatar_corner">5.0dip</dimen>
     <dimen name="account_avatar_size">30.0dip</dimen>
+    <dimen name="adjust_small_gap">2dp</dimen>
     <dimen name="alert_image_height">220.0dip</dimen>
     <dimen name="alert_image_width">271.0dip</dimen>
     <dimen name="alt_mark_size">15.0dip</dimen>
@@ -1591,6 +1607,12 @@
     <dimen name="notification_top_pad">10dp</dimen>
     <dimen name="notification_top_pad_large_text">5dp</dimen>
     <dimen name="other_small_text_size">16sp</dimen>
+    <dimen name="personal_image_size">30dp</dimen>
+    <dimen name="pickerview_textsize">20sp</dimen>
+    <dimen name="pickerview_topbar_btn_textsize">17sp</dimen>
+    <dimen name="pickerview_topbar_height">44dp</dimen>
+    <dimen name="pickerview_topbar_padding">20dp</dimen>
+    <dimen name="pickerview_topbar_title_textsize">18sp</dimen>
     <dimen name="popover_drawable_padding">6.0dip</dimen>
     <dimen name="popover_item_width">85.0dip</dimen>
     <dimen name="popover_row_margin_top">28.0dip</dimen>
@@ -1671,6 +1693,7 @@
     <integer name="abc_config_activityDefaultDur">220</integer>
     <integer name="abc_config_activityShortDur">150</integer>
     <integer name="abc_max_action_buttons">2</integer>
+    <integer name="animation_default_duration">300</integer>
     <integer name="app_bar_elevation_anim_duration">150</integer>
     <integer name="bottom_sheet_slide_duration">150</integer>
     <integer name="cancel_button_image_alpha">127</integer>
@@ -1782,6 +1805,14 @@
     <string name="path_password_strike_through" translatable="false">M3.27,4.27 L19.74,20.74</string>
     <string name="pattern_update">发现%1$d条更新</string>
     <string name="phone_number">手机号</string>
+    <string name="pickerview_cancel">取消</string>
+    <string name="pickerview_day">日</string>
+    <string name="pickerview_hours">时</string>
+    <string name="pickerview_minutes">分</string>
+    <string name="pickerview_month">月</string>
+    <string name="pickerview_seconds">秒</string>
+    <string name="pickerview_submit">确定</string>
+    <string name="pickerview_year">年</string>
     <string name="please6to16">请输入6~16位密码</string>
     <string name="please_account">请输入正确账号</string>
     <string name="portrait">头像</string>
@@ -3577,6 +3608,22 @@
         <item name="android:minWidth">50.0dip</item>
         <item name="android:minHeight">30.0dip</item>
     </style>
+    <style name="custom_dialog2" parent="@android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        
+        <item name="android:windowIsFloating">true</item>
+        
+        <item name="android:windowIsTranslucent">true</item>
+        
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:background">@null</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowContentOverlay">@null</item>
+        
+        <item name="android:backgroundDimEnabled">true</item>
+        
+        <item name="android:backgroundDimAmount">0.3</item>
+    </style>
     <style name="deail_title_text_style" parent="@style/title_text_style">
         <item name="android:textColor">@color/detail_title_text_color</item>
     </style>
@@ -3712,6 +3759,10 @@
     </style>
     <style name="notify_view_divider">
         <item name="android:background">@color/notify_view_divider</item>
+    </style>
+    <style mce_bogus="1" name="pickerview_dialogAnim" parent="android:Animation">
+        <item name="android:windowEnterAnimation">@anim/pickerview_dialog_scale_in</item>
+        <item name="android:windowExitAnimation">@anim/pickerview_dialog_scale_out</item>
     </style>
     <style name="popuptoast_dialog" parent="@android:style/Theme.Dialog">
         <item name="android:windowBackground">@drawable/bg_slide_hint</item>

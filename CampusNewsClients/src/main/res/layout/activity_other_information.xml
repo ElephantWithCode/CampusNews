@@ -44,15 +44,16 @@
                     android:layout_centerHorizontal="true"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content" />
-                <Button
+
+                <com.baibian.view.RevealFollowButton
                     android:id="@+id/focus_action"
+                    android:layout_marginTop="@dimen/gap_in_user_information"
                     android:layout_alignParentEnd="true"
                     android:layout_alignParentTop="true"
-                    android:padding="@dimen/general_user_small_padding"
                     android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="关注"
-                    android:textSize="@dimen/other_small_text_size"/>
+                    android:layout_height="wrap_content">
+
+                </com.baibian.view.RevealFollowButton>
             </RelativeLayout>
         
             <LinearLayout
@@ -137,6 +138,7 @@
                 android:layout_marginBottom="@dimen/gap_in_user_information"
                 android:background="@color/account_account_bind" />
             <TextView
+                android:id="@+id/gender_age_constellation"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/gap_in_user_information"
@@ -149,6 +151,7 @@
                 android:layout_marginStart="@dimen/user_information_margin_start"
                 android:drawablePadding="@dimen/user_information_imageview_padding_right" />
             <TextView
+                android:id="@+id/college_name"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/gap_in_user_information"
@@ -162,6 +165,7 @@
                 android:drawablePadding="@dimen/user_information_imageview_padding_right" />
 
             <TextView
+                android:id="@+id/province_city"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/gap_in_user_information"
@@ -174,7 +178,24 @@
                 android:layout_marginStart="@dimen/user_information_margin_start"
                 android:drawablePadding="@dimen/user_information_imageview_padding_right" />
 
+            <LinearLayout
+                android:id="@+id/user_honor_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_drawer_message"
+                    android:paddingRight="@dimen/user_information_imageview_padding_right"
+                    android:layout_marginStart="@dimen/user_information_margin_start" />
+
+            </LinearLayout>
+
             <TextView
+                android:id="@+id/user_level"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/gap_in_user_information"

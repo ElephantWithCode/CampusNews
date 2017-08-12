@@ -49,6 +49,7 @@ import com.baibian.tool.SpaceItemDecoration;
 import com.baibian.tool.ToastTools;
 import com.flyco.dialog.listener.OnOperItemClickL;
 import com.flyco.dialog.widget.ActionSheetDialog;
+import com.soundcloud.android.crop.Crop;
 import com.squareup.okhttp.Response;
 
 import org.json.JSONArray;
@@ -129,6 +130,10 @@ public class UsersImformationActivity extends AppCompatActivity implements View.
     private TextView userLevel;
     private TextView collegeName;
     private TextView provinceCity;
+
+
+    private Uri mBackgroundUri;
+    private Uri mUserPortaitUri;
     /**
      * Remained
      */
@@ -232,6 +237,8 @@ public class UsersImformationActivity extends AppCompatActivity implements View.
         user_information_all = (LinearLayout) findViewById(R.id.user_information_all);*/
 
 
+        initUri();
+
         initRecyItemsData();
         initVariousViews();
         initRecyclerView();
@@ -251,6 +258,15 @@ public class UsersImformationActivity extends AppCompatActivity implements View.
         /*        UI_Tools ui_tools=new UI_Tools();
         ui_tools.CancelFocusOne(this,user_information_all,personalized_signature_edit);*/
 
+    }
+
+    private void initUri() {
+
+        File appDir = new File(Environment.getExternalStorageDirectory(), "LunDao");
+        File backF = new File(appDir, "portrait_background" + ".jpg");
+        File portraitF = new File(appDir, "head_portrait" + ".jpg");
+        mUserPortaitUri = Uri.fromFile(portraitF);
+        mBackgroundUri = Uri.fromFile(backF);
     }
 
     private void initToolBar() {
@@ -288,7 +304,7 @@ public class UsersImformationActivity extends AppCompatActivity implements View.
                         collapsingBarLayoutBackground.setImageURI((Uri) msg.obj);
                         break;
                     case FROM_CAMERA:
-                        collapsingBarLayoutBackground.setImageBitmap((Bitmap) msg.obj);
+                        collapsingBarLayoutBackground.setImageBitmap(mBackGroundBitmap);
                         break;
                 }
             }
@@ -318,14 +334,9 @@ public class UsersImformationActivity extends AppCompatActivity implements View.
             public void run() {
                 Message msg1 = Message.obtain();
                 msg1.what = CHANGE_IMAGE;
-                File appDir = new File(Environment.getExternalStorageDirectory(), "LunDao");
-                File backF = new File(appDir, "portrait_background" + ".jpg");
-                File portraitF = new File(appDir, "head_portrait" + ".jpg");
-                Uri portraitUri = Uri.fromFile(portraitF);
-                Uri backUri = Uri.fromFile(backF);
                 Uri[] uris = new Uri[2];
-                uris[0] = portraitUri;
-                uris[1] = backUri;
+                uris[0] = mUserPortaitUri;
+                uris[1] = mBackgroundUri;
                 msg1.obj = uris;
 //                mBitmap = EditPortraitActivity.getSaveImageShared(FILE_NAME_PORTRAIT);
 //                mBackGroundBitmap = EditPortraitActivity.getSaveImageShared(FILE_NAME);
@@ -589,22 +600,30 @@ public class UsersImformationActivity extends AppCompatActivity implements View.
 //                parseResultJSONObject(result_usersString);
                 init_information();
                 break;
+            case Crop.REQUEST_CROP:
+                new Thread(){
+                    @Override
+                    public void run() {
+                        mBackGroundBitmap = EditPortraitActivity.getBitmapFromUri(mBackgroundUri, UsersImformationActivity.this);
+                        Message msg = Message.obtain();
+                        msg.what = FROM_CAMERA;
+                        imageLoadHandler.sendMessage(msg);
+                        EditPortraitActivity.setSaveImageShared(mBackGroundBitmap, FILE_NAME);
+                    }
+                }.start();
+                /**
+                 * I still have got no idea on why this would not work
+                 * thus I turn to  user handler to set bitmap
+                 */
+//                collapsingBarLayoutBackground.setImageURI(mBackgroundUri);
+                break;
             case FROM_CAMERA:
                 if (data != null) {
                     final Bundle bundle = data.getExtras();
-                    final Message camMsg = new Message();
+                    mBackGroundBitmap = bundle.getParcelable("data");
+                    Uri uri = Uri.parse(MediaStore.Images.Media.insertImage(getContentResolver(), mBackGroundBitmap, null,null));
+                    Crop.of(uri, mBackgroundUri).asSquare().start(this);
 
-                    new Thread(){
-                        @Override
-                        public void run() {
-                            mBackGroundBitmap = bundle.getParcelable("data");
-                            camMsg.what = FROM_CAMERA;
-                            camMsg.obj = mBackGroundBitmap;
-                            imageLoadHandler.sendMessage(camMsg);
-                            EditPortraitActivity.setSaveImageShared(mBackGroundBitmap, FILE_NAME);
-
-                        }
-                    }.start();
                 } else {
                     return;
                 }
@@ -612,18 +631,7 @@ public class UsersImformationActivity extends AppCompatActivity implements View.
             case FROM_ALBUM:
                 if (data != null) {
                     final Uri uri = data.getData();
-                    new Thread(){
-                        @Override
-                        public void run() {
-                            Message alMsg = new Message();
-                            alMsg.what = FROM_ALBUM;
-                            alMsg.obj = uri;
-                            imageLoadHandler.sendMessage(alMsg);
-                            mBackGroundBitmap = EditPortraitActivity.getBitmapFromUri(uri, UsersImformationActivity.this);
-                            EditPortraitActivity.setSaveImageShared(mBackGroundBitmap, FILE_NAME);
-
-                        }
-                    }.start();
+                    Crop.of(uri, mBackgroundUri).asSquare().start(this);
                 }
             default:
                 break;

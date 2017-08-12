@@ -171,7 +171,7 @@ public class EditPortraitActivity extends AppCompatActivity implements View.OnCl
     }
 
     private void startAlbum() {
-        Intent intent1=new Intent();
+        Intent intent1 = new Intent();
         intent1.setType("image/*");
         intent1.setAction(Intent.ACTION_GET_CONTENT);
         startActivityForResult(intent1,3);
@@ -189,11 +189,25 @@ public class EditPortraitActivity extends AppCompatActivity implements View.OnCl
         switch (requestCode){
             /**
              * case 2 and 3 are used for accepting captures and photos from albums to set portrait
-             */ case 2:
+             */
+            case Crop.REQUEST_CROP:
+                new Thread(){
+                    @Override
+                    public void run() {
+                        bitmap = getBitmapFromUri(mUri, EditPortraitActivity.this);
+                        setSaveImageShared(bitmap, fileName);
+                        sendBroadcastToChangeImage();
+                    }
+                }.start();
+                userPortrait.setImageURI(mUri);
+                break;
+            case 2:
                 if (data != null) {
                     final Bundle bundle = data.getExtras();
                     final Message camMeg = new Message();
                     bitmap = bundle.getParcelable("data");
+                    Uri uri = Uri.parse(MediaStore.Images.Media.insertImage(getContentResolver(), bitmap, null,null));
+                    Crop.of(uri, mUri).asSquare().start(this);/*
                     new Thread(){
                         @Override
                         public void run() {
@@ -204,7 +218,7 @@ public class EditPortraitActivity extends AppCompatActivity implements View.OnCl
                             sendBroadcastToChangeImage();
 
                         }
-                    }.start();
+                    }.start();*/
                 } else {
                     return;
                 }
@@ -212,6 +226,7 @@ public class EditPortraitActivity extends AppCompatActivity implements View.OnCl
             case 3:
                 if (data != null) {
                     final Uri uri = data.getData();
+                    Crop.of(uri, mUri).asSquare().start(this);/*
                     new Thread(){
                         @Override
                         public void run() {
@@ -221,15 +236,9 @@ public class EditPortraitActivity extends AppCompatActivity implements View.OnCl
                             imageLoadHandler.sendMessage(alMsg);
                             bitmap = getBitmapFromUri(uri, EditPortraitActivity.this);
                             setSaveImageShared(bitmap, fileName);
-                            sendBroadcastToChangeImage();/*
-                            Message alMsg = new Message();
-                            alMsg.what = FROM_ALBUM;
-                            Bundle bundle = new Bundle();
-                            bundle.putParcelable("uri", uri);
-                            alMsg.setData(bundle);
-                            imageLoadHandler.sendMessage(alMsg);*/
+                            sendBroadcastToChangeImage();
                         }
-                    }.start();
+                    }.start();*/
 
                 } else {
                     return;

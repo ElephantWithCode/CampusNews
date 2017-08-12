@@ -60,9 +60,8 @@ public class EditPersonalInformationActivity extends AppCompatActivity implement
         initCalender();
         mData = new ArrayList<>();
         mArrowPortrait.setOnClickListener(this);
-        /*mArrowBirthDate.setOnClickListener(this);
-        mArrowGender.setOnClickListener(this);
-*/
+        mArrowBirthDate.setOnClickListener(this);
+//        mArrowGender.setOnClickListener(this);
         mArrayAdapter = new ArrayAdapter<String>(this, android.R.layout.simple_dropdown_item_1line, mGenders);
         mArrayAdapter.setDropDownViewResource(android.R.layout.simple_dropdown_item_1line);
         mSpinner.setAdapter(mArrayAdapter);

@@ -4,6 +4,7 @@ import android.app.Application;
 import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
+import android.content.pm.PackageManager;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.net.Uri;
@@ -11,6 +12,9 @@ import android.os.Environment;
 import android.os.Handler;
 import android.os.Message;
 import android.provider.MediaStore;
+import android.support.annotation.NonNull;
+import android.support.v4.app.ActivityCompat;
+import android.support.v4.content.ContextCompat;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Base64;
@@ -22,6 +26,7 @@ import com.baibian.R;
 import com.baibian.tool.ToastTools;
 import com.flyco.dialog.listener.OnOperItemClickL;
 import com.flyco.dialog.widget.ActionSheetDialog;
+import com.soundcloud.android.crop.Crop;
 
 import java.io.ByteArrayInputStream;
 import java.io.ByteArrayOutputStream;
@@ -36,8 +41,12 @@ import de.hdodenhof.circleimageview.CircleImageView;
 
 public class EditPortraitActivity extends AppCompatActivity implements View.OnClickListener{
 
+    private static final int PERMISSION_CAMERA = 1;
+    private static final int PERMISSION_WRITE_EXTERNAL_STORAGE = 2;
     private Handler imageLoadHandler;
 
+    private Uri mUri = null;
+    private Uri tempUri = null;
     private Bitmap bitmap = null;
     private static final int CHANGE_IMAGE = 1;
     private static final int FROM_CAMERA = 2;
@@ -53,6 +62,15 @@ public class EditPortraitActivity extends AppCompatActivity implements View.OnCl
         userPortrait = (CircleImageView) findViewById(R.id.user_portrait);
         userPortrait.setOnClickListener(this);
         initUserPortraitInAdvance();
+
+        File appDir = new File(Environment.getExternalStorageDirectory(), "LunDao");
+        if (!appDir.exists()){
+            appDir.mkdir();
+        }
+        File tempF = new File(appDir, "temp" + ".jpg");
+        File f = new File(appDir, fileName + ".jpg");
+        mUri = Uri.fromFile(f);
+        tempUri = Uri.fromFile(tempF);
     }
 
     private void initUserPortraitInAdvance() {
@@ -68,11 +86,13 @@ public class EditPortraitActivity extends AppCompatActivity implements View.OnCl
                         break;
                     case FROM_CAMERA:
                         Log.d("Handler", "Handling2");
-                        userPortrait.setImageBitmap(bitmap);
+//                        userPortrait.setImageBitmap(bitmap);
+                        userPortrait.setImageBitmap((Bitmap) msg.obj);
                         break;
                     case FROM_ALBUM:
                         Log.d("Handler", "Handling3");
-                        userPortrait.setImageBitmap(bitmap);
+//                        userPortrait.setImageBitmap(bitmap);
+                        userPortrait.setImageURI((Uri) msg.obj);
                 }
             }
         };
@@ -88,6 +108,25 @@ public class EditPortraitActivity extends AppCompatActivity implements View.OnCl
             }
         }.start();
     }
+
+    @Override
+    public void onRequestPermissionsResult(int requestCode, @NonNull String[] permissions, @NonNull int[] grantResults) {
+        switch (requestCode){
+            case PERMISSION_CAMERA:
+                if (grantResults.length > 0 && grantResults[0] == PackageManager.PERMISSION_GRANTED){
+                    startCamera();
+                }else {
+                    ToastTools.ToastShow("You have just denied the permission request \n Accept it in your phone setting if you want");
+                }
+                break;
+            case PERMISSION_WRITE_EXTERNAL_STORAGE:
+                if (grantResults.length > 0 && grantResults[0] == PackageManager.PERMISSION_GRANTED){
+                    startAlbum();
+                }else {
+                    ToastTools.ToastShow("I won't say it again ...");
+                }
+        }
+    }
     @Override
     public void onClick(View v) {
         switch (v.getId()){
@@ -100,20 +139,24 @@ public class EditPortraitActivity extends AppCompatActivity implements View.OnCl
                     public void onOperItemClick(AdapterView<?> parent, View view, int position, long id) {
                         switch (items[position]){
                             case "Capture":
-                                Intent intent=new Intent();
-                                intent.setAction(MediaStore.ACTION_IMAGE_CAPTURE);
-                                startActivityForResult(intent,2);
+                                if (ContextCompat.checkSelfPermission(EditPortraitActivity.this, android.Manifest.permission.CAMERA) != PackageManager.PERMISSION_GRANTED){
+                                    ActivityCompat.requestPermissions(EditPortraitActivity.this, new String[]{android.Manifest.permission.CAMERA}, PERMISSION_CAMERA);
+                                }else {
+                                    startCamera();
+                                }
                                 dialog.dismiss();
                                 break;
                             case "Chosen from album":
-                                Intent intent1=new Intent();
-                                intent1.setType("image/*");
-                                intent1.setAction(Intent.ACTION_GET_CONTENT);
-                                startActivityForResult(intent1,3);
+
+                                if (ContextCompat.checkSelfPermission(EditPortraitActivity.this, android.Manifest.permission.WRITE_EXTERNAL_STORAGE) != PackageManager.PERMISSION_GRANTED){
+                                    ActivityCompat.requestPermissions(EditPortraitActivity.this, new String[]{android.Manifest.permission.WRITE_EXTERNAL_STORAGE}, PERMISSION_WRITE_EXTERNAL_STORAGE);
+                                }else {
+                                    startAlbum();
+                                }
                                 dialog.dismiss();
                                 break;
                             case "Scoop":
-                                Intent forLarge = new Intent(EditPortraitActivity.this, LargeActivity.class);
+                                Intent forLarge = new Intent(EditPortraitActivity.this, FullscreenScoopActivity.class);
                                 forLarge.putExtra("file_name", fileName);
                                 startActivity(forLarge);
                                 dialog.dismiss();
@@ -127,6 +170,19 @@ public class EditPortraitActivity extends AppCompatActivity implements View.OnCl
         }
     }
 
+    private void startAlbum() {
+        Intent intent1=new Intent();
+        intent1.setType("image/*");
+        intent1.setAction(Intent.ACTION_GET_CONTENT);
+        startActivityForResult(intent1,3);
+    }
+
+    private void startCamera() {
+        Intent intent=new Intent();
+        intent.setAction(MediaStore.ACTION_IMAGE_CAPTURE);
+        startActivityForResult(intent,2);
+    }
+
     @Override
     protected void onActivityResult(int requestCode, int resultCode, Intent data) {
         super.onActivityResult(requestCode, resultCode, data);
@@ -137,15 +193,16 @@ public class EditPortraitActivity extends AppCompatActivity implements View.OnCl
                 if (data != null) {
                     final Bundle bundle = data.getExtras();
                     final Message camMeg = new Message();
+                    bitmap = bundle.getParcelable("data");
                     new Thread(){
                         @Override
                         public void run() {
-                            bitmap = bundle.getParcelable("data");
+                            camMeg.obj = bitmap;
+                            camMeg.what = FROM_CAMERA;
+                            imageLoadHandler.sendMessage(camMeg);
                             setSaveImageShared(bitmap, fileName);
                             sendBroadcastToChangeImage();
 
-                            camMeg.what = FROM_CAMERA;
-                            imageLoadHandler.sendMessage(camMeg);
                         }
                     }.start();
                 } else {
@@ -158,14 +215,22 @@ public class EditPortraitActivity extends AppCompatActivity implements View.OnCl
                     new Thread(){
                         @Override
                         public void run() {
-                            bitmap = getBitmapFromUri(uri, EditPortraitActivity.this);
-                            setSaveImageShared(bitmap, fileName);
-                            sendBroadcastToChangeImage();
                             Message alMsg = new Message();
                             alMsg.what = FROM_ALBUM;
+                            alMsg.obj = uri;
                             imageLoadHandler.sendMessage(alMsg);
+                            bitmap = getBitmapFromUri(uri, EditPortraitActivity.this);
+                            setSaveImageShared(bitmap, fileName);
+                            sendBroadcastToChangeImage();/*
+                            Message alMsg = new Message();
+                            alMsg.what = FROM_ALBUM;
+                            Bundle bundle = new Bundle();
+                            bundle.putParcelable("uri", uri);
+                            alMsg.setData(bundle);
+                            imageLoadHandler.sendMessage(alMsg);*/
                         }
                     }.start();
+
                 } else {
                     return;
                 }

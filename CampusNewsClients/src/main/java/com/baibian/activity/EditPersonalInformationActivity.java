@@ -2,6 +2,7 @@ package com.baibian.activity;
 
 import android.app.DatePickerDialog;
 import android.content.Intent;
+import android.media.Image;
 import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -12,6 +13,7 @@ import android.widget.DatePicker;
 import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
+import android.widget.PopupWindow;
 import android.widget.Spinner;
 import android.widget.TextView;
 import android.widget.TimePicker;
@@ -21,7 +23,6 @@ import com.baibian.tool.BaseTools;
 import com.baibian.tool.DataTools;
 import com.baibian.tool.LinearLayout_Inflaterable;
 import com.baibian.tool.UI_Tools;
-import com.bigkoo.pickerview.TimePickerView;
 
 import java.util.ArrayList;
 import java.util.Calendar;
@@ -36,12 +37,13 @@ public class EditPersonalInformationActivity extends AppCompatActivity implement
     private Toolbar mToolbar;
     private ImageView mArrowPortrait;
     private ImageView mArrowBirthDate;
+//    private ImageView mArrowGender;
     private EditText mEditName;
     private EditText mEditSignature;
     private EditText mEditPhoneNumber;
     private EditText mEditEmailNumber;
     private TextView mBirthDateContent;
-
+//    private TextView mGender;
     private int mYear, mMonth, mDay;
 
     private LinearLayout mResidenceLayout;
@@ -58,8 +60,9 @@ public class EditPersonalInformationActivity extends AppCompatActivity implement
         initCalender();
         mData = new ArrayList<>();
         mArrowPortrait.setOnClickListener(this);
-        mArrowBirthDate.setOnClickListener(this);
-
+        /*mArrowBirthDate.setOnClickListener(this);
+        mArrowGender.setOnClickListener(this);
+*/
         mArrayAdapter = new ArrayAdapter<String>(this, android.R.layout.simple_dropdown_item_1line, mGenders);
         mArrayAdapter.setDropDownViewResource(android.R.layout.simple_dropdown_item_1line);
         mSpinner.setAdapter(mArrayAdapter);
@@ -82,7 +85,9 @@ public class EditPersonalInformationActivity extends AppCompatActivity implement
     }
     private void initViews() {
 
-        mBirthDateContent = (TextView) findViewById(R.id.birth_date_content);
+        /*mGender = (TextView) findViewById(R.id.gender_select);
+        mArrowGender = (ImageView) findViewById(R.id.gender_drop_down_arrow);
+        */mBirthDateContent = (TextView) findViewById(R.id.birth_date_content);
         mArrowBirthDate = (ImageView) findViewById(R.id.birth_date_arrow);
         mEditEmailNumber = (EditText) findViewById(R.id.email_number_content);
         mEditPhoneNumber = (EditText) findViewById(R.id.phone_number_content);
@@ -120,6 +125,7 @@ public class EditPersonalInformationActivity extends AppCompatActivity implement
                 DatePickerDialog dialog = new DatePickerDialog(this, mDateSetListener, mYear, mMonth, mDay);
                 dialog.show();
                 break;
+
         }
     }
 }

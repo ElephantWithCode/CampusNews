@@ -117,5 +117,9 @@
     <string name="residence">居住地</string>
     <string name="test_picture_address"><![CDATA[https://www.duitang.com/redirect/?to=http%3A%2F%2Fwww.duitang.com%2Fredirect%2F%3Fto%3Dhttp%253A%252F%252Fimage.baidu.com%252Fsearch%252Fdetail%253Fz%253D0%2526amp%253Bipn%253Dd%2526amp%253Bword%253D%2525E8%25258A%2525B1%2525E7%2525BA%2525B9%2525E8%2525BE%2525B9%2525E6%2525A1%252586%2525E7%2525B4%2525A0%2525E6%25259D%252590%2526amp%253Bstep_word%253D%2526amp%253Bpn%253D1%2526amp%253Bspn%253D0%2526amp%253Bdi%253D0%25CF%2580%253D%2526amp%253Btn%253Dbaiduimagedetail%2526amp%253Bistype%253D0%2526amp%253Bie%253Dutf-8%2526amp%253Boe%253Dutf-8%2526amp%253Bcs%253D563744319%25252C3345987419%2526amp%253Bos%253D37734369%25252C175739037%2526amp%253Bsimid%253D%2526amp%253Badpicid%253D0%2526amp%253Bfr%253D%2526amp%253Bfm%253D%2526amp%253Bsme%253D%2526amp%253Bcg%253D%2526amp%253Bbdtype%253D14%2526amp%253Bsimics%253D2274027438%25252C2372038421%2526amp%253Boriquery%253D%2526amp%253Bobjurl%253Dhttp%25253A%25252F%25252Fpic32.nipic.com%25252F20130731%25252F3326595_172707108000_2.jpg%2526amp%253Bfromurl%253Dippr_z2C%252524qAzdH3FAzdH3Fooo_z%252526e3Bgtrtv_z%252526e3Bv54AzdH3Ffi5oAzdH3FnAzdH3F880AzdH3Fbmnamnn_z%252526e3Bip4s%2526amp%253Bgsm%253D0%2526amp%253Bcardserver%253D1%26app_code%3D&mk=bd_np_544407587]]></string>
 
+    <string name="title_activity_fullscreen_scoop">FullscreenScoopActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+
 
 </resources>

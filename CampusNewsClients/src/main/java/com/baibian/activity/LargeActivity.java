@@ -12,6 +12,7 @@ import android.view.View;
 import android.widget.ImageView;
 
 import com.baibian.R;
+import com.github.chrisbanes.photoview.PhotoView;
 
 import java.io.ByteArrayInputStream;
 import java.io.File;
@@ -27,7 +28,7 @@ public class LargeActivity extends AppCompatActivity {
         setContentView(R.layout.activity_large);
         Intent intent = getIntent();
         fileName = intent.getStringExtra("file_name");
-        ImageView largeView = (ImageView) findViewById(R.id.large_view);
+        PhotoView largeView = (PhotoView) findViewById(R.id.large_view);
         bitmap = EditPortraitActivity.getSaveImageShared(fileName);
         largeView.setImageBitmap(bitmap);
         largeView.setOnClickListener(new View.OnClickListener() {

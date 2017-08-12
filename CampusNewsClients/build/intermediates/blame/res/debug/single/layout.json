@@ -392,6 +392,10 @@
         "source": "C:\\Users\\Ellly\\Desktop\\SourceCodeTempOnDesktop\\CampusNews\\CampusNewsClients\\src\\main\\res\\layout\\popup_bubble.xml"
     },
     {
+        "merged": "C:\\Users\\Ellly\\Desktop\\SourceCodeTempOnDesktop\\CampusNews\\CampusNewsClients\\build\\intermediates\\res\\merged\\debug\\layout\\activity_fullscreen_scoop.xml",
+        "source": "C:\\Users\\Ellly\\Desktop\\SourceCodeTempOnDesktop\\CampusNews\\CampusNewsClients\\src\\main\\res\\layout\\activity_fullscreen_scoop.xml"
+    },
+    {
         "merged": "C:\\Users\\Ellly\\Desktop\\SourceCodeTempOnDesktop\\CampusNews\\CampusNewsClients\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_radio.xml",
         "source": "C:\\Users\\Ellly\\.android\\build-cache\\1ead68c499c9867fc36eeab714be3b13d75f861d\\output\\res\\layout\\abc_list_menu_item_radio.xml"
     },
@@ -448,6 +452,10 @@
         "source": "C:\\Users\\Ellly\\Desktop\\SourceCodeTempOnDesktop\\CampusNews\\CampusNewsClients\\src\\main\\res\\layout\\left_drawer_fragment.xml"
     },
     {
+        "merged": "C:\\Users\\Ellly\\Desktop\\SourceCodeTempOnDesktop\\CampusNews\\CampusNewsClients\\build\\intermediates\\res\\merged\\debug\\layout\\crop__layout_done_cancel.xml",
+        "source": "C:\\Users\\Ellly\\.android\\build-cache\\63a0211a2c6f12a902a6e96a4b3d7f6f417835f8\\output\\res\\layout\\crop__layout_done_cancel.xml"
+    },
+    {
         "merged": "C:\\Users\\Ellly\\Desktop\\SourceCodeTempOnDesktop\\CampusNews\\CampusNewsClients\\build\\intermediates\\res\\merged\\debug\\layout\\activity_large.xml",
         "source": "C:\\Users\\Ellly\\Desktop\\SourceCodeTempOnDesktop\\CampusNews\\CampusNewsClients\\src\\main\\res\\layout\\activity_large.xml"
     },
@@ -462,6 +470,10 @@
     {
         "merged": "C:\\Users\\Ellly\\Desktop\\SourceCodeTempOnDesktop\\CampusNews\\CampusNewsClients\\build\\intermediates\\res\\merged\\debug\\layout\\discussionlayout.xml",
         "source": "C:\\Users\\Ellly\\Desktop\\SourceCodeTempOnDesktop\\CampusNews\\CampusNewsClients\\src\\main\\res\\layout\\discussionlayout.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ellly\\Desktop\\SourceCodeTempOnDesktop\\CampusNews\\CampusNewsClients\\build\\intermediates\\res\\merged\\debug\\layout\\crop__activity_crop.xml",
+        "source": "C:\\Users\\Ellly\\.android\\build-cache\\63a0211a2c6f12a902a6e96a4b3d7f6f417835f8\\output\\res\\layout\\crop__activity_crop.xml"
     },
     {
         "merged": "C:\\Users\\Ellly\\Desktop\\SourceCodeTempOnDesktop\\CampusNews\\CampusNewsClients\\build\\intermediates\\res\\merged\\debug\\layout\\main_head.xml",

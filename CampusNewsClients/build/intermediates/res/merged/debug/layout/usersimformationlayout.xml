@@ -17,7 +17,7 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             app:layout_scrollFlags="scroll|exitUntilCollapsed"
-            app:contentScrim="@color/colorPrimary">
+            app:contentScrim="@color/colorPrimaryDark">
             <ImageView
                 android:id="@+id/collapsing_bar_background_image"
                 android:src="@drawable/ads0"
@@ -262,6 +262,7 @@
                     android:background="@color/account_account_bind" />
 
                 <LinearLayout
+                    android:visibility="gone"
                     android:id="@+id/personal_information_on_debate_layout"
                     android:orientation="vertical"
                     android:layout_height="wrap_content"
@@ -454,6 +455,7 @@
                 </LinearLayout>
 
                 <View
+                    android:visibility="gone"
                     android:layout_width="match_parent"
                     android:layout_height="1dp"
                     android:layout_marginTop="@dimen/gap_in_user_information"

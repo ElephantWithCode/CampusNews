@@ -27,7 +27,7 @@ import java.util.List;
 
 import de.hdodenhof.circleimageview.CircleImageView;
 
-public class OtherInformationActivity extends AppCompatActivity implements View.OnClickListener{
+public class OtherInformationActivity extends AppCompatActivity implements View.OnClickListener, View.OnLongClickListener{
 
     private static final String IS_FOCUSED = "is_focused";
     private Toolbar toolbar;
@@ -66,9 +66,16 @@ public class OtherInformationActivity extends AppCompatActivity implements View.
         initData();
         Glide.with(OtherInformationActivity.this).load(backgroundImageUrl).crossFade().into(collapsingImageView);
         Glide.with(OtherInformationActivity.this).load(userPortraitImageUrl).crossFade().into(userPortrait);
+        initListeners();
+        initToolbar();
+    }
+
+    private void initListeners() {
         hisTopic.setOnClickListener(this);
         hisPoint.setOnClickListener(this);
-        initToolbar();
+        hisPresentation.setOnClickListener(this);
+        userPortrait.setOnLongClickListener(this);
+        collapsingImageView.setOnLongClickListener(this);
     }
 
     private void initData() {
@@ -141,6 +148,9 @@ public class OtherInformationActivity extends AppCompatActivity implements View.
                 Intent intent1 = new Intent(OtherInformationActivity.this, HisFansActivity.class);
                 startActivity(intent1);
                 break;
+            case R.id.his_presentation:
+                Intent intent2 = new Intent(OtherInformationActivity.this, FullscreenScoopActivity.class);
+                startActivity(intent2);
         }
     }
 
@@ -170,5 +180,22 @@ public class OtherInformationActivity extends AppCompatActivity implements View.
                 break;
         }
         return true;
+    }
+
+    @Override
+    public boolean onLongClick(View v) {
+
+        switch (v.getId()){
+            case R.id.other_user_portrait:
+                Intent intent = new Intent(OtherInformationActivity.this, FullscreenScoopActivity.class);
+                intent.putExtra("user_portrait_url", userPortraitImageUrl);
+                startActivity(intent);
+                break;
+            case R.id.other_information_background:
+                Intent intent1 = new Intent(OtherInformationActivity.this, FullscreenScoopActivity.class);
+                intent1.putExtra("user_portrait_url", backgroundImageUrl);
+                startActivity(intent1);
+        }
+        return false;
     }
 }

@@ -83,9 +83,28 @@
                     "startLine": 6,
                     "startColumn": 4,
                     "startOffset": 328,
-                    "endLine": 9,
+                    "endColumn": 47,
+                    "endOffset": 371
+                },
+                "from": {
+                    "file": "C:\\Users\\Ellly\\.android\\build-cache\\63a0211a2c6f12a902a6e96a4b3d7f6f417835f8\\output\\res\\values-land\\values-land.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 171,
+                        "endColumn": 47,
+                        "endOffset": 214
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 7,
+                    "startColumn": 4,
+                    "startOffset": 376,
+                    "endLine": 10,
                     "endColumn": 12,
-                    "endOffset": 505
+                    "endOffset": 553
                 },
                 "from": {
                     "file": "C:\\Users\\Ellly\\.android\\build-cache\\62e1525d19af48d9f807cd801b66b424d8f64581\\output\\res\\values-land\\values-land.xml",

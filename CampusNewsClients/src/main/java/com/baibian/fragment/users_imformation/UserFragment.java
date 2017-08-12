@@ -15,7 +15,9 @@ import android.widget.TextView;
 
 import com.baibian.R;
 import com.baibian.bean.HisUserContent;
+import com.baibian.bean.UserInformationDetail;
 import com.baibian.tool.DataTools;
+import com.baibian.tool.GoToInformationTool;
 import com.baibian.tool.RecyclerViewCommonTool.CommonAdapter;
 import com.baibian.tool.RecyclerViewCommonTool.ViewHolder;
 import com.baibian.tool.SpaceItemDecoration;
@@ -33,6 +35,7 @@ public class UserFragment extends Fragment {
 
     // TODO: Customize parameter argument names
     private static final String ARG_COLUMN_COUNT = "column-count";
+    private UserInformationDetail mDetail;
     // TODO: Customize parameters
     private int mColumnCount = 1;
 //    private OnListFragmentInteractionListener mListener;
@@ -82,11 +85,19 @@ public class UserFragment extends Fragment {
                 public void convert(ViewHolder holder, HisUserContent.User user) {
                     //TODO
                     CircleImageView userPortrait = (CircleImageView) holder.getItemView().findViewById(R.id.user_portrait);
+
                     TextView userName = (TextView) holder.getItemView().findViewById(R.id.user_name);
                     TextView userPersonalSignature = (TextView) holder.getItemView().findViewById(R.id.user_personal_signal);
                     RevealFollowButton followButton = (RevealFollowButton) holder.getItemView().findViewById(R.id.focus_action);
 
+
                     Glide.with(getContext()).load("http://imgsrc.baidu.com/image/c0%3Dshijue1%2C0%2C0%2C294%2C40/sign=8694cad471899e516c8332572aceb346/0eb30f2442a7d9337bfbfd5aa74bd11373f00143.jpg").crossFade().into(userPortrait);
+                    userPortrait.setOnClickListener(new View.OnClickListener() {
+                        @Override
+                        public void onClick(View v) {
+                            GoToInformationTool.goTo(getActivity());
+                        }
+                    });
                 }
             });
             recyclerView.addItemDecoration(new SpaceItemDecoration(DataTools.dip2px(getContext(), 4), false));

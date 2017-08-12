@@ -134,7 +134,8 @@
             </RelativeLayout>
 
             <RelativeLayout
-                android:padding="@dimen/general_user_small_padding"
+                android:paddingEnd="@dimen/general_user_small_padding"
+                android:paddingStart="@dimen/general_user_small_padding"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content">
 
@@ -157,6 +158,28 @@
                     android:layout_marginStart="@dimen/user_information_margin_start">
 
                 </Spinner>
+
+<!--
+                <ImageView
+                    android:id="@+id/gender_drop_down_arrow"
+                    android:layout_width="@dimen/personal_image_size"
+                    android:layout_height="@dimen/personal_image_size"
+                    android:src="@drawable/ic_personal_expand_below"
+                    android:layout_alignParentEnd="true"
+                    android:padding="@dimen/gap_in_user_information"
+                    />
+                <TextView
+                    android:id="@+id/gender_select"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toEndOf="@id/gender"
+                    android:layout_marginStart="@dimen/user_information_margin_start"
+                    android:layout_centerVertical="true"
+                    android:text="男"
+                    android:textSize="@dimen/other_small_text_size"
+                    android:textColor="@color/text_color_pure_black_user_information"/>
+-->
+
             </RelativeLayout>
 
             <RelativeLayout

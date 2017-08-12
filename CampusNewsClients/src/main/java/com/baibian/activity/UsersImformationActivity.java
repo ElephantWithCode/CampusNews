@@ -3,13 +3,18 @@ package com.baibian.activity;
 import android.content.Intent;
 import android.content.IntentFilter;
 import android.content.SharedPreferences;
+import android.content.pm.PackageManager;
 import android.graphics.Bitmap;
 import android.net.Uri;
 import android.os.Bundle;
+import android.os.Environment;
 import android.os.Handler;
 import android.os.Message;
 import android.os.StrictMode;
 import android.provider.MediaStore;
+import android.support.annotation.NonNull;
+import android.support.v4.app.ActivityCompat;
+import android.support.v4.content.ContextCompat;
 import android.support.v4.view.ViewPager;
 import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
@@ -49,9 +54,11 @@ import com.squareup.okhttp.Response;
 import org.json.JSONArray;
 import org.json.JSONObject;
 
+import java.io.File;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.jar.Manifest;
 
 import de.hdodenhof.circleimageview.CircleImageView;
 
@@ -61,6 +68,8 @@ public class UsersImformationActivity extends AppCompatActivity implements View.
     private static final int FROM_ALBUM = 3;
     private static final String FILE_NAME_PORTRAIT = "head_portrait";
     private static final String FILE_NAME = "portrait_background";
+    private static final int PERMISSION_CAMERA = 1;
+    private static final int PERMISSION_WRITE_EXTERNAL_STORAGE = 2;
     private ImageView user_information_edit;
     private Button BB_state_btn;
     private Button BB_imformation_btn;
@@ -269,12 +278,17 @@ public class UsersImformationActivity extends AppCompatActivity implements View.
                 super.handleMessage(msg);
                 switch (msg.what){
                     case CHANGE_IMAGE:
-                        userPortrait.setImageBitmap(mBitmap);
-                        collapsingBarLayoutBackground.setImageBitmap(mBackGroundBitmap);
+                        Uri[] uris = (Uri[])msg.obj;
+                        userPortrait.setImageURI(uris[0]);
+                        collapsingBarLayoutBackground.setImageURI(uris[1]);
+//                        userPortrait.setImageBitmap(mBitmap);
+//                        collapsingBarLayoutBackground.setImageBitmap(mBackGroundBitmap);
                         break;
                     case FROM_ALBUM:
+                        collapsingBarLayoutBackground.setImageURI((Uri) msg.obj);
+                        break;
                     case FROM_CAMERA:
-                        collapsingBarLayoutBackground.setImageBitmap(mBackGroundBitmap);
+                        collapsingBarLayoutBackground.setImageBitmap((Bitmap) msg.obj);
                         break;
                 }
             }
@@ -302,9 +316,20 @@ public class UsersImformationActivity extends AppCompatActivity implements View.
         new Thread(){
             @Override
             public void run() {
-                mBitmap = EditPortraitActivity.getSaveImageShared(FILE_NAME_PORTRAIT);
-                mBackGroundBitmap = EditPortraitActivity.getSaveImageShared(FILE_NAME);
-                imageLoadHandler.sendEmptyMessage(CHANGE_IMAGE);
+                Message msg1 = Message.obtain();
+                msg1.what = CHANGE_IMAGE;
+                File appDir = new File(Environment.getExternalStorageDirectory(), "LunDao");
+                File backF = new File(appDir, "portrait_background" + ".jpg");
+                File portraitF = new File(appDir, "head_portrait" + ".jpg");
+                Uri portraitUri = Uri.fromFile(portraitF);
+                Uri backUri = Uri.fromFile(backF);
+                Uri[] uris = new Uri[2];
+                uris[0] = portraitUri;
+                uris[1] = backUri;
+                msg1.obj = uris;
+//                mBitmap = EditPortraitActivity.getSaveImageShared(FILE_NAME_PORTRAIT);
+//                mBackGroundBitmap = EditPortraitActivity.getSaveImageShared(FILE_NAME);
+                imageLoadHandler.sendMessage(msg1);
             }
         }.start();
     }
@@ -467,20 +492,23 @@ public class UsersImformationActivity extends AppCompatActivity implements View.
                     public void onOperItemClick(AdapterView<?> parent, View view, int position, long id) {
                         switch (items[position]){
                             case "Capture":
-                                Intent intent=new Intent();
-                                intent.setAction(MediaStore.ACTION_IMAGE_CAPTURE);
-                                startActivityForResult(intent,FROM_CAMERA);
+                                if (ContextCompat.checkSelfPermission(UsersImformationActivity.this, android.Manifest.permission.CAMERA) != PackageManager.PERMISSION_GRANTED){
+                                    ActivityCompat.requestPermissions(UsersImformationActivity.this, new String[]{android.Manifest.permission.CAMERA}, PERMISSION_CAMERA);
+                                }else {
+                                    startCamera();
+                                }
                                 dialog.dismiss();
                                 break;
                             case "Chosen from album":
-                                Intent intent1=new Intent();
-                                intent1.setType("image/*");
-                                intent1.setAction(Intent.ACTION_GET_CONTENT);
-                                startActivityForResult(intent1,FROM_ALBUM);
+                                if (ContextCompat.checkSelfPermission(UsersImformationActivity.this, android.Manifest.permission.WRITE_EXTERNAL_STORAGE) != PackageManager.PERMISSION_GRANTED){
+                                    ActivityCompat.requestPermissions(UsersImformationActivity.this, new String[]{android.Manifest.permission.WRITE_EXTERNAL_STORAGE}, PERMISSION_WRITE_EXTERNAL_STORAGE);
+                                }else {
+                                    startAlbum();
+                                }
                                 dialog.dismiss();
                                 break;
                             case "Scoop":
-                                Intent forLarge = new Intent(UsersImformationActivity.this, LargeActivity.class);
+                                Intent forLarge = new Intent(UsersImformationActivity.this, FullscreenScoopActivity.class);
                                 forLarge.putExtra("file_name", FILE_NAME);
                                 startActivity(forLarge);
                                 dialog.dismiss();
@@ -518,6 +546,38 @@ public class UsersImformationActivity extends AppCompatActivity implements View.
         }
     }
 
+    private void startAlbum() {
+        Intent intent1=new Intent();
+        intent1.setType("image/*");
+        intent1.setAction(Intent.ACTION_GET_CONTENT);
+        startActivityForResult(intent1,FROM_ALBUM);
+    }
+
+    private void startCamera() {
+        Intent intent=new Intent();
+        intent.setAction(MediaStore.ACTION_IMAGE_CAPTURE);
+        startActivityForResult(intent,FROM_CAMERA);
+    }
+
+    @Override
+    public void onRequestPermissionsResult(int requestCode, @NonNull String[] permissions, @NonNull int[] grantResults) {
+        switch (requestCode){
+            case PERMISSION_CAMERA:
+                if (grantResults.length > 0 && grantResults[0] == PackageManager.PERMISSION_GRANTED){
+                    startCamera();
+                }else {
+                    ToastTools.ToastShow("You have just denied the permission request \n Accept it in your phone setting if you want");
+                }
+                break;
+            case PERMISSION_WRITE_EXTERNAL_STORAGE:
+                if (grantResults.length > 0 && grantResults[0] == PackageManager.PERMISSION_GRANTED){
+                    startAlbum();
+                }else {
+                    ToastTools.ToastShow("I won't say it again ...");
+                }
+        }
+    }
+
     @Override
     protected void onActivityResult(int requestCode, int resultCode, Intent data) {
         // 根据上面发送过去的请求吗来区别
@@ -533,13 +593,16 @@ public class UsersImformationActivity extends AppCompatActivity implements View.
                 if (data != null) {
                     final Bundle bundle = data.getExtras();
                     final Message camMsg = new Message();
+
                     new Thread(){
                         @Override
                         public void run() {
                             mBackGroundBitmap = bundle.getParcelable("data");
-                            EditPortraitActivity.setSaveImageShared(mBackGroundBitmap, FILE_NAME);
                             camMsg.what = FROM_CAMERA;
+                            camMsg.obj = mBackGroundBitmap;
                             imageLoadHandler.sendMessage(camMsg);
+                            EditPortraitActivity.setSaveImageShared(mBackGroundBitmap, FILE_NAME);
+
                         }
                     }.start();
                 } else {
@@ -552,11 +615,13 @@ public class UsersImformationActivity extends AppCompatActivity implements View.
                     new Thread(){
                         @Override
                         public void run() {
-                            mBackGroundBitmap = EditPortraitActivity.getBitmapFromUri(uri, UsersImformationActivity.this);
-                            EditPortraitActivity.setSaveImageShared(mBackGroundBitmap, FILE_NAME);
                             Message alMsg = new Message();
                             alMsg.what = FROM_ALBUM;
+                            alMsg.obj = uri;
                             imageLoadHandler.sendMessage(alMsg);
+                            mBackGroundBitmap = EditPortraitActivity.getBitmapFromUri(uri, UsersImformationActivity.this);
+                            EditPortraitActivity.setSaveImageShared(mBackGroundBitmap, FILE_NAME);
+
                         }
                     }.start();
                 }

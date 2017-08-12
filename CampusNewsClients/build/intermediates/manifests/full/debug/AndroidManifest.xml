@@ -8,6 +8,7 @@
         android:minSdkVersion="21"
         android:targetSdkVersion="25" />
 
+    <uses-permission android:name="android.permission.CAMERA" />
     <uses-permission android:name="android.permission.READ_CONTACTS" />
     <uses-permission android:name="android.permission.READ_PHONE_STATE" />
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
@@ -78,10 +79,17 @@
             android:enabled="true"
             android:exported="false" />
 
+        <activity android:name="com.soundcloud.android.crop.CropImageActivity" />
         <activity android:name="com.baibian.activity.HisTopicActivity" />
         <activity android:name="com.baibian.activity.HisFocusActivity" />
         <activity android:name="com.baibian.activity.HisFansActivity" />
         <activity android:name="com.baibian.activity.EditPersonalInformationActivity" />
+        <activity
+            android:name="com.baibian.activity.FullscreenScoopActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/title_activity_fullscreen_scoop"
+            android:theme="@style/FullscreenTheme" >
+        </activity>
     </application>
 
 </manifest>

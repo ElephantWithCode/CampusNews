@@ -21,43 +21,29 @@
   </component>
   <component name="BookmarkManager">
     <bookmark url="file://$PROJECT_DIR$/CampusNewsClients/src/main/java/com/baibian/activity/DetailsActivity.java" line="322" />
-    <bookmark url="file://$PROJECT_DIR$/CampusNewsClients/src/main/java/com/baibian/activity/UsersImformationActivity.java" line="493" mnemonic="A" />
-    <bookmark url="file://$PROJECT_DIR$/CampusNewsClients/src/main/java/com/baibian/activity/UsersImformationActivity.java" line="423" mnemonic="Y" />
-    <bookmark url="file://$PROJECT_DIR$/CampusNewsClients/src/main/java/com/baibian/activity/UsersImformationActivity.java" line="416" mnemonic="9" />
-    <bookmark url="file://$PROJECT_DIR$/CampusNewsClients/src/main/java/com/baibian/activity/UsersImformationActivity.java" line="85" mnemonic="Z" />
-    <bookmark url="file://$PROJECT_DIR$/CampusNewsClients/src/main/java/com/baibian/activity/UsersImformationActivity.java" line="195" mnemonic="U" />
-    <bookmark url="file://$PROJECT_DIR$/CampusNewsClients/src/main/java/com/baibian/activity/UsersImformationActivity.java" line="184" mnemonic="R" />
-    <bookmark url="file://$PROJECT_DIR$/CampusNewsClients/src/main/java/com/baibian/activity/UsersImformationActivity.java" line="236" mnemonic="H" />
-    <bookmark url="file://$PROJECT_DIR$/CampusNewsClients/src/main/java/com/baibian/activity/UsersImformationActivity.java" line="566" mnemonic="X" />
+    <bookmark url="file://$PROJECT_DIR$/CampusNewsClients/src/main/java/com/baibian/activity/UsersImformationActivity.java" line="521" mnemonic="A" />
+    <bookmark url="file://$PROJECT_DIR$/CampusNewsClients/src/main/java/com/baibian/activity/UsersImformationActivity.java" line="448" mnemonic="Y" />
+    <bookmark url="file://$PROJECT_DIR$/CampusNewsClients/src/main/java/com/baibian/activity/UsersImformationActivity.java" line="441" mnemonic="9" />
+    <bookmark url="file://$PROJECT_DIR$/CampusNewsClients/src/main/java/com/baibian/activity/UsersImformationActivity.java" line="94" mnemonic="Z" />
+    <bookmark url="file://$PROJECT_DIR$/CampusNewsClients/src/main/java/com/baibian/activity/UsersImformationActivity.java" line="204" mnemonic="U" />
+    <bookmark url="file://$PROJECT_DIR$/CampusNewsClients/src/main/java/com/baibian/activity/UsersImformationActivity.java" line="193" mnemonic="R" />
+    <bookmark url="file://$PROJECT_DIR$/CampusNewsClients/src/main/java/com/baibian/activity/UsersImformationActivity.java" line="245" mnemonic="H" />
+    <bookmark url="file://$PROJECT_DIR$/CampusNewsClients/src/main/java/com/baibian/activity/UsersImformationActivity.java" line="631" mnemonic="X" />
+    <bookmark url="file://$PROJECT_DIR$/CampusNewsClients/src/main/res/drawable-xhdpi/ic_drawer_appstore_pressed.png" />
+    <bookmark url="file://$PROJECT_DIR$/CampusNewsClients/src/main/java/com/baibian/activity/FullscreenScoopActivity.java" line="106" mnemonic="1" />
+    <bookmark url="file://$PROJECT_DIR$/CampusNewsClients/src/main/java/com/baibian/activity/UsersImformationActivity.java" line="328" mnemonic="0" />
+    <bookmark url="file://$PROJECT_DIR$/CampusNewsClients/src/main/java/com/baibian/activity/UsersImformationActivity.java" line="284" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f86c7447-043f-4552-ba8b-5d196ef6c0e7" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CampusNewsClients/src/main/res/drawable-xhdpi/ic_persoal_like_clicked.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CampusNewsClients/src/main/res/drawable-xhdpi/ic_personal_achievement.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CampusNewsClients/src/main/res/drawable-xhdpi/ic_personal_add.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CampusNewsClients/src/main/res/drawable-xhdpi/ic_personal_address.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CampusNewsClients/src/main/res/drawable-xhdpi/ic_personal_back.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CampusNewsClients/src/main/res/drawable-xhdpi/ic_personal_back_white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CampusNewsClients/src/main/res/drawable-xhdpi/ic_personal_delete.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CampusNewsClients/src/main/res/drawable-xhdpi/ic_personal_dislike.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CampusNewsClients/src/main/res/drawable-xhdpi/ic_personal_edit.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CampusNewsClients/src/main/res/drawable-xhdpi/ic_personal_expand_below.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CampusNewsClients/src/main/res/drawable-xhdpi/ic_personal_expand_right.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CampusNewsClients/src/main/res/drawable-xhdpi/ic_personal_focus.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CampusNewsClients/src/main/res/drawable-xhdpi/ic_personal_focus_amount.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CampusNewsClients/src/main/res/drawable-xhdpi/ic_personal_info.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CampusNewsClients/src/main/res/drawable-xhdpi/ic_personal_level.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CampusNewsClients/src/main/res/drawable-xhdpi/ic_personal_periodical.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CampusNewsClients/src/main/res/drawable-xhdpi/ic_personal_private_messege.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CampusNewsClients/src/main/res/drawable-xhdpi/ic_personal_school.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CampusNewsClients/src/main/res/drawable-xhdpi/ic_personal_share.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CampusNewsClients/src/main/res/drawable-xhdpi/ic_psersonal_like.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Android_PickerView_3_2_6.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CampusNewsClients/src/main/java/com/baibian/view/InflatableLinearLayout.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CampusNewsClients/src/main/res/layout/add_information_layout.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CampusNewsClients/src/main/res/menu/other_toolbar.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/CampusNewsClients/src/main/java/com/baibian/listener/ReceiverImageLoadingHelper.java" afterPath="$PROJECT_DIR$/CampusNewsClients/src/main/java/com/baibian/listener/ReceiverTasksHelper.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/CampusNewsClients/src/main/java/com/baibian/receiver/ImageLoadReceiver.java" afterPath="$PROJECT_DIR$/CampusNewsClients/src/main/java/com/baibian/receiver/TasksReceiver.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/PhotoView_2_0_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/android_crop_1_0_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CampusNewsClients/src/main/java/com/baibian/activity/FullscreenScoopActivity.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CampusNewsClients/src/main/java/com/baibian/bean/UserInformationDetail.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CampusNewsClients/src/main/java/com/baibian/listener/OnClickToInformationListener.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CampusNewsClients/src/main/java/com/baibian/tool/GoToInformationTool.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CampusNewsClients/src/main/res/layout/activity_fullscreen_scoop.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Android_PickerView_3_2_6.xml" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/classes/debug/com/baibian/activity/ChannelActivity.class" afterPath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/classes/debug/com/baibian/activity/ChannelActivity.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/classes/debug/com/baibian/activity/ChoiceDirectionActivity$2.class" afterPath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/classes/debug/com/baibian/activity/ChoiceDirectionActivity$2.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/classes/debug/com/baibian/activity/ChoiceDirectionActivity$3.class" afterPath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/classes/debug/com/baibian/activity/ChoiceDirectionActivity$3.class" />
@@ -71,6 +57,7 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/classes/debug/com/baibian/view/HeadListView.class" afterPath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/classes/debug/com/baibian/view/HeadListView.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/res/resources-debug.ap_" afterPath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/res/resources-debug.ap_" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CampusNewsClients/CampusNewsClients.iml" afterPath="$PROJECT_DIR$/CampusNewsClients/CampusNewsClients.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CampusNewsClients/build.gradle" afterPath="$PROJECT_DIR$/CampusNewsClients/build.gradle" />
@@ -84,53 +71,85 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CampusNewsClients/build/generated/source/r/debug/com/flyco/dialog/R.java" afterPath="$PROJECT_DIR$/CampusNewsClients/build/generated/source/r/debug/com/flyco/dialog/R.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CampusNewsClients/build/generated/source/r/debug/com/jeremyfeinstein/slidingmenu/lib/R.java" afterPath="$PROJECT_DIR$/CampusNewsClients/build/generated/source/r/debug/com/jeremyfeinstein/slidingmenu/lib/R.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CampusNewsClients/build/generated/source/r/debug/com/like/view/R.java" afterPath="$PROJECT_DIR$/CampusNewsClients/build/generated/source/r/debug/com/like/view/R.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CampusNewsClients/build/generated/source/r/debug/de/hdodenhof/circleimageview/R.java" afterPath="$PROJECT_DIR$/CampusNewsClients/build/generated/source/r/debug/de/hdodenhof/circleimageview/R.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CampusNewsClients/build/generated/source/r/debug/github/chenupt/springindicator/R.java" afterPath="$PROJECT_DIR$/CampusNewsClients/build/generated/source/r/debug/github/chenupt/springindicator/R.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/blame/res/debug/multi/values-ar.json" afterPath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/blame/res/debug/multi/values-ar.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/blame/res/debug/multi/values-ca.json" afterPath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/blame/res/debug/multi/values-ca.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/blame/res/debug/multi/values-en.json" afterPath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/blame/res/debug/multi/values-en.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/blame/res/debug/multi/values-es.json" afterPath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/blame/res/debug/multi/values-es.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/blame/res/debug/multi/values-fr.json" afterPath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/blame/res/debug/multi/values-fr.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/blame/res/debug/multi/values-in.json" afterPath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/blame/res/debug/multi/values-in.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/blame/res/debug/multi/values-it.json" afterPath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/blame/res/debug/multi/values-it.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/blame/res/debug/multi/values-ja.json" afterPath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/blame/res/debug/multi/values-ja.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/blame/res/debug/multi/values-ko.json" afterPath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/blame/res/debug/multi/values-ko.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/blame/res/debug/multi/values-land.json" afterPath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/blame/res/debug/multi/values-land.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/blame/res/debug/multi/values-large-v4.json" afterPath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/blame/res/debug/multi/values-large-v4.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/blame/res/debug/multi/values-pt.json" afterPath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/blame/res/debug/multi/values-pt.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/blame/res/debug/multi/values-ru.json" afterPath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/blame/res/debug/multi/values-ru.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/blame/res/debug/multi/values-sv.json" afterPath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/blame/res/debug/multi/values-sv.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/blame/res/debug/multi/values-tr.json" afterPath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/blame/res/debug/multi/values-tr.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/blame/res/debug/multi/values-v21.json" afterPath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/blame/res/debug/multi/values-v21.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/blame/res/debug/multi/values.json" afterPath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/blame/res/debug/multi/values.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/blame/res/debug/single/anim.json" afterPath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/blame/res/debug/single/anim.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/blame/res/debug/single/color.json" afterPath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/blame/res/debug/single/color.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/blame/res/debug/single/drawable-hdpi-v4.json" afterPath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/blame/res/debug/single/drawable-hdpi-v4.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/blame/res/debug/single/drawable-hdpi.json" afterPath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/blame/res/debug/single/drawable-hdpi.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/blame/res/debug/single/drawable-mdpi-v4.json" afterPath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/blame/res/debug/single/drawable-mdpi-v4.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/blame/res/debug/single/drawable-mdpi.json" afterPath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/blame/res/debug/single/drawable-mdpi.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/blame/res/debug/single/drawable-v21.json" afterPath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/blame/res/debug/single/drawable-v21.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/blame/res/debug/single/drawable-xhdpi-v4.json" afterPath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/blame/res/debug/single/drawable-xhdpi-v4.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/blame/res/debug/single/drawable-xhdpi.json" afterPath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/blame/res/debug/single/drawable-xhdpi.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/blame/res/debug/single/drawable-xxhdpi-v4.json" afterPath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/blame/res/debug/single/drawable-xxhdpi-v4.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/blame/res/debug/single/drawable-xxxhdpi-v4.json" afterPath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/blame/res/debug/single/drawable-xxxhdpi-v4.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/blame/res/debug/single/drawable.json" afterPath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/blame/res/debug/single/drawable.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/blame/res/debug/single/layout.json" afterPath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/blame/res/debug/single/layout.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/blame/res/debug/single/menu.json" afterPath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/blame/res/debug/single/menu.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/blame/res/debug/single/mipmap-hdpi.json" afterPath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/blame/res/debug/single/mipmap-hdpi.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/blame/res/debug/single/mipmap-xhdpi.json" afterPath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/blame/res/debug/single/mipmap-xhdpi.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/blame/res/debug/single/mipmap-xxhdpi.json" afterPath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/blame/res/debug/single/mipmap-xxhdpi.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/incremental/mergeDebugResources/compile-file-map.properties" afterPath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/incremental/mergeDebugResources/compile-file-map.properties" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/incremental/mergeDebugResources/merger.xml" afterPath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/incremental/mergeDebugResources/merger.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/manifests/full/debug/AndroidManifest.xml" afterPath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/manifests/full/debug/AndroidManifest.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/manifests/instant-run/debug/AndroidManifest.xml" afterPath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/manifests/instant-run/debug/AndroidManifest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/res/merged/debug/layout/activity_large.xml" afterPath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/res/merged/debug/layout/activity_large.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/res/merged/debug/layout/usersimformationlayout.xml" afterPath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/res/merged/debug/layout/usersimformationlayout.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/res/merged/debug/menu/toolbar.xml" afterPath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/res/merged/debug/menu/toolbar.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/res/merged/debug/values-ar/values-ar.xml" afterPath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/res/merged/debug/values-ar/values-ar.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/res/merged/debug/values-ca/values-ca.xml" afterPath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/res/merged/debug/values-ca/values-ca.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/res/merged/debug/values-en/values-en.xml" afterPath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/res/merged/debug/values-en/values-en.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/res/merged/debug/values-es/values-es.xml" afterPath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/res/merged/debug/values-es/values-es.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/res/merged/debug/values-fr/values-fr.xml" afterPath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/res/merged/debug/values-fr/values-fr.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/res/merged/debug/values-in/values-in.xml" afterPath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/res/merged/debug/values-in/values-in.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/res/merged/debug/values-it/values-it.xml" afterPath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/res/merged/debug/values-it/values-it.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/res/merged/debug/values-ja/values-ja.xml" afterPath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/res/merged/debug/values-ja/values-ja.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/res/merged/debug/values-ko/values-ko.xml" afterPath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/res/merged/debug/values-ko/values-ko.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/res/merged/debug/values-land/values-land.xml" afterPath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/res/merged/debug/values-land/values-land.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/res/merged/debug/values-large-v4/values-large-v4.xml" afterPath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/res/merged/debug/values-large-v4/values-large-v4.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/res/merged/debug/values-pt/values-pt.xml" afterPath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/res/merged/debug/values-pt/values-pt.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/res/merged/debug/values-ru/values-ru.xml" afterPath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/res/merged/debug/values-ru/values-ru.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/res/merged/debug/values-sv/values-sv.xml" afterPath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/res/merged/debug/values-sv/values-sv.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/res/merged/debug/values-tr/values-tr.xml" afterPath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/res/merged/debug/values-tr/values-tr.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/res/merged/debug/values-v21/values-v21.xml" afterPath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/res/merged/debug/values-v21/values-v21.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/res/merged/debug/values/values.xml" afterPath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/res/merged/debug/values/values.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/symbols/debug/R.txt" afterPath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/symbols/debug/R.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CampusNewsClients/build/outputs/logs/manifest-merger-debug-report.txt" afterPath="$PROJECT_DIR$/CampusNewsClients/build/outputs/logs/manifest-merger-debug-report.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CampusNewsClients/src/main/AndroidManifest.xml" afterPath="$PROJECT_DIR$/CampusNewsClients/src/main/AndroidManifest.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CampusNewsClients/src/main/java/com/baibian/activity/EditPersonalInformationActivity.java" afterPath="$PROJECT_DIR$/CampusNewsClients/src/main/java/com/baibian/activity/EditPersonalInformationActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CampusNewsClients/src/main/java/com/baibian/activity/HisFansActivity.java" afterPath="$PROJECT_DIR$/CampusNewsClients/src/main/java/com/baibian/activity/HisFansActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CampusNewsClients/src/main/java/com/baibian/activity/EditPortraitActivity.java" afterPath="$PROJECT_DIR$/CampusNewsClients/src/main/java/com/baibian/activity/EditPortraitActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CampusNewsClients/src/main/java/com/baibian/activity/LargeActivity.java" afterPath="$PROJECT_DIR$/CampusNewsClients/src/main/java/com/baibian/activity/LargeActivity.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CampusNewsClients/src/main/java/com/baibian/activity/OtherInformationActivity.java" afterPath="$PROJECT_DIR$/CampusNewsClients/src/main/java/com/baibian/activity/OtherInformationActivity.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CampusNewsClients/src/main/java/com/baibian/activity/UsersImformationActivity.java" afterPath="$PROJECT_DIR$/CampusNewsClients/src/main/java/com/baibian/activity/UsersImformationActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CampusNewsClients/src/main/java/com/baibian/behavior/PortraitBehavior.java" afterPath="$PROJECT_DIR$/CampusNewsClients/src/main/java/com/baibian/behavior/PortraitBehavior.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CampusNewsClients/src/main/java/com/baibian/fragment/users_imformation/HisPresentationFragment.java" afterPath="$PROJECT_DIR$/CampusNewsClients/src/main/java/com/baibian/fragment/users_imformation/HisPresentationFragment.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CampusNewsClients/src/main/java/com/baibian/fragment/users_imformation/TopicFragment.java" afterPath="$PROJECT_DIR$/CampusNewsClients/src/main/java/com/baibian/fragment/users_imformation/TopicFragment.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CampusNewsClients/src/main/java/com/baibian/fragment/users_imformation/UserFragment.java" afterPath="$PROJECT_DIR$/CampusNewsClients/src/main/java/com/baibian/fragment/users_imformation/UserFragment.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CampusNewsClients/src/main/java/com/baibian/view/RevealFollowButton.java" afterPath="$PROJECT_DIR$/CampusNewsClients/src/main/java/com/baibian/view/RevealFollowButton.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CampusNewsClients/src/main/res/drawable-hdpi/corner_rectangle.xml" afterPath="$PROJECT_DIR$/CampusNewsClients/src/main/res/drawable-hdpi/corner_rectangle.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CampusNewsClients/src/main/res/drawable/divider_bg.xml" afterPath="$PROJECT_DIR$/CampusNewsClients/src/main/res/drawable/divider_bg.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CampusNewsClients/src/main/res/layout/activity_edit_personal_information.xml" afterPath="$PROJECT_DIR$/CampusNewsClients/src/main/res/layout/activity_edit_personal_information.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CampusNewsClients/src/main/res/layout/activity_large.xml" afterPath="$PROJECT_DIR$/CampusNewsClients/src/main/res/layout/activity_large.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CampusNewsClients/src/main/res/layout/activity_other_information.xml" afterPath="$PROJECT_DIR$/CampusNewsClients/src/main/res/layout/activity_other_information.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CampusNewsClients/src/main/res/layout/fans_information_layout.xml" afterPath="$PROJECT_DIR$/CampusNewsClients/src/main/res/layout/fans_information_layout.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CampusNewsClients/src/main/res/layout/fragment_his_topic.xml" afterPath="$PROJECT_DIR$/CampusNewsClients/src/main/res/layout/fragment_his_topic.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CampusNewsClients/src/main/res/layout/fragment_hispresentation.xml" afterPath="$PROJECT_DIR$/CampusNewsClients/src/main/res/layout/fragment_hispresentation.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CampusNewsClients/src/main/res/layout/usersimformationlayout.xml" afterPath="$PROJECT_DIR$/CampusNewsClients/src/main/res/layout/usersimformationlayout.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CampusNewsClients/src/main/res/menu/toolbar.xml" afterPath="$PROJECT_DIR$/CampusNewsClients/src/main/res/menu/toolbar.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CampusNewsClients/src/main/res/values/attrs.xml" afterPath="$PROJECT_DIR$/CampusNewsClients/src/main/res/values/attrs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CampusNewsClients/src/main/res/values/colors.xml" afterPath="$PROJECT_DIR$/CampusNewsClients/src/main/res/values/colors.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CampusNewsClients/src/main/res/values/dimens.xml" afterPath="$PROJECT_DIR$/CampusNewsClients/src/main/res/values/dimens.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CampusNewsClients/src/main/res/values/strings.xml" afterPath="$PROJECT_DIR$/CampusNewsClients/src/main/res/values/strings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CampusNewsClients/src/main/res/values/styles.xml" afterPath="$PROJECT_DIR$/CampusNewsClients/src/main/res/values/styles.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build.gradle" afterPath="$PROJECT_DIR$/build.gradle" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml" afterPath="$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library_SlidingMenu/build.gradle" afterPath="$PROJECT_DIR$/library_SlidingMenu/build.gradle" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library_SlidingMenu/build/intermediates/incremental/mergeDebugAndroidTestResources/compile-file-map.properties" afterPath="$PROJECT_DIR$/library_SlidingMenu/build/intermediates/incremental/mergeDebugAndroidTestResources/compile-file-map.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library_SlidingMenu/build/intermediates/incremental/mergeDebugResources/compile-file-map.properties" afterPath="$PROJECT_DIR$/library_SlidingMenu/build/intermediates/incremental/mergeDebugResources/compile-file-map.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library_SlidingMenu/build/intermediates/incremental/packageDebugResources/compile-file-map.properties" afterPath="$PROJECT_DIR$/library_SlidingMenu/build/intermediates/incremental/packageDebugResources/compile-file-map.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library_SlidingMenu/build/intermediates/incremental/packageReleaseResources/compile-file-map.properties" afterPath="$PROJECT_DIR$/library_SlidingMenu/build/intermediates/incremental/packageReleaseResources/compile-file-map.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library_SlidingMenu/library_SlidingMenu.iml" afterPath="$PROJECT_DIR$/library_SlidingMenu/library_SlidingMenu.iml" />
     </list>
     <ignored path="CampusNews.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -170,209 +189,147 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="InflatableLinearLayout.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/CampusNewsClients/src/main/java/com/baibian/view/InflatableLinearLayout.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="523">
-              <caret line="132" column="26" selection-start-line="132" selection-start-column="26" selection-end-line="132" selection-end-column="26" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#3302#3303#0" expanded="true" />
-                <element signature="e#3341#3342#0" expanded="true" />
-                <element signature="e#3381#3382#0" expanded="true" />
-                <element signature="e#3414#3415#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="usersimformationlayout.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/CampusNewsClients/src/main/res/layout/usersimformationlayout.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="322">
-              <caret line="12" column="33" selection-start-line="12" selection-start-column="33" selection-end-line="12" selection-end-column="33" />
-              <folding>
-                <element signature="e#8535#8567#0" expanded="true" />
-                <element signature="e#8616#8648#0" expanded="true" />
-                <element signature="e#9177#9215#0" expanded="true" />
-                <element signature="e#9260#9309#0" expanded="true" />
-                <element signature="e#9789#9827#0" expanded="true" />
-                <element signature="e#9872#9921#0" expanded="true" />
-                <element signature="e#10382#10420#0" expanded="true" />
-                <element signature="e#10465#10514#0" expanded="true" />
-                <element signature="e#10956#10984#0" expanded="true" />
-                <element signature="e#11254#11303#0" expanded="true" />
-                <element signature="e#11355#11393#0" expanded="true" />
-                <element signature="e#11879#11917#0" expanded="true" />
-                <element signature="e#11962#12011#0" expanded="true" />
-                <element signature="e#12187#12219#0" expanded="true" />
-                <element signature="e#12268#12300#0" expanded="true" />
-                <element signature="e#12728#12760#0" expanded="true" />
-                <element signature="e#13212#13241#0" expanded="true" />
-                <element signature="e#13757#13789#0" expanded="true" />
-                <element signature="e#14169#14198#0" expanded="true" />
-                <element signature="e#14309#14347#0" expanded="true" />
-                <element signature="e#14605#14634#0" expanded="true" />
-                <element signature="e#14811#14849#0" expanded="true" />
-                <element signature="e#15114#15146#0" expanded="true" />
-                <element signature="e#15526#15555#0" expanded="true" />
-                <element signature="e#15666#15704#0" expanded="true" />
-                <element signature="e#15963#15992#0" expanded="true" />
-                <element signature="e#16168#16206#0" expanded="true" />
-                <element signature="e#16478#16510#0" expanded="true" />
-                <element signature="e#16890#16919#0" expanded="true" />
-                <element signature="e#17030#17068#0" expanded="true" />
-                <element signature="e#17328#17357#0" expanded="true" />
-                <element signature="e#17533#17571#0" expanded="true" />
-                <element signature="e#18118#18150#0" expanded="true" />
-                <element signature="e#18611#18643#0" expanded="true" />
-                <element signature="e#18937#18966#0" expanded="true" />
-                <element signature="e#19170#19202#0" expanded="true" />
-                <element signature="e#19582#19611#0" expanded="true" />
-                <element signature="e#19722#19760#0" expanded="true" />
-                <element signature="e#20235#20267#0" expanded="true" />
-                <element signature="e#20647#20676#0" expanded="true" />
-                <element signature="e#20787#20825#0" expanded="true" />
-                <element signature="e#21299#21331#0" expanded="true" />
-                <element signature="e#21711#21740#0" expanded="true" />
-                <element signature="e#21851#21889#0" expanded="true" />
-                <element signature="e#22491#22523#0" expanded="true" />
-                <element signature="e#22572#22604#0" expanded="true" />
-                <element signature="e#22752#22784#0" expanded="true" />
-                <element signature="e#23373#23406#0" expanded="true" />
-                <element signature="e#23780#23818#0" expanded="true" />
-                <element signature="e#24129#24167#0" expanded="true" />
-                <element signature="e#24485#24514#0" expanded="true" />
-                <element signature="e#24736#24774#0" expanded="true" />
-                <element signature="e#24819#24868#0" expanded="true" />
-                <element signature="e#24975#25013#0" expanded="true" />
-                <element signature="e#25061#25099#0" expanded="true" />
-                <element signature="e#25145#25177#0" expanded="true" />
-                <element signature="e#25226#25264#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
           <provider editor-type-id="android-designer2">
             <state />
           </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UsersImformationActivity.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/CampusNewsClients/src/main/java/com/baibian/activity/UsersImformationActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="201">
-              <caret line="572" column="0" selection-start-line="572" selection-start-column="0" selection-end-line="572" selection-end-column="0" />
-              <folding>
-                <element signature="docComment;method#initPersonalInfoCheckedVisible#0;class#UsersImformationActivity#0" expanded="false" />
-                <element signature="method#initPersonalInfoCheckedVisible#0;class#UsersImformationActivity#0" expanded="false" />
-                <element signature="method#onDestroy#0;class#UsersImformationActivity#0" expanded="false" />
-                <element signature="docComment;method#initUserPortrait#0;class#UsersImformationActivity#0" expanded="false" />
-                <element signature="method#initUserPortrait#0;class#UsersImformationActivity#0" expanded="false" />
-                <element signature="method#addHonorImageView#0;class#UsersImformationActivity#0" expanded="false" />
-                <element signature="method#initRecyItemsData#0;class#UsersImformationActivity#0" expanded="false" />
-                <element signature="method#onCheckedChanged#0;class#UsersImformationActivity#0" expanded="false" />
-                <element signature="e#21786#21879#0" expanded="false" />
-                <element signature="docComment;method#onOptionsItemSelected#0;class#UsersImformationActivity#0" expanded="false" />
-                <element signature="method#init_information#0;class#UsersImformationActivity#0" expanded="false" />
-                <element signature="method#getin#0;class#UsersImformationActivity#0" expanded="false" />
-                <element signature="e#25848#25900#0" expanded="false" />
-                <element signature="method#GetUserImformation#0;class#UsersImformationActivity#0" expanded="false" />
-                <element signature="method#ChangeToJSON#0;class#UsersImformationActivity#0" expanded="false" />
-                <element signature="method#parseResultJSONObject#0;class#UsersImformationActivity#0" expanded="false" />
-                <element signature="method#parseJSONObject#0;class#UsersImformationActivity#0" expanded="false" />
-                <element signature="method#onBackPressed#0;class#UsersImformationActivity#0" expanded="false" />
-                <element signature="method#init_viewpager#0;class#UsersImformationActivity#0" expanded="false" />
-                <element signature="class#29196:30090" expanded="false" />
-                <element signature="method#onPageScrolled#0;class#29196:30090" expanded="false" />
-                <element signature="method#onPageSelected#0;class#29196:30090" expanded="false" />
-                <element signature="method#onPageScrollStateChanged#0;class#29196:30090" expanded="false" />
-                <marker date="1502269432559" expanded="false" signature="30100:31638" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="toolbar.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/CampusNewsClients/src/main/res/menu/toolbar.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="40">
-              <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+            <state relative-caret-position="1280">
+              <caret line="32" column="46" selection-start-line="32" selection-start-column="46" selection-end-line="32" selection-end-column="46" />
               <folding />
             </state>
-          </provider>
-          <provider editor-type-id="android-designer2">
-            <state />
           </provider>
         </entry>
       </file>
       <file leaf-file-name="GuideActivity.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/CampusNewsClients/src/main/java/com/baibian/activity/login/GuideActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="305">
-              <caret line="22" column="27" selection-start-line="22" selection-start-column="27" selection-end-line="22" selection-end-column="27" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="HisFansActivity.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/CampusNewsClients/src/main/java/com/baibian/activity/HisFansActivity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
-              <caret line="55" column="84" selection-start-line="55" selection-start-column="84" selection-end-line="55" selection-end-column="84" />
+            <state relative-caret-position="52">
+              <caret line="16" column="10" selection-start-line="16" selection-start-column="10" selection-end-line="16" selection-end-column="10" />
               <folding>
-                <marker date="1502211168166" expanded="false" signature="3001:3147" ph="..." />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="fans_information_layout.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/CampusNewsClients/src/main/res/layout/fans_information_layout.xml">
+      <file leaf-file-name="UsersImformationActivity.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CampusNewsClients/src/main/java/com/baibian/activity/UsersImformationActivity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="203">
+              <caret line="566" column="34" selection-start-line="566" selection-start-column="34" selection-end-line="566" selection-end-column="34" />
+              <folding>
+                <element signature="docComment;method#initPersonalInfoCheckedVisible#0;class#UsersImformationActivity#0" expanded="false" />
+                <element signature="method#initPersonalInfoCheckedVisible#0;class#UsersImformationActivity#0" expanded="false" />
+                <element signature="method#onDestroy#0;class#UsersImformationActivity#0" expanded="false" />
+                <element signature="docComment;method#initUserPortrait#0;class#UsersImformationActivity#0" expanded="false" />
+                <element signature="e#10063#10991#0" expanded="true" />
+                <element signature="e#10990#10991#0" expanded="true" />
+                <element signature="e#11718#12638#0" expanded="true" />
+                <element signature="e#12637#12638#0" expanded="true" />
+                <element signature="method#addHonorImageView#0;class#UsersImformationActivity#0" expanded="false" />
+                <element signature="method#initRecyItemsData#0;class#UsersImformationActivity#0" expanded="false" />
+                <element signature="e#24831#24924#0" expanded="false" />
+                <element signature="docComment;method#onOptionsItemSelected#0;class#UsersImformationActivity#0" expanded="false" />
+                <element signature="method#init_information#0;class#UsersImformationActivity#0" expanded="false" />
+                <element signature="method#getin#0;class#UsersImformationActivity#0" expanded="false" />
+                <element signature="e#29001#29053#0" expanded="false" />
+                <element signature="method#GetUserImformation#0;class#UsersImformationActivity#0" expanded="false" />
+                <element signature="method#ChangeToJSON#0;class#UsersImformationActivity#0" expanded="false" />
+                <element signature="method#parseResultJSONObject#0;class#UsersImformationActivity#0" expanded="false" />
+                <element signature="method#parseJSONObject#0;class#UsersImformationActivity#0" expanded="false" />
+                <element signature="method#onBackPressed#0;class#UsersImformationActivity#0" expanded="false" />
+                <element signature="method#init_viewpager#0;class#UsersImformationActivity#0" expanded="false" />
+                <element signature="class#32349:33243" expanded="false" />
+                <element signature="method#onPageScrolled#0;class#32349:33243" expanded="false" />
+                <element signature="method#onPageSelected#0;class#32349:33243" expanded="false" />
+                <element signature="method#onPageScrollStateChanged#0;class#32349:33243" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CampusNewsClients/build.gradle">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="733">
+              <caret line="54" column="29" selection-start-line="54" selection-start-column="29" selection-end-line="54" selection-end-column="29" />
+              <folding>
+                <marker date="1502464409024" expanded="true" signature="858:1831" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AndroidManifest.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/CampusNewsClients/src/main/AndroidManifest.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="348">
+              <caret line="12" column="68" selection-start-line="12" selection-start-column="68" selection-end-line="12" selection-end-column="68" />
+              <folding />
+            </state>
+          </provider>
+          <provider editor-type-id="android-manifest">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="OtherInformationActivity.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CampusNewsClients/src/main/java/com/baibian/activity/OtherInformationActivity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="400">
+              <caret line="37" column="13" selection-start-line="37" selection-start-column="13" selection-end-line="37" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="activity_other_information.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CampusNewsClients/src/main/res/layout/activity_other_information.xml">
+          <provider editor-type-id="android-designer2">
+            <state />
+          </provider>
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="602">
-              <caret line="35" column="28" selection-start-line="35" selection-start-column="28" selection-end-line="35" selection-end-column="28" />
+              <caret line="313" column="53" selection-start-line="313" selection-start-column="53" selection-end-line="313" selection-end-column="53" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="EditPortraitActivity.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CampusNewsClients/src/main/java/com/baibian/activity/EditPortraitActivity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="403">
+              <caret line="73" column="5" selection-start-line="73" selection-start-column="5" selection-end-line="73" selection-end-column="5" />
               <folding>
-                <element signature="e#2277#2302#0" expanded="true" />
-                <element signature="e#2336#2364#0" expanded="true" />
-                <element signature="e#2399#2427#0" expanded="true" />
+                <element signature="e#2674#3546#0" expanded="true" />
+                <element signature="e#3545#3546#0" expanded="true" />
               </folding>
             </state>
           </provider>
-          <provider editor-type-id="android-designer2">
-            <state />
-          </provider>
         </entry>
       </file>
-      <file leaf-file-name="activity_his_fans.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/CampusNewsClients/src/main/res/layout/activity_his_fans.xml">
+      <file leaf-file-name="ActivityCompat.class" pinned="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/.android/build-cache/95ff9e54a5c8ef2215c1a3d9260906e4043ef07d/output/jars/classes.jar!/android/support/v4/app/ActivityCompat.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-360">
-              <caret line="4" column="39" selection-start-line="4" selection-start-column="39" selection-end-line="4" selection-end-column="39" />
-              <folding />
-            </state>
-          </provider>
-          <provider editor-type-id="android-designer2">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ic_drawer_offline.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/CampusNewsClients/src/main/res/drawable/ic_drawer_offline.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="5" column="57" selection-start-line="5" selection-start-column="57" selection-end-line="5" selection-end-column="57" />
+            <state relative-caret-position="238">
+              <caret line="139" column="0" selection-start-line="139" selection-start-column="0" selection-end-line="139" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="dimens.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/CampusNewsClients/src/main/res/values/dimens.xml">
+      <file leaf-file-name="Handler.java" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/AppData/Local/Android/sdk/sources/android-25/android/os/Handler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="254">
-              <caret line="121" column="17" selection-start-line="121" selection-start-column="17" selection-end-line="121" selection-end-column="17" />
-              <folding />
+            <state relative-caret-position="271">
+              <caret line="516" column="25" selection-start-line="516" selection-start-column="25" selection-end-line="516" selection-end-column="25" />
+              <folding>
+                <element signature="e#21480#21481#0" expanded="true" />
+                <element signature="e#21529#21530#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -386,8 +343,8 @@
         <option value="Interface" />
         <option value="layoutResourceFile" />
         <option value="resourceFile" />
-        <option value="Class" />
         <option value="layoutResourceFile_vertical" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -853,6 +810,11 @@
                 <option name="name" value="checkDebugManifest" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
+                <option name="description" value="Prepare com.soundcloud.android:android-crop:1.0.1" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="prepareComSoundcloudAndroidAndroidCrop101Library" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
                 <option name="description" value="Prints out all the source sets defined in this project." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="sourceSets" />
@@ -860,11 +822,6 @@
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="transformResourcesWithMergeJavaResForDebugUnitTest" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Prepare com.contrarywind:Android-PickerView:3.2.6" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="prepareComContrarywindAndroidPickerView326Library" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
@@ -982,6 +939,11 @@
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="packageReleaseRenderscript" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Prepare com.github.chrisbanes:PhotoView:2.0.0" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="prepareComGithubChrisbanesPhotoView200Library" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
@@ -1360,6 +1322,11 @@
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/CampusNewsClients" />
                 <option name="name" value="compileDebugSources" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Prepare com.github.chrisbanes:PhotoView:2.0.0" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/CampusNewsClients" />
+                <option name="name" value="prepareComGithubChrisbanesPhotoView200Library" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/CampusNewsClients" />
@@ -1922,6 +1889,11 @@
                 <option name="name" value="checkDebugManifest" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
+                <option name="description" value="Prepare com.soundcloud.android:android-crop:1.0.1" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/CampusNewsClients" />
+                <option name="name" value="prepareComSoundcloudAndroidAndroidCrop101Library" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/CampusNewsClients" />
                 <option name="name" value="mergeDebugJniLibFolders" />
               </ExternalTaskPojo>
@@ -1937,11 +1909,6 @@
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/CampusNewsClients" />
                 <option name="name" value="mergeReleaseAssets" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Prepare com.contrarywind:Android-PickerView:3.2.6" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/CampusNewsClients" />
-                <option name="name" value="prepareComContrarywindAndroidPickerView326Library" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/CampusNewsClients" />
@@ -2749,7 +2716,7 @@
     </option>
     <option name="modificationStamps">
       <map>
-        <entry key="C:\Users\Ellly\Desktop\SourceCodeTempOnDesktop\CampusNews" value="6006428478469" />
+        <entry key="C:\Users\Ellly\Desktop\SourceCodeTempOnDesktop\CampusNews" value="6008094187610" />
         <entry key="C:\Users\XZY\Documents\GitHub\CampusNews" value="5967935299271" />
         <entry key="C:\Users\lenovo\Documents\CampusNews" value="5979465624868" />
         <entry key="D:\MyAndroid\CampusNews4" value="6000813527187" />
@@ -3194,16 +3161,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/CampusNewsClients/src/main/java/com/baibian/fragment/users_imformation/BlankFragment.java" />
-        <option value="$PROJECT_DIR$/CampusNewsClients/src/main/java/com/baibian/bean/UserContent.java" />
-        <option value="$PROJECT_DIR$/CampusNewsClients/src/main/java/com/baibian/bean/HisTopicContent.java" />
-        <option value="$PROJECT_DIR$/CampusNewsClients/src/main/java/com/baibian/bean/HisPresentationContent.java" />
-        <option value="$PROJECT_DIR$/CampusNewsClients/src/main/java/com/baibian/activity/HisFocusActivity.java" />
-        <option value="$PROJECT_DIR$/CampusNewsClients/src/main/res/layout/fragment_topic_list.xml" />
-        <option value="$PROJECT_DIR$/CampusNewsClients/src/main/res/layout/activity_his_fans.xml" />
-        <option value="$PROJECT_DIR$/CampusNewsClients/src/main/java/com/baibian/bean/HisFansContent.java" />
-        <option value="$PROJECT_DIR$/CampusNewsClients/src/main/res/values/arrays.xml" />
-        <option value="$PROJECT_DIR$/CampusNewsClients/src/main/res/layout/drop_down_item_gender.xml" />
         <option value="$PROJECT_DIR$/CampusNewsClients/src/main/res/values/strings.xml" />
         <option value="$PROJECT_DIR$/CampusNewsClients/src/main/java/com/baibian/activity/HisTopicActivity.java" />
         <option value="$PROJECT_DIR$/CampusNewsClients/src/main/java/com/baibian/activity/login/GuideActivity.java" />
@@ -3218,14 +3175,10 @@
         <option value="$PROJECT_DIR$/CampusNewsClients/src/main/res/layout/fragment_hispresentation.xml" />
         <option value="$PROJECT_DIR$/CampusNewsClients/src/main/res/drawable-hdpi/corner_rectangle.xml" />
         <option value="$PROJECT_DIR$/CampusNewsClients/src/main/java/com/baibian/view/RevealFollowButton.java" />
-        <option value="$PROJECT_DIR$/CampusNewsClients/src/main/res/layout/activity_other_information.xml" />
         <option value="$PROJECT_DIR$/CampusNewsClients/src/main/res/menu/other_toolbar.xml" />
-        <option value="$PROJECT_DIR$/CampusNewsClients/src/main/java/com/baibian/activity/OtherInformationActivity.java" />
-        <option value="$PROJECT_DIR$/CampusNewsClients/src/main/java/com/baibian/activity/UsersImformationActivity.java" />
         <option value="$PROJECT_DIR$/CampusNewsClients/src/main/java/com/baibian/fragment/users_imformation/HisPresentationFragment.java" />
         <option value="$PROJECT_DIR$/CampusNewsClients/src/main/java/com/baibian/fragment/users_imformation/TopicFragment.java" />
         <option value="$PROJECT_DIR$/CampusNewsClients/src/main/res/layout/fragment_his_topic.xml" />
-        <option value="$PROJECT_DIR$/CampusNewsClients/src/main/java/com/baibian/fragment/users_imformation/UserFragment.java" />
         <option value="$PROJECT_DIR$/CampusNewsClients/src/main/java/com/baibian/activity/HisFansActivity.java" />
         <option value="$PROJECT_DIR$/CampusNewsClients/src/main/java/com/baibian/tool/LinearLayout_Inflaterable.java" />
         <option value="$PROJECT_DIR$/CampusNewsClients/build/intermediates/res/merged/debug/layout/activity_edit_personal_information.xml" />
@@ -3237,14 +3190,28 @@
         <option value="$PROJECT_DIR$/CampusNewsClients/src/main/java/com/baibian/view/InflaterLinearLayout.java" />
         <option value="$PROJECT_DIR$/library_SlidingMenu/build.gradle" />
         <option value="$PROJECT_DIR$/CampusNewsClients/src/main/res/drawable/divider_bg.xml" />
-        <option value="$PROJECT_DIR$/CampusNewsClients/build.gradle" />
-        <option value="$PROJECT_DIR$/CampusNewsClients/src/main/java/com/baibian/activity/EditPersonalInformationActivity.java" />
-        <option value="$PROJECT_DIR$/CampusNewsClients/src/main/res/layout/activity_edit_personal_information.xml" />
         <option value="$PROJECT_DIR$/CampusNewsClients/src/main/res/layout/add_information_layout.xml" />
         <option value="$PROJECT_DIR$/CampusNewsClients/src/main/res/layout/fans_information_layout.xml" />
-        <option value="$PROJECT_DIR$/CampusNewsClients/src/main/res/layout/usersimformationlayout.xml" />
         <option value="$PROJECT_DIR$/CampusNewsClients/src/main/res/menu/toolbar.xml" />
         <option value="$PROJECT_DIR$/CampusNewsClients/src/main/java/com/baibian/view/InflatableLinearLayout.java" />
+        <option value="$PROJECT_DIR$/CampusNewsClients/src/main/java/com/baibian/bean/UserInformationDetail.java" />
+        <option value="$PROJECT_DIR$/CampusNewsClients/src/main/java/com/baibian/tool/GoToInformationTool.java" />
+        <option value="$PROJECT_DIR$/CampusNewsClients/src/main/java/com/baibian/listener/OnClickToInformationListener.java" />
+        <option value="$PROJECT_DIR$/CampusNewsClients/src/main/java/com/baibian/fragment/users_imformation/UserFragment.java" />
+        <option value="$PROJECT_DIR$/build.gradle" />
+        <option value="$PROJECT_DIR$/CampusNewsClients/src/main/java/com/baibian/activity/LargeActivity.java" />
+        <option value="$PROJECT_DIR$/CampusNewsClients/src/main/java/com/baibian/activity/EditPersonalInformationActivity.java" />
+        <option value="$PROJECT_DIR$/CampusNewsClients/src/main/res/layout/activity_edit_personal_information.xml" />
+        <option value="$PROJECT_DIR$/CampusNewsClients/src/main/res/layout/activity_large.xml" />
+        <option value="$PROJECT_DIR$/CampusNewsClients/src/main/res/layout/activity_fullscreen_scoop.xml" />
+        <option value="$PROJECT_DIR$/CampusNewsClients/src/main/java/com/baibian/activity/FullscreenScoopActivity.java" />
+        <option value="$PROJECT_DIR$/CampusNewsClients/src/main/java/com/baibian/activity/OtherInformationActivity.java" />
+        <option value="$PROJECT_DIR$/CampusNewsClients/src/main/res/layout/activity_other_information.xml" />
+        <option value="$PROJECT_DIR$/CampusNewsClients/src/main/res/layout/usersimformationlayout.xml" />
+        <option value="$PROJECT_DIR$/CampusNewsClients/build.gradle" />
+        <option value="$PROJECT_DIR$/CampusNewsClients/src/main/java/com/baibian/activity/EditPortraitActivity.java" />
+        <option value="$PROJECT_DIR$/CampusNewsClients/src/main/java/com/baibian/activity/UsersImformationActivity.java" />
+        <option value="$PROJECT_DIR$/CampusNewsClients/src/main/AndroidManifest.xml" />
       </list>
     </option>
   </component>
@@ -3281,7 +3248,7 @@
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectView">
-    <navigator currentView="ProjectPane" proportions="" version="1">
+    <navigator currentView="AndroidView" proportions="" version="1">
       <flattenPackages />
       <showMembers />
       <showModules />
@@ -3295,124 +3262,32 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
+        <subPane />
+      </pane>
+      <pane id="Scratches" />
+      <pane id="PackagesPane" />
+      <pane id="AndroidView">
         <subPane>
           <PATH>
             <PATH_ELEMENT>
               <option name="myItemId" value="CampusNews" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Gradle Scripts" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidBuildScriptsGroupNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
               <option name="myItemId" value="CampusNews" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CampusNews" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CampusNews" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CampusNews" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CampusNewsClients" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CampusNews" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CampusNews" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CampusNewsClients" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CampusNews" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CampusNews" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CampusNewsClients" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CampusNews" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CampusNews" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CampusNewsClients" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="drawable-xhdpi" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="AndroidView">
-        <subPane />
-      </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -3426,10 +3301,13 @@
     <property name="UI_DESIGNER_EDITOR_MODE.NlPaletteManager-NlPreviewForm.SHOW" value="false" />
     <property name="show.do.not.ask.upgrade.gradle.plugin" value="2.3.1" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/CampusNewsClients/src/main/res/drawable-hdpi" />
-    <property name="SearchEverywhereHistoryKey" value="user&#9;FILE&#9;file://C:/Users/Ellly/Desktop/SourceCodeTempOnDesktop/CampusNews/CampusNewsClients/src/main/res/layout/usersimformationlayout.xml&#10;User&#9;FILE&#9;file://C:/Users/Ellly/Desktop/SourceCodeTempOnDesktop/CampusNews/CampusNewsClients/src/main/java/com/baibian/activity/UsersImformationActivity.java&#10;Infl&#9;FILE&#9;file://C:/Users/Ellly/Desktop/SourceCodeTempOnDesktop/CampusNews/CampusNewsClients/src/main/java/com/baibian/view/InflatableLinearLayout.java&#10;Hisfa&#9;FILE&#9;file://C:/Users/Ellly/Desktop/SourceCodeTempOnDesktop/CampusNews/CampusNewsClients/src/main/java/com/baibian/activity/HisFansActivity.java&#10;AndroidMani&#9;FILE&#9;file://C:/Users/Ellly/Desktop/SourceCodeTempOnDesktop/CampusNews/CampusNewsClients/src/main/AndroidManifest.xml&#10;Inflat&#9;FILE&#9;file://C:/Users/Ellly/Desktop/SourceCodeTempOnDesktop/CampusNews/CampusNewsClients/src/main/java/com/baibian/tool/LinearLayout_Inflaterable.java&#10;Edi&#9;FILE&#9;file://C:/Users/Ellly/Desktop/SourceCodeTempOnDesktop/CampusNews/CampusNewsClients/src/main/java/com/baibian/activity/EditPersonalInformationActivity.java&#10;Ed&#9;FILE&#9;file://C:/Users/Ellly/Desktop/SourceCodeTempOnDesktop/CampusNews/CampusNewsClients/src/main/java/com/baibian/activity/Edit_Information_Activity.java&#10;edi&#9;FILE&#9;file://C:/Users/Ellly/Desktop/SourceCodeTempOnDesktop/CampusNews/CampusNewsClients/src/main/java/com/baibian/activity/EditPersonalInformationActivity.java&#10;rece&#9;PSI&#9;JAVA://com.baibian.listener.ReceiverImageLoadingHelper&#10;portra&#9;PSI&#9;JAVA://com.baibian.behavior.PortraitBehavior&#10;inflate&#9;PSI&#9;JAVA://com.baibian.tool.LinearLayout_Inflaterable&#10;house&#9;PSI&#9;JAVA://com.baibian.activity.Edit_Information_Activity#house_LinearLayout&#10;Fans&#9;PSI&#9;JAVA://com.baibian.activity.HisFansActivity&#10;USer&#9;FILE&#9;file://C:/Users/Ellly/Desktop/SourceCodeTempOnDesktop/CampusNews/CampusNewsClients/src/main/java/com/baibian/fragment/users_imformation/UserFragment.java&#10;fragment_top&#9;FILE&#9;file://C:/Users/Ellly/Desktop/SourceCodeTempOnDesktop/CampusNews/CampusNewsClients/src/main/res/layout/fragment_his_topic.xml&#10;Topic&#9;FILE&#9;file://C:/Users/Ellly/Desktop/SourceCodeTempOnDesktop/CampusNews/CampusNewsClients/src/main/java/com/baibian/fragment/users_imformation/TopicFragment.java&#10;Pres&#9;FILE&#9;file://C:/Users/Ellly/Desktop/SourceCodeTempOnDesktop/CampusNews/CampusNewsClients/src/main/java/com/baibian/fragment/users_imformation/HisPresentationFragment.java&#10;fragment&#9;FILE&#9;file://C:/Users/Ellly/Desktop/SourceCodeTempOnDesktop/CampusNews/CampusNewsClients/src/main/res/layout/fragment_hispresentation.xml&#10;other&#9;FILE&#9;file://C:/Users/Ellly/Desktop/SourceCodeTempOnDesktop/CampusNews/CampusNewsClients/src/main/res/layout/activity_other_information.xml&#10;Other&#9;FILE&#9;file://C:/Users/Ellly/Desktop/SourceCodeTempOnDesktop/CampusNews/CampusNewsClients/src/main/java/com/baibian/activity/OtherInformationActivity.java&#10;Rev&#9;FILE&#9;file://C:/Users/Ellly/Desktop/SourceCodeTempOnDesktop/CampusNews/CampusNewsClients/src/main/java/com/baibian/view/RevealFollowButton.java&#10;userf&#9;FILE&#9;file://C:/Users/Ellly/Desktop/SourceCodeTempOnDesktop/CampusNews/CampusNewsClients/src/main/java/com/baibian/fragment/users_imformation/UserFragment.java&#10;fragment_topic&#9;FILE&#9;file://C:/Users/Ellly/Desktop/SourceCodeTempOnDesktop/CampusNews/CampusNewsClients/src/main/res/layout/fragment_his_topic.xml&#10;prese&#9;FILE&#9;file://C:/Users/Ellly/Desktop/SourceCodeTempOnDesktop/CampusNews/CampusNewsClients/src/main/res/layout/fragment_hispresentation_list.xml&#10;PREs&#9;FILE&#9;file://C:/Users/Ellly/Desktop/SourceCodeTempOnDesktop/CampusNews/CampusNewsClients/src/main/java/com/baibian/fragment/users_imformation/HisPresentationFragment.java&#10;edit&#9;FILE&#9;file://C:/Users/Ellly/Desktop/SourceCodeTempOnDesktop/CampusNews/CampusNewsClients/src/main/java/com/baibian/activity/Edit_Information_Activity.java&#10;his_foc&#9;FILE&#9;file://C:/Users/Ellly/Desktop/SourceCodeTempOnDesktop/CampusNews/CampusNewsClients/src/main/res/layout/activity_his_focus.xml&#10;fragment_user&#9;FILE&#9;file://C:/Users/Ellly/Desktop/SourceCodeTempOnDesktop/CampusNews/CampusNewsClients/src/main/res/layout/fragment_user.xml&#10;Hisf&#9;FILE&#9;file://C:/Users/Ellly/Desktop/SourceCodeTempOnDesktop/CampusNews/CampusNewsClients/src/main/res/layout/activity_his_focus.xml&#10;Fragment&#9;FILE&#9;file://C:/Users/Ellly/Desktop/SourceCodeTempOnDesktop/CampusNews/CampusNewsClients/src/main/java/com/baibian/fragment/users_imformation/TopicFragment.java&#10;list&#9;FILE&#9;file://C:/Users/Ellly/Desktop/SourceCodeTempOnDesktop/CampusNews/CampusNewsClients/src/main/res/layout/fragment_hispresentation_list.xml&#10;top&#9;FILE&#9;file://C:/Users/Ellly/Desktop/SourceCodeTempOnDesktop/CampusNews/CampusNewsClients/src/main/res/layout/fragment_his_topic.xml&#10;His&#9;FILE&#9;file://C:/Users/Ellly/Desktop/SourceCodeTempOnDesktop/CampusNews/CampusNewsClients/src/main/java/com/baibian/activity/HisFocusActivity.java&#10;hisfocus&#9;FILE&#9;file://C:/Users/Ellly/Desktop/SourceCodeTempOnDesktop/CampusNews/CampusNewsClients/src/main/res/layout/activity_his_focus.xml&#10;Presenta&#9;FILE&#9;file://C:/Users/Ellly/Desktop/SourceCodeTempOnDesktop/CampusNews/CampusNewsClients/src/main/java/com/baibian/fragment/users_imformation/HisPresentationFragment.java&#10;UserF&#9;PSI&#9;JAVA://com.baibian.fragment.users_imformation.UserFragment&#10;Hisfans&#9;FILE&#9;file://C:/Users/Ellly/Desktop/SourceCodeTempOnDesktop/CampusNews/CampusNewsClients/src/main/java/com/baibian/activity/HisFansActivity.java&#10;HisF&#9;FILE&#9;file://C:/Users/Ellly/Desktop/SourceCodeTempOnDesktop/CampusNews/CampusNewsClients/src/main/java/com/baibian/activity/HisFocusActivity.java&#10;HisFocus&#9;FILE&#9;file://C:/Users/Ellly/Desktop/SourceCodeTempOnDesktop/CampusNews/CampusNewsClients/src/main/java/com/baibian/activity/HisFocusActivity.java&#10;fragment_his_&#9;FILE&#9;file://C:/Users/Ellly/Desktop/SourceCodeTempOnDesktop/CampusNews/CampusNewsClients/src/main/res/layout/fragment_his_topic.xml&#10;fragment_&#9;FILE&#9;file://C:/Users/Ellly/Desktop/SourceCodeTempOnDesktop/CampusNews/CampusNewsClients/src/main/res/layout/fragment_his_topic.xml&#10;HisFocu&#9;PSI&#9;JAVA://com.baibian.activity.HisFocusActivity&#10;fans&#9;FILE&#9;file://C:/Users/Ellly/Desktop/SourceCodeTempOnDesktop/CampusNews/CampusNewsClients/src/main/res/layout/fans_information_layout.xml&#10;Commo&#9;FILE&#9;file://C:/Users/Ellly/Desktop/SourceCodeTempOnDesktop/CampusNews/CampusNewsClients/src/main/java/com/baibian/tool/RecyclerViewCommonTool/CommonAdapter.java&#10;Conte&#9;FILE&#9;file://C:/Users/Ellly/Desktop/SourceCodeTempOnDesktop/CampusNews/CampusNewsClients/src/main/java/com/baibian/bean/HisUserContent.java&#10;Edit_in&#9;PSI&#9;JAVA://com.baibian.activity.Edit_Information_Activity&#10;SlideIn&#9;PSI&#9;JAVA://it.gmariotti.recyclerview.itemanimator.SlideInOutLeftItemAnimator&#10;content&#9;FILE&#9;file://C:/Users/Ellly/Desktop/SourceCodeTempOnDesktop/CampusNews/CampusNewsClients/src/main/java/com/baibian/bean/HisUserContent.java&#10;Por&#9;FILE&#9;file://C:/Users/Ellly/Desktop/SourceCodeTempOnDesktop/CampusNews/CampusNewsClients/src/main/java/com/baibian/behavior/PortraitBehavior.java" />
+    <property name="SearchEverywhereHistoryKey" value="AndroidManife&#9;FILE&#9;file://C:/Users/Ellly/Desktop/SourceCodeTempOnDesktop/CampusNews/CampusNewsClients/src/main/AndroidManifest.xml&#10;User&#9;FILE&#9;file://C:/Users/Ellly/Desktop/SourceCodeTempOnDesktop/CampusNews/CampusNewsClients/src/main/java/com/baibian/activity/UsersImformationActivity.java&#10;Android&#9;FILE&#9;file://C:/Users/Ellly/Desktop/SourceCodeTempOnDesktop/CampusNews/CampusNewsClients/src/main/AndroidManifest.xml&#10;Other&#9;FILE&#9;file://C:/Users/Ellly/Desktop/SourceCodeTempOnDesktop/CampusNews/CampusNewsClients/src/main/res/layout/activity_other_information.xml&#10;Edit&#9;FILE&#9;file://C:/Users/Ellly/Desktop/SourceCodeTempOnDesktop/CampusNews/CampusNewsClients/src/main/java/com/baibian/activity/EditPortraitActivity.java&#10;Full&#9;FILE&#9;file://C:/Users/Ellly/Desktop/SourceCodeTempOnDesktop/CampusNews/CampusNewsClients/src/main/java/com/baibian/activity/FullscreenScoopActivity.java&#10;other&#9;PSI&#9;JAVA://com.baibian.activity.OtherInformationActivity&#10;Larg&#9;FILE&#9;file://C:/Users/Ellly/Desktop/SourceCodeTempOnDesktop/CampusNews/CampusNewsClients/src/main/java/com/baibian/activity/LargeActivity.java&#10;Edi&#9;FILE&#9;file://C:/Users/Ellly/Desktop/SourceCodeTempOnDesktop/CampusNews/CampusNewsClients/src/main/java/com/baibian/activity/EditPersonalInformationActivity.java&#10;UserConte&#9;PSI&#9;JAVA://com.baibian.bean.HisUserContent&#10;Fragment&#9;FILE&#9;file://C:/Users/Ellly/Desktop/SourceCodeTempOnDesktop/CampusNews/CampusNewsClients/src/main/res/layout/fragment_user.xml&#10;FragmenUs&#9;PSI&#9;JAVA://com.baibian.R.layout#fragment_user&#10;ic_drawer&#9;FILE&#9;file://C:/Users/Ellly/Desktop/SourceCodeTempOnDesktop/CampusNews/CampusNewsClients/src/main/res/drawable/ic_drawer_appstore.xml&#10;EditPor&#9;PSI&#9;JAVA://com.baibian.activity.EditPortraitActivity&#10;user&#9;FILE&#9;file://C:/Users/Ellly/Desktop/SourceCodeTempOnDesktop/CampusNews/CampusNewsClients/src/main/res/layout/usersimformationlayout.xml&#10;Infl&#9;FILE&#9;file://C:/Users/Ellly/Desktop/SourceCodeTempOnDesktop/CampusNews/CampusNewsClients/src/main/java/com/baibian/view/InflatableLinearLayout.java&#10;Hisfa&#9;FILE&#9;file://C:/Users/Ellly/Desktop/SourceCodeTempOnDesktop/CampusNews/CampusNewsClients/src/main/java/com/baibian/activity/HisFansActivity.java&#10;AndroidMani&#9;FILE&#9;file://C:/Users/Ellly/Desktop/SourceCodeTempOnDesktop/CampusNews/CampusNewsClients/src/main/AndroidManifest.xml&#10;Inflat&#9;FILE&#9;file://C:/Users/Ellly/Desktop/SourceCodeTempOnDesktop/CampusNews/CampusNewsClients/src/main/java/com/baibian/tool/LinearLayout_Inflaterable.java&#10;Ed&#9;FILE&#9;file://C:/Users/Ellly/Desktop/SourceCodeTempOnDesktop/CampusNews/CampusNewsClients/src/main/java/com/baibian/activity/Edit_Information_Activity.java&#10;edi&#9;FILE&#9;file://C:/Users/Ellly/Desktop/SourceCodeTempOnDesktop/CampusNews/CampusNewsClients/src/main/java/com/baibian/activity/EditPersonalInformationActivity.java&#10;rece&#9;PSI&#9;JAVA://com.baibian.listener.ReceiverImageLoadingHelper&#10;portra&#9;PSI&#9;JAVA://com.baibian.behavior.PortraitBehavior&#10;inflate&#9;PSI&#9;JAVA://com.baibian.tool.LinearLayout_Inflaterable&#10;house&#9;PSI&#9;JAVA://com.baibian.activity.Edit_Information_Activity#house_LinearLayout&#10;Fans&#9;PSI&#9;JAVA://com.baibian.activity.HisFansActivity&#10;USer&#9;FILE&#9;file://C:/Users/Ellly/Desktop/SourceCodeTempOnDesktop/CampusNews/CampusNewsClients/src/main/java/com/baibian/fragment/users_imformation/UserFragment.java&#10;fragment_top&#9;FILE&#9;file://C:/Users/Ellly/Desktop/SourceCodeTempOnDesktop/CampusNews/CampusNewsClients/src/main/res/layout/fragment_his_topic.xml&#10;Topic&#9;FILE&#9;file://C:/Users/Ellly/Desktop/SourceCodeTempOnDesktop/CampusNews/CampusNewsClients/src/main/java/com/baibian/fragment/users_imformation/TopicFragment.java&#10;Pres&#9;FILE&#9;file://C:/Users/Ellly/Desktop/SourceCodeTempOnDesktop/CampusNews/CampusNewsClients/src/main/java/com/baibian/fragment/users_imformation/HisPresentationFragment.java&#10;fragment&#9;FILE&#9;file://C:/Users/Ellly/Desktop/SourceCodeTempOnDesktop/CampusNews/CampusNewsClients/src/main/res/layout/fragment_hispresentation.xml&#10;Rev&#9;FILE&#9;file://C:/Users/Ellly/Desktop/SourceCodeTempOnDesktop/CampusNews/CampusNewsClients/src/main/java/com/baibian/view/RevealFollowButton.java&#10;userf&#9;FILE&#9;file://C:/Users/Ellly/Desktop/SourceCodeTempOnDesktop/CampusNews/CampusNewsClients/src/main/java/com/baibian/fragment/users_imformation/UserFragment.java&#10;fragment_topic&#9;FILE&#9;file://C:/Users/Ellly/Desktop/SourceCodeTempOnDesktop/CampusNews/CampusNewsClients/src/main/res/layout/fragment_his_topic.xml&#10;prese&#9;FILE&#9;file://C:/Users/Ellly/Desktop/SourceCodeTempOnDesktop/CampusNews/CampusNewsClients/src/main/res/layout/fragment_hispresentation_list.xml&#10;PREs&#9;FILE&#9;file://C:/Users/Ellly/Desktop/SourceCodeTempOnDesktop/CampusNews/CampusNewsClients/src/main/java/com/baibian/fragment/users_imformation/HisPresentationFragment.java&#10;edit&#9;FILE&#9;file://C:/Users/Ellly/Desktop/SourceCodeTempOnDesktop/CampusNews/CampusNewsClients/src/main/java/com/baibian/activity/Edit_Information_Activity.java&#10;his_foc&#9;FILE&#9;file://C:/Users/Ellly/Desktop/SourceCodeTempOnDesktop/CampusNews/CampusNewsClients/src/main/res/layout/activity_his_focus.xml&#10;fragment_user&#9;FILE&#9;file://C:/Users/Ellly/Desktop/SourceCodeTempOnDesktop/CampusNews/CampusNewsClients/src/main/res/layout/fragment_user.xml&#10;Hisf&#9;FILE&#9;file://C:/Users/Ellly/Desktop/SourceCodeTempOnDesktop/CampusNews/CampusNewsClients/src/main/res/layout/activity_his_focus.xml&#10;list&#9;FILE&#9;file://C:/Users/Ellly/Desktop/SourceCodeTempOnDesktop/CampusNews/CampusNewsClients/src/main/res/layout/fragment_hispresentation_list.xml&#10;top&#9;FILE&#9;file://C:/Users/Ellly/Desktop/SourceCodeTempOnDesktop/CampusNews/CampusNewsClients/src/main/res/layout/fragment_his_topic.xml&#10;His&#9;FILE&#9;file://C:/Users/Ellly/Desktop/SourceCodeTempOnDesktop/CampusNews/CampusNewsClients/src/main/java/com/baibian/activity/HisFocusActivity.java&#10;hisfocus&#9;FILE&#9;file://C:/Users/Ellly/Desktop/SourceCodeTempOnDesktop/CampusNews/CampusNewsClients/src/main/res/layout/activity_his_focus.xml&#10;Presenta&#9;FILE&#9;file://C:/Users/Ellly/Desktop/SourceCodeTempOnDesktop/CampusNews/CampusNewsClients/src/main/java/com/baibian/fragment/users_imformation/HisPresentationFragment.java&#10;UserF&#9;PSI&#9;JAVA://com.baibian.fragment.users_imformation.UserFragment&#10;Hisfans&#9;FILE&#9;file://C:/Users/Ellly/Desktop/SourceCodeTempOnDesktop/CampusNews/CampusNewsClients/src/main/java/com/baibian/activity/HisFansActivity.java&#10;HisF&#9;FILE&#9;file://C:/Users/Ellly/Desktop/SourceCodeTempOnDesktop/CampusNews/CampusNewsClients/src/main/java/com/baibian/activity/HisFocusActivity.java&#10;HisFocus&#9;FILE&#9;file://C:/Users/Ellly/Desktop/SourceCodeTempOnDesktop/CampusNews/CampusNewsClients/src/main/java/com/baibian/activity/HisFocusActivity.java&#10;fragment_his_&#9;FILE&#9;file://C:/Users/Ellly/Desktop/SourceCodeTempOnDesktop/CampusNews/CampusNewsClients/src/main/res/layout/fragment_his_topic.xml" />
     <property name="extract.method.default.visibility" value="private" />
   </component>
   <component name="RecentsManager">
+    <key name="android.template.parentActivityClass">
+      <recent name="" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Ellly\Desktop\SourceCodeTempOnDesktop\CampusNews\CampusNewsClients\src\main\res\drawable-xhdpi" />
       <recent name="C:\Users\Ellly\Desktop\SourceCodeTempOnDesktop\CampusNews\CampusNewsClients\src\main\res\menu" />
@@ -3437,19 +3315,19 @@
       <recent name="C:\Users\Ellly\Desktop\SourceCodeTempOnDesktop\CampusNews\CampusNewsClients\src\main" />
       <recent name="D:\MyAndroid\CampusNews4\CampusNewsClients\src\main\res\drawable-hdpi" />
     </key>
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="com.baibian.activity" />
-    </key>
     <key name="android.template.packageName">
       <recent name="com.baibian.activity" />
       <recent name="com.baibian.fragment.users_imformation" />
     </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.baibian.activity" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Ellly\Desktop\SourceCodeTempOnDesktop\CampusNews\CampusNewsClients\src\main\res\drawable-xhdpi" />
       <recent name="D:\MyAndroid\CampusNews4\CampusNewsClients\src\main\res\drawable-nodpi" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.baibian.activity" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.baibian.activity" />
     </key>
   </component>
   <component name="RunManager" selected="Android App.CampusNewsClients">
@@ -3810,7 +3688,8 @@
     <option name="remove_strategy" value="false" />
   </component>
   <component name="StructureViewFactory">
-    <option name="ACTIVE_ACTIONS" value=",SHOW_NON_PUBLIC,SHOW_FIELDS" />
+    <option name="AUTOSCROLL_MODE" value="false" />
+    <option name="ACTIVE_ACTIONS" value=",SHOW_PROPERTIES" />
   </component>
   <component name="SvnConfiguration">
     <configuration>C:\Users\lenovo\AppData\Roaming\Subversion</configuration>
@@ -3931,14 +3810,14 @@
     <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32585597" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6694215" sideWeight="0.4860515" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.66824085" sideWeight="0.4860515" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32467532" sideWeight="0.50214595" order="10" side_tool="true" content_ui="tabs" />
       <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.41322315" sideWeight="0.49784482" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.52360517" sideWeight="0.4935065" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25236967" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30418456" sideWeight="0.4935065" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2514758" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32467532" sideWeight="0.49785408" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32821724" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24892704" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -3946,10 +3825,10 @@
       <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="true" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16630901" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32939914" sideWeight="0.49586776" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4955654" sideWeight="0.49586776" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.49517167" sideWeight="0.49586776" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Android Model" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3251073" sideWeight="0.5064935" order="10" side_tool="true" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39905548" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.35182998" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5041322" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -4057,7 +3936,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/CampusNewsClients/src/main/java/com/baibian/activity/UsersImformationActivity.java</url>
-          <line>669</line>
+          <line>734</line>
           <properties />
           <option name="timeStamp" value="4" />
         </line-breakpoint>
@@ -4073,198 +3952,56 @@
           <properties />
           <option name="timeStamp" value="26" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/CampusNewsClients/src/main/java/com/baibian/activity/EditPortraitActivity.java</url>
+          <line>94</line>
+          <properties />
+          <option name="timeStamp" value="27" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/CampusNewsClients/src/main/java/com/baibian/activity/EditPortraitActivity.java</url>
+          <line>142</line>
+          <properties />
+          <option name="timeStamp" value="30" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/CampusNewsClients/src/main/java/com/baibian/activity/EditPortraitActivity.java</url>
+          <line>141</line>
+          <properties />
+          <option name="timeStamp" value="31" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/CampusNewsClients/src/main/java/com/baibian/activity/EditPortraitActivity.java</url>
+          <line>118</line>
+          <properties />
+          <option name="timeStamp" value="32" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/CampusNewsClients/src/main/java/com/baibian/activity/EditPortraitActivity.java</url>
+          <line>116</line>
+          <properties />
+          <option name="timeStamp" value="33" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/CampusNewsClients/src/main/java/com/baibian/activity/EditPortraitActivity.java</url>
+          <line>115</line>
+          <properties />
+          <option name="timeStamp" value="34" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="27" />
+      <option name="time" value="35" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="CampusNewsClients">
-        <watch expression="mLinearLayouts.size()" language="JAVA" />
-        <watch expression="mLinearLayouts.size() &lt; MAX_COUNT" language="JAVA" />
-        <watch expression="mLinearLayouts.indexOf(v.getParent())" language="JAVA" />
+        <watch expression="PERMISSION_CAMERA" language="JAVA" />
       </configuration>
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/CampusNewsClients/src/main/java/com/baibian/fragment/users_imformation/UserFragment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2600">
-          <caret line="87" column="0" selection-start-line="87" selection-start-column="0" selection-end-line="87" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CampusNewsClients/build/intermediates/res/merged/debug/layout/activity_edit_personal_information.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CampusNewsClients/src/main/java/com/baibian/behavior/PortraitBehavior.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="38" column="39" selection-start-line="38" selection-start-column="39" selection-end-line="38" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CampusNewsClients/src/main/java/com/baibian/listener/ReceiverTasksHelper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="9" column="1" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CampusNewsClients/src/main/java/com/baibian/receiver/TasksReceiver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CampusNewsClients/src/main/res/layout/edit_informationlayout.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="522">
-          <caret line="172" column="12" selection-start-line="172" selection-start-column="12" selection-end-line="172" selection-end-column="12" />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CampusNewsClients/build/generated/source/r/debug/com/baibian/R.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="271">
-          <caret line="5467" column="32" selection-start-line="5467" selection-start-column="32" selection-end-line="5467" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Android/sdk/sources/android-25/android/view/LayoutInflater.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="497">
-          <caret line="638" column="17" selection-start-line="638" selection-start-column="17" selection-end-line="638" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Android/sdk/sources/android-25/android/view/View.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="40">
-          <caret line="5242" column="0" selection-start-line="5242" selection-start-column="0" selection-end-line="5242" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Android/sdk/sources/android-25/java/util/List.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-586">
-          <caret line="535" column="0" selection-start-line="535" selection-start-column="0" selection-end-line="535" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Android/sdk/sources/android-25/android/widget/LinearLayout.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="271">
-          <caret line="64" column="0" selection-start-line="64" selection-start-column="0" selection-end-line="64" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CampusNewsClients/src/main/java/com/baibian/activity/Edit_Information_Activity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="683">
-          <caret line="148" column="0" selection-start-line="148" selection-start-column="0" selection-end-line="148" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/library_SlidingMenu/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="9" column="16" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CampusNewsClients/src/main/java/com/baibian/tool/LinearLayout_Inflaterable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="22" column="28" selection-start-line="22" selection-start-column="28" selection-end-line="22" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#1412#1413#0" expanded="false" />
-            <element signature="e#1456#1457#0" expanded="false" />
-            <element signature="e#2459#2460#0" expanded="false" />
-            <element signature="e#2526#2527#0" expanded="false" />
-            <element signature="e#3138#3139#0" expanded="false" />
-            <element signature="e#3213#3214#0" expanded="false" />
-            <element signature="e#3527#3528#0" expanded="false" />
-            <element signature="e#3578#3579#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CampusNewsClients/src/main/res/layout/edit_information_listitem.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="7" column="32" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CampusNewsClients/src/main/res/values/arrays.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="8" column="24" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CampusNewsClients/src/main/res/drawable/divider_bg.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="4" column="27" selection-start-line="4" selection-start-column="27" selection-end-line="4" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CampusNewsClients/src/main/AndroidManifest.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="648">
-          <caret line="81" column="11" selection-start-line="81" selection-start-column="11" selection-end-line="81" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="android-manifest">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CampusNewsClients/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="578">
-          <caret line="54" column="51" selection-start-line="54" selection-start-column="51" selection-end-line="54" selection-end-column="51" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.contrarywind/Android-PickerView/3.2.6/b7f1751b43b2f3adf5166ae91324a48daf41ed2c/Android-PickerView-3.2.6-sources.jar!/com/bigkoo/pickerview/view/WheelTime.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-16866">
           <caret line="76" column="25" selection-start-line="76" selection-start-column="25" selection-end-line="76" selection-end-column="25" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -4272,21 +4009,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="254">
           <caret line="318" column="23" selection-start-line="318" selection-start-column="23" selection-end-line="318" selection-end-column="23" />
-          <folding>
-            <element signature="e#17834#17835#0" expanded="true" />
-            <element signature="e#17865#17866#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CampusNewsClients/src/main/java/com/baibian/activity/EditPersonalInformationActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="107" column="62" selection-start-line="107" selection-start-column="62" selection-end-line="107" selection-end-column="62" />
-          <folding>
-            <element signature="e#4081#4327#0" expanded="true" />
-            <element signature="e#4326#4327#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -4324,7 +4046,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -4339,35 +4060,13 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/CampusNewsClients/src/main/res/layout/add_information_layout.xml">
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="160">
           <caret line="4" column="39" selection-start-line="4" selection-start-column="39" selection-end-line="4" selection-end-column="39" />
-          <folding>
-            <element signature="e#734#762#0" expanded="true" />
-            <element signature="e#793#821#0" expanded="true" />
-          </folding>
         </state>
-      </provider>
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CampusNewsClients/src/main/res/layout/activity_edit_personal_information.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="202">
-          <caret line="272" column="59" selection-start-line="272" selection-start-column="59" selection-end-line="272" selection-end-column="59" />
-          <folding>
-            <element signature="e#2729#2761#0" expanded="true" />
-            <element signature="e#2803#2831#0" expanded="true" />
-            <element signature="e#2874#2902#0" expanded="true" />
-            <element signature="e#8900#8928#0" expanded="true" />
-            <element signature="e#8971#8999#0" expanded="true" />
-            <element signature="e#9036#9068#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer2">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/CampusNewsClients/src/main/res/drawable-xhdpi/ic_personal_info.png">
@@ -4385,19 +4084,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CampusNewsClients/src/main/res/drawable-xhdpi/ic_drawer_appstore_pressed.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CampusNewsClients/src/main/res/drawable/ic_drawer_appstore.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="3" column="81" selection-start-line="3" selection-start-column="81" selection-end-line="3" selection-end-column="81" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/CampusNewsClients/src/main/res/drawable-xhdpi/ic_personal_level.png">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -4408,191 +4094,331 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CampusNewsClients/src/main/res/values/dimens.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="254">
-          <caret line="121" column="17" selection-start-line="121" selection-start-column="17" selection-end-line="121" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/CampusNewsClients/src/main/res/drawable/ic_drawer_offline.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="200">
           <caret line="5" column="57" selection-start-line="5" selection-start-column="57" selection-end-line="5" selection-end-column="57" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/CampusNewsClients/src/main/res/layout/activity_his_fans.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-360">
-          <caret line="4" column="39" selection-start-line="4" selection-start-column="39" selection-end-line="4" selection-end-column="39" />
-          <folding />
-        </state>
-      </provider>
       <provider editor-type-id="android-designer2">
         <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="4" column="39" selection-start-line="4" selection-start-column="39" selection-end-line="4" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CampusNewsClients/src/main/res/menu/toolbar.xml">
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="40">
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CampusNewsClients/src/main/java/com/baibian/view/InflatableLinearLayout.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4480">
+          <caret line="129" column="34" selection-start-line="129" selection-start-column="34" selection-end-line="129" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CampusNewsClients/src/main/res/values/dimens.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="683">
+          <caret line="121" column="17" selection-start-line="121" selection-start-column="17" selection-end-line="121" selection-end-column="17" />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/CampusNewsClients/src/main/java/com/baibian/activity/HisFansActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
+        <state relative-caret-position="683">
           <caret line="55" column="84" selection-start-line="55" selection-start-column="84" selection-end-line="55" selection-end-column="84" />
-          <folding>
-            <marker date="1502211168166" expanded="false" signature="3001:3147" ph="..." />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/CampusNewsClients/src/main/res/layout/fans_information_layout.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="602">
-          <caret line="35" column="28" selection-start-line="35" selection-start-column="28" selection-end-line="35" selection-end-column="28" />
-          <folding>
-            <element signature="e#2277#2302#0" expanded="true" />
-            <element signature="e#2336#2364#0" expanded="true" />
-            <element signature="e#2399#2427#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
       <provider editor-type-id="android-designer2">
         <state />
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CampusNewsClients/src/main/java/com/baibian/activity/login/GuideActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="305">
-          <caret line="22" column="27" selection-start-line="22" selection-start-column="27" selection-end-line="22" selection-end-column="27" />
+        <state relative-caret-position="648">
+          <caret line="21" column="32" selection-start-line="21" selection-start-column="32" selection-end-line="21" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CampusNewsClients/src/main/res/drawable/ic_drawer_appstore.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="3" column="80" selection-start-line="3" selection-start-column="80" selection-end-line="3" selection-end-column="80" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CampusNewsClients/src/main/res/drawable-xhdpi/ic_drawer_appstore_pressed.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CampusNewsClients/build/generated/source/r/debug/com/baibian/R.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="271">
+          <caret line="5703" column="32" selection-start-line="5703" selection-start-column="32" selection-end-line="5703" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CampusNewsClients/src/main/res/layout/fragment_user.xml">
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="7" column="36" selection-start-line="7" selection-start-column="36" selection-end-line="7" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CampusNewsClients/src/main/java/com/baibian/bean/HisUserContent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="271">
+          <caret line="15" column="42" selection-start-line="15" selection-start-column="42" selection-end-line="15" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CampusNewsClients/src/main/java/com/baibian/bean/UserInformationDetail.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="920">
+          <caret line="23" column="43" selection-start-line="23" selection-start-column="43" selection-end-line="23" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CampusNewsClients/src/main/java/com/baibian/tool/GoToInformationTool.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="443">
+          <caret line="15" column="62" selection-start-line="15" selection-start-column="62" selection-end-line="15" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CampusNewsClients/src/main/java/com/baibian/listener/OnClickToInformationListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CampusNewsClients/src/main/java/com/baibian/fragment/users_imformation/UserFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="97" column="67" selection-start-line="97" selection-start-column="67" selection-end-line="97" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="15" column="1" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/library_SlidingMenu/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="9" column="16" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CampusNewsClients/src/main/java/com/baibian/activity/EditPersonalInformationActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="385">
+          <caret line="127" column="0" selection-start-line="127" selection-start-column="0" selection-end-line="127" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CampusNewsClients/src/main/res/layout/activity_large.xml">
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CampusNewsClients/src/main/java/com/baibian/activity/LargeActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="32" column="4" selection-start-line="32" selection-start-column="4" selection-end-line="32" selection-end-column="4" />
+          <folding>
+            <element signature="e#1148#1290#0" expanded="false" />
+            <element signature="e#1289#1290#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CampusNewsClients/src/main/res/layout/activity_fullscreen_scoop.xml">
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="13" column="20" selection-start-line="13" selection-start-column="20" selection-end-line="13" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CampusNewsClients/src/main/java/com/baibian/activity/FullscreenScoopActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3520">
+          <caret line="117" column="25" selection-start-line="117" selection-start-column="25" selection-end-line="117" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CampusNewsClients/src/main/res/layout/activity_edit_personal_information.xml">
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5120">
+          <caret line="128" column="56" selection-start-line="128" selection-start-column="56" selection-end-line="128" selection-end-column="56" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/CampusNewsClients/src/main/res/layout/usersimformationlayout.xml">
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="12" column="33" selection-start-line="12" selection-start-column="33" selection-end-line="12" selection-end-column="33" />
+        <state relative-caret-position="1280">
+          <caret line="32" column="46" selection-start-line="32" selection-start-column="46" selection-end-line="32" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Android/sdk/sources/android-25/android/os/Handler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="271">
+          <caret line="516" column="25" selection-start-line="516" selection-start-column="25" selection-end-line="516" selection-end-column="25" />
           <folding>
-            <element signature="e#8535#8567#0" expanded="true" />
-            <element signature="e#8616#8648#0" expanded="true" />
-            <element signature="e#9177#9215#0" expanded="true" />
-            <element signature="e#9260#9309#0" expanded="true" />
-            <element signature="e#9789#9827#0" expanded="true" />
-            <element signature="e#9872#9921#0" expanded="true" />
-            <element signature="e#10382#10420#0" expanded="true" />
-            <element signature="e#10465#10514#0" expanded="true" />
-            <element signature="e#10956#10984#0" expanded="true" />
-            <element signature="e#11254#11303#0" expanded="true" />
-            <element signature="e#11355#11393#0" expanded="true" />
-            <element signature="e#11879#11917#0" expanded="true" />
-            <element signature="e#11962#12011#0" expanded="true" />
-            <element signature="e#12187#12219#0" expanded="true" />
-            <element signature="e#12268#12300#0" expanded="true" />
-            <element signature="e#12728#12760#0" expanded="true" />
-            <element signature="e#13212#13241#0" expanded="true" />
-            <element signature="e#13757#13789#0" expanded="true" />
-            <element signature="e#14169#14198#0" expanded="true" />
-            <element signature="e#14309#14347#0" expanded="true" />
-            <element signature="e#14605#14634#0" expanded="true" />
-            <element signature="e#14811#14849#0" expanded="true" />
-            <element signature="e#15114#15146#0" expanded="true" />
-            <element signature="e#15526#15555#0" expanded="true" />
-            <element signature="e#15666#15704#0" expanded="true" />
-            <element signature="e#15963#15992#0" expanded="true" />
-            <element signature="e#16168#16206#0" expanded="true" />
-            <element signature="e#16478#16510#0" expanded="true" />
-            <element signature="e#16890#16919#0" expanded="true" />
-            <element signature="e#17030#17068#0" expanded="true" />
-            <element signature="e#17328#17357#0" expanded="true" />
-            <element signature="e#17533#17571#0" expanded="true" />
-            <element signature="e#18118#18150#0" expanded="true" />
-            <element signature="e#18611#18643#0" expanded="true" />
-            <element signature="e#18937#18966#0" expanded="true" />
-            <element signature="e#19170#19202#0" expanded="true" />
-            <element signature="e#19582#19611#0" expanded="true" />
-            <element signature="e#19722#19760#0" expanded="true" />
-            <element signature="e#20235#20267#0" expanded="true" />
-            <element signature="e#20647#20676#0" expanded="true" />
-            <element signature="e#20787#20825#0" expanded="true" />
-            <element signature="e#21299#21331#0" expanded="true" />
-            <element signature="e#21711#21740#0" expanded="true" />
-            <element signature="e#21851#21889#0" expanded="true" />
-            <element signature="e#22491#22523#0" expanded="true" />
-            <element signature="e#22572#22604#0" expanded="true" />
-            <element signature="e#22752#22784#0" expanded="true" />
-            <element signature="e#23373#23406#0" expanded="true" />
-            <element signature="e#23780#23818#0" expanded="true" />
-            <element signature="e#24129#24167#0" expanded="true" />
-            <element signature="e#24485#24514#0" expanded="true" />
-            <element signature="e#24736#24774#0" expanded="true" />
-            <element signature="e#24819#24868#0" expanded="true" />
-            <element signature="e#24975#25013#0" expanded="true" />
-            <element signature="e#25061#25099#0" expanded="true" />
-            <element signature="e#25145#25177#0" expanded="true" />
-            <element signature="e#25226#25264#0" expanded="true" />
+            <element signature="e#21480#21481#0" expanded="true" />
+            <element signature="e#21529#21530#0" expanded="true" />
           </folding>
         </state>
       </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.android/build-cache/95ff9e54a5c8ef2215c1a3d9260906e4043ef07d/output/jars/classes.jar!/android/support/v4/app/ActivityCompat.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="139" column="0" selection-start-line="139" selection-start-column="0" selection-end-line="139" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CampusNewsClients/src/main/res/layout/activity_other_information.xml">
       <provider editor-type-id="android-designer2">
         <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="602">
+          <caret line="313" column="53" selection-start-line="313" selection-start-column="53" selection-end-line="313" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CampusNewsClients/src/main/java/com/baibian/activity/EditPortraitActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="403">
+          <caret line="73" column="5" selection-start-line="73" selection-start-column="5" selection-end-line="73" selection-end-column="5" />
+          <folding>
+            <element signature="e#2674#3546#0" expanded="true" />
+            <element signature="e#3545#3546#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CampusNewsClients/src/main/java/com/baibian/activity/OtherInformationActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="37" column="13" selection-start-line="37" selection-start-column="13" selection-end-line="37" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CampusNewsClients/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="733">
+          <caret line="54" column="29" selection-start-line="54" selection-start-column="29" selection-end-line="54" selection-end-column="29" />
+          <folding>
+            <marker date="1502464409024" expanded="true" signature="858:1831" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CampusNewsClients/src/main/java/com/baibian/activity/login/GuideActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="52">
+          <caret line="16" column="10" selection-start-line="16" selection-start-column="10" selection-end-line="16" selection-end-column="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/CampusNewsClients/src/main/java/com/baibian/activity/UsersImformationActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="201">
-          <caret line="572" column="0" selection-start-line="572" selection-start-column="0" selection-end-line="572" selection-end-column="0" />
+        <state relative-caret-position="203">
+          <caret line="566" column="34" selection-start-line="566" selection-start-column="34" selection-end-line="566" selection-end-column="34" />
           <folding>
             <element signature="docComment;method#initPersonalInfoCheckedVisible#0;class#UsersImformationActivity#0" expanded="false" />
             <element signature="method#initPersonalInfoCheckedVisible#0;class#UsersImformationActivity#0" expanded="false" />
             <element signature="method#onDestroy#0;class#UsersImformationActivity#0" expanded="false" />
             <element signature="docComment;method#initUserPortrait#0;class#UsersImformationActivity#0" expanded="false" />
-            <element signature="method#initUserPortrait#0;class#UsersImformationActivity#0" expanded="false" />
+            <element signature="e#10063#10991#0" expanded="true" />
+            <element signature="e#10990#10991#0" expanded="true" />
+            <element signature="e#11718#12638#0" expanded="true" />
+            <element signature="e#12637#12638#0" expanded="true" />
             <element signature="method#addHonorImageView#0;class#UsersImformationActivity#0" expanded="false" />
             <element signature="method#initRecyItemsData#0;class#UsersImformationActivity#0" expanded="false" />
-            <element signature="method#onCheckedChanged#0;class#UsersImformationActivity#0" expanded="false" />
-            <element signature="e#21786#21879#0" expanded="false" />
+            <element signature="e#24831#24924#0" expanded="false" />
             <element signature="docComment;method#onOptionsItemSelected#0;class#UsersImformationActivity#0" expanded="false" />
             <element signature="method#init_information#0;class#UsersImformationActivity#0" expanded="false" />
             <element signature="method#getin#0;class#UsersImformationActivity#0" expanded="false" />
-            <element signature="e#25848#25900#0" expanded="false" />
+            <element signature="e#29001#29053#0" expanded="false" />
             <element signature="method#GetUserImformation#0;class#UsersImformationActivity#0" expanded="false" />
             <element signature="method#ChangeToJSON#0;class#UsersImformationActivity#0" expanded="false" />
             <element signature="method#parseResultJSONObject#0;class#UsersImformationActivity#0" expanded="false" />
             <element signature="method#parseJSONObject#0;class#UsersImformationActivity#0" expanded="false" />
             <element signature="method#onBackPressed#0;class#UsersImformationActivity#0" expanded="false" />
             <element signature="method#init_viewpager#0;class#UsersImformationActivity#0" expanded="false" />
-            <element signature="class#29196:30090" expanded="false" />
-            <element signature="method#onPageScrolled#0;class#29196:30090" expanded="false" />
-            <element signature="method#onPageSelected#0;class#29196:30090" expanded="false" />
-            <element signature="method#onPageScrollStateChanged#0;class#29196:30090" expanded="false" />
-            <marker date="1502269432559" expanded="false" signature="30100:31638" ph="..." />
+            <element signature="class#32349:33243" expanded="false" />
+            <element signature="method#onPageScrolled#0;class#32349:33243" expanded="false" />
+            <element signature="method#onPageSelected#0;class#32349:33243" expanded="false" />
+            <element signature="method#onPageScrollStateChanged#0;class#32349:33243" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CampusNewsClients/src/main/res/menu/toolbar.xml">
+    <entry file="file://$PROJECT_DIR$/CampusNewsClients/src/main/AndroidManifest.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="40">
-          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+        <state relative-caret-position="348">
+          <caret line="12" column="68" selection-start-line="12" selection-start-column="68" selection-end-line="12" selection-end-column="68" />
           <folding />
         </state>
       </provider>
-      <provider editor-type-id="android-designer2">
+      <provider editor-type-id="android-manifest">
         <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CampusNewsClients/src/main/java/com/baibian/view/InflatableLinearLayout.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="523">
-          <caret line="132" column="26" selection-start-line="132" selection-start-column="26" selection-end-line="132" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#3302#3303#0" expanded="true" />
-            <element signature="e#3341#3342#0" expanded="true" />
-            <element signature="e#3381#3382#0" expanded="true" />
-            <element signature="e#3414#3415#0" expanded="true" />
-          </folding>
-        </state>
       </provider>
     </entry>
   </component>

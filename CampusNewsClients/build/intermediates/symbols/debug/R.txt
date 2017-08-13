@@ -2001,7 +2001,7 @@ int id action_next 0x7f0f0216
 int id action_previous 0x7f0f0215
 int id action_report 0x7f0f0217
 int id action_repost 0x7f0f0214
-int id action_settings 0x7f0f0230
+int id action_settings 0x7f0f022a
 int id action_share 0x7f0f0219
 int id action_text 0x7f0f01dd
 int id action_view_comment 0x7f0f0212
@@ -2089,10 +2089,7 @@ int id customview_layout 0x7f0f010b
 int id data_information 0x7f0f013b
 int id date 0x7f0f0153
 int id debate_close_topic 0x7f0f021f
-int id debate_point_switch 0x7f0f022a
-int id debate_presentation_switch 0x7f0f022b
 int id debate_topic_content 0x7f0f021b
-int id debate_topic_switch 0x7f0f0229
 int id debate_topic_title 0x7f0f021a
 int id decor_content_parent 0x7f0f0077
 int id default_activity_button 0x7f0f005c
@@ -2271,7 +2268,7 @@ int id mRadioGroup_content 0x7f0f01fa
 int id mViewPager 0x7f0f0200
 int id male_checkbox 0x7f0f012c
 int id margin 0x7f0f004e
-int id masked 0x7f0f022f
+int id masked 0x7f0f0229
 int id media_actions 0x7f0f01e1
 int id message_btn 0x7f0f017c
 int id message_setting 0x7f0f020a
@@ -2285,7 +2282,7 @@ int id my_category_text 0x7f0f00cd
 int id my_category_tip_text 0x7f0f00ce
 int id my_point_holder_layout 0x7f0f00be
 int id my_presentation_holder_layout 0x7f0f00c0
-int id my_share 0x7f0f022c
+int id my_share 0x7f0f0226
 int id my_topic_holder_layout 0x7f0f00bc
 int id navigation_header_container 0x7f0f00fa
 int id never 0x7f0f0046
@@ -2321,7 +2318,7 @@ int id parallax 0x7f0f003e
 int id parent 0x7f0f0010
 int id parentPanel 0x7f0f0062
 int id periodical_image_cover 0x7f0f01f1
-int id periodical_recycler_view 0x7f0f022d
+int id periodical_recycler_view 0x7f0f0227
 int id periodical_text_content 0x7f0f01f2
 int id personal_information_on_debate_layout 0x7f0f00bb
 int id pgc_btn 0x7f0f0176
@@ -2438,8 +2435,6 @@ int id status_bar_latest_event_content 0x7f0f01e0
 int id submenuarrow 0x7f0f0073
 int id submit_area 0x7f0f0084
 int id subscribe_main_layout 0x7f0f00cc
-int id switch_back_to_information 0x7f0f0228
-int id switch_to_toggle_buttons 0x7f0f0226
 int id tabMode 0x7f0f001b
 int id tab_layout 0x7f0f00a3
 int id tab_strip 0x7f0f0139
@@ -2509,16 +2504,15 @@ int id useLogo 0x7f0f0021
 int id userGridView 0x7f0f00d0
 int id user_honor_layout 0x7f0f00b9
 int id user_information_all 0x7f0f0223
-int id user_information_toggle_btn_layout 0x7f0f0227
 int id user_level 0x7f0f00ba
 int id user_name 0x7f0f0132
 int id user_name_edittext 0x7f0f012b
 int id user_personal_signal 0x7f0f0133
 int id user_portrait 0x7f0f009f
-int id user_private_message 0x7f0f0231
-int id user_share 0x7f0f0232
+int id user_private_message 0x7f0f022b
+int id user_share 0x7f0f022c
 int id user_tool_bar 0x7f0f0221
-int id user_write 0x7f0f0233
+int id user_write 0x7f0f022d
 int id usersName 0x7f0f016c
 int id v_dot0 0x7f0f0163
 int id v_dot1 0x7f0f0164
@@ -2529,7 +2523,7 @@ int id view1layout 0x7f0f0156
 int id view_offset_helper 0x7f0f000f
 int id view_pager 0x7f0f00a5
 int id viewpager 0x7f0f0138
-int id visible 0x7f0f022e
+int id visible 0x7f0f0228
 int id vp_top_news 0x7f0f01a7
 int id wb_details 0x7f0f0103
 int id wechat_btn 0x7f0f0173

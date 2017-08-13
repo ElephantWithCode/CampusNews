@@ -63,7 +63,7 @@ import java.util.jar.Manifest;
 
 import de.hdodenhof.circleimageview.CircleImageView;
 
-public class UsersImformationActivity extends AppCompatActivity implements View.OnClickListener, CompoundButton.OnCheckedChangeListener{
+public class UsersImformationActivity extends AppCompatActivity implements View.OnClickListener{
     private static final int CHANGE_IMAGE = 1;
     private static final int FROM_CAMERA = 2;
     private static final int FROM_ALBUM = 3;
@@ -157,7 +157,7 @@ public class UsersImformationActivity extends AppCompatActivity implements View.
     /**
      * Set the states of switches before entering the activity
      */
-     private void initPersonalInfoCheckedVisible() {
+     /*private void initPersonalInfoCheckedVisible() {
 
         isSwitchCheckedPreferences = getSharedPreferences("IS_SWITCH_CHECKED", MODE_PRIVATE);
 
@@ -173,7 +173,7 @@ public class UsersImformationActivity extends AppCompatActivity implements View.
             myPresentationLayout.setVisibility(View.GONE);
             debatePresentationSwitch.setChecked(false);
         }
-    }
+    }*/
 
     class PeriodicalAdapter extends RecyclerView.Adapter<PeriodicalAdapter.MyViewHolder> {
 
@@ -253,7 +253,7 @@ public class UsersImformationActivity extends AppCompatActivity implements View.
         initUserPortrait();
 
         init_information();
-        initPersonalInfoCheckedVisible();
+//        initPersonalInfoCheckedVisible();
 
         /*        UI_Tools ui_tools=new UI_Tools();
         ui_tools.CancelFocusOne(this,user_information_all,personalized_signature_edit);*/
@@ -346,15 +346,16 @@ public class UsersImformationActivity extends AppCompatActivity implements View.
     }
 
     private void initListenersOnView() {
-        debateTopicSwitch.setOnCheckedChangeListener(this);
-        debatePointSwitch.setOnCheckedChangeListener(this);
-        debatePresentationSwitch.setOnCheckedChangeListener(this);
         collapsingBarLayoutBackground.setOnClickListener(this);
-        switchToSwitches.setOnClickListener(this);
-        switchBack.setOnClickListener(this);
         backNav.setOnClickListener(this);
         userPortrait.setOnClickListener(this);
         editPersonalSignal.setOnClickListener(this);
+
+//        debateTopicSwitch.setOnCheckedChangeListener(this);
+//        debatePointSwitch.setOnCheckedChangeListener(this);
+//        debatePresentationSwitch.setOnCheckedChangeListener(this);
+//        switchBack.setOnClickListener(this);
+//        switchToSwitches.setOnClickListener(this);
     }
 
     private void initVariousViews() {
@@ -370,12 +371,6 @@ public class UsersImformationActivity extends AppCompatActivity implements View.
         backNav = (TextView) findViewById(R.id.back_nav_toolbar);
         toolbar = (Toolbar) findViewById(R.id.user_tool_bar);
         personalInformationDebateLayout = (LinearLayout) findViewById(R.id.personal_information_on_debate_layout);
-        userInformationSwitchBtns = (LinearLayout) findViewById(R.id.user_information_toggle_btn_layout);
-        switchToSwitches = (TextView) findViewById(R.id.switch_to_toggle_buttons);
-        switchBack = (TextView) findViewById(R.id.switch_back_to_information);
-        debateTopicSwitch = (Switch) findViewById(R.id.debate_topic_switch);
-        debatePointSwitch = (Switch) findViewById(R.id.debate_point_switch);
-        debatePresentationSwitch = (Switch) findViewById(R.id.debate_presentation_switch);
         myTopicLayout = (RelativeLayout) findViewById(R.id.my_topic_holder_layout);
         myPointLayout = (RelativeLayout) findViewById(R.id.my_point_holder_layout);
         myPresentationLayout = (RelativeLayout) findViewById(R.id.my_presentation_holder_layout);
@@ -384,6 +379,12 @@ public class UsersImformationActivity extends AppCompatActivity implements View.
 
         addHonorImageView(R.drawable.ic_action_favor);
 
+//        userInformationSwitchBtns = (LinearLayout) findViewById(R.id.user_information_toggle_btn_layout);
+//        switchBack = (TextView) findViewById(R.id.switch_back_to_information);
+//        debateTopicSwitch = (Switch) findViewById(R.id.debate_topic_switch);
+//        debatePointSwitch = (Switch) findViewById(R.id.debate_point_switch);
+//        debatePresentationSwitch = (Switch) findViewById(R.id.debate_presentation_switch);
+//        switchToSwitches = (TextView) findViewById(R.id.switch_to_toggle_buttons);
     }
 
     private void addHonorImageView(int resID) {
@@ -440,14 +441,18 @@ public class UsersImformationActivity extends AppCompatActivity implements View.
         }
     }
 
+/*
+
     @Override
     public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
 
         SharedPreferences.Editor editor = isSwitchCheckedPreferences.edit();
-        /**
+        */
+/**
          * To test the result I make the switches switch on the user interface.
          * (originally they should switch the interface that others see rather than the user's)
-         */
+         *//*
+
         switch (buttonView.getId()){
             case R.id.debate_topic_switch:
                 if (isChecked){
@@ -480,6 +485,7 @@ public class UsersImformationActivity extends AppCompatActivity implements View.
                 break;
         }
     }
+*/
 
     @Override
     public void onClick(View view) {
@@ -529,14 +535,16 @@ public class UsersImformationActivity extends AppCompatActivity implements View.
                         }
                     }
                 });
+
+                /*
             case R.id.switch_to_toggle_buttons:
                 personalInformationDebateLayout.setVisibility(View.GONE);
                 userInformationSwitchBtns.setVisibility(View.VISIBLE);
-                break;
+                break;*//*
             case R.id.switch_back_to_information:
                 userInformationSwitchBtns.setVisibility(View.GONE);
                 personalInformationDebateLayout.setVisibility(View.VISIBLE);
-                break;
+                break;*/
             case R.id.back_nav_toolbar:
                 finish();
                 overridePendingTransition(R.anim.slide_in_left, R.anim.slide_out_right);

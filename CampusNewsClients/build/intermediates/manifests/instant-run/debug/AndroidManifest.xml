@@ -43,11 +43,13 @@
         <activity
             android:name="com.baibian.activity.login.Welcome"
             android:label="@string/app_name" >
+            <!--
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+            -->
         </activity>
         <activity android:name="com.baibian.activity.MainActivity" />
         <activity android:name="com.baibian.activity.ChannelActivity" />
@@ -59,7 +61,15 @@
         <activity android:name="com.baibian.activity.login.registerActivity" />
         <activity android:name="com.baibian.activity.login.GuideActivity" />
         <activity android:name="com.baibian.activity.ChoiceDirectionActivity" />
-        <activity android:name="com.baibian.activity.UsersImformationActivity" />
+        <activity
+            android:name="com.baibian.activity.UsersImformationActivity"
+            android:label="LunDao" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
         <activity android:name="com.baibian.activity.setting.MessageSettingAcitivity" />
         <activity android:name="com.baibian.activity.setting.PushSetting" />
         <activity android:name="com.baibian.activity.Edit_Information_Activity" />

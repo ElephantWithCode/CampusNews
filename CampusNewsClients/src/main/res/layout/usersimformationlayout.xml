@@ -262,12 +262,12 @@
                     android:background="@color/account_account_bind" />
 
                 <LinearLayout
-                    android:visibility="gone"
                     android:id="@+id/personal_information_on_debate_layout"
                     android:orientation="vertical"
                     android:layout_height="wrap_content"
                     android:layout_width="match_parent">
 
+<!--
                     <RelativeLayout
                         android:layout_margin="@dimen/gap_in_user_information"
                         android:layout_width="match_parent"
@@ -285,6 +285,7 @@
                             android:gravity="center_vertical"
                             android:drawableLeft="@drawable/ic_action_report" />
                     </RelativeLayout>
+-->
 
                     <RelativeLayout
                         android:id="@+id/my_topic_holder_layout"
@@ -363,11 +364,10 @@
                     </RelativeLayout>
                 </LinearLayout>
 
-                <LinearLayout
+               <!-- <LinearLayout
                     android:id="@+id/user_information_toggle_btn_layout"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:visibility="gone"
                     android:orientation="vertical">
 
                     <RelativeLayout
@@ -452,7 +452,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content" />
                     </RelativeLayout>
-                </LinearLayout>
+                </LinearLayout>-->
 
                 <View
                     android:visibility="gone"

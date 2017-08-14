@@ -1,6 +1,7 @@
 package com.baibian.activity;
 
 import android.app.DatePickerDialog;
+import android.content.Context;
 import android.content.Intent;
 import android.graphics.Color;
 import android.graphics.drawable.ColorDrawable;
@@ -10,10 +11,15 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.DefaultItemAnimator;
 import android.support.v7.widget.DividerItemDecoration;
+import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.support.v7.widget.Toolbar;
 import android.view.LayoutInflater;
 import android.view.View;
+import android.view.ViewGroup;
+import android.view.WindowManager;
+import android.view.inputmethod.InputBinding;
+import android.view.inputmethod.InputMethodManager;
 import android.widget.ArrayAdapter;
 import android.widget.DatePicker;
 import android.widget.EditText;
@@ -30,7 +36,9 @@ import com.baibian.tool.DataTools;
 import com.baibian.tool.LinearLayout_Inflaterable;
 import com.baibian.tool.RecyclerViewCommonTool.CommonAdapter;
 import com.baibian.tool.RecyclerViewCommonTool.ViewHolder;
+import com.baibian.tool.ToastTools;
 import com.baibian.tool.UI_Tools;
+import com.baibian.view.CompletableEditText;
 
 import java.util.ArrayList;
 import java.util.Calendar;
@@ -43,15 +51,17 @@ public class EditPersonalInformationActivity extends AppCompatActivity implement
     private Toolbar mToolbar;
     private ImageView mArrowPortrait;
     private ImageView mArrowBirthDate;
-    private EditText mEditSignature;
-    private EditText mEditPhoneNumber;
-    private EditText mEditEmailNumber;
     private TextView mBirthDateContent;
     private int mYear, mMonth, mDay;
     private LinearLayout mResidenceLayout;
     private ImageView mAddResidence;
+    private PopupWindow window;
 
-    private EditText mEditName;
+    private CompletableEditText mEditPhoneNumber;
+    private CompletableEditText mEditEmailNumber;
+    private CompletableEditText mEditSignature;
+    private CompletableEditText mEditName;
+    private CompletableEditText.OnCancelFocusListener mCancelListener;
     private List<String> mData;
     private TextView mGender;
     private ImageView mArrowGender;
@@ -67,11 +77,24 @@ public class EditPersonalInformationActivity extends AppCompatActivity implement
         initViews();
 
         initCalender();
+        mCancelListener = new CompletableEditText.OnCancelFocusListener() {
+            @Override
+            public void cancelFocus(EditText editText) {
+                InputMethodManager imm  = (InputMethodManager) getSystemService(Context.INPUT_METHOD_SERVICE);
+                if (imm != null){
+                    imm.hideSoftInputFromWindow(getWindow().getDecorView().getWindowToken(), 0);
+                }
+                editText.clearFocus();
+            }
+        };
         mData = new ArrayList<>();
         mArrowPortrait.setOnClickListener(this);
         mArrowBirthDate.setOnClickListener(this);
         mArrowGender.setOnClickListener(this);
-
+        mEditName.setOnCancelFocusListener(mCancelListener);
+        mEditSignature.setOnCancelFocusListener(mCancelListener);
+        mEditEmailNumber.setOnCancelFocusListener(mCancelListener);
+        mEditPhoneNumber.setOnCancelFocusListener(mCancelListener);
 //        mArrayAdapter = new ArrayAdapter<String>(this, android.R.layout.simple_dropdown_item_1line, mGenders);
 //        mArrayAdapter.setDropDownViewResource(android.R.layout.simple_dropdown_item_1line);
 //        mSpinner.setAdapter(mArrayAdapter);
@@ -96,13 +119,13 @@ public class EditPersonalInformationActivity extends AppCompatActivity implement
 
         mBirthDateContent = (TextView) findViewById(R.id.birth_date_content);
         mArrowBirthDate = (ImageView) findViewById(R.id.birth_date_arrow);
-        mEditEmailNumber = (EditText) findViewById(R.id.email_number_content);
-        mEditPhoneNumber = (EditText) findViewById(R.id.phone_number_content);
+        mEditEmailNumber = (CompletableEditText) findViewById(R.id.email_number_content);
+        mEditPhoneNumber = (CompletableEditText) findViewById(R.id.phone_number_content);
         mArrowPortrait = (ImageView) findViewById(R.id.portrait_arrow);
         mGenders = getResources().getStringArray(R.array.spinner_genders);
         mToolbar = (Toolbar) findViewById(R.id.tool_bar);
-        mEditName = (EditText) findViewById(R.id.nick_name_content);
-        mEditSignature = (EditText) findViewById(R.id.signature_content);
+        mEditName = (CompletableEditText) findViewById(R.id.nick_name_content);
+        mEditSignature = (CompletableEditText) findViewById(R.id.signature_content);
 
         mGender = (TextView) findViewById(R.id.gender_select);
         mArrowGender = (ImageView) findViewById(R.id.gender_drop_down_arrow);
@@ -139,10 +162,10 @@ public class EditPersonalInformationActivity extends AppCompatActivity implement
                 break;
             case R.id.gender_drop_down_arrow:
 
-                View popupView = LayoutInflater.from(this).inflate(R.layout.personal_informartion_gender_popup_window, null, false);
-                final PopupWindow window = new PopupWindow(popupView, 400, 600);
-
+                ToastTools.ToastShow("TestPopup");
+                View popupView = LayoutInflater.from(this).inflate(R.layout.personal_informartion_gender_popup_window, null);
                 RecyclerView genderList = (RecyclerView) popupView.findViewById(R.id.gender_list);
+                genderList.setLayoutManager(new LinearLayoutManager(this));
                 genderList.addItemDecoration(new DividerItemDecoration(this, DividerItemDecoration.VERTICAL));
                 genderList.setAdapter(new CommonAdapter<GenderContent.Gender>(this, R.layout.gender_item, GenderContent.GENDERS){
                     @Override
@@ -158,11 +181,12 @@ public class EditPersonalInformationActivity extends AppCompatActivity implement
                         });
                     }
                 });
+                window = new PopupWindow(popupView, 300, ViewGroup.LayoutParams.WRAP_CONTENT, true);
                 window.setBackgroundDrawable(new ColorDrawable(Color.parseColor("#F8F8F8")));
                 window.setFocusable(true);
                 window.setOutsideTouchable(true);
                 window.update();
-                window.showAsDropDown(mArrowGender, 0, 20);
+                window.showAsDropDown(mArrowGender, -200, 0);
         }
     }
     public static class GenderContent{

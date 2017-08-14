@@ -21,6 +21,7 @@ import android.util.Base64;
 import android.util.Log;
 import android.view.View;
 import android.widget.AdapterView;
+import android.widget.ImageView;
 
 import com.baibian.R;
 import com.baibian.tool.ToastTools;
@@ -43,15 +44,18 @@ public class EditPortraitActivity extends AppCompatActivity implements View.OnCl
 
     private static final int PERMISSION_CAMERA = 1;
     private static final int PERMISSION_WRITE_EXTERNAL_STORAGE = 2;
-    private Handler imageLoadHandler;
-
-    private Uri mUri = null;
-    private Uri tempUri = null;
-    private Bitmap bitmap = null;
     private static final int CHANGE_IMAGE = 1;
     private static final int FROM_CAMERA = 2;
     private static final int FROM_ALBUM = 3;
+
+    private Handler imageLoadHandler;
+    private Uri mUri = null;
+    private Uri tempUri = null;
+    private Bitmap bitmap = null;
+
     private CircleImageView userPortrait;
+    private ImageView blurBackgroundView;
+
     final private String[] items = {"Scoop", "Capture", "Chosen from album"};
     final private String fileName = "head_portrait";
 
@@ -60,9 +64,14 @@ public class EditPortraitActivity extends AppCompatActivity implements View.OnCl
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_edit_portrait);
         userPortrait = (CircleImageView) findViewById(R.id.user_portrait);
+        blurBackgroundView = (ImageView) findViewById(R.id.blur_back_view);
         userPortrait.setOnClickListener(this);
+        initFileOfUri();
         initUserPortraitInAdvance();
 
+    }
+
+    private void initFileOfUri() {
         File appDir = new File(Environment.getExternalStorageDirectory(), "LunDao");
         if (!appDir.exists()){
             appDir.mkdir();
@@ -83,9 +92,10 @@ public class EditPortraitActivity extends AppCompatActivity implements View.OnCl
                     case CHANGE_IMAGE:
                         Log.d("Handler", "Handling1");
                         userPortrait.setImageBitmap(bitmap);
+//                        blurBackgroundView
                         break;
-                    case FROM_CAMERA:
-                        Log.d("Handler", "Handling2");
+                        case FROM_CAMERA:
+                            Log.d("Handler", "Handling2");
 //                        userPortrait.setImageBitmap(bitmap);
                         userPortrait.setImageBitmap((Bitmap) msg.obj);
                         break;
@@ -191,6 +201,7 @@ public class EditPortraitActivity extends AppCompatActivity implements View.OnCl
              * case 2 and 3 are used for accepting captures and photos from albums to set portrait
              */
             case Crop.REQUEST_CROP:
+                userPortrait.setImageURI(mUri);
                 new Thread(){
                     @Override
                     public void run() {
@@ -199,7 +210,6 @@ public class EditPortraitActivity extends AppCompatActivity implements View.OnCl
                         sendBroadcastToChangeImage();
                     }
                 }.start();
-                userPortrait.setImageURI(mUri);
                 break;
             case 2:
                 if (data != null) {

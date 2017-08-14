@@ -74,8 +74,8 @@ public class OtherInformationActivity extends AppCompatActivity implements View.
         hisTopic.setOnClickListener(this);
         hisPoint.setOnClickListener(this);
         hisPresentation.setOnClickListener(this);
-        userPortrait.setOnLongClickListener(this);
-        collapsingImageView.setOnLongClickListener(this);
+        userPortrait.setOnClickListener(this);
+        collapsingImageView.setOnClickListener(this);
     }
 
     private void initData() {
@@ -140,6 +140,17 @@ public class OtherInformationActivity extends AppCompatActivity implements View.
     @Override
     public void onClick(View v) {
         switch (v.getId()){
+
+            case R.id.other_user_portrait:
+                Intent intent9 = new Intent(OtherInformationActivity.this, FullscreenScoopActivity.class);
+                intent9.putExtra("user_portrait_url", userPortraitImageUrl);
+                startActivity(intent9);
+                break;
+            case R.id.other_information_background:
+                Intent intent10 = new Intent(OtherInformationActivity.this, FullscreenScoopActivity.class);
+                intent10.putExtra("user_portrait_url", backgroundImageUrl);
+                startActivity(intent10);
+                break;
             case R.id.his_topic:
                 Intent intent = new Intent(OtherInformationActivity.this, HisFocusActivity.class);
                 startActivity(intent);
@@ -184,18 +195,6 @@ public class OtherInformationActivity extends AppCompatActivity implements View.
 
     @Override
     public boolean onLongClick(View v) {
-
-        switch (v.getId()){
-            case R.id.other_user_portrait:
-                Intent intent = new Intent(OtherInformationActivity.this, FullscreenScoopActivity.class);
-                intent.putExtra("user_portrait_url", userPortraitImageUrl);
-                startActivity(intent);
-                break;
-            case R.id.other_information_background:
-                Intent intent1 = new Intent(OtherInformationActivity.this, FullscreenScoopActivity.class);
-                intent1.putExtra("user_portrait_url", backgroundImageUrl);
-                startActivity(intent1);
-        }
         return false;
     }
 }

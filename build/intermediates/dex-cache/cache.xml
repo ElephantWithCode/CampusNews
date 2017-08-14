@@ -2,112 +2,67 @@
 <items version="2" >
 
     <item
-        is-multidex="false"
+        is-multidex="true"
         jar="C:\Users\Ellly\Desktop\SourceCodeTempOnDesktop\CampusNews\CampusNewsClients\build\intermediates\exploded-aar\com.github.gabrielemariotti.recyclerview\recyclerview-animators\0.3.0-SNAPSHOT\jars\classes.jar"
-        jumboMode="false"
+        jumboMode="true"
         optimize="true"
         revision="25.0.2"
         sha1="940a4e6d5d64deee58c07673cb65a4557e1637af">
-        <dex dex="C:\Users\Ellly\Desktop\SourceCodeTempOnDesktop\CampusNews\CampusNewsClients\build\intermediates\pre-dexed\debug\com.github.gabrielemariotti.recyclerview-recyclerview-animators-0.3.0-SNAPSHOT_a32f0d1b952e45bff6512bdcf9865276cb3399a3.jar" />
+        <dex dex="C:\Users\Ellly\Desktop\SourceCodeTempOnDesktop\CampusNews\CampusNewsClients\build\intermediates\transforms\dex\debug\folders\1000\10\com.github.gabrielemariotti.recyclerview-recyclerview-animators-0.3.0-SNAPSHOT_a32f0d1b952e45bff6512bdcf9865276cb3399a3\classes.dex" />
     </item>
     <item
-        is-multidex="false"
-        jar="C:\Users\Ellly\.android\build-cache\1b0f63f74001fdeeaeb6bceb366b47a273ed13d4\output\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="117dde8406e2a9aed9d525a23ea465952d601072">
-        <dex dex="C:\Users\Ellly\Desktop\SourceCodeTempOnDesktop\CampusNews\CampusNewsClients\build\intermediates\pre-dexed\debug\classes_25993b438ae829fea7e931753d7651de78acb7b2.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Ellly\Desktop\SourceCodeTempOnDesktop\CampusNews\CampusNewsClients\libs\universal-image-loader-1.9.2-SNAPSHOT-with-sources.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="e33324b770223932d467e4ec39639b0c15f3b94e">
-        <dex dex="C:\Users\Ellly\Desktop\SourceCodeTempOnDesktop\CampusNews\CampusNewsClients\build\intermediates\pre-dexed\debug\universal-image-loader-1.9.2-SNAPSHOT-with-sources_d584a7ca9d0fba0e0ee31215f7ec7e0c44210071.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Ellly\.gradle\caches\modules-2\files-2.1\com.github.bumptech.glide\glide\3.7.0\9e9eeaf9948ee4d6c3ab354e8dc14368f16994a4\glide-3.7.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="9e9eeaf9948ee4d6c3ab354e8dc14368f16994a4">
-        <dex dex="C:\Users\Ellly\Desktop\SourceCodeTempOnDesktop\CampusNews\CampusNewsClients\build\intermediates\pre-dexed\debug\glide-3.7.0_09e1f7c24932a8f98c5c55b1368e395e2c0d5030.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Ellly\.android\build-cache\0226137638ece7c4e0dc2008784d26bf82f8c93a\output\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="a2af9c72ccaa4c5c049b500ca6ea664a4ce1f7d4">
-        <dex dex="C:\Users\Ellly\Desktop\SourceCodeTempOnDesktop\CampusNews\CampusNewsClients\build\intermediates\pre-dexed\debug\classes_063ace77d29097550a5d9a2a0e91c310bd51886a.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Ellly\Desktop\SourceCodeTempOnDesktop\CampusNews\library_SlidingMenu\build\intermediates\bundles\default\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="1fb9b19e6b1a51816a0c6fbf2e6fdd399d68a069">
-        <dex dex="C:\Users\Ellly\Desktop\SourceCodeTempOnDesktop\CampusNews\CampusNewsClients\build\intermediates\pre-dexed\debug\classes_a7f009a73bd777dc07ddec25eaf2cec8b4672fa1.jar" />
-    </item>
-    <item
-        is-multidex="false"
+        is-multidex="true"
         jar="C:\Users\Ellly\Desktop\SourceCodeTempOnDesktop\CampusNews\CampusNewsClients\libs\jsoup-1.7.2.jar"
-        jumboMode="false"
+        jumboMode="true"
         optimize="true"
         revision="25.0.2"
         sha1="872693211fd68d1c4e116cf90021603207725e19">
-        <dex dex="C:\Users\Ellly\Desktop\SourceCodeTempOnDesktop\CampusNews\CampusNewsClients\build\intermediates\pre-dexed\debug\jsoup-1.7.2_fa62f52b38d4c6930748916d1aa95e6ce3f0750e.jar" />
+        <dex dex="C:\Users\Ellly\Desktop\SourceCodeTempOnDesktop\CampusNews\CampusNewsClients\build\intermediates\transforms\dex\debug\folders\1000\2\jsoup-1.7.2_fa62f52b38d4c6930748916d1aa95e6ce3f0750e\classes.dex" />
     </item>
     <item
-        is-multidex="false"
-        jar="C:\Users\Ellly\Desktop\SourceCodeTempOnDesktop\CampusNews\CampusNewsClients\libs\MobCommons-2016.1201.1839.jar"
-        jumboMode="false"
+        is-multidex="true"
+        jar="C:\Users\Ellly\Desktop\SourceCodeTempOnDesktop\CampusNews\CampusNewsClients\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="d2416fb4e3fe16c82785fc6cd4f8b768b25c6202">
-        <dex dex="C:\Users\Ellly\Desktop\SourceCodeTempOnDesktop\CampusNews\CampusNewsClients\build\intermediates\pre-dexed\debug\MobCommons-2016.1201.1839_c7b3522b9a63c04323d565bc05ae3555a855f528.jar" />
+        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
+        <dex dex="C:\Users\Ellly\Desktop\SourceCodeTempOnDesktop\CampusNews\CampusNewsClients\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_d9faf54adba67add2cab8f361a4a9cb3b42ab845\classes.dex" />
     </item>
     <item
-        is-multidex="false"
+        is-multidex="true"
         jar="C:\Users\Ellly\Desktop\SourceCodeTempOnDesktop\CampusNews\CampusNewsClients\libs\MobTools-2016.1201.1839.jar"
-        jumboMode="false"
+        jumboMode="true"
         optimize="true"
         revision="25.0.2"
         sha1="28b130b739199908b8b9f82d6cc77043b5040d25">
-        <dex dex="C:\Users\Ellly\Desktop\SourceCodeTempOnDesktop\CampusNews\CampusNewsClients\build\intermediates\pre-dexed\debug\MobTools-2016.1201.1839_754015804160c9f8747c2ac72c2dbf2867934ded.jar" />
+        <dex dex="C:\Users\Ellly\Desktop\SourceCodeTempOnDesktop\CampusNews\CampusNewsClients\build\intermediates\transforms\dex\debug\folders\1000\2\MobTools-2016.1201.1839_754015804160c9f8747c2ac72c2dbf2867934ded\classes.dex" />
     </item>
     <item
-        is-multidex="false"
-        jar="C:\Users\Ellly\.android\build-cache\63a0211a2c6f12a902a6e96a4b3d7f6f417835f8\output\jars\classes.jar"
-        jumboMode="false"
+        is-multidex="true"
+        jar="C:\Users\Ellly\Desktop\SourceCodeTempOnDesktop\CampusNews\CampusNewsClients\libs\MobCommons-2016.1201.1839.jar"
+        jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="11a65cf2b30c192b38a881d626fa771a78a2293d">
-        <dex dex="C:\Users\Ellly\Desktop\SourceCodeTempOnDesktop\CampusNews\CampusNewsClients\build\intermediates\pre-dexed\debug\classes_f1ad56f7867480c4e0a690e66f24fcf313426393.jar" />
+        sha1="d2416fb4e3fe16c82785fc6cd4f8b768b25c6202">
+        <dex dex="C:\Users\Ellly\Desktop\SourceCodeTempOnDesktop\CampusNews\CampusNewsClients\build\intermediates\transforms\dex\debug\folders\1000\2\MobCommons-2016.1201.1839_c7b3522b9a63c04323d565bc05ae3555a855f528\classes.dex" />
     </item>
     <item
-        is-multidex="false"
-        jar="C:\Users\Ellly\.android\build-cache\36286916046d470b8a4faaaed7eacbd639af1e7c\output\jars\classes.jar"
-        jumboMode="false"
+        is-multidex="true"
+        jar="C:\Users\Ellly\Desktop\SourceCodeTempOnDesktop\CampusNews\CampusNewsClients\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="183fcbfcca75b095b63125f5e31ebd8b5f5f3216">
-        <dex dex="C:\Users\Ellly\Desktop\SourceCodeTempOnDesktop\CampusNews\CampusNewsClients\build\intermediates\pre-dexed\debug\classes_07585ced861025660abbb3500ec16c7ec13ef206.jar" />
+        sha1="7758ea7312d2a114e5a2e530a24b00674e1f5589">
+        <dex dex="C:\Users\Ellly\Desktop\SourceCodeTempOnDesktop\CampusNews\CampusNewsClients\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_d8c7e075e4c9670dd5123bd2f7d7a56014de0361\classes.dex" />
     </item>
     <item
-        is-multidex="false"
-        jar="C:\Users\Ellly\.android\build-cache\41d52973ef46f4d087cd1b6a420fb3393b7ad44f\output\jars\classes.jar"
-        jumboMode="false"
+        is-multidex="true"
+        jar="C:\Users\Ellly\Desktop\SourceCodeTempOnDesktop\CampusNews\CampusNewsClients\libs\universal-image-loader-1.9.2-SNAPSHOT-with-sources.jar"
+        jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="fc6d206c94c04bb831ae00c9f6a2833e6aab8a73">
-        <dex dex="C:\Users\Ellly\Desktop\SourceCodeTempOnDesktop\CampusNews\CampusNewsClients\build\intermediates\pre-dexed\debug\classes_510c6dd4cd69bd2677ef540b6a4099c30a21a268.jar" />
+        sha1="e33324b770223932d467e4ec39639b0c15f3b94e">
+        <dex dex="C:\Users\Ellly\Desktop\SourceCodeTempOnDesktop\CampusNews\CampusNewsClients\build\intermediates\transforms\dex\debug\folders\1000\2\universal-image-loader-1.9.2-SNAPSHOT-with-sources_d584a7ca9d0fba0e0ee31215f7ec7e0c44210071\classes.dex" />
     </item>
 
 </items>

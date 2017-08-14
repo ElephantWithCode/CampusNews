@@ -10,6 +10,7 @@
 
     <LinearLayout
 
+        android:id="@+id/edit_personal_information_all"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:background="@color/top_category_bar_background_day"
@@ -66,6 +67,8 @@
             </RelativeLayout>
 
             <RelativeLayout
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
                 android:padding="@dimen/general_user_small_padding"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content">
@@ -78,8 +81,7 @@
                     android:textSize="@dimen/other_small_text_size"
                     android:text="@string/signature"
                     android:textColor="@color/text_color_pure_black_user_information" />
-
-                <EditText
+                <com.baibian.view.CompletableEditText
                     android:id="@+id/signature_content"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -120,7 +122,7 @@
                     android:text="@string/nick_name"
                     android:textColor="@color/text_color_pure_black_user_information" />
 
-                <EditText
+                <com.baibian.view.CompletableEditText
                     android:id="@+id/nick_name_content"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -134,6 +136,8 @@
             </RelativeLayout>
 
             <RelativeLayout
+                android:paddingBottom="@dimen/gap_in_user_information"
+                android:paddingTop="@dimen/gap_in_user_information"
                 android:paddingEnd="@dimen/general_user_small_padding"
                 android:paddingStart="@dimen/general_user_small_padding"
                 android:layout_width="match_parent"
@@ -243,7 +247,7 @@
                     android:layout_centerVertical="true"
                     android:text="@string/phone_number" />
 
-                <EditText
+                <com.baibian.view.CompletableEditText
                     android:id="@+id/phone_number_content"
                     android:text="1234567890"
                     android:textSize="@dimen/other_small_text_size"
@@ -269,7 +273,7 @@
                     android:layout_centerVertical="true"
                     android:text="@string/email_number" />
 
-                <EditText
+                <com.baibian.view.CompletableEditText
                     android:id="@+id/email_number_content"
                     android:text="1234567890"
                     android:textSize="@dimen/other_small_text_size"

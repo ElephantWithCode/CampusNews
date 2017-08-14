@@ -535,6 +535,7 @@ public class UsersImformationActivity extends AppCompatActivity implements View.
                         }
                     }
                 });
+                break;
 
                 /*
             case R.id.switch_to_toggle_buttons:

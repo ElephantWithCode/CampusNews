@@ -39,6 +39,15 @@
     </item>
     <item
         is-multidex="true"
+        jar="C:\Users\Ellly\.android\build-cache\f76312d758cd12c84aaedac106585a52e7e14b91\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="914f5d3e3ace66080e59613708f06d129a222e25">
+        <dex dex="C:\Users\Ellly\Desktop\SourceCodeTempOnDesktop\CampusNews\CampusNewsClients\build\intermediates\transforms\dex\debug\folders\1000\10\classes_3d43f200c1e4be75fb3584e571a8e48ef5c7220d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="C:\Users\Ellly\Desktop\SourceCodeTempOnDesktop\CampusNews\CampusNewsClients\libs\MobCommons-2016.1201.1839.jar"
         jumboMode="true"
         optimize="true"

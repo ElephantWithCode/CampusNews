@@ -464,6 +464,10 @@
         "source": "C:\\Users\\Ellly\\Desktop\\SourceCodeTempOnDesktop\\CampusNews\\CampusNewsClients\\src\\main\\res\\drawable\\bg_head_pressed.xml"
     },
     {
+        "merged": "C:\\Users\\Ellly\\Desktop\\SourceCodeTempOnDesktop\\CampusNews\\CampusNewsClients\\build\\intermediates\\res\\merged\\debug\\drawable\\divider_transparent.xml",
+        "source": "C:\\Users\\Ellly\\Desktop\\SourceCodeTempOnDesktop\\CampusNews\\CampusNewsClients\\src\\main\\res\\drawable\\divider_transparent.xml"
+    },
+    {
         "merged": "C:\\Users\\Ellly\\Desktop\\SourceCodeTempOnDesktop\\CampusNews\\CampusNewsClients\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_action_previous.xml",
         "source": "C:\\Users\\Ellly\\Desktop\\SourceCodeTempOnDesktop\\CampusNews\\CampusNewsClients\\src\\main\\res\\drawable\\ic_action_previous.xml"
     },

@@ -32,6 +32,7 @@ MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\Ellly
 MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\Ellly\.android\build-cache\b256409736e30d0a072e169a07eb027a49a3ae95\output\AndroidManifest.xml:20:5-43
 MERGED from [de.hdodenhof:circleimageview:2.1.0] C:\Users\Ellly\.android\build-cache\0226137638ece7c4e0dc2008784d26bf82f8c93a\output\AndroidManifest.xml:5:5-7:41
 MERGED from [com.soundcloud.android:android-crop:1.0.1] C:\Users\Ellly\.android\build-cache\63a0211a2c6f12a902a6e96a4b3d7f6f417835f8\output\AndroidManifest.xml:6:5-8:41
+MERGED from [com.android.support:cardview-v7:25.3.1] C:\Users\Ellly\.android\build-cache\f76312d758cd12c84aaedac106585a52e7e14b91\output\AndroidManifest.xml:20:5-43
 MERGED from [com.github.chrisbanes:PhotoView:2.0.0] C:\Users\Ellly\.android\build-cache\36286916046d470b8a4faaaed7eacbd639af1e7c\output\AndroidManifest.xml:8:5-10:41
 MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Ellly\.android\build-cache\28e4799317c9c951ffaaf7c23fc8bbd14b2155dc\output\AndroidManifest.xml:5:5-7:41
 MERGED from [com.android.support:support-v4:25.3.1] C:\Users\Ellly\.android\build-cache\d08c1f549f8a8a4595d084a82f639d55c47b685d\output\AndroidManifest.xml:21:5-23:54
@@ -121,6 +122,7 @@ MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\Ellly\.android\bu
 MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\Ellly\.android\build-cache\b9965bafda82946fc50d4a417251f1f10ad9937c\output\AndroidManifest.xml:26:5-20
 MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\Ellly\.android\build-cache\b256409736e30d0a072e169a07eb027a49a3ae95\output\AndroidManifest.xml:26:5-20
 MERGED from [de.hdodenhof:circleimageview:2.1.0] C:\Users\Ellly\.android\build-cache\0226137638ece7c4e0dc2008784d26bf82f8c93a\output\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support:cardview-v7:25.3.1] C:\Users\Ellly\.android\build-cache\f76312d758cd12c84aaedac106585a52e7e14b91\output\AndroidManifest.xml:26:5-20
 MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Ellly\.android\build-cache\28e4799317c9c951ffaaf7c23fc8bbd14b2155dc\output\AndroidManifest.xml:9:5-20
 MERGED from [com.android.support:support-v4:25.3.1] C:\Users\Ellly\.android\build-cache\d08c1f549f8a8a4595d084a82f639d55c47b685d\output\AndroidManifest.xml:29:5-20
 MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\Ellly\.android\build-cache\476b10bb5a62485045e51446864aefe7be7ddb5a\output\AndroidManifest.xml:29:5-20
@@ -290,6 +292,7 @@ MERGED from [com.android.support:transition:25.3.1] C:\Users\Ellly\.android\buil
 MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\Ellly\.android\build-cache\1ead68c499c9867fc36eeab714be3b13d75f861d\output\AndroidManifest.xml:25:5-27:34
 MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\Ellly\.android\build-cache\b9965bafda82946fc50d4a417251f1f10ad9937c\output\AndroidManifest.xml:22:5-24:34
 MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\Ellly\.android\build-cache\b256409736e30d0a072e169a07eb027a49a3ae95\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:cardview-v7:25.3.1] C:\Users\Ellly\.android\build-cache\f76312d758cd12c84aaedac106585a52e7e14b91\output\AndroidManifest.xml:22:5-24:34
 MERGED from [com.android.support:support-v4:25.3.1] C:\Users\Ellly\.android\build-cache\d08c1f549f8a8a4595d084a82f639d55c47b685d\output\AndroidManifest.xml:25:5-27:34
 MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\Ellly\.android\build-cache\476b10bb5a62485045e51446864aefe7be7ddb5a\output\AndroidManifest.xml:25:5-27:34
 MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\Ellly\.android\build-cache\913a46e9458f07e700f4408a6559ae6b17a6fa24\output\AndroidManifest.xml:25:5-27:34

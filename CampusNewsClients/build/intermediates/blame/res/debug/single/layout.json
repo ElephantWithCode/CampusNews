@@ -252,6 +252,10 @@
         "source": "C:\\Users\\Ellly\\Desktop\\SourceCodeTempOnDesktop\\CampusNews\\CampusNewsClients\\src\\main\\res\\layout\\personal_informartion_gender_popup_window.xml"
     },
     {
+        "merged": "C:\\Users\\Ellly\\Desktop\\SourceCodeTempOnDesktop\\CampusNews\\CampusNewsClients\\build\\intermediates\\res\\merged\\debug\\layout\\comment_card_view.xml",
+        "source": "C:\\Users\\Ellly\\Desktop\\SourceCodeTempOnDesktop\\CampusNews\\CampusNewsClients\\src\\main\\res\\layout\\comment_card_view.xml"
+    },
+    {
         "merged": "C:\\Users\\Ellly\\Desktop\\SourceCodeTempOnDesktop\\CampusNews\\CampusNewsClients\\build\\intermediates\\res\\merged\\debug\\layout\\list_item_pop.xml",
         "source": "C:\\Users\\Ellly\\Desktop\\SourceCodeTempOnDesktop\\CampusNews\\CampusNewsClients\\src\\main\\res\\layout\\list_item_pop.xml"
     },

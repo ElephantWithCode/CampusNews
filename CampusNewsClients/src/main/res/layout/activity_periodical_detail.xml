@@ -80,7 +80,7 @@
                     <com.like.LikeButton
                         android:id="@+id/recommend_button"
                         app:icon_type="heart"
-                        app:icon_size="10dp"
+                        app:icon_size="15dp"
                         android:layout_centerVertical="true"
                         android:layout_alignTop="@id/recommend_text"
                         android:layout_alignBottom="@id/recommend_text"
@@ -226,6 +226,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content" />
                 <ImageView
+                    android:layout_centerVertical="true"
                     android:id="@+id/arrow_category"
                     android:src="@drawable/ic_personal_expand_right"
                     android:layout_alignParentEnd="true"
@@ -266,10 +267,8 @@
                     android:layout_below="@id/comment_text"
                     android:orientation="vertical"
                     android:id="@+id/comment_father_view_layout"
-                    android:background="#123456"
                     android:layout_width="match_parent"
-                    android:layout_height="500dp">
-
+                    android:layout_height="wrap_content">
                 </LinearLayout>
             </RelativeLayout>
         </LinearLayout>

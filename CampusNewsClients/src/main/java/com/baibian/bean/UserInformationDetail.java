@@ -23,6 +23,7 @@ public class UserInformationDetail {
     private String mSchoolName;
     private String mGenderAgeConstellation;
     private String[] mAchievements;
+    private String[] mLocations;
     private long mLevel;
 
     private long mTopics;

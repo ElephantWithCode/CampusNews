@@ -1,16 +1,23 @@
 package com.baibian.activity;
 
 import android.animation.ValueAnimator;
+import android.app.AlertDialog;
+import android.graphics.Rect;
+import android.os.Handler;
+import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.widget.Toolbar;
 import android.util.Log;
 import android.view.View;
+import android.view.ViewGroup;
 import android.view.animation.AccelerateInterpolator;
 import android.view.animation.DecelerateInterpolator;
 import android.widget.Button;
 import android.widget.LinearLayout;
 import android.widget.RelativeLayout;
 import android.widget.ScrollView;
+import android.widget.TextView;
 
 import com.baibian.R;
 import com.baibian.tool.MeasureTools;
@@ -18,15 +25,21 @@ import com.baibian.tool.ToastTools;
 import com.baibian.view.CommentCardView;
 import com.baibian.view.ListenerScrollView;
 
+import org.w3c.dom.Text;
+
 import java.util.ArrayList;
 import java.util.List;
 
-public class PeriodicalDetailActivity extends AppCompatActivity {
+public class PeriodicalDetailActivity extends AppCompatActivity implements View.OnClickListener{
 
     private static final String TAG = "periodical_detail_activity";
     private ListenerScrollView mScrollView;
     private RelativeLayout mBottomNavBar;
     private LinearLayout mCommentFatherLayout;
+    private TextView mWriteComment;
+    private RelativeLayout mLoadingView;
+    private Toolbar mToolbar;
+    private Handler mHandler;
     private int mBottomHeight = 0;
     private int mBottomOriginHeight = 0;
     private List<CommentCardView.CardContent> mCardDatas = new ArrayList<>();
@@ -35,14 +48,26 @@ public class PeriodicalDetailActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_periodical_detail);
 
+        initVariousViews();
 
-        mScrollView = (ListenerScrollView) findViewById(R.id.scroll_view);
-        mBottomNavBar = (RelativeLayout) findViewById(R.id.bottom_nav_bar);
-        mCommentFatherLayout = (LinearLayout) findViewById(R.id.comment_father_view_layout);
+        initToolbar();
 
-        mBottomOriginHeight = mBottomHeight = MeasureTools.measureWidthAndHeight(mBottomNavBar)[1];
+        initListeners();
 
+        initCommentContent();
 
+    }
+
+    private void initToolbar() {
+        setSupportActionBar(mToolbar);
+        ActionBar actionBar = getSupportActionBar();
+        if (actionBar != null){
+            actionBar.setDisplayHomeAsUpEnabled(true);
+        }
+    }
+
+    private void initListeners() {
+        mWriteComment.setOnClickListener(this);
         mScrollView.setOnScrollDownListener(new ListenerScrollView.OnScrollDownListener() {
             @Override
             public void onScrollDownComplete(float scrollY) {
@@ -60,14 +85,42 @@ public class PeriodicalDetailActivity extends AppCompatActivity {
             }
 
             @Override
-            public void onDropReleased(int offsetY) {
-                mCommentFatherLayout.addView(new Button(PeriodicalDetailActivity.this));
+            public Rect onDropReleased(int offsetY, final View inner) {
+                final Rect mNewLayout = new Rect();
+//                int measuredHeightBefore = MeasureTools.measureWidthAndHeight(inner)[1];
+//                mNewLayout.set(inner.getLeft(), inner.getTop(), inner.getRight(), inner.getTop() + measuredHeightBefore);
+//                mNewLayout.set(inner.getLeft(), inner.getTop(), inner.getRight(), inner.getBottom());
+//                mCommentFatherLayout.addView(new Button(PeriodicalDetailActivity.this));
+
+//                mCommentFatherLayout.addView(new CommentCardView(PeriodicalDetailActivity.this));
+
+                mLoadingView.setVisibility(View.VISIBLE);
+                mHandler.postDelayed(new Runnable() {
+                    @Override
+                    public void run() {
+                        mCommentFatherLayout.addView(new CommentCardView(PeriodicalDetailActivity.this));
+                        mLoadingView.setVisibility(View.INVISIBLE);
+                        ToastTools.ToastShow("Add Successfully");
+                    }
+                } ,1000);
+                int measuredHeight = MeasureTools.measureWidthAndHeight(inner)[1];
+                mNewLayout.set(inner.getLeft(), inner.getTop(), inner.getRight(), inner.getTop() + measuredHeight);
                 ToastTools.ToastShow("HHHHHHHHH");
+                Log.d(TAG + 123, mNewLayout.top +" "+ mNewLayout.left);
+                return mNewLayout;
             }
         });
+    }
 
-        initCommentContent();
-
+    private void initVariousViews() {
+        mToolbar = (Toolbar) findViewById(R.id.tool_bar);
+        mLoadingView = (RelativeLayout) findViewById(R.id.loading_view_content);
+        mWriteComment = (TextView) findViewById(R.id.write_comment_text);
+        mScrollView = (ListenerScrollView) findViewById(R.id.scroll_view);
+        mBottomNavBar = (RelativeLayout) findViewById(R.id.bottom_nav_bar);
+        mCommentFatherLayout = (LinearLayout) findViewById(R.id.comment_father_view_layout);
+        mHandler = new Handler();
+        mBottomOriginHeight = mBottomHeight = MeasureTools.measureWidthAndHeight(mBottomNavBar)[1];
     }
 
     private void initCommentContent() {
@@ -90,5 +143,13 @@ public class PeriodicalDetailActivity extends AppCompatActivity {
             }
         });
         animator.start();
+    }
+
+    @Override
+    public void onClick(View v) {
+        switch (v.getId()){
+            case R.id.write_comment_text:
+
+        }
     }
 }

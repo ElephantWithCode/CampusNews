@@ -8,12 +8,13 @@
     android:background="#ffffff"
     tools:context="com.baibian.activity.PeriodicalDetailActivity">
 
-    <Toolbar
+    <android.support.v7.widget.Toolbar
         android:background="#f4f4f4"
+        app:title="期刊详情"
         android:id="@+id/tool_bar"
         android:layout_width="match_parent"
         android:layout_height="?attr/actionBarSize">
-    </Toolbar>
+    </android.support.v7.widget.Toolbar>
     <com.baibian.view.ListenerScrollView
         android:layout_below="@id/tool_bar"
         android:id="@+id/scroll_view"
@@ -264,6 +265,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content" />
                 <LinearLayout
+                    android:animateLayoutChanges="true"
                     android:layout_below="@id/comment_text"
                     android:orientation="vertical"
                     android:id="@+id/comment_father_view_layout"
@@ -273,6 +275,22 @@
             </RelativeLayout>
         </LinearLayout>
     </com.baibian.view.ListenerScrollView>
+    <RelativeLayout
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:visibility="invisible"
+        android:id="@+id/loading_view_content"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="70dp">
+        <TextView
+            android:layout_centerInParent="true"
+            android:text="正在加载中..."
+            android:textSize="13sp"
+            android:textColor="#303131"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </RelativeLayout>
     <RelativeLayout
         android:background="#f4f4f4"
         android:id="@+id/bottom_nav_bar"

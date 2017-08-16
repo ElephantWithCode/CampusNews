@@ -1,7 +1,11 @@
 package com.baibian.view;
 
+import android.animation.Animator;
+import android.animation.AnimatorListenerAdapter;
+import android.animation.ValueAnimator;
 import android.content.Context;
 import android.graphics.Rect;
+import android.os.Handler;
 import android.util.AttributeSet;
 import android.util.Log;
 import android.view.MotionEvent;
@@ -15,11 +19,14 @@ import android.widget.ScrollView;
 
 public class ListenerScrollView extends ScrollView {
     private static final int ZOOM_SIZE = 10;
+    private static final int MAX_SCROLL_LOAD = 100;
     private final String TAG = "listener_scroll_view";
     private OnScrollDownListener mListener;
 
     private View mInner;
     private Rect mNormalLayout = new Rect();
+    private Rect mNewLayout = new Rect();
+    private Handler mHandler = new Handler();
     private float previousY = 0;
     private float presentY = 0;
     public ListenerScrollView(Context context) {
@@ -70,10 +77,10 @@ public class ListenerScrollView extends ScrollView {
                 presentY = ev.getY();
                 if (!mNormalLayout.isEmpty()){
                     Log.d(TAG + "1", mInner.getTop() - mNormalLayout.top + "");
-                    if (mListener != null){
-                        mListener.onDropReleased(mNormalLayout.top - mInner.getTop());
-                    }
-                    animateBack();
+                    animateBackTo(mNormalLayout);
+                    /*if (mListener != null){
+                        mNewLayout = mListener.onDropReleased(mNormalLayout.top - mInner.getTop(), mInner);
+                    }*/
                 }
                 if (mListener != null){
                     mListener.onScrollDownComplete(presentY - previousY);
@@ -84,12 +91,40 @@ public class ListenerScrollView extends ScrollView {
         return super.onTouchEvent(ev);
     }
 
-    private void animateBack() {
-        TranslateAnimation ta = new TranslateAnimation(0, 0, mInner.getTop(), mNormalLayout.top);
+    private void animateBackTo(final Rect rectToAnimateTo) {
+/*        TranslateAnimation ta = new TranslateAnimation(0, 0, mInner.getTop(), rectToAnimateTo.top-100);
         ta.setDuration(200);
         mInner.startAnimation(ta);
-        mInner.layout(mNormalLayout.left, mNormalLayout.top, mNormalLayout.right, mNormalLayout.bottom);
-        mNormalLayout.setEmpty();
+        mInner.layout(rectToAnimateTo.left, rectToAnimateTo.top-100, rectToAnimateTo.right, rectToAnimateTo.bottom-100);
+        rectToAnimateTo.setEmpty();
+        int offset = rectToAnimateTo.top - mInner.getTop();*/
+        ValueAnimator va = ValueAnimator.ofInt(mInner.getTop(), rectToAnimateTo.top);
+        final int previousTop = mInner.getTop();
+        va.setDuration(200).addUpdateListener(new ValueAnimator.AnimatorUpdateListener() {
+            @Override
+            public void onAnimationUpdate(ValueAnimator animation) {
+                int offset = (int) animation.getAnimatedValue();
+                if (isSmallDistance(previousTop) || Math.abs(offset) > 100) {
+                    mInner.layout(mInner.getLeft(), offset, mInner.getRight(), mInner.getMeasuredHeight() + offset);
+                }
+                Log.d(TAG +"abc", mInner.getTop() + "  " + offset + "  " +previousTop);
+            }
+        });
+        va.addListener(new AnimatorListenerAdapter() {
+            @Override
+            public void onAnimationEnd(Animator animation) {
+                if (mListener != null && !isSmallDistance(previousTop)){
+                    mListener.onDropReleased(mNormalLayout.top - mInner.getTop(), mInner);
+                }
+                mNewLayout.set(mInner.getLeft(), mInner.getTop(), mInner.getRight(), mInner.getBottom());
+            }
+        });
+        va.start();
+        rectToAnimateTo.setEmpty();
+    }
+
+    private boolean isSmallDistance(int previousTop) {
+        return Math.abs(previousTop) < MAX_SCROLL_LOAD;
     }
 
     public void setOnScrollDownListener(OnScrollDownListener listener){
@@ -97,12 +132,12 @@ public class ListenerScrollView extends ScrollView {
     }
     public interface OnScrollDownListener{
         void onScrollDownComplete(float offsetY);
-        void onDropReleased(int offsetY);
+        Rect onDropReleased(int offsetY, View inner);
     }
 
     public boolean isNeedMove() {
         int offset = mInner.getMeasuredHeight() - getHeight();
         int scrollY = getScrollY();
-        return scrollY == 0 || scrollY == offset;
+        return scrollY == offset;
     }
 }

@@ -2,6 +2,7 @@ package com.baibian.activity;
 
 import android.animation.ValueAnimator;
 import android.app.AlertDialog;
+import android.content.DialogInterface;
 import android.content.Intent;
 import android.graphics.Rect;
 import android.os.Handler;
@@ -24,7 +25,9 @@ import android.widget.TextView;
 import com.baibian.R;
 import com.baibian.tool.MeasureTools;
 import com.baibian.tool.ToastTools;
+import com.baibian.view.AddSubtractView;
 import com.baibian.view.CommentCardView;
+import com.baibian.view.CustomBottomUpDialog;
 import com.baibian.view.CustomDialog;
 import com.baibian.view.ListenerScrollView;
 
@@ -43,6 +46,9 @@ public class PeriodicalDetailActivity extends AppCompatActivity implements View.
     private RelativeLayout mLoadingView;
     private ImageView mArrowCategory;
     private Toolbar mToolbar;
+    private Button mBuyButton;
+    private CustomBottomUpDialog mCustomBottomUpDialog;
+    private CustomBottomUpDialog mBuyRuleDetailDialog;
     private Handler mHandler;
     private int mBottomHeight = 0;
     private int mBottomOriginHeight = 0;
@@ -54,12 +60,78 @@ public class PeriodicalDetailActivity extends AppCompatActivity implements View.
 
         initVariousViews();
 
+        initDetailDialog();
+
+        mCustomBottomUpDialog = new CustomBottomUpDialog(this, R.layout.buy_popup_layout) {
+
+            private ImageView mCloseButton;
+            private TextView mDeclaration;
+            private Button mPayButton;
+            private Button mBuy6Button;
+            private AddSubtractView mBuyAmount;
+
+            @Override
+            public void initView(CustomBottomUpDialog dialog) {
+
+                mCloseButton = (ImageView) dialog.findViewById(R.id.close_button);
+                mPayButton = (Button) dialog.findViewById(R.id.pay_button);
+                mBuy6Button = (Button) dialog.findViewById(R.id.buy_choice_6);
+                mDeclaration = (TextView) dialog.findViewById(R.id.buy_detail_declaration);
+                mBuyAmount = (AddSubtractView) dialog.findViewById(R.id.add_subtract_periodical);
+
+                mBuy6Button.setOnClickListener(this);
+                mDeclaration.setOnClickListener(this);
+                mPayButton.setOnClickListener(this);
+                mCloseButton.setOnClickListener(this);
+            }
+            @Override
+            public void onClick(View v) {
+                switch (v.getId()){
+                    case R.id.buy_detail_declaration:
+                        dismiss();
+                        mCustomBottomUpDialog.show();
+                        break;
+                    case R.id.close_button:
+                        dismiss();
+                        break;
+                    case R.id.buy_choice_6:
+
+                }
+            }
+        };
         initToolbar();
 
         initListeners();
 
         initCommentContent();
 
+    }
+
+    private void initDetailDialog() {
+        mBuyRuleDetailDialog = new CustomBottomUpDialog(this, R.layout.periodical_buy_rule_detail) {
+            private ImageView mCloseButton;
+            @Override
+            public void initView(CustomBottomUpDialog dialog) {
+                mCloseButton = (ImageView) dialog.findViewById(R.id.close_button);
+                mCloseButton.setOnClickListener(this);
+            }
+            @Override
+            public void onClick(View v) {
+                switch (v.getId()){
+                    case R.id.close_button:
+                        dismiss();
+                        mCustomBottomUpDialog.show();
+                        break;
+                }
+            }
+
+        };
+        mBuyRuleDetailDialog.setOnDismissListener(new DialogInterface.OnDismissListener() {
+            @Override
+            public void onDismiss(DialogInterface dialog) {
+                mCustomBottomUpDialog.show();
+            }
+        });
     }
 
     private void initToolbar() {
@@ -71,6 +143,7 @@ public class PeriodicalDetailActivity extends AppCompatActivity implements View.
     }
 
     private void initListeners() {
+        mBuyButton.setOnClickListener(this);
         mArrowCategory.setOnClickListener(this);
         mWriteComment.setOnClickListener(this);
         mScrollView.setOnScrollDownListener(new ListenerScrollView.OnScrollDownListener() {
@@ -118,6 +191,7 @@ public class PeriodicalDetailActivity extends AppCompatActivity implements View.
     }
 
     private void initVariousViews() {
+        mBuyButton = (Button) findViewById(R.id.buy_btn);
         mArrowCategory = (ImageView) findViewById(R.id.arrow_category);
         mToolbar = (Toolbar) findViewById(R.id.tool_bar);
         mLoadingView = (RelativeLayout) findViewById(R.id.loading_view_content);
@@ -179,6 +253,8 @@ public class PeriodicalDetailActivity extends AppCompatActivity implements View.
                 overridePendingTransition(R.anim.slide_in_right, R.anim.slide_out_left);
                 ToastTools.ToastShow("UNDO NOW");
                 break;
+            case R.id.buy_btn:
+                mCustomBottomUpDialog.show();
         }
     }
 }

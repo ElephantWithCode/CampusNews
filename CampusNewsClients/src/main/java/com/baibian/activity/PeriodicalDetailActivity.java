@@ -2,6 +2,7 @@ package com.baibian.activity;
 
 import android.animation.ValueAnimator;
 import android.app.AlertDialog;
+import android.content.Intent;
 import android.graphics.Rect;
 import android.os.Handler;
 import android.support.v7.app.ActionBar;
@@ -14,6 +15,7 @@ import android.view.ViewGroup;
 import android.view.animation.AccelerateInterpolator;
 import android.view.animation.DecelerateInterpolator;
 import android.widget.Button;
+import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.RelativeLayout;
 import android.widget.ScrollView;
@@ -23,6 +25,7 @@ import com.baibian.R;
 import com.baibian.tool.MeasureTools;
 import com.baibian.tool.ToastTools;
 import com.baibian.view.CommentCardView;
+import com.baibian.view.CustomDialog;
 import com.baibian.view.ListenerScrollView;
 
 import org.w3c.dom.Text;
@@ -38,6 +41,7 @@ public class PeriodicalDetailActivity extends AppCompatActivity implements View.
     private LinearLayout mCommentFatherLayout;
     private TextView mWriteComment;
     private RelativeLayout mLoadingView;
+    private ImageView mArrowCategory;
     private Toolbar mToolbar;
     private Handler mHandler;
     private int mBottomHeight = 0;
@@ -67,6 +71,7 @@ public class PeriodicalDetailActivity extends AppCompatActivity implements View.
     }
 
     private void initListeners() {
+        mArrowCategory.setOnClickListener(this);
         mWriteComment.setOnClickListener(this);
         mScrollView.setOnScrollDownListener(new ListenerScrollView.OnScrollDownListener() {
             @Override
@@ -113,6 +118,7 @@ public class PeriodicalDetailActivity extends AppCompatActivity implements View.
     }
 
     private void initVariousViews() {
+        mArrowCategory = (ImageView) findViewById(R.id.arrow_category);
         mToolbar = (Toolbar) findViewById(R.id.tool_bar);
         mLoadingView = (RelativeLayout) findViewById(R.id.loading_view_content);
         mWriteComment = (TextView) findViewById(R.id.write_comment_text);
@@ -149,7 +155,30 @@ public class PeriodicalDetailActivity extends AppCompatActivity implements View.
     public void onClick(View v) {
         switch (v.getId()){
             case R.id.write_comment_text:
-
+                CustomDialog dialog = new CustomDialog(this, R.style.CustomDialogTheme);
+                dialog.setOnDialogDismissListener(new CustomDialog.OnDialogDismissListener() {
+                    @Override
+                    public void OnDismiss(final String editTextContent, boolean isPositive) {
+                        if (isPositive){
+                            mHandler.post(new Runnable() {
+                                @Override
+                                public void run() {
+                                    CommentCardView cardView = new CommentCardView(PeriodicalDetailActivity.this);
+                                    cardView.setCommentText(editTextContent);
+                                    mCommentFatherLayout.addView(cardView, 0);
+                                }
+                            });
+                        }
+                    }
+                });
+                dialog.show();
+                break;
+            case R.id.arrow_category:
+                Intent newIntent = new Intent(PeriodicalDetailActivity.this, PeriodicalCategoryActivity.class);
+                startActivity(newIntent);
+                overridePendingTransition(R.anim.slide_in_right, R.anim.slide_out_left);
+                ToastTools.ToastShow("UNDO NOW");
+                break;
         }
     }
 }

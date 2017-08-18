@@ -88,6 +88,10 @@ public class CommentCardView extends RelativeLayout {
     public void setContent(CardContent content){
         mCardContent = content;
     }
+    public CommentCardView setCommentText(String text){
+        mContent.setText(text);
+        return this;
+    }
 
     public CommentCardView(Context context) {
         super(context);

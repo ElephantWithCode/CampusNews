@@ -37,12 +37,14 @@
         android:theme="@style/AppTheme">
         <activity
             android:name=".activity.login.Welcome"
-            android:label="@string/app_name"><!--
+            android:label="@string/app_name">
+            <!--
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>-->
+            </intent-filter>
+            -->
         </activity>
         <activity android:name=".activity.MainActivity" />
         <activity android:name=".activity.ChannelActivity" />
@@ -83,15 +85,17 @@
             android:name=".activity.FullscreenScoopActivity"
             android:configChanges="orientation|keyboardHidden|screenSize"
             android:label="@string/title_activity_fullscreen_scoop"
-            android:theme="@style/FullscreenTheme"></activity>
-        <activity android:name=".activity.PeriodicalDetailActivity">
-
+            android:theme="@style/FullscreenTheme" />
+        <activity
+            android:name=".activity.PeriodicalDetailActivity"
+            android:windowSoftInputMode="adjustPan">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".activity.PeriodicalCategoryActivity"></activity>
     </application>
 
 </manifest>

@@ -60,51 +60,98 @@ public class PeriodicalDetailActivity extends AppCompatActivity implements View.
 
         initVariousViews();
 
-        initDetailDialog();
+        initDialogs();
 
-        mCustomBottomUpDialog = new CustomBottomUpDialog(this, R.layout.buy_popup_layout) {
-
-            private ImageView mCloseButton;
-            private TextView mDeclaration;
-            private Button mPayButton;
-            private Button mBuy6Button;
-            private AddSubtractView mBuyAmount;
-
-            @Override
-            public void initView(CustomBottomUpDialog dialog) {
-
-                mCloseButton = (ImageView) dialog.findViewById(R.id.close_button);
-                mPayButton = (Button) dialog.findViewById(R.id.pay_button);
-                mBuy6Button = (Button) dialog.findViewById(R.id.buy_choice_6);
-                mDeclaration = (TextView) dialog.findViewById(R.id.buy_detail_declaration);
-                mBuyAmount = (AddSubtractView) dialog.findViewById(R.id.add_subtract_periodical);
-
-                mBuy6Button.setOnClickListener(this);
-                mDeclaration.setOnClickListener(this);
-                mPayButton.setOnClickListener(this);
-                mCloseButton.setOnClickListener(this);
-            }
-            @Override
-            public void onClick(View v) {
-                switch (v.getId()){
-                    case R.id.buy_detail_declaration:
-                        dismiss();
-                        mCustomBottomUpDialog.show();
-                        break;
-                    case R.id.close_button:
-                        dismiss();
-                        break;
-                    case R.id.buy_choice_6:
-
-                }
-            }
-        };
         initToolbar();
 
         initListeners();
 
         initCommentContent();
 
+    }
+
+    private void initDialogs() {
+        initDetailDialog();
+        initBuyDialog();
+    }
+
+    private void initBuyDialog() {
+        mCustomBottomUpDialog = new CustomBottomUpDialog(this, R.layout.buy_popup_layout) {
+
+            public static final int ITEM_PRICE = 5;
+            private ImageView mCloseButton;
+            private TextView mDeclaration;
+            private Button mBuy12Button;
+            private Button mBuyAllButton;
+            private Button mPayButton;
+            private Button mBuy6Button;
+            private TextView mPresentBis;
+            private TextView mGoodsPrice;
+            private TextView mSufficientAttention;
+            private AddSubtractView mBuyAmount;
+
+            private void showAttentionText(int count) {
+                if (Integer.valueOf(mPresentBis.getText().toString()) > count * ITEM_PRICE){
+                    mSufficientAttention.setVisibility(View.INVISIBLE);
+                }else {
+                    mSufficientAttention.setVisibility(View.VISIBLE);
+                }
+            }
+            @Override
+            public void initView(CustomBottomUpDialog dialog) {
+
+                mCloseButton = (ImageView) dialog.findViewById(R.id.close_button);
+                mPayButton = (Button) dialog.findViewById(R.id.pay_button);
+                mBuy6Button = (Button) dialog.findViewById(R.id.buy_choice_6);
+                mBuy12Button = (Button) dialog.findViewById(R.id.buy_choice_12);
+                mBuyAllButton = (Button) dialog.findViewById(R.id.buy_choice_all);
+                mDeclaration = (TextView) dialog.findViewById(R.id.buy_detail_declaration);
+                mBuyAmount = (AddSubtractView) dialog.findViewById(R.id.add_subtract_periodical);
+                mPresentBis = (TextView) dialog.findViewById(R.id.present_money_hold);
+                mGoodsPrice = (TextView) dialog.findViewById(R.id.lun_dao_coin_count);
+                mSufficientAttention = (TextView) dialog.findViewById(R.id.attention_money_insufficient);
+
+                mBuyAmount.setOnCountChangeListener(new AddSubtractView.OnCountChangeListener() {
+                    @Override
+                    public void onCountChange(int count) {
+                        mGoodsPrice.setText(String.valueOf(count * ITEM_PRICE));
+                        showAttentionText(count);
+                    }
+                });
+                mBuyAllButton.setOnClickListener(this);
+                mBuy12Button.setOnClickListener(this);
+                mBuy6Button.setOnClickListener(this);
+                mDeclaration.setOnClickListener(this);
+                mPayButton.setOnClickListener(this);
+                mCloseButton.setOnClickListener(this);
+
+                mPresentBis.setText(String.valueOf(88));
+                mGoodsPrice.setText(String.valueOf(ITEM_PRICE));
+                showAttentionText(1);
+            }
+
+            @Override
+            public void onClick(View v) {
+                switch (v.getId()){
+                    case R.id.buy_detail_declaration:
+                        dismiss();
+                        mBuyRuleDetailDialog.show();
+                        break;
+                    case R.id.close_button:
+                        dismiss();
+                        break;
+                    case R.id.buy_choice_6:
+                        mBuyAmount.changeCount(6);
+                        break;
+                    case R.id.buy_choice_12:
+                        mBuyAmount.changeCount(12);
+                        break;
+                    case R.id.buy_choice_all:
+                        mBuyAmount.changeCount(mBuyAmount.getMaxCount());
+                        break;
+                }
+            }
+        };
     }
 
     private void initDetailDialog() {
@@ -126,9 +173,9 @@ public class PeriodicalDetailActivity extends AppCompatActivity implements View.
             }
 
         };
-        mBuyRuleDetailDialog.setOnDismissListener(new DialogInterface.OnDismissListener() {
+        mBuyRuleDetailDialog.setOnCancelListener(new DialogInterface.OnCancelListener() {
             @Override
-            public void onDismiss(DialogInterface dialog) {
+            public void onCancel(DialogInterface dialog) {
                 mCustomBottomUpDialog.show();
             }
         });

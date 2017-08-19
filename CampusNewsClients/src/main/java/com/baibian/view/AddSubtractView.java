@@ -108,6 +108,9 @@ public class AddSubtractView extends RelativeLayout implements View.OnClickListe
         }
     }
 
+    public int getMaxCount(){
+        return MAX_COUNT;
+    }
     public void changeCount(int count) {
         String content = String.valueOf(count);
         if (count <= MAX_COUNT && count > 0) {

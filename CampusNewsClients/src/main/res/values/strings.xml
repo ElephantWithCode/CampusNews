@@ -120,7 +120,7 @@
     <string name="title_activity_fullscreen_scoop">FullscreenScoopActivity</string>
     <string name="dummy_button">Dummy Button</string>
     <string name="dummy_content">DUMMY\nCONTENT</string>
-    <string name="buy_detail_declaration"><b>购买详情说明</b></string>
+    <string name="buy_detail_declaration"><u>购买详情说明</u></string>
 
 
 </resources>

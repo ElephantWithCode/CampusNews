@@ -18,7 +18,7 @@ import android.widget.ScrollView;
  */
 
 public class ListenerScrollView extends ScrollView {
-    private static final int ZOOM_SIZE = 10;
+    private static final int ZOOM_SIZE = 15;
     private static final int MAX_SCROLL_LOAD = 100;
     private final String TAG = "listener_scroll_view";
     private OnScrollDownListener mListener;
@@ -29,6 +29,8 @@ public class ListenerScrollView extends ScrollView {
     private Handler mHandler = new Handler();
     private float previousY = 0;
     private float presentY = 0;
+    private float coefficient = 0;
+    private float resultCoe = 0;
     public ListenerScrollView(Context context) {
         super(context);
     }
@@ -61,19 +63,27 @@ public class ListenerScrollView extends ScrollView {
                         mNormalLayout.set(mInner.getLeft(), mInner.getTop(), mInner.getRight(), mInner.getBottom());
                     }
                     float nowY = ev.getY();
+/**
+ *  function : 1/(x+1)
+ */
+                    coefficient += 0.15;
+                    resultCoe = 1/(coefficient + 1);
 //                    int offsetY = (int) ((previousY - nowY)/ ZOOM_SIZE);
 /**
  * I need a better function to get suitable value for offsetY
  * the present one is Ln()
  */
-                    int offsetY = (int) Math.log(previousY - nowY + 1);
-                    Log.d(TAG, offsetY + "");
+//                    int offsetY = (int) Math.log(previousY - nowY + 1);
+                    int offsetY = (int) ((previousY - nowY) * resultCoe / ZOOM_SIZE);
+
+                    Log.d(TAG+"asd", offsetY + "    " + coefficient + "    " + resultCoe);
                     if (mInner != null){
                         mInner.layout(mInner.getLeft(), mInner.getTop() - offsetY, mInner.getRight(), mInner.getBottom() - offsetY);
                     }
                 }
                 break;
             case MotionEvent.ACTION_UP:
+                resultCoe = coefficient = 0;
                 presentY = ev.getY();
                 if (!mNormalLayout.isEmpty()){
                     Log.d(TAG + "1", mInner.getTop() - mNormalLayout.top + "");

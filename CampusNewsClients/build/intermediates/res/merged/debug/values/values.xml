@@ -1779,7 +1779,7 @@
     <string name="appbar_scrolling_view_behavior" translatable="false">android.support.design.widget.AppBarLayout$ScrollingViewBehavior</string>
     <string name="birth_date">生日</string>
     <string name="bottom_sheet_behavior" translatable="false">android.support.design.widget.BottomSheetBehavior</string>
-    <string name="buy_detail_declaration"><b>购买详情说明</b></string>
+    <string name="buy_detail_declaration"><u>购买详情说明</u></string>
     <string name="cancel">取消</string>
     <string name="character_counter_pattern" translatable="false">%1$d / %2$d</string>
     <string name="city_category_list_header">点击选择其他城市</string>
@@ -2064,16 +2064,11 @@
         <item name="android:windowExitAnimation">@anim/design_bottom_sheet_slide_out</item>
     </style>
     <style name="AppBaseTheme" parent="android:Theme.Light">
-        <!--
-            Theme customizations available in newer API levels can go in
-            res/values-vXX/styles.xml, while customizations related to
-            backward-compatibility can go here.
-
-        -->
+        
     </style>
     <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
 
-        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+        
         <item name="android:windowNoTitle">true</item>
     </style>
     <style name="AppTheme." parent="AppBaseTheme">
@@ -3160,9 +3155,9 @@
     </style>
     <style name="DialogAnimStyle" parent="@android:style/Animation.Dialog">
         <item name="@android:windowEnterAnimation">@anim/popup_enter_up</item>
-        <!-- 进入时的动画 -->
+        
         <item name="@android:windowExitAnimation">@anim/popup_exit_down</item>
-        <!-- 退出时的动画 -->
+        
     </style>
     <style name="FullscreenActionBarStyle" parent="Widget.AppCompat.ActionBar">
         <item name="android:background">@color/black_overlay</item>

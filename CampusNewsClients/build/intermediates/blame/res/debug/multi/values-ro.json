@@ -368,8 +368,65 @@
                     "startLine": 21,
                     "startColumn": 4,
                     "startOffset": 2069,
+                    "endColumn": 83,
+                    "endOffset": 2148
+                },
+                "from": {
+                    "file": "C:\\Users\\Ellly\\Desktop\\SourceCodeTempOnDesktop\\CampusNews\\library\\build\\intermediates\\bundles\\default\\res\\values-ro\\values-ro.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endColumn": 83,
+                        "endOffset": 134
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 22,
+                    "startColumn": 4,
+                    "startOffset": 2153,
+                    "endColumn": 71,
+                    "endOffset": 2220
+                },
+                "from": {
+                    "file": "C:\\Users\\Ellly\\Desktop\\SourceCodeTempOnDesktop\\CampusNews\\library\\build\\intermediates\\bundles\\default\\res\\values-ro\\values-ro.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 139,
+                        "endColumn": 71,
+                        "endOffset": 206
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 23,
+                    "startColumn": 4,
+                    "startOffset": 2225,
+                    "endColumn": 91,
+                    "endOffset": 2312
+                },
+                "from": {
+                    "file": "C:\\Users\\Ellly\\Desktop\\SourceCodeTempOnDesktop\\CampusNews\\library\\build\\intermediates\\bundles\\default\\res\\values-ro\\values-ro.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 211,
+                        "endColumn": 91,
+                        "endOffset": 298
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 24,
+                    "startColumn": 4,
+                    "startOffset": 2317,
                     "endColumn": 82,
-                    "endOffset": 2147
+                    "endOffset": 2395
                 },
                 "from": {
                     "file": "C:\\Users\\Ellly\\.android\\build-cache\\1ead68c499c9867fc36eeab714be3b13d75f861d\\output\\res\\values-ro\\values-ro.xml",
@@ -384,11 +441,11 @@
             },
             {
                 "to": {
-                    "startLine": 22,
+                    "startLine": 25,
                     "startColumn": 4,
-                    "startOffset": 2152,
+                    "startOffset": 2400,
                     "endColumn": 100,
-                    "endOffset": 2248
+                    "endOffset": 2496
                 },
                 "from": {
                     "file": "C:\\Users\\Ellly\\.android\\build-cache\\1ead68c499c9867fc36eeab714be3b13d75f861d\\output\\res\\values-ro\\values-ro.xml",

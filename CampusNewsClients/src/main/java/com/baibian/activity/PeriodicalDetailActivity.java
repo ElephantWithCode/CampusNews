@@ -18,6 +18,7 @@ import android.view.animation.DecelerateInterpolator;
 import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
+import android.widget.ProgressBar;
 import android.widget.RelativeLayout;
 import android.widget.ScrollView;
 import android.widget.TextView;
@@ -53,6 +54,8 @@ public class PeriodicalDetailActivity extends AppCompatActivity implements View.
     private int mBottomHeight = 0;
     private int mBottomOriginHeight = 0;
     private List<CommentCardView.CardContent> mCardDatas = new ArrayList<>();
+    private ProgressBar mProgressBar;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -220,6 +223,7 @@ public class PeriodicalDetailActivity extends AppCompatActivity implements View.
 //                mCommentFatherLayout.addView(new CommentCardView(PeriodicalDetailActivity.this));
 
                 mLoadingView.setVisibility(View.VISIBLE);
+
                 mHandler.postDelayed(new Runnable() {
                     @Override
                     public void run() {
@@ -238,6 +242,7 @@ public class PeriodicalDetailActivity extends AppCompatActivity implements View.
     }
 
     private void initVariousViews() {
+        mProgressBar = (ProgressBar) findViewById(R.id.progress_bar);
         mBuyButton = (Button) findViewById(R.id.buy_btn);
         mArrowCategory = (ImageView) findViewById(R.id.arrow_category);
         mToolbar = (Toolbar) findViewById(R.id.tool_bar);

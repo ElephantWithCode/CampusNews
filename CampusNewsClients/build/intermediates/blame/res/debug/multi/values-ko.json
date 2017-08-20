@@ -463,8 +463,65 @@
                     "startLine": 26,
                     "startColumn": 4,
                     "startOffset": 2210,
+                    "endColumn": 65,
+                    "endOffset": 2271
+                },
+                "from": {
+                    "file": "C:\\Users\\Ellly\\Desktop\\SourceCodeTempOnDesktop\\CampusNews\\library\\build\\intermediates\\bundles\\default\\res\\values-ko\\values-ko.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endColumn": 65,
+                        "endOffset": 116
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 27,
+                    "startColumn": 4,
+                    "startOffset": 2276,
+                    "endColumn": 66,
+                    "endOffset": 2338
+                },
+                "from": {
+                    "file": "C:\\Users\\Ellly\\Desktop\\SourceCodeTempOnDesktop\\CampusNews\\library\\build\\intermediates\\bundles\\default\\res\\values-ko\\values-ko.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 121,
+                        "endColumn": 66,
+                        "endOffset": 183
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 28,
+                    "startColumn": 4,
+                    "startOffset": 2343,
+                    "endColumn": 68,
+                    "endOffset": 2407
+                },
+                "from": {
+                    "file": "C:\\Users\\Ellly\\Desktop\\SourceCodeTempOnDesktop\\CampusNews\\library\\build\\intermediates\\bundles\\default\\res\\values-ko\\values-ko.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 188,
+                        "endColumn": 68,
+                        "endOffset": 252
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 29,
+                    "startColumn": 4,
+                    "startOffset": 2412,
                     "endColumn": 77,
-                    "endOffset": 2283
+                    "endOffset": 2485
                 },
                 "from": {
                     "file": "C:\\Users\\Ellly\\.android\\build-cache\\1ead68c499c9867fc36eeab714be3b13d75f861d\\output\\res\\values-ko\\values-ko.xml",
@@ -479,11 +536,11 @@
             },
             {
                 "to": {
-                    "startLine": 27,
+                    "startLine": 30,
                     "startColumn": 4,
-                    "startOffset": 2288,
+                    "startOffset": 2490,
                     "endColumn": 100,
-                    "endOffset": 2384
+                    "endOffset": 2586
                 },
                 "from": {
                     "file": "C:\\Users\\Ellly\\.android\\build-cache\\1ead68c499c9867fc36eeab714be3b13d75f861d\\output\\res\\values-ko\\values-ko.xml",

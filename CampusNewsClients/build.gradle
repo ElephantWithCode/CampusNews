@@ -34,6 +34,7 @@ repositories {
 }
 dependencies {
     compile 'com.github.gabrielemariotti.recyclerview:recyclerview-animators:0.3.0-SNAPSHOT@aar'
+    compile project(':library')
 }
 dependencies {
     compile project(':library_SlidingMenu')

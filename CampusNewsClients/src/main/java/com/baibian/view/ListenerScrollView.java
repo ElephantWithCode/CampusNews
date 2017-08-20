@@ -114,7 +114,7 @@ public class ListenerScrollView extends ScrollView {
             @Override
             public void onAnimationUpdate(ValueAnimator animation) {
                 int offset = (int) animation.getAnimatedValue();
-                if (isSmallDistance(previousTop) || Math.abs(offset) > 100) {
+                if (isSmallDistance(previousTop) || Math.abs(offset) > 150) {
                     mInner.layout(mInner.getLeft(), offset, mInner.getRight(), mInner.getMeasuredHeight() + offset);
                 }
                 Log.d(TAG +"abc", mInner.getTop() + "  " + offset + "  " +previousTop);
@@ -123,7 +123,7 @@ public class ListenerScrollView extends ScrollView {
         va.addListener(new AnimatorListenerAdapter() {
             @Override
             public void onAnimationEnd(Animator animation) {
-                if (mListener != null && !isSmallDistance(previousTop)){
+                if (mListener != null && !isSmallDistance(previousTop) && presentY <= previousY - 300){
                     mListener.onDropReleased(mNormalLayout.top - mInner.getTop(), mInner);
                 }
                 mNewLayout.set(mInner.getLeft(), mInner.getTop(), mInner.getRight(), mInner.getBottom());

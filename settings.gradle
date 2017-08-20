@@ -1,2 +1,3 @@
 include ':library_SlidingMenu'
 include ':CampusNewsClients'
+include ':library'

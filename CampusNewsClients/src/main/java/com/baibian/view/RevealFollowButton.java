@@ -6,6 +6,9 @@ import android.content.Context;
 import android.graphics.Canvas;
 import android.graphics.Color;
 import android.graphics.Path;
+import android.graphics.drawable.Drawable;
+import android.support.annotation.ColorInt;
+import android.support.annotation.StringRes;
 import android.support.v4.content.ContextCompat;
 import android.util.AttributeSet;
 import android.view.MotionEvent;
@@ -99,6 +102,24 @@ public class RevealFollowButton extends FrameLayout {
         setFollowed(false, false);
     }
 
+    public void setFollowBackground(Drawable drawable){
+        mFollowTv.setBackground(drawable);
+    }
+    public void setFollowTextColor(@ColorInt int colorInt){
+        mFollowTv.setTextColor(colorInt);
+    }
+    public void setFollowTextContent(@StringRes int resId){
+        mFollowTv.setText(resId);
+    }
+    public void setUnFollowTvTextContent(@StringRes int resId){
+        mUnFollowTv.setText(resId);
+    }
+    public void setUnFollowTextColor(@ColorInt int colorInt){
+        mUnFollowTv.setTextColor(colorInt);
+    }
+    public void setUnFollowBackground(Drawable drawable){
+        mUnFollowTv.setBackground(drawable);
+    }
     protected void initFollowTv() {
         mFollowTv = new TextView(getContext());
         mFollowTv.setText("DisFocus");
@@ -130,7 +151,7 @@ public class RevealFollowButton extends FrameLayout {
         }
         if (needAnimate) {
             ValueAnimator animator = ObjectAnimator.ofFloat(mFollowTv, "empty", 0.0F, (float) Math.hypot(getMeasuredWidth(), getMeasuredHeight()));
-            animator.setDuration(1000L);
+            animator.setDuration(500L);
             animator.addUpdateListener(new ValueAnimator.AnimatorUpdateListener() {
                 @Override
                 public void onAnimationUpdate(ValueAnimator animation) {

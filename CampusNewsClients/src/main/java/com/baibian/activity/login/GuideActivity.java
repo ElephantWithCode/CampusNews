@@ -14,7 +14,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * 引导界面的活动
+ * 引导界面的活
  */
 
 public class GuideActivity extends Activity{

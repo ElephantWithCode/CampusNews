@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="#a197a1"
+    android:layout_width="match_parent" android:layout_height="wrap_content">
+    <RelativeLayout
+        android:background="#ffffff"
+        android:id="@+id/top_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/periodical_title"
+            android:text="批量购买规则详情"
+            android:layout_marginStart="10dp"
+            android:textColor="#303131"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:layout_centerVertical="true"
+            android:gravity="center_vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <ImageView
+            android:layout_centerVertical="true"
+            android:id="@+id/close_button"
+            android:padding="5dp"
+            android:src="@drawable/ic_action_more"
+            android:layout_alignParentEnd="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_below="@id/top_layout"
+        android:layout_margin="20dp"
+        android:id="@+id/content_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/rule_content1"
+            android:text="1.因为爱情, 所以需要批量购买需要多付一点费用，在所难免，不要问我为什么"
+            android:textColor="#303131"
+            android:textSize="13sp"
+            android:layout_marginBottom="8dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/rule_content2"
+            android:text="1.因为爱情"
+            android:textColor="#303131"
+            android:textSize="13sp"
+            android:layout_marginBottom="8dp"
+            android:layout_below="@id/rule_content1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_marginBottom="8dp"
+            android:id="@+id/rule_content3"
+            android:text="1.因为爱情"
+            android:textColor="#303131"
+            android:textSize="13sp"
+            android:layout_below="@id/rule_content2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_marginBottom="8dp"
+            android:id="@+id/rule_content4"
+            android:text="1.因为爱情"
+            android:layout_below="@id/rule_content3"
+            android:textColor="#303131"
+            android:textSize="13sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </RelativeLayout>
+</RelativeLayout>

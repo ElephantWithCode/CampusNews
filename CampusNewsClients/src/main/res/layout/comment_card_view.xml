@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/comment_root_view"
+    android:layout_marginStart="7dp"
+    android:layout_marginTop="1dp"
+    android:layout_marginEnd="7dp"
+    android:layout_marginBottom="7dp"
+
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:padding="7dp"
+        android:id="@+id/comment_holder_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:src="@drawable/default_round_head"
+            android:id="@+id/user_portrait"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/user_name"
+            android:layout_alignBottom="@+id/comment_date"/>
+        <TextView
+            android:id="@+id/user_name"
+            android:layout_toEndOf="@id/user_portrait"
+            android:textColor="#303131"
+            android:layout_marginStart="5dp"
+            android:text="北冥有鱼"
+            android:textSize="16sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <LinearLayout
+            android:orientation="horizontal"
+            android:id="@+id/user_honor_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@id/user_name"
+            android:layout_toEndOf="@id/user_name">
+            <ImageView
+                android:id="@+id/honor_icon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_action_more"/>
+        </LinearLayout>
+        <TextView
+            android:id="@+id/comment_date"
+            android:layout_alignStart="@id/user_name"
+            android:layout_below="@id/user_name"
+            android:layout_marginTop="10dp"
+            android:text="2017-7-30"
+            android:textSize="13sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/like_amount"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentTop="true"
+            android:text="1.9W"
+            android:textSize="16sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <com.like.LikeButton
+            android:id="@+id/like_btn"
+            app:icon_size="15dp"
+            app:icon_type="thumb"
+            app:dots_secondary_color="#47bafe"
+            android:layout_alignTop="@id/like_amount"
+            android:layout_alignBottom="@id/like_amount"
+            android:layout_toStartOf="@id/like_amount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+        </com.like.LikeButton>
+        <TextView
+            android:textSize="14sp"
+            android:textColor="#303131"
+            android:id="@+id/comment_content"
+            android:layout_below="@id/user_portrait"
+            android:text="如果你没法简洁的表达你的观点，那只能说明你还不了解他"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginEnd="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </RelativeLayout>
+
+</android.support.v7.widget.CardView>

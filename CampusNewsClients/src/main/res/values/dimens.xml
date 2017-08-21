@@ -122,4 +122,14 @@
     <dimen name="user_information_imageview_padding_right">10dp</dimen>
     <dimen name="user_large_text_size">18sp</dimen>
     <dimen name="portrait_size">150dp</dimen>
+    <dimen name="tool_bar_back_text_size">22sp</dimen>
+    <dimen name="topic_item_content_text_size">18sp</dimen>
+    <dimen name="text_margin">16dp</dimen>
+    <dimen name="user_name_text_size">18sp</dimen>
+    <dimen name="general_user_small_padding">10dp</dimen>
+    <dimen name="other_small_text_size">16sp</dimen>
+    <dimen name="tool_bar_translationz_dp">5dp</dimen>
+    <dimen name="text_size_middle_16_dp">16sp</dimen>
+    <dimen name="personal_image_size">30dp</dimen>
+    <dimen name="adjust_small_gap">2dp</dimen>
 </resources>

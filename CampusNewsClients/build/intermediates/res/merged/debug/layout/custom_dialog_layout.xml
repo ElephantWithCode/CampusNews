@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="#ffffff"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/dialog_title"
+        android:textStyle="bold"
+        android:text="评论"
+        android:padding="5dp"
+        android:textSize="16sp"
+        android:textColor="#47bafe"
+        android:gravity="center_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <View
+        android:id="@+id/divider_line"
+        android:layout_below="@id/dialog_title"
+        android:background="#a197a1"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"/>
+    <EditText
+        android:paddingStart="4dp"
+        android:paddingEnd="4dp"
+        android:paddingTop="3dp"
+        android:layout_below="@id/divider_line"
+        android:id="@+id/comment_content"
+        android:hint="输入你的内容"
+        android:textSize="16sp"
+        android:gravity="top"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="@null"/>
+    <View
+        android:id="@+id/divider_line_below"
+        android:background="#a197a1"
+        android:layout_below="@id/comment_content"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"/>
+    <LinearLayout
+        android:layout_below="@id/divider_line_below"
+        android:orientation="horizontal"
+        android:id="@+id/button_content_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:paddingBottom="10dp"
+            android:paddingTop="10dp"
+            android:id="@+id/negative_btn"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="取消"
+            android:gravity="center_horizontal"
+            android:textSize="16sp"/>
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="#a197a1"/>
+        <TextView
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:text="确认"
+            android:textStyle="bold"
+            android:gravity="center_horizontal"
+            android:textSize="16sp"
+            android:textColor="#47bafe"
+            android:id="@+id/positive_btn"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+</RelativeLayout>

@@ -8,6 +8,10 @@ import android.support.v7.widget.Toolbar;
 import android.util.AttributeSet;
 import android.util.Log;
 import android.view.View;
+import android.view.ViewGroup;
+
+import com.baibian.tool.DataTools;
+import com.baibian.tool.ToastTools;
 
 import de.hdodenhof.circleimageview.CircleImageView;
 
@@ -26,16 +30,22 @@ public class PortraitBehavior extends CoordinatorLayout.Behavior<CircleImageView
         child.getLayoutParams().height -= dy;
         Log.d("behavior_test", "BehaviorTest" + dx + "     " + dy);
     }*/
+
+
     @Override
     public boolean onDependentViewChanged(CoordinatorLayout parent, CircleImageView child, View dependency) {
 
+        Context mContext = child.getContext();
+        int gap = DataTools.dip2px(mContext, 10);
         if (mStartY == 0 && mStartHeight == 0){
-            mStartY = dependency.getY();
+            mStartY = dependency.getY() + gap;
             mStartHeight = child.getLayoutParams().height;
         }
-        percent = dependency.getY() / mStartY;
-        child.setScaleX(percent);
-        child.setScaleY(percent);
+        percent = (dependency.getY() + gap)/ mStartY;
+        if (percent >= 0) {
+            child.setScaleX(percent);
+            child.setScaleY(percent);
+        }
         Log.d("child_bug_transition", child.getX() + "  " + child.getY());
         Log.d("dependent_view", child.getLayoutParams().height + "   " + dependency.getHeight());
         return false;

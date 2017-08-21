@@ -10,16 +10,21 @@ import android.view.View;
 
 public class SpaceItemDecoration extends RecyclerView.ItemDecoration {
     private int space;
-
-    public SpaceItemDecoration(int space){
+    private boolean isHorizontal;
+    public SpaceItemDecoration(int space, boolean isHorizontal){
         this.space = space;
+        this.isHorizontal = isHorizontal;
     }
 
     @Override
     public void getItemOffsets(Rect outRect, View view, RecyclerView parent, RecyclerView.State state) {
         super.getItemOffsets(outRect, view, parent, state);
-        if (parent.getChildPosition(view) != 0){
-            outRect.left = space;
+        if (isHorizontal) {
+            if (parent.getChildPosition(view) != 0){
+                outRect.left = space;
+            }
+        }else {
+            outRect.top = space;
         }
     }
 }

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_centerVertical="true"
+        android:id="@+id/user_portrait"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:padding="@dimen/general_user_small_padding"
+        android:src="@drawable/default_round_head"/>
+    <TextView
+        android:id="@+id/user_name"
+        android:text="大笨钟"
+        android:layout_toEndOf="@id/user_portrait"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="@dimen/text_margin"
+        android:layout_marginStart="@dimen/text_margin"
+        android:layout_marginBottom="@dimen/text_margin"/>
+
+    <TextView
+        android:id="@+id/user_personal_signal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="黑暗是光明与生命之母"
+        android:layout_toEndOf="@id/user_portrait"
+        android:layout_below="@id/user_name"
+        android:layout_marginBottom="@dimen/text_margin"
+        android:layout_alignStart="@id/user_name" />
+    <com.baibian.view.RevealFollowButton
+        android:id="@+id/focus_action"
+        android:layout_alignParentEnd="true"
+        android:layout_margin="@dimen/text_margin"
+        android:layout_centerVertical="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+    </com.baibian.view.RevealFollowButton>
+</RelativeLayout>

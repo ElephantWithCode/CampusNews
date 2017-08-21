@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="#ffffff"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.baibian.activity.PeriodicalCategoryActivity">
+    
+    <android.support.design.widget.AppBarLayout
+        android:id="@+id/app_bar"
+        android:layout_width="match_parent"
+        android:layout_height="100dp">
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/tool_bar"
+            app:title="目录"
+            android:elevation="20dp"
+            app:navigationIcon="@mipmap/back_direction"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize">
+        </android.support.v7.widget.Toolbar>
+        <TextView
+            android:text="共10章"
+            android:textSize="16sp"
+            android:textColor="#303131"
+            android:layout_marginStart="40dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </android.support.design.widget.AppBarLayout>
+    <TextView
+        android:layout_marginTop="30dp"
+        android:layout_marginStart="20dp"
+        android:id="@+id/copyright"
+        android:textSize="16sp"
+        android:text="版权"
+        android:textColor="#303131"
+        android:layout_below="@id/app_bar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <View
+        android:layout_marginTop="3dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginStart="10dp"
+        android:id="@+id/divider_line"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#a197a1"
+        android:layout_below="@id/copyright"/>
+    
+    <android.support.v7.widget.RecyclerView
+        android:layout_marginBottom="10dp"
+        android:layout_marginStart="10dp"
+        android:id="@+id/recycler_view"
+        android:layout_below="@id/divider_line"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </android.support.v7.widget.RecyclerView>
+</RelativeLayout>

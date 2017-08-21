@@ -9,6 +9,7 @@ import android.widget.TextView;
 
 import com.baibian.R;
 import com.like.LikeButton;
+import com.like.OnLikeListener;
 
 import de.hdodenhof.circleimageview.CircleImageView;
 
@@ -127,5 +128,23 @@ public class CommentCardView extends RelativeLayout {
         mName = (TextView) findViewById(R.id.user_name);
         mDate = (TextView) findViewById(R.id.comment_date);
         mLikeButton = (LikeButton) findViewById(R.id.like_btn);
+
+        mLikeButton.setOnLikeListener(new OnLikeListener() {
+            @Override
+            public void liked(LikeButton likeButton) {
+//              使用前应该会有一次初始化
+//  mCardContent.setmLikeAmount(mCardContent.getmLikeAmount()+1);
+                onLikeAmountChanged();
+            }
+
+            @Override
+            public void unLiked(LikeButton likeButton) {
+                onLikeAmountChanged();
+            }
+        });
+    }
+
+    private void onLikeAmountChanged() {
+//        mAmount.setText(String.valueOf(mCardContent.getmLikeAmount()));
     }
 }

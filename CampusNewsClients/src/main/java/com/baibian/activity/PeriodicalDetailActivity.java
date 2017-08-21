@@ -75,6 +75,7 @@ public class PeriodicalDetailActivity extends AppCompatActivity implements View.
      */
     private List<CommentCardView.CardContent> mCardDatas = new ArrayList<>();
     private ProgressBar mProgressBar;
+    private boolean isFree = false;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -355,10 +356,10 @@ public class PeriodicalDetailActivity extends AppCompatActivity implements View.
             public void onScrollDownComplete(float scrollY) {
                 if (scrollY > 0){
                     Log.d("www111", mBottomHeight + "");
-                    if (mBottomHeight == 0) {
+                    if (mBottomHeight == 0 && !isFree) {
                         startNavAnimation(0, mBottomOriginHeight);
                     }
-                }else if (scrollY < 0){
+                }else if (scrollY < 0 && !isFree){
                     Log.d("hhh111", mBottomHeight + "");
                     if (mBottomHeight == mBottomOriginHeight) {
                         startNavAnimation(mBottomHeight, 0);
@@ -428,6 +429,9 @@ public class PeriodicalDetailActivity extends AppCompatActivity implements View.
         mWriteComment = (TextView) findViewById(R.id.write_comment_text);
         mScrollView = (ListenerScrollView) findViewById(R.id.scroll_view);
         mBottomNavBar = (RelativeLayout) findViewById(R.id.bottom_nav_bar);
+        if (isFree){
+            mBottomNavBar.setVisibility(View.GONE);
+        }
         mCommentFatherLayout = (LinearLayout) findViewById(R.id.comment_father_view_layout);
         mHandler = new Handler();
         mBottomOriginHeight = mBottomHeight = MeasureTools.measureWidthAndHeight(mBottomNavBar)[1];
@@ -461,6 +465,14 @@ public class PeriodicalDetailActivity extends AppCompatActivity implements View.
             }
         });
         animator.start();
+    }
+
+    /**
+     * 当免费时不再显示下端导航栏
+     * @param isFree
+     */
+    public void setIsFree(boolean isFree){
+        this.isFree = isFree;
     }
 
     @Override

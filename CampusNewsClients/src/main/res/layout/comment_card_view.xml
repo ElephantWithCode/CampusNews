@@ -65,6 +65,7 @@
             android:id="@+id/like_btn"
             app:icon_size="15dp"
             app:icon_type="thumb"
+            app:dots_secondary_color="#47bafe"
             android:layout_alignTop="@id/like_amount"
             android:layout_alignBottom="@id/like_amount"
             android:layout_toStartOf="@id/like_amount"

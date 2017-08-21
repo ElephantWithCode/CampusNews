@@ -24,7 +24,7 @@
         android:src="@drawable/ads0"
         android:scaleType="centerCrop"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="50dp"/>
+        android:layout_marginTop="60dp"/>
     <TextView
         android:id="@+id/periodical_title"
         android:layout_width="wrap_content"

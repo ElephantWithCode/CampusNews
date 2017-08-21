@@ -36,55 +36,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f86c7447-043f-4552-ba8b-5d196ef6c0e7" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CampusNewsClients/src/main/java/com/baibian/view/SharePeriodicalDialog.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CampusNewsClients/src/main/res/layout/share_periodical_dialog_layout.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CampusNewsClients/src/main/res/menu/toolbar_periodical.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/res/resources-debug.ap_" afterPath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/res/resources-debug.ap_" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/split-apk/debug/slices/slice_0.apk" afterPath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/split-apk/debug/slices/slice_0.apk" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/split-apk/debug/slices/slice_2.apk" afterPath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/split-apk/debug/slices/slice_2.apk" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/split-apk/debug/slices/slice_3.apk" afterPath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/split-apk/debug/slices/slice_3.apk" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/split-apk/debug/slices/slice_4.apk" afterPath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/split-apk/debug/slices/slice_4.apk" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/split-apk/debug/slices/slice_5.apk" afterPath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/split-apk/debug/slices/slice_5.apk" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/split-apk/debug/slices/slice_6.apk" afterPath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/split-apk/debug/slices/slice_6.apk" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/split-apk/debug/slices/slice_7.apk" afterPath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/split-apk/debug/slices/slice_7.apk" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/split-apk/debug/slices/slice_8.apk" afterPath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/split-apk/debug/slices/slice_8.apk" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/split-apk/debug/slices/slice_9.apk" afterPath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/split-apk/debug/slices/slice_9.apk" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/transforms/instantRun/debug/folders/1/5/main/android/support/design/R$id.class" afterPath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/transforms/instantRun/debug/folders/1/5/main/android/support/design/R$id.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/transforms/instantRun/debug/folders/1/5/main/android/support/design/R$layout.class" afterPath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/transforms/instantRun/debug/folders/1/5/main/android/support/design/R$layout.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/transforms/instantRun/debug/folders/1/5/main/android/support/v7/appcompat/R$layout.class" afterPath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/transforms/instantRun/debug/folders/1/5/main/android/support/v7/appcompat/R$layout.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/transforms/instantRun/debug/folders/1/5/main/co/lujun/androidtagview/R$layout.class" afterPath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/transforms/instantRun/debug/folders/1/5/main/co/lujun/androidtagview/R$layout.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/baibian/R$id.class" afterPath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/baibian/R$id.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/baibian/R$integer.class" afterPath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/baibian/R$integer.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/baibian/R$layout.class" afterPath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/baibian/R$layout.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/baibian/R$menu.class" afterPath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/baibian/R$menu.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/baibian/R$mipmap.class" afterPath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/baibian/R$mipmap.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/baibian/R$raw.class" afterPath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/baibian/R$raw.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/baibian/R$string.class" afterPath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/baibian/R$string.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/baibian/R$style.class" afterPath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/baibian/R$style.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/baibian/R$styleable.class" afterPath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/baibian/R$styleable.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/baibian/activity/ChannelActivity.class" afterPath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/baibian/activity/ChannelActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/baibian/activity/ChoiceDirectionActivity.class" afterPath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/baibian/activity/ChoiceDirectionActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/baibian/activity/CityListActivity.class" afterPath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/baibian/activity/CityListActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/baibian/activity/DetailsActivity$TagRecyclerViewAdapter.class" afterPath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/baibian/activity/DetailsActivity$TagRecyclerViewAdapter.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/baibian/activity/DetailsActivity.class" afterPath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/baibian/activity/DetailsActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/baibian/activity/DiscussionActivity.class" afterPath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/baibian/activity/DiscussionActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/baibian/activity/EditPersonalInformationActivity.class" afterPath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/baibian/activity/EditPersonalInformationActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/baibian/activity/EditPortraitActivity$2.class" afterPath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/baibian/activity/EditPortraitActivity$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/baibian/activity/EditPortraitActivity$4.class" afterPath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/baibian/activity/EditPortraitActivity$4.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/baibian/activity/EditPortraitActivity.class" afterPath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/baibian/activity/EditPortraitActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/baibian/activity/Edit_Information_Activity$4.class" afterPath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/baibian/activity/Edit_Information_Activity$4.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/baibian/activity/Edit_Information_Activity.class" afterPath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/baibian/activity/Edit_Information_Activity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/baibian/activity/FullscreenScoopActivity.class" afterPath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/baibian/activity/FullscreenScoopActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/baibian/activity/HisFansActivity.class" afterPath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/baibian/activity/HisFansActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/baibian/activity/HisFocusActivity.class" afterPath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/baibian/activity/HisFocusActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/baibian/activity/HisTopicActivity$TopicAdapter$MyViewHolder.class" afterPath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/baibian/activity/HisTopicActivity$TopicAdapter$MyViewHolder.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/baibian/activity/HisTopicActivity$TopicAdapter.class" afterPath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/baibian/activity/HisTopicActivity$TopicAdapter.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/baibian/activity/HisTopicActivity.class" afterPath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/baibian/activity/HisTopicActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/baibian/activity/ImageShowActivity.class" afterPath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/baibian/activity/ImageShowActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/baibian/activity/LargeActivity.class" afterPath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/baibian/activity/LargeActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/baibian/activity/MainActivity$1.class" afterPath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/baibian/activity/MainActivity$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/baibian/activity/MainActivity.class" afterPath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/baibian/activity/MainActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/baibian/activity/OtherInformationActivity.class" afterPath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/baibian/activity/OtherInformationActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/baibian/activity/PeriodicalCategoryActivity$1.class" afterPath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/baibian/activity/PeriodicalCategoryActivity$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/baibian/activity/PeriodicalCategoryActivity$CategoryChapter.class" afterPath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/baibian/activity/PeriodicalCategoryActivity$CategoryChapter.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/baibian/activity/PeriodicalCategoryActivity.class" afterPath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/baibian/activity/PeriodicalCategoryActivity.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/baibian/activity/PeriodicalDetailActivity$1$1.class" afterPath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/baibian/activity/PeriodicalDetailActivity$1$1.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/baibian/activity/PeriodicalDetailActivity$1.class" afterPath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/baibian/activity/PeriodicalDetailActivity$1.class" />
@@ -93,134 +49,24 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/baibian/activity/PeriodicalDetailActivity$4.class" afterPath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/baibian/activity/PeriodicalDetailActivity$4.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/baibian/activity/PeriodicalDetailActivity$5.class" afterPath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/baibian/activity/PeriodicalDetailActivity$5.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/baibian/activity/PeriodicalDetailActivity.class" afterPath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/baibian/activity/PeriodicalDetailActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/baibian/activity/UsersImformationActivity$3.class" afterPath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/baibian/activity/UsersImformationActivity$3.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/baibian/activity/UsersImformationActivity$7.class" afterPath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/baibian/activity/UsersImformationActivity$7.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/baibian/activity/UsersImformationActivity$9.class" afterPath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/baibian/activity/UsersImformationActivity$9.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/baibian/activity/UsersImformationActivity.class" afterPath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/baibian/activity/UsersImformationActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/baibian/activity/login/GuideActivity.class" afterPath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/baibian/activity/login/GuideActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/baibian/activity/login/Login4Activity$4.class" afterPath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/baibian/activity/login/Login4Activity$4.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/baibian/activity/login/Login4Activity$5.class" afterPath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/baibian/activity/login/Login4Activity$5.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/baibian/activity/login/Login4Activity.class" afterPath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/baibian/activity/login/Login4Activity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/baibian/activity/login/Welcome.class" afterPath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/baibian/activity/login/Welcome.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/baibian/activity/login/registerActivity$3.class" afterPath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/baibian/activity/login/registerActivity$3.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/baibian/activity/login/registerActivity.class" afterPath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/baibian/activity/login/registerActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/baibian/activity/newsDetailsActivity$MyWebViewClient.class" afterPath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/baibian/activity/newsDetailsActivity$MyWebViewClient.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/baibian/activity/newsDetailsActivity.class" afterPath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/baibian/activity/newsDetailsActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/baibian/activity/setting/MessageSettingAcitivity.class" afterPath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/baibian/activity/setting/MessageSettingAcitivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/baibian/activity/setting/PushSetting.class" afterPath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/baibian/activity/setting/PushSetting.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/baibian/activity/setting/SettingsActivity.class" afterPath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/baibian/activity/setting/SettingsActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/baibian/activity/tempActivity$TagRecyclerViewAdapter.class" afterPath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/baibian/activity/tempActivity$TagRecyclerViewAdapter.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/baibian/activity/tempActivity.class" afterPath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/baibian/activity/tempActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/baibian/app/AppApplication.class" afterPath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/baibian/app/AppApplication.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/baibian/base/BaseActivity.class" afterPath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/baibian/base/BaseActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/baibian/crawler/CrawlerChannel$1.class" afterPath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/baibian/crawler/CrawlerChannel$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/baibian/crawler/CrawlerChannel$2.class" afterPath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/baibian/crawler/CrawlerChannel$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/baibian/crawler/CrawlerChannel$3.class" afterPath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/baibian/crawler/CrawlerChannel$3.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/baibian/crawler/CrawlerChannel$4.class" afterPath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/baibian/crawler/CrawlerChannel$4.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/baibian/tool/RoundImageView.class" afterPath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/baibian/tool/RoundImageView.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/baibian/tool/springindicator/SpringIndicator.class" afterPath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/baibian/tool/springindicator/SpringIndicator.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/baibian/tool/springindicator/SpringView.class" afterPath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/baibian/tool/springindicator/SpringView.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/baibian/tool/springindicator/viewpager/ScrollerViewPager.class" afterPath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/baibian/tool/springindicator/viewpager/ScrollerViewPager.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/baibian/view/AddSubtractView.class" afterPath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/baibian/view/AddSubtractView.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/baibian/view/ColumnHorizontalScrollView.class" afterPath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/baibian/view/ColumnHorizontalScrollView.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/baibian/view/CommentCardView$CardContent.class" afterPath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/baibian/view/CommentCardView$CardContent.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/baibian/view/CommentCardView.class" afterPath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/baibian/view/CommentCardView.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/baibian/view/CompletableEditText.class" afterPath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/baibian/view/CompletableEditText.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/baibian/view/CustomBottomUpDialog.class" afterPath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/baibian/view/CustomBottomUpDialog.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/baibian/view/CustomDialog.class" afterPath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/baibian/view/CustomDialog.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/baibian/view/DataLinearLayout.class" afterPath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/baibian/view/DataLinearLayout.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/baibian/view/DragGrid.class" afterPath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/baibian/view/DragGrid.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/baibian/view/HeadListView.class" afterPath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/baibian/view/HeadListView.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/baibian/view/HomepageListView$YScrollDetector.class" afterPath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/baibian/view/HomepageListView$YScrollDetector.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/baibian/view/HomepageListView.class" afterPath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/baibian/view/HomepageListView.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/baibian/view/InflatableLinearLayout.class" afterPath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/baibian/view/InflatableLinearLayout.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/baibian/view/ListView_in_ScrollView.class" afterPath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/baibian/view/ListView_in_ScrollView.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/baibian/view/ListenerScrollView.class" afterPath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/baibian/view/ListenerScrollView.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/baibian/view/OtherGridView.class" afterPath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/baibian/view/OtherGridView.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/baibian/view/RevealFollowButton.class" afterPath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/baibian/view/RevealFollowButton.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/baibian/view/RoundImageView.class" afterPath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/baibian/view/RoundImageView.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/baibian/view/SwitchButton.class" afterPath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/baibian/view/SwitchButton.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/baibian/view/TipView.class" afterPath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/baibian/view/TipView.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/baibian/view/ToastDialog.class" afterPath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/baibian/view/ToastDialog.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/baibian/view/TriangleImageView.class" afterPath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/baibian/view/TriangleImageView.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/baibian/view/imageshow/ImageShowViewPager.class" afterPath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/baibian/view/imageshow/ImageShowViewPager.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/baibian/view/imageshow/TouchImageView.class" afterPath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/baibian/view/imageshow/TouchImageView.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/baibian/view/pullable_view/PullToRefreshLayout.class" afterPath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/baibian/view/pullable_view/PullToRefreshLayout.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/handmark/pulltorefresh/library/PullToRefreshAdapterViewBase.class" afterPath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/handmark/pulltorefresh/library/PullToRefreshAdapterViewBase.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/handmark/pulltorefresh/library/PullToRefreshBase.class" afterPath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/handmark/pulltorefresh/library/PullToRefreshBase.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/handmark/pulltorefresh/library/PullToRefreshExpandableListView$InternalExpandableListView.class" afterPath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/handmark/pulltorefresh/library/PullToRefreshExpandableListView$InternalExpandableListView.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/handmark/pulltorefresh/library/PullToRefreshExpandableListView$InternalExpandableListViewSDK9.class" afterPath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/handmark/pulltorefresh/library/PullToRefreshExpandableListView$InternalExpandableListViewSDK9.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/handmark/pulltorefresh/library/PullToRefreshExpandableListView.class" afterPath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/handmark/pulltorefresh/library/PullToRefreshExpandableListView.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/handmark/pulltorefresh/library/PullToRefreshGridView$InternalGridView.class" afterPath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/handmark/pulltorefresh/library/PullToRefreshGridView$InternalGridView.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/handmark/pulltorefresh/library/PullToRefreshGridView$InternalGridViewSDK9.class" afterPath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/handmark/pulltorefresh/library/PullToRefreshGridView$InternalGridViewSDK9.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/handmark/pulltorefresh/library/PullToRefreshGridView.class" afterPath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/handmark/pulltorefresh/library/PullToRefreshGridView.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/handmark/pulltorefresh/library/PullToRefreshHorizontalScrollView$InternalHorizontalScrollViewSDK9.class" afterPath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/handmark/pulltorefresh/library/PullToRefreshHorizontalScrollView$InternalHorizontalScrollViewSDK9.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/handmark/pulltorefresh/library/PullToRefreshHorizontalScrollView.class" afterPath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/handmark/pulltorefresh/library/PullToRefreshHorizontalScrollView.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/handmark/pulltorefresh/library/PullToRefreshListView$InternalListView.class" afterPath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/handmark/pulltorefresh/library/PullToRefreshListView$InternalListView.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/handmark/pulltorefresh/library/PullToRefreshListView$InternalListViewSDK9.class" afterPath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/handmark/pulltorefresh/library/PullToRefreshListView$InternalListViewSDK9.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/handmark/pulltorefresh/library/PullToRefreshListView.class" afterPath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/handmark/pulltorefresh/library/PullToRefreshListView.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/handmark/pulltorefresh/library/PullToRefreshScrollView$InternalScrollViewSDK9.class" afterPath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/handmark/pulltorefresh/library/PullToRefreshScrollView$InternalScrollViewSDK9.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/handmark/pulltorefresh/library/PullToRefreshScrollView.class" afterPath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/handmark/pulltorefresh/library/PullToRefreshScrollView.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/handmark/pulltorefresh/library/PullToRefreshWebView$InternalWebViewSDK9.class" afterPath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/handmark/pulltorefresh/library/PullToRefreshWebView$InternalWebViewSDK9.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/handmark/pulltorefresh/library/PullToRefreshWebView.class" afterPath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/handmark/pulltorefresh/library/PullToRefreshWebView.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/handmark/pulltorefresh/library/extras/PullToRefreshWebView2.class" afterPath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/handmark/pulltorefresh/library/extras/PullToRefreshWebView2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/handmark/pulltorefresh/library/internal/FlipLoadingLayout.class" afterPath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/handmark/pulltorefresh/library/internal/FlipLoadingLayout.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/handmark/pulltorefresh/library/internal/IndicatorLayout.class" afterPath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/handmark/pulltorefresh/library/internal/IndicatorLayout.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/handmark/pulltorefresh/library/internal/LoadingLayout.class" afterPath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/handmark/pulltorefresh/library/internal/LoadingLayout.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/handmark/pulltorefresh/library/internal/RotateLoadingLayout.class" afterPath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/handmark/pulltorefresh/library/internal/RotateLoadingLayout.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/jeremyfeinstein/slidingmenu/lib/CustomViewAbove.class" afterPath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/jeremyfeinstein/slidingmenu/lib/CustomViewAbove.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/jeremyfeinstein/slidingmenu/lib/CustomViewBehind.class" afterPath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/jeremyfeinstein/slidingmenu/lib/CustomViewBehind.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/jeremyfeinstein/slidingmenu/lib/R$id.class" afterPath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/jeremyfeinstein/slidingmenu/lib/R$id.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/jeremyfeinstein/slidingmenu/lib/R$layout.class" afterPath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/jeremyfeinstein/slidingmenu/lib/R$layout.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/jeremyfeinstein/slidingmenu/lib/SlidingMenu$SavedState.class" afterPath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/jeremyfeinstein/slidingmenu/lib/SlidingMenu$SavedState.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/jeremyfeinstein/slidingmenu/lib/SlidingMenu.class" afterPath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/jeremyfeinstein/slidingmenu/lib/SlidingMenu.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/jeremyfeinstein/slidingmenu/lib/app/SlidingActivity.class" afterPath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/jeremyfeinstein/slidingmenu/lib/app/SlidingActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/jeremyfeinstein/slidingmenu/lib/app/SlidingFragmentActivity.class" afterPath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/jeremyfeinstein/slidingmenu/lib/app/SlidingFragmentActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/jeremyfeinstein/slidingmenu/lib/app/SlidingListActivity.class" afterPath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/jeremyfeinstein/slidingmenu/lib/app/SlidingListActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/jeremyfeinstein/slidingmenu/lib/app/SlidingPreferenceActivity.class" afterPath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/jeremyfeinstein/slidingmenu/lib/app/SlidingPreferenceActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/like/view/R$layout.class" afterPath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/like/view/R$layout.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/transforms/instantRun/debug/folders/1/5/main/github/chenupt/springindicator/R$layout.class" afterPath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/transforms/instantRun/debug/folders/1/5/main/github/chenupt/springindicator/R$layout.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_3/com/baibian/view/pullable_view/PullToRefreshLayout.class" afterPath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_3/com/baibian/view/pullable_view/PullToRefreshLayout.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CampusNewsClients/build/generated/source/r/debug/android/support/design/R.java" afterPath="$PROJECT_DIR$/CampusNewsClients/build/generated/source/r/debug/android/support/design/R.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CampusNewsClients/build/generated/source/r/debug/android/support/v7/appcompat/R.java" afterPath="$PROJECT_DIR$/CampusNewsClients/build/generated/source/r/debug/android/support/v7/appcompat/R.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CampusNewsClients/build/generated/source/r/debug/co/lujun/androidtagview/R.java" afterPath="$PROJECT_DIR$/CampusNewsClients/build/generated/source/r/debug/co/lujun/androidtagview/R.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CampusNewsClients/build/generated/source/r/debug/com/baibian/R.java" afterPath="$PROJECT_DIR$/CampusNewsClients/build/generated/source/r/debug/com/baibian/R.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CampusNewsClients/build/generated/source/r/debug/com/jeremyfeinstein/slidingmenu/lib/R.java" afterPath="$PROJECT_DIR$/CampusNewsClients/build/generated/source/r/debug/com/jeremyfeinstein/slidingmenu/lib/R.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CampusNewsClients/build/generated/source/r/debug/com/like/view/R.java" afterPath="$PROJECT_DIR$/CampusNewsClients/build/generated/source/r/debug/com/like/view/R.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CampusNewsClients/build/generated/source/r/debug/github/chenupt/springindicator/R.java" afterPath="$PROJECT_DIR$/CampusNewsClients/build/generated/source/r/debug/github/chenupt/springindicator/R.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/blame/res/debug/single/anim.json" afterPath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/blame/res/debug/single/anim.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/blame/res/debug/single/color.json" afterPath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/blame/res/debug/single/color.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/blame/res/debug/single/drawable.json" afterPath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/blame/res/debug/single/drawable.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/blame/res/debug/single/layout.json" afterPath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/blame/res/debug/single/layout.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/blame/res/debug/single/menu.json" afterPath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/blame/res/debug/single/menu.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/incremental/mergeDebugResources/compile-file-map.properties" afterPath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/incremental/mergeDebugResources/compile-file-map.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/incremental/mergeDebugResources/merger.xml" afterPath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/incremental/mergeDebugResources/merger.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/instant-run-support/debug/package_slice_0/dex-renamer-state.txt" afterPath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/instant-run-support/debug/package_slice_0/dex-renamer-state.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/instant-run-support/debug/package_slice_2/dex-renamer-state.txt" afterPath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/instant-run-support/debug/package_slice_2/dex-renamer-state.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/instant-run-support/debug/package_slice_3/dex-renamer-state.txt" afterPath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/instant-run-support/debug/package_slice_3/dex-renamer-state.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/instant-run-support/debug/package_slice_4/dex-renamer-state.txt" afterPath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/instant-run-support/debug/package_slice_4/dex-renamer-state.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/instant-run-support/debug/package_slice_5/dex-renamer-state.txt" afterPath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/instant-run-support/debug/package_slice_5/dex-renamer-state.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/instant-run-support/debug/package_slice_6/dex-renamer-state.txt" afterPath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/instant-run-support/debug/package_slice_6/dex-renamer-state.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/instant-run-support/debug/package_slice_7/dex-renamer-state.txt" afterPath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/instant-run-support/debug/package_slice_7/dex-renamer-state.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/instant-run-support/debug/package_slice_8/dex-renamer-state.txt" afterPath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/instant-run-support/debug/package_slice_8/dex-renamer-state.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/instant-run-support/debug/package_slice_9/dex-renamer-state.txt" afterPath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/instant-run-support/debug/package_slice_9/dex-renamer-state.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/res/merged/debug/layout/load_more.xml" afterPath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/res/merged/debug/layout/load_more.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/res/merged/debug/layout/comment_card_view.xml" afterPath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/res/merged/debug/layout/comment_card_view.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/restart-dex/debug/build-info.xml" afterPath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/restart-dex/debug/build-info.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/symbols/debug/R.txt" afterPath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/symbols/debug/R.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/buildId.txt" afterPath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/buildId.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/buildId.txt" afterPath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/buildId.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_3/buildId.txt" afterPath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_3/buildId.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_4/buildId.txt" afterPath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_4/buildId.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_6/buildId.txt" afterPath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_6/buildId.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_7/buildId.txt" afterPath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_7/buildId.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_9/buildId.txt" afterPath="$PROJECT_DIR$/CampusNewsClients/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_9/buildId.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CampusNewsClients/src/main/java/com/baibian/activity/PeriodicalCategoryActivity.java" afterPath="$PROJECT_DIR$/CampusNewsClients/src/main/java/com/baibian/activity/PeriodicalCategoryActivity.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CampusNewsClients/src/main/java/com/baibian/activity/PeriodicalDetailActivity.java" afterPath="$PROJECT_DIR$/CampusNewsClients/src/main/java/com/baibian/activity/PeriodicalDetailActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CampusNewsClients/src/main/java/com/baibian/view/AddSubtractView.java" afterPath="$PROJECT_DIR$/CampusNewsClients/src/main/java/com/baibian/view/AddSubtractView.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CampusNewsClients/src/main/java/com/baibian/view/CommentCardView.java" afterPath="$PROJECT_DIR$/CampusNewsClients/src/main/java/com/baibian/view/CommentCardView.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CampusNewsClients/src/main/java/com/baibian/view/CustomBottomUpDialog.java" afterPath="$PROJECT_DIR$/CampusNewsClients/src/main/java/com/baibian/view/CustomBottomUpDialog.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CampusNewsClients/src/main/java/com/baibian/view/CustomDialog.java" afterPath="$PROJECT_DIR$/CampusNewsClients/src/main/java/com/baibian/view/CustomDialog.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CampusNewsClients/src/main/res/layout/load_more.xml" afterPath="$PROJECT_DIR$/CampusNewsClients/src/main/res/layout/load_more.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CampusNewsClients/src/main/res/layout/activity_periodical_detail.xml" afterPath="$PROJECT_DIR$/CampusNewsClients/src/main/res/layout/activity_periodical_detail.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CampusNewsClients/src/main/res/layout/comment_card_view.xml" afterPath="$PROJECT_DIR$/CampusNewsClients/src/main/res/layout/comment_card_view.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CampusNewsClients/src/main/res/layout/share_periodical_dialog_layout.xml" afterPath="$PROJECT_DIR$/CampusNewsClients/src/main/res/layout/share_periodical_dialog_layout.xml" />
     </list>
     <ignored path="CampusNews.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -266,25 +112,26 @@
       <file leaf-file-name="PeriodicalDetailActivity.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/CampusNewsClients/src/main/java/com/baibian/activity/PeriodicalDetailActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="281">
-              <caret line="263" column="24" selection-start-line="263" selection-start-column="24" selection-end-line="263" selection-end-column="24" />
+            <state relative-caret-position="561">
+              <caret line="470" column="20" selection-start-line="470" selection-start-column="20" selection-end-line="470" selection-end-column="20" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#4189#4190#0" expanded="true" />
-                <element signature="e#4214#4215#0" expanded="true" />
-                <element signature="e#6609#6914#0" expanded="true" />
-                <element signature="e#6913#6914#0" expanded="true" />
-                <element signature="e#10699#11272#0" expanded="true" />
-                <element signature="e#11271#11272#0" expanded="true" />
-                <element signature="e#13731#13732#0" expanded="true" />
-                <element signature="e#13794#13795#0" expanded="true" />
-                <element signature="e#13836#13837#0" expanded="true" />
-                <element signature="e#13899#13900#0" expanded="true" />
-                <element signature="e#14262#14280#0" expanded="true" />
-                <element signature="e#14511#14527#0" expanded="true" />
-                <element signature="e#16949#17724#0" expanded="true" />
-                <element signature="e#17723#17724#0" expanded="true" />
-                <marker date="1503288981195" expanded="false" signature="11926:13512" ph="{...}" />
+                <element signature="e#4225#4226#0" expanded="true" />
+                <element signature="e#4250#4251#0" expanded="true" />
+                <element signature="e#6645#6950#0" expanded="true" />
+                <element signature="e#6949#6950#0" expanded="true" />
+                <element signature="e#10735#11308#0" expanded="true" />
+                <element signature="e#11307#11308#0" expanded="true" />
+                <element signature="e#13789#13790#0" expanded="true" />
+                <element signature="e#13852#13853#0" expanded="true" />
+                <element signature="e#13894#13895#0" expanded="true" />
+                <element signature="e#13957#13958#0" expanded="true" />
+                <element signature="e#14320#14338#0" expanded="true" />
+                <element signature="e#14569#14585#0" expanded="true" />
+                <element signature="e#16932#16933#0" expanded="true" />
+                <element signature="e#16968#16969#0" expanded="true" />
+                <element signature="e#17228#18003#0" expanded="true" />
+                <element signature="e#18002#18003#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -303,10 +150,28 @@
       <file leaf-file-name="CommentCardView.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/CampusNewsClients/src/main/java/com/baibian/view/CommentCardView.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
-              <caret line="50" column="37" selection-start-line="50" selection-start-column="37" selection-end-line="50" selection-end-column="37" />
+            <state relative-caret-position="400">
+              <caret line="26" column="8" selection-start-line="26" selection-start-column="8" selection-end-line="26" selection-end-column="8" />
+              <folding>
+                <element signature="e#1452#1453#0" expanded="true" />
+                <element signature="e#1508#1509#0" expanded="true" />
+                <element signature="e#4114#4115#0" expanded="true" />
+                <element signature="e#4167#4168#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="comment_card_view.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CampusNewsClients/src/main/res/layout/comment_card_view.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="40">
+              <caret line="13" column="29" selection-start-line="13" selection-start-column="29" selection-end-line="13" selection-end-column="29" />
               <folding />
             </state>
+          </provider>
+          <provider editor-type-id="android-designer2">
+            <state />
           </provider>
         </entry>
       </file>
@@ -333,8 +198,21 @@
       <file leaf-file-name="share_periodical_dialog_layout.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/CampusNewsClients/src/main/res/layout/share_periodical_dialog_layout.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="44" column="27" selection-start-line="44" selection-start-column="27" selection-end-line="44" selection-end-column="27" />
+            <state relative-caret-position="480">
+              <caret line="12" column="38" selection-start-line="12" selection-start-column="38" selection-end-line="12" selection-end-column="38" />
+              <folding />
+            </state>
+          </provider>
+          <provider editor-type-id="android-designer2">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="activity_periodical_detail.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CampusNewsClients/src/main/res/layout/activity_periodical_detail.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="344">
+              <caret line="118" column="56" selection-start-line="118" selection-start-column="56" selection-end-line="118" selection-end-column="56" />
               <folding />
             </state>
           </provider>
@@ -362,35 +240,6 @@
               <caret line="75" column="17" selection-start-line="75" selection-start-column="17" selection-end-line="75" selection-end-column="17" />
               <folding />
             </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SharePeriodicalDialog.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/CampusNewsClients/src/main/java/com/baibian/view/SharePeriodicalDialog.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#772#773#0" expanded="true" />
-                <element signature="e#802#803#0" expanded="true" />
-                <element signature="e#1936#1937#0" expanded="true" />
-                <element signature="e#1983#1984#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="load_more.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/CampusNewsClients/src/main/res/layout/load_more.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="5" column="30" selection-start-line="5" selection-start-column="30" selection-end-line="5" selection-end-column="30" />
-              <folding />
-            </state>
-          </provider>
-          <provider editor-type-id="android-designer2">
-            <state />
           </provider>
         </entry>
       </file>
@@ -4172,7 +4021,6 @@
         <option value="$PROJECT_DIR$/CampusNewsClients/build.gradle" />
         <option value="$PROJECT_DIR$/CampusNewsClients/src/main/res/drawable/divider_transparent.xml" />
         <option value="$PROJECT_DIR$/CampusNewsClients/src/main/java/com/baibian/bean/UserInformationDetail.java" />
-        <option value="$PROJECT_DIR$/CampusNewsClients/src/main/res/layout/comment_card_view.xml" />
         <option value="$PROJECT_DIR$/CampusNewsClients/src/main/java/com/baibian/activity/DetailsActivity.java" />
         <option value="$PROJECT_DIR$/CampusNewsClients/src/main/java/com/baibian/view/DataLinearLayout.java" />
         <option value="$PROJECT_DIR$/CampusNewsClients/src/main/AndroidManifest.xml" />
@@ -4199,7 +4047,6 @@
         <option value="$PROJECT_DIR$/pullToRefreshAndLoad/pullToRefreshAndLoad.iml" />
         <option value="$PROJECT_DIR$/CampusNewsClients/src/main/res/values/colors.xml" />
         <option value="$PROJECT_DIR$/CampusNewsClients/src/main/java/com/baibian/view/ListenerScrollView.java" />
-        <option value="$PROJECT_DIR$/CampusNewsClients/src/main/res/layout/activity_periodical_detail.xml" />
         <option value="$PROJECT_DIR$/CampusNewsClients/src/main/java/com/baibian/view/pullable_view/PullToRefreshLayout.java" />
         <option value="$PROJECT_DIR$/CampusNewsClients/src/main/res/drawable/collect_btn_background_unclick.xml" />
         <option value="$PROJECT_DIR$/CampusNewsClients/src/main/res/values/strings.xml" />
@@ -4209,13 +4056,15 @@
         <option value="$PROJECT_DIR$/CampusNewsClients/src/main/java/com/baibian/view/SharePeriodcalDialog.java" />
         <option value="$PROJECT_DIR$/CampusNewsClients/src/main/java/com/baibian/view/ToastDialog.java" />
         <option value="$PROJECT_DIR$/CampusNewsClients/src/main/java/com/baibian/view/SharePeriodicalDialog.java" />
-        <option value="$PROJECT_DIR$/CampusNewsClients/src/main/res/layout/share_periodical_dialog_layout.xml" />
         <option value="$PROJECT_DIR$/CampusNewsClients/src/main/res/layout/load_more.xml" />
-        <option value="$PROJECT_DIR$/CampusNewsClients/src/main/java/com/baibian/view/CommentCardView.java" />
         <option value="$PROJECT_DIR$/CampusNewsClients/src/main/java/com/baibian/view/CustomDialog.java" />
         <option value="$PROJECT_DIR$/CampusNewsClients/src/main/java/com/baibian/activity/PeriodicalCategoryActivity.java" />
         <option value="$PROJECT_DIR$/CampusNewsClients/src/main/java/com/baibian/view/CustomBottomUpDialog.java" />
         <option value="$PROJECT_DIR$/CampusNewsClients/src/main/java/com/baibian/view/AddSubtractView.java" />
+        <option value="$PROJECT_DIR$/CampusNewsClients/src/main/res/layout/share_periodical_dialog_layout.xml" />
+        <option value="$PROJECT_DIR$/CampusNewsClients/src/main/res/layout/activity_periodical_detail.xml" />
+        <option value="$PROJECT_DIR$/CampusNewsClients/src/main/res/layout/comment_card_view.xml" />
+        <option value="$PROJECT_DIR$/CampusNewsClients/src/main/java/com/baibian/view/CommentCardView.java" />
         <option value="$PROJECT_DIR$/CampusNewsClients/src/main/java/com/baibian/activity/PeriodicalDetailActivity.java" />
       </list>
     </option>
@@ -4350,7 +4199,7 @@
     <property name="UI_DESIGNER_EDITOR_MODE.NlPaletteManager-NlPreviewForm.SHOW" value="false" />
     <property name="show.do.not.ask.upgrade.gradle.plugin" value="2.3.1" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/CampusNewsClients/src/testDebug/aidl" />
-    <property name="SearchEverywhereHistoryKey" value="loadmore&#9;FILE&#9;file://C:/Users/Ellly/Desktop/SourceCodeTempOnDesktop/CampusNews/CampusNewsClients/src/main/res/layout/load_more.xml&#10;User&#9;FILE&#9;file://C:/Users/Ellly/Desktop/SourceCodeTempOnDesktop/CampusNews/CampusNewsClients/src/main/java/com/baibian/activity/UsersImformationActivity.java&#10;strings&#9;FILE&#9;file://C:/Users/Ellly/Desktop/SourceCodeTempOnDesktop/CampusNews/CampusNewsClients/src/main/res/values/strings.xml&#10;otherinf&#9;FILE&#9;file://C:/Users/Ellly/Desktop/SourceCodeTempOnDesktop/CampusNews/CampusNewsClients/src/main/res/layout/activity_other_information.xml&#10;userimfor&#9;FILE&#9;file://C:/Users/Ellly/Desktop/SourceCodeTempOnDesktop/CampusNews/CampusNewsClients/src/main/java/com/baibian/activity/UsersImformationActivity.java&#10;L&#9;FILE&#9;file://C:/Users/Ellly/Desktop/SourceCodeTempOnDesktop/CampusNews/pullToRefresh/src/main/res/drawable-xhdpi/l.jpg&#10;Cus&#9;FILE&#9;file://C:/Users/Ellly/Desktop/SourceCodeTempOnDesktop/CampusNews/CampusNewsClients/src/main/java/com/baibian/view/CustomBottomUpDialog.java&#10;Perio&#9;FILE&#9;file://C:/Users/Ellly/Desktop/SourceCodeTempOnDesktop/CampusNews/CampusNewsClients/src/main/java/com/baibian/activity/PeriodicalDetailActivity.java&#10;Periodica&#9;FILE&#9;file://C:/Users/Ellly/Desktop/SourceCodeTempOnDesktop/CampusNews/CampusNewsClients/src/main/java/com/baibian/activity/PeriodicalDetailActivity.java&#10;popup&#9;FILE&#9;file://C:/Users/Ellly/Desktop/SourceCodeTempOnDesktop/CampusNews/CampusNewsClients/src/main/res/layout/buy_popup_layout.xml&#10;UserIm&#9;PSI&#9;JAVA://com.baibian.activity.UsersImformationActivity&#10;A&#9;FILE&#9;file://C:/Users/Ellly/Desktop/SourceCodeTempOnDesktop/CampusNews/CampusNewsClients/src/main/AndroidManifest.xml&#10;Android&#9;FILE&#9;file://C:/Users/Ellly/Desktop/SourceCodeTempOnDesktop/CampusNews/CampusNewsClients/src/main/AndroidManifest.xml&#10;Userf&#9;PSI&#9;JAVA://com.baibian.fragment.users_imformation.UserFragment&#10;RecyclerView&#9;PSI&#9;JAVA://android.support.design.R.styleable#RecyclerView&#10;Recy&#9;PSI&#9;JAVA://android.support.design.R.styleable#RecycleListView&#10;Androi&#9;FILE&#9;file://C:/Users/Ellly/Desktop/SourceCodeTempOnDesktop/CampusNews/CampusNewsClients/src/main/AndroidManifest.xml&#10;Other&#9;FILE&#9;file://C:/Users/Ellly/Desktop/SourceCodeTempOnDesktop/CampusNews/CampusNewsClients/src/main/java/com/baibian/activity/OtherInformationActivity.java&#10;de&#9;FILE&#9;file://C:/Users/Ellly/Desktop/SourceCodeTempOnDesktop/CampusNews/CampusNewsClients/src/main/res/layout/activity_periodical_detail.xml&#10;And&#9;FILE&#9;file://C:/Users/Ellly/Desktop/SourceCodeTempOnDesktop/CampusNews/CampusNewsClients/src/main/AndroidManifest.xml&#10;Edit&#9;FILE&#9;file://C:/Users/Ellly/Desktop/SourceCodeTempOnDesktop/CampusNews/CampusNewsClients/src/main/java/com/baibian/activity/EditPortraitActivity.java&#10;Edip&#9;FILE&#9;file://C:/Users/Ellly/Desktop/SourceCodeTempOnDesktop/CampusNews/CampusNewsClients/src/main/java/com/baibian/activity/EditPortraitActivity.java&#10;user&#9;FILE&#9;file://C:/Users/Ellly/Desktop/SourceCodeTempOnDesktop/CampusNews/CampusNewsClients/src/main/res/layout/usersimformationlayout.xml&#10;fraglis&#9;FILE&#9;file://C:/Users/Ellly/Desktop/SourceCodeTempOnDesktop/CampusNews/CampusNewsClients/src/main/res/layout/fragment_user_list.xml&#10;fragment&#9;FILE&#9;file://C:/Users/Ellly/Desktop/SourceCodeTempOnDesktop/CampusNews/CampusNewsClients/src/main/res/layout/fragment_his_topic.xml&#10;edit&#9;FILE&#9;file://C:/Users/Ellly/Desktop/SourceCodeTempOnDesktop/CampusNews/CampusNewsClients/src/main/res/layout/activity_edit_personal_information.xml&#10;UserCon&#9;FILE&#9;file://C:/Users/Ellly/Desktop/SourceCodeTempOnDesktop/CampusNews/CampusNewsClients/src/main/java/com/baibian/bean/HisUserContent.java&#10;edi&#9;FILE&#9;file://C:/Users/Ellly/Desktop/SourceCodeTempOnDesktop/CampusNews/CampusNewsClients/src/main/res/layout/activity_edit_personal_information.xml&#10;androidmani&#9;FILE&#9;file://C:/Users/Ellly/Desktop/SourceCodeTempOnDesktop/CampusNews/CampusNewsClients/src/main/AndroidManifest.xml&#10;editpor&#9;FILE&#9;file://C:/Users/Ellly/Desktop/SourceCodeTempOnDesktop/CampusNews/CampusNewsClients/src/main/java/com/baibian/activity/EditPortraitActivity.java&#10;EdiPersonal&#9;FILE&#9;file://C:/Users/Ellly/Desktop/SourceCodeTempOnDesktop/CampusNews/CampusNewsClients/src/main/java/com/baibian/activity/EditPersonalInformationActivity.java&#10;AndroidManife&#9;FILE&#9;file://C:/Users/Ellly/Desktop/SourceCodeTempOnDesktop/CampusNews/CampusNewsClients/src/main/AndroidManifest.xml&#10;Full&#9;FILE&#9;file://C:/Users/Ellly/Desktop/SourceCodeTempOnDesktop/CampusNews/CampusNewsClients/src/main/java/com/baibian/activity/FullscreenScoopActivity.java&#10;other&#9;PSI&#9;JAVA://com.baibian.activity.OtherInformationActivity&#10;Larg&#9;FILE&#9;file://C:/Users/Ellly/Desktop/SourceCodeTempOnDesktop/CampusNews/CampusNewsClients/src/main/java/com/baibian/activity/LargeActivity.java&#10;Edi&#9;FILE&#9;file://C:/Users/Ellly/Desktop/SourceCodeTempOnDesktop/CampusNews/CampusNewsClients/src/main/java/com/baibian/activity/EditPersonalInformationActivity.java&#10;UserConte&#9;PSI&#9;JAVA://com.baibian.bean.HisUserContent&#10;Fragment&#9;FILE&#9;file://C:/Users/Ellly/Desktop/SourceCodeTempOnDesktop/CampusNews/CampusNewsClients/src/main/res/layout/fragment_user.xml&#10;FragmenUs&#9;PSI&#9;JAVA://com.baibian.R.layout#fragment_user&#10;ic_drawer&#9;FILE&#9;file://C:/Users/Ellly/Desktop/SourceCodeTempOnDesktop/CampusNews/CampusNewsClients/src/main/res/drawable/ic_drawer_appstore.xml&#10;EditPor&#9;PSI&#9;JAVA://com.baibian.activity.EditPortraitActivity&#10;Infl&#9;FILE&#9;file://C:/Users/Ellly/Desktop/SourceCodeTempOnDesktop/CampusNews/CampusNewsClients/src/main/java/com/baibian/view/InflatableLinearLayout.java&#10;Hisfa&#9;FILE&#9;file://C:/Users/Ellly/Desktop/SourceCodeTempOnDesktop/CampusNews/CampusNewsClients/src/main/java/com/baibian/activity/HisFansActivity.java&#10;AndroidMani&#9;FILE&#9;file://C:/Users/Ellly/Desktop/SourceCodeTempOnDesktop/CampusNews/CampusNewsClients/src/main/AndroidManifest.xml&#10;Inflat&#9;FILE&#9;file://C:/Users/Ellly/Desktop/SourceCodeTempOnDesktop/CampusNews/CampusNewsClients/src/main/java/com/baibian/tool/LinearLayout_Inflaterable.java&#10;Ed&#9;FILE&#9;file://C:/Users/Ellly/Desktop/SourceCodeTempOnDesktop/CampusNews/CampusNewsClients/src/main/java/com/baibian/activity/Edit_Information_Activity.java&#10;rece&#9;PSI&#9;JAVA://com.baibian.listener.ReceiverImageLoadingHelper&#10;portra&#9;PSI&#9;JAVA://com.baibian.behavior.PortraitBehavior&#10;inflate&#9;PSI&#9;JAVA://com.baibian.tool.LinearLayout_Inflaterable&#10;house&#9;PSI&#9;JAVA://com.baibian.activity.Edit_Information_Activity#house_LinearLayout" />
+    <property name="SearchEverywhereHistoryKey" value="Card&#9;FILE&#9;file://C:/Users/Ellly/Desktop/SourceCodeTempOnDesktop/CampusNews/CampusNewsClients/src/main/java/com/baibian/view/CommentCardView.java&#10;loadmore&#9;FILE&#9;file://C:/Users/Ellly/Desktop/SourceCodeTempOnDesktop/CampusNews/CampusNewsClients/src/main/res/layout/load_more.xml&#10;User&#9;FILE&#9;file://C:/Users/Ellly/Desktop/SourceCodeTempOnDesktop/CampusNews/CampusNewsClients/src/main/java/com/baibian/activity/UsersImformationActivity.java&#10;strings&#9;FILE&#9;file://C:/Users/Ellly/Desktop/SourceCodeTempOnDesktop/CampusNews/CampusNewsClients/src/main/res/values/strings.xml&#10;otherinf&#9;FILE&#9;file://C:/Users/Ellly/Desktop/SourceCodeTempOnDesktop/CampusNews/CampusNewsClients/src/main/res/layout/activity_other_information.xml&#10;userimfor&#9;FILE&#9;file://C:/Users/Ellly/Desktop/SourceCodeTempOnDesktop/CampusNews/CampusNewsClients/src/main/java/com/baibian/activity/UsersImformationActivity.java&#10;L&#9;FILE&#9;file://C:/Users/Ellly/Desktop/SourceCodeTempOnDesktop/CampusNews/pullToRefresh/src/main/res/drawable-xhdpi/l.jpg&#10;Cus&#9;FILE&#9;file://C:/Users/Ellly/Desktop/SourceCodeTempOnDesktop/CampusNews/CampusNewsClients/src/main/java/com/baibian/view/CustomBottomUpDialog.java&#10;Perio&#9;FILE&#9;file://C:/Users/Ellly/Desktop/SourceCodeTempOnDesktop/CampusNews/CampusNewsClients/src/main/java/com/baibian/activity/PeriodicalDetailActivity.java&#10;Periodica&#9;FILE&#9;file://C:/Users/Ellly/Desktop/SourceCodeTempOnDesktop/CampusNews/CampusNewsClients/src/main/java/com/baibian/activity/PeriodicalDetailActivity.java&#10;popup&#9;FILE&#9;file://C:/Users/Ellly/Desktop/SourceCodeTempOnDesktop/CampusNews/CampusNewsClients/src/main/res/layout/buy_popup_layout.xml&#10;UserIm&#9;PSI&#9;JAVA://com.baibian.activity.UsersImformationActivity&#10;A&#9;FILE&#9;file://C:/Users/Ellly/Desktop/SourceCodeTempOnDesktop/CampusNews/CampusNewsClients/src/main/AndroidManifest.xml&#10;Android&#9;FILE&#9;file://C:/Users/Ellly/Desktop/SourceCodeTempOnDesktop/CampusNews/CampusNewsClients/src/main/AndroidManifest.xml&#10;Userf&#9;PSI&#9;JAVA://com.baibian.fragment.users_imformation.UserFragment&#10;RecyclerView&#9;PSI&#9;JAVA://android.support.design.R.styleable#RecyclerView&#10;Recy&#9;PSI&#9;JAVA://android.support.design.R.styleable#RecycleListView&#10;Androi&#9;FILE&#9;file://C:/Users/Ellly/Desktop/SourceCodeTempOnDesktop/CampusNews/CampusNewsClients/src/main/AndroidManifest.xml&#10;Other&#9;FILE&#9;file://C:/Users/Ellly/Desktop/SourceCodeTempOnDesktop/CampusNews/CampusNewsClients/src/main/java/com/baibian/activity/OtherInformationActivity.java&#10;de&#9;FILE&#9;file://C:/Users/Ellly/Desktop/SourceCodeTempOnDesktop/CampusNews/CampusNewsClients/src/main/res/layout/activity_periodical_detail.xml&#10;And&#9;FILE&#9;file://C:/Users/Ellly/Desktop/SourceCodeTempOnDesktop/CampusNews/CampusNewsClients/src/main/AndroidManifest.xml&#10;Edit&#9;FILE&#9;file://C:/Users/Ellly/Desktop/SourceCodeTempOnDesktop/CampusNews/CampusNewsClients/src/main/java/com/baibian/activity/EditPortraitActivity.java&#10;Edip&#9;FILE&#9;file://C:/Users/Ellly/Desktop/SourceCodeTempOnDesktop/CampusNews/CampusNewsClients/src/main/java/com/baibian/activity/EditPortraitActivity.java&#10;user&#9;FILE&#9;file://C:/Users/Ellly/Desktop/SourceCodeTempOnDesktop/CampusNews/CampusNewsClients/src/main/res/layout/usersimformationlayout.xml&#10;fraglis&#9;FILE&#9;file://C:/Users/Ellly/Desktop/SourceCodeTempOnDesktop/CampusNews/CampusNewsClients/src/main/res/layout/fragment_user_list.xml&#10;fragment&#9;FILE&#9;file://C:/Users/Ellly/Desktop/SourceCodeTempOnDesktop/CampusNews/CampusNewsClients/src/main/res/layout/fragment_his_topic.xml&#10;edit&#9;FILE&#9;file://C:/Users/Ellly/Desktop/SourceCodeTempOnDesktop/CampusNews/CampusNewsClients/src/main/res/layout/activity_edit_personal_information.xml&#10;UserCon&#9;FILE&#9;file://C:/Users/Ellly/Desktop/SourceCodeTempOnDesktop/CampusNews/CampusNewsClients/src/main/java/com/baibian/bean/HisUserContent.java&#10;edi&#9;FILE&#9;file://C:/Users/Ellly/Desktop/SourceCodeTempOnDesktop/CampusNews/CampusNewsClients/src/main/res/layout/activity_edit_personal_information.xml&#10;androidmani&#9;FILE&#9;file://C:/Users/Ellly/Desktop/SourceCodeTempOnDesktop/CampusNews/CampusNewsClients/src/main/AndroidManifest.xml&#10;editpor&#9;FILE&#9;file://C:/Users/Ellly/Desktop/SourceCodeTempOnDesktop/CampusNews/CampusNewsClients/src/main/java/com/baibian/activity/EditPortraitActivity.java&#10;EdiPersonal&#9;FILE&#9;file://C:/Users/Ellly/Desktop/SourceCodeTempOnDesktop/CampusNews/CampusNewsClients/src/main/java/com/baibian/activity/EditPersonalInformationActivity.java&#10;AndroidManife&#9;FILE&#9;file://C:/Users/Ellly/Desktop/SourceCodeTempOnDesktop/CampusNews/CampusNewsClients/src/main/AndroidManifest.xml&#10;Full&#9;FILE&#9;file://C:/Users/Ellly/Desktop/SourceCodeTempOnDesktop/CampusNews/CampusNewsClients/src/main/java/com/baibian/activity/FullscreenScoopActivity.java&#10;other&#9;PSI&#9;JAVA://com.baibian.activity.OtherInformationActivity&#10;Larg&#9;FILE&#9;file://C:/Users/Ellly/Desktop/SourceCodeTempOnDesktop/CampusNews/CampusNewsClients/src/main/java/com/baibian/activity/LargeActivity.java&#10;Edi&#9;FILE&#9;file://C:/Users/Ellly/Desktop/SourceCodeTempOnDesktop/CampusNews/CampusNewsClients/src/main/java/com/baibian/activity/EditPersonalInformationActivity.java&#10;UserConte&#9;PSI&#9;JAVA://com.baibian.bean.HisUserContent&#10;Fragment&#9;FILE&#9;file://C:/Users/Ellly/Desktop/SourceCodeTempOnDesktop/CampusNews/CampusNewsClients/src/main/res/layout/fragment_user.xml&#10;FragmenUs&#9;PSI&#9;JAVA://com.baibian.R.layout#fragment_user&#10;ic_drawer&#9;FILE&#9;file://C:/Users/Ellly/Desktop/SourceCodeTempOnDesktop/CampusNews/CampusNewsClients/src/main/res/drawable/ic_drawer_appstore.xml&#10;EditPor&#9;PSI&#9;JAVA://com.baibian.activity.EditPortraitActivity&#10;Infl&#9;FILE&#9;file://C:/Users/Ellly/Desktop/SourceCodeTempOnDesktop/CampusNews/CampusNewsClients/src/main/java/com/baibian/view/InflatableLinearLayout.java&#10;Hisfa&#9;FILE&#9;file://C:/Users/Ellly/Desktop/SourceCodeTempOnDesktop/CampusNews/CampusNewsClients/src/main/java/com/baibian/activity/HisFansActivity.java&#10;AndroidMani&#9;FILE&#9;file://C:/Users/Ellly/Desktop/SourceCodeTempOnDesktop/CampusNews/CampusNewsClients/src/main/AndroidManifest.xml&#10;Inflat&#9;FILE&#9;file://C:/Users/Ellly/Desktop/SourceCodeTempOnDesktop/CampusNews/CampusNewsClients/src/main/java/com/baibian/tool/LinearLayout_Inflaterable.java&#10;Ed&#9;FILE&#9;file://C:/Users/Ellly/Desktop/SourceCodeTempOnDesktop/CampusNews/CampusNewsClients/src/main/java/com/baibian/activity/Edit_Information_Activity.java&#10;rece&#9;PSI&#9;JAVA://com.baibian.listener.ReceiverImageLoadingHelper&#10;portra&#9;PSI&#9;JAVA://com.baibian.behavior.PortraitBehavior&#10;inflate&#9;PSI&#9;JAVA://com.baibian.tool.LinearLayout_Inflaterable" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit3" />
   </component>
@@ -4919,7 +4768,14 @@
       <option name="project" value="LOCAL" />
       <updated>1503282080797</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="加了点注释">
+      <created>1503289047428</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1503289047428</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TodoView">
@@ -4936,7 +4792,7 @@
     <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32585597" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20685579" sideWeight="0.4860515" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.091016546" sideWeight="0.4860515" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -5061,7 +4917,8 @@
     <MESSAGE value="购买界面（大致完成）" />
     <MESSAGE value="滑动方案（初次）" />
     <MESSAGE value="followButton写了点接口" />
-    <option name="LAST_COMMIT_MESSAGE" value="followButton写了点接口" />
+    <MESSAGE value="加了点注释" />
+    <option name="LAST_COMMIT_MESSAGE" value="加了点注释" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -5146,7 +5003,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/CampusNewsClients/src/main/java/com/baibian/activity/PeriodicalDetailActivity.java</url>
-          <line>270</line>
+          <line>271</line>
           <properties />
           <option name="timeStamp" value="76" />
         </line-breakpoint>
@@ -5156,16 +5013,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/CampusNewsClients/src/main/res/layout/activity_his_focus.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-120">
-          <caret line="17" column="47" selection-start-line="17" selection-start-column="47" selection-end-line="17" selection-end-column="47" />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/AppData/Local/Android/sdk/sources/android-25/android/app/Dialog.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="344">
@@ -5509,17 +5356,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CampusNewsClients/src/main/res/layout/activity_periodical_detail.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="49" column="20" selection-start-line="49" selection-start-column="20" selection-end-line="49" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/CampusNewsClients/src/main/res/layout/load_more.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="200">
@@ -5545,17 +5381,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CampusNewsClients/src/main/res/layout/share_periodical_dialog_layout.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="44" column="27" selection-start-line="44" selection-start-column="27" selection-end-line="44" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/CampusNewsClients/src/main/java/com/baibian/view/ToastDialog.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
@@ -5568,14 +5393,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="574">
           <caret line="75" column="17" selection-start-line="75" selection-start-column="17" selection-end-line="75" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CampusNewsClients/src/main/java/com/baibian/view/CommentCardView.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="50" column="37" selection-start-line="50" selection-start-column="37" selection-end-line="50" selection-end-column="37" />
           <folding />
         </state>
       </provider>
@@ -5606,27 +5423,74 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/CampusNewsClients/src/main/res/layout/share_periodical_dialog_layout.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="12" column="38" selection-start-line="12" selection-start-column="38" selection-end-line="12" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CampusNewsClients/src/main/res/layout/activity_periodical_detail.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="344">
+          <caret line="118" column="56" selection-start-line="118" selection-start-column="56" selection-end-line="118" selection-end-column="56" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CampusNewsClients/src/main/res/layout/comment_card_view.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="40">
+          <caret line="13" column="29" selection-start-line="13" selection-start-column="29" selection-end-line="13" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CampusNewsClients/src/main/java/com/baibian/view/CommentCardView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="26" column="8" selection-start-line="26" selection-start-column="8" selection-end-line="26" selection-end-column="8" />
+          <folding>
+            <element signature="e#1452#1453#0" expanded="true" />
+            <element signature="e#1508#1509#0" expanded="true" />
+            <element signature="e#4114#4115#0" expanded="true" />
+            <element signature="e#4167#4168#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/CampusNewsClients/src/main/java/com/baibian/activity/PeriodicalDetailActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="281">
-          <caret line="263" column="24" selection-start-line="263" selection-start-column="24" selection-end-line="263" selection-end-column="24" />
+        <state relative-caret-position="561">
+          <caret line="470" column="20" selection-start-line="470" selection-start-column="20" selection-end-line="470" selection-end-column="20" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#4189#4190#0" expanded="true" />
-            <element signature="e#4214#4215#0" expanded="true" />
-            <element signature="e#6609#6914#0" expanded="true" />
-            <element signature="e#6913#6914#0" expanded="true" />
-            <element signature="e#10699#11272#0" expanded="true" />
-            <element signature="e#11271#11272#0" expanded="true" />
-            <element signature="e#13731#13732#0" expanded="true" />
-            <element signature="e#13794#13795#0" expanded="true" />
-            <element signature="e#13836#13837#0" expanded="true" />
-            <element signature="e#13899#13900#0" expanded="true" />
-            <element signature="e#14262#14280#0" expanded="true" />
-            <element signature="e#14511#14527#0" expanded="true" />
-            <element signature="e#16949#17724#0" expanded="true" />
-            <element signature="e#17723#17724#0" expanded="true" />
-            <marker date="1503288981195" expanded="false" signature="11926:13512" ph="{...}" />
+            <element signature="e#4225#4226#0" expanded="true" />
+            <element signature="e#4250#4251#0" expanded="true" />
+            <element signature="e#6645#6950#0" expanded="true" />
+            <element signature="e#6949#6950#0" expanded="true" />
+            <element signature="e#10735#11308#0" expanded="true" />
+            <element signature="e#11307#11308#0" expanded="true" />
+            <element signature="e#13789#13790#0" expanded="true" />
+            <element signature="e#13852#13853#0" expanded="true" />
+            <element signature="e#13894#13895#0" expanded="true" />
+            <element signature="e#13957#13958#0" expanded="true" />
+            <element signature="e#14320#14338#0" expanded="true" />
+            <element signature="e#14569#14585#0" expanded="true" />
+            <element signature="e#16932#16933#0" expanded="true" />
+            <element signature="e#16968#16969#0" expanded="true" />
+            <element signature="e#17228#18003#0" expanded="true" />
+            <element signature="e#18002#18003#0" expanded="true" />
           </folding>
         </state>
       </provider>

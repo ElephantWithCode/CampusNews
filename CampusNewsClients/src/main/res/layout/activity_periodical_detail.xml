@@ -116,7 +116,7 @@
                             android:textSize="16sp"
                             android:id="@+id/periodical_date"
                             android:text="2017-7-30"
-                            android:layout_marginTop="10dp"
+                            android:layout_marginTop="14dp"
                             android:layout_toStartOf="@id/collect_btn"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"

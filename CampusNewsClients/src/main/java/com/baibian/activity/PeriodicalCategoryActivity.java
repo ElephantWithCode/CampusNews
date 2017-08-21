@@ -20,6 +20,9 @@ import java.util.List;
 public class PeriodicalCategoryActivity extends AppCompatActivity {
 
 
+    /**
+     * 章节数据结构
+     */
     static class CategoryChapter{
         private String mChapterTitle;
         private int mState;
@@ -59,6 +62,9 @@ public class PeriodicalCategoryActivity extends AppCompatActivity {
     }
 
     private void initRecyclerRelations() {
+        /**
+         * 模拟数据源
+         */
         for (int i = 0; i < ORIGIN_COUNT; i++){
             mData.add(new CategoryChapter());
         }

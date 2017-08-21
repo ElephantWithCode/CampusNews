@@ -776,7 +776,7 @@ public final class R {
         public static final int line3 = 0x7f0f0246;
         public static final int listMode = 0x7f0f001c;
         public static final int list_item = 0x7f0f0069;
-        public static final int masked = 0x7f0f0291;
+        public static final int masked = 0x7f0f0295;
         public static final int media_actions = 0x7f0f0239;
         public static final int middle = 0x7f0f004c;
         public static final int mini = 0x7f0f004a;
@@ -851,7 +851,7 @@ public final class R {
         public static final int up = 0x7f0f0010;
         public static final int useLogo = 0x7f0f0024;
         public static final int view_offset_helper = 0x7f0f0011;
-        public static final int visible = 0x7f0f0290;
+        public static final int visible = 0x7f0f0294;
         public static final int withText = 0x7f0f004f;
         public static final int wrap_content = 0x7f0f0038;
     }
@@ -926,7 +926,7 @@ public final class R {
         public static final int select_dialog_item_material = 0x7f04009a;
         public static final int select_dialog_multichoice_material = 0x7f04009b;
         public static final int select_dialog_singlechoice_material = 0x7f04009c;
-        public static final int support_simple_spinner_dropdown_item = 0x7f04009f;
+        public static final int support_simple_spinner_dropdown_item = 0x7f0400a0;
     }
     public static final class string {
         public static final int abc_action_bar_home_description = 0x7f080000;

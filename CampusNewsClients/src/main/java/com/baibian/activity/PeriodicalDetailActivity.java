@@ -1,7 +1,6 @@
 package com.baibian.activity;
 
 import android.animation.ValueAnimator;
-import android.app.AlertDialog;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.graphics.Color;
@@ -14,16 +13,14 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.Toolbar;
 import android.util.Log;
+import android.view.Menu;
+import android.view.MenuItem;
 import android.view.View;
-import android.view.ViewGroup;
-import android.view.animation.AccelerateInterpolator;
-import android.view.animation.DecelerateInterpolator;
 import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.ProgressBar;
 import android.widget.RelativeLayout;
-import android.widget.ScrollView;
 import android.widget.TextView;
 
 import com.baibian.R;
@@ -35,9 +32,10 @@ import com.baibian.view.CustomBottomUpDialog;
 import com.baibian.view.CustomDialog;
 import com.baibian.view.ListenerScrollView;
 import com.baibian.view.RevealFollowButton;
+import com.baibian.view.SharePeriodicalDialog;
 import com.baibian.view.pullable_view.PullToRefreshLayout;
-
-import org.w3c.dom.Text;
+import com.like.LikeButton;
+import com.like.OnLikeListener;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -49,6 +47,15 @@ public class PeriodicalDetailActivity extends AppCompatActivity implements View.
     private RelativeLayout mBottomNavBar;
     private LinearLayout mCommentFatherLayout;
     private TextView mWriteComment;
+    private TextView mCategoryCount;
+    private TextView mRecommendCount;
+    private TextView mReadCount;
+    private TextView mFansCount;
+    private LikeButton mLikeButton;
+    private boolean mIsRead = false;
+    private long mRecommendNumber = 0;
+    private long mReadNumber = 0;
+    private long mFansNumber = 0;
     private RelativeLayout mLoadingView;
     private ImageView mArrowCategory;
     private Toolbar mToolbar;
@@ -60,6 +67,12 @@ public class PeriodicalDetailActivity extends AppCompatActivity implements View.
     private Handler mHandler;
     private int mBottomHeight = 0;
     private int mBottomOriginHeight = 0;
+    private long mCategoryNumber = 0;
+    private SharePeriodicalDialog mShareDialog;
+
+    /**
+     * 并没有用上的东西
+     */
     private List<CommentCardView.CardContent> mCardDatas = new ArrayList<>();
     private ProgressBar mProgressBar;
 
@@ -68,7 +81,19 @@ public class PeriodicalDetailActivity extends AppCompatActivity implements View.
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_periodical_detail);
 
+        /**
+         * 初步设想是从点击时获得数据并传进来
+         * 或者只传id在本activity内请求数据
+         */
+
+        Intent intentionIntent = getIntent();
+        if (intentionIntent != null){
+            //TODO 初始化各种数据
+        }
+
         initVariousViews();
+
+        initNumbers();
 
         initDialogs();
 
@@ -80,11 +105,62 @@ public class PeriodicalDetailActivity extends AppCompatActivity implements View.
 
     }
 
+    /**
+     * 初始化数据（模拟数据源）
+     */
+    private void initNumbers() {
+        mFansNumber = getNumbers();
+        mReadNumber = getNumbers();
+        mRecommendNumber = getNumbers();
+        onRecommendNumberChanged();
+        onFansNumberChanged();
+        onReadNumberChanged();
+        mCategoryNumber = getNumbers();
+    }
+
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        getMenuInflater().inflate(R.menu.toolbar_periodical, menu);
+        return true;
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        switch (item.getItemId()){
+            case R.id.user_share:
+                mShareDialog.show();
+                break;
+            case R.id.home:
+                finish();
+                overridePendingTransition(R.anim.slide_in_right, R.anim.slide_out_left);
+        }
+        return true;
+    }
+
+    /**
+     * 模拟后端发送的数据
+     * @return
+     */
+    private long getNumbers() {
+        return 10;
+    }
+
     private void initDialogs() {
+        initShareDialog();
         initDetailDialog();
         initBuyDialog();
     }
 
+    /**
+     * 分享的dialog
+     */
+    private void initShareDialog() {
+        mShareDialog = new SharePeriodicalDialog(this, R.style.CustomDialogTheme);
+    }
+
+    /**
+     * 购买的底部dialog
+     */
     private void initBuyDialog() {
         mCustomBottomUpDialog = new CustomBottomUpDialog(this, R.layout.buy_popup_layout) {
 
@@ -100,6 +176,10 @@ public class PeriodicalDetailActivity extends AppCompatActivity implements View.
             private TextView mSufficientAttention;
             private AddSubtractView mBuyAmount;
 
+            /**
+             *判断是否应该显示提示余额不足的信息
+             * @param count 应传入的当前的选择的总值
+             */
             private void showAttentionText(int count) {
                 if (Integer.valueOf(mPresentBis.getText().toString()) > count * ITEM_PRICE){
                     mSufficientAttention.setVisibility(View.INVISIBLE);
@@ -135,6 +215,10 @@ public class PeriodicalDetailActivity extends AppCompatActivity implements View.
                 mPayButton.setOnClickListener(this);
                 mCloseButton.setOnClickListener(this);
 
+                /**
+                 * 随意设置了当前余额为88
+                 * 以及当前只选择了一章
+                 */
                 mPresentBis.setText(String.valueOf(88));
                 mGoodsPrice.setText(String.valueOf(ITEM_PRICE));
                 showAttentionText(1);
@@ -150,6 +234,10 @@ public class PeriodicalDetailActivity extends AppCompatActivity implements View.
                     case R.id.close_button:
                         dismiss();
                         break;
+                    /**
+                     * 这里只改变了选择的数目
+                     * 并没有实际的购买逻辑
+                     */
                     case R.id.buy_choice_6:
                         mBuyAmount.changeCount(6);
                         break;
@@ -164,6 +252,10 @@ public class PeriodicalDetailActivity extends AppCompatActivity implements View.
         };
     }
 
+    /**
+     * 购买详情dialog
+     * 随便加了点字
+     */
     private void initDetailDialog() {
         mBuyRuleDetailDialog = new CustomBottomUpDialog(this, R.layout.periodical_buy_rule_detail) {
             private ImageView mCloseButton;
@@ -206,6 +298,10 @@ public class PeriodicalDetailActivity extends AppCompatActivity implements View.
 
             }
 
+            /**
+             * 延迟1s发送加载成功信息
+             * @param pullToRefreshLayout
+             */
             @Override
             public void onLoadMore(final PullToRefreshLayout pullToRefreshLayout) {
                 new Handler(){
@@ -215,13 +311,40 @@ public class PeriodicalDetailActivity extends AppCompatActivity implements View.
                         pullToRefreshLayout.loadmoreFinish(PullToRefreshLayout.SUCCEED);
                     }
                 }.sendEmptyMessageDelayed(0, 1000);
-                /*mHandler.postDelayed(new Runnable() {
-                    @Override
-                    public void run() {
-//                        mCommentFatherLayout.addView(new CommentCardView(PeriodicalDetailActivity.this));
-                        pullToRefreshLayout.refreshFinish(PullToRefreshLayout.FAIL);
+            }
+        });
+        /**
+         * 后期应该向后端发送对应的数字
+         */
+        mCollectButton.setOnFollowedClickListener(new RevealFollowButton.OnFollowedClickListener() {
+            @Override
+            public void onFollowedClick(boolean isFollowed) {
+                if (isFollowed){
+                    if (!mIsRead) {
+                        ++mReadNumber;
+                        mIsRead = true;
+                        onReadNumberChanged();
                     }
-                }, 1000);*/
+                    ++mFansNumber;
+                    onFansNumberChanged();
+                }else {
+                    --mFansNumber;
+                    onFansNumberChanged();
+                }
+            }
+        });
+
+        mLikeButton.setOnLikeListener(new OnLikeListener() {
+            @Override
+            public void liked(LikeButton likeButton) {
+                ++mRecommendNumber;
+                onRecommendNumberChanged();
+            }
+
+            @Override
+            public void unLiked(LikeButton likeButton) {
+                --mRecommendNumber;
+                onRecommendNumberChanged();
             }
         });
         mBuyButton.setOnClickListener(this);
@@ -246,13 +369,6 @@ public class PeriodicalDetailActivity extends AppCompatActivity implements View.
             @Override
             public Rect onDropReleased(int offsetY, final View inner) {
                 final Rect mNewLayout = new Rect();
-//                int measuredHeightBefore = MeasureTools.measureWidthAndHeight(inner)[1];
-//                mNewLayout.set(inner.getLeft(), inner.getTop(), inner.getRight(), inner.getTop() + measuredHeightBefore);
-//                mNewLayout.set(inner.getLeft(), inner.getTop(), inner.getRight(), inner.getBottom());
-//                mCommentFatherLayout.addView(new Button(PeriodicalDetailActivity.this));
-
-//                mCommentFatherLayout.addView(new CommentCardView(PeriodicalDetailActivity.this));
-
                 mLoadingView.setVisibility(View.VISIBLE);
 
                 mHandler.postDelayed(new Runnable() {
@@ -272,6 +388,24 @@ public class PeriodicalDetailActivity extends AppCompatActivity implements View.
         });
     }
 
+    /**
+     * 可以改变数字表示的形式（比如数字过大可以用W代替万）
+     */
+    private void onRecommendNumberChanged() {
+        mRecommendCount.setText(String.valueOf(mRecommendNumber));
+    }
+
+    private void onFansNumberChanged() {
+        mFansCount.setText(String.valueOf(mFansNumber));
+    }
+
+    private void onReadNumberChanged() {
+        mReadCount.setText(String.valueOf(mReadNumber));
+    }
+
+    /**
+     * find各种id
+     */
     private void initVariousViews() {
         mCollectButton = (RevealFollowButton) findViewById(R.id.collect_btn);
         mCollectButton.setPadding(40,15,40,17);
@@ -280,6 +414,11 @@ public class PeriodicalDetailActivity extends AppCompatActivity implements View.
         mCollectButton.setUnFollowTextColor(Color.WHITE);
         mCollectButton.setUnFollowBackground(ContextCompat.getDrawable(this, R.drawable.collect_btn_background_unclick));
         mCollectButton.setUnFollowTvTextContent(R.string.collect);
+        mLikeButton = (LikeButton) findViewById(R.id.recommend_button);
+        mCategoryCount = (TextView) findViewById(R.id.category_count);
+        mRecommendCount = (TextView) findViewById(R.id.recommend_count);
+        mReadCount = (TextView) findViewById(R.id.read_count);
+        mFansCount = (TextView) findViewById(R.id.fans_count);
         mRefreshLayout = (PullToRefreshLayout) findViewById(R.id.pull_to_refresh_layout);
         mProgressBar = (ProgressBar) findViewById(R.id.progress_bar);
         mBuyButton = (Button) findViewById(R.id.buy_btn);
@@ -294,12 +433,20 @@ public class PeriodicalDetailActivity extends AppCompatActivity implements View.
         mBottomOriginHeight = mBottomHeight = MeasureTools.measureWidthAndHeight(mBottomNavBar)[1];
     }
 
+    /**
+     * 模拟评论数据源
+     */
     private void initCommentContent() {
         for (int i = 0; i < 10; i++){
             mCommentFatherLayout.addView(new CommentCardView(this));
         }
     }
 
+    /**
+     * 导航栏动画
+     * @param startY
+     * @param endY
+     */
     private void startNavAnimation(int startY, int endY) {
         ValueAnimator animator = ValueAnimator.ofInt(startY, endY);
         animator.setDuration(200);
@@ -330,7 +477,7 @@ public class PeriodicalDetailActivity extends AppCompatActivity implements View.
                                 public void run() {
                                     CommentCardView cardView = new CommentCardView(PeriodicalDetailActivity.this);
                                     cardView.setCommentText(editTextContent);
-                                    mCommentFatherLayout.addView(cardView, 0);
+                                    mCommentFatherLayout.addView(cardView, 0);//在顶端添加评论
                                 }
                             });
                         }
@@ -342,7 +489,6 @@ public class PeriodicalDetailActivity extends AppCompatActivity implements View.
                 Intent newIntent = new Intent(PeriodicalDetailActivity.this, PeriodicalCategoryActivity.class);
                 startActivity(newIntent);
                 overridePendingTransition(R.anim.slide_in_right, R.anim.slide_out_left);
-                ToastTools.ToastShow("UNDO NOW");
                 break;
             case R.id.buy_btn:
                 mCustomBottomUpDialog.show();

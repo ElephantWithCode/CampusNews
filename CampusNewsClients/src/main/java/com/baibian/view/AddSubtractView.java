@@ -16,6 +16,8 @@ import com.baibian.tool.UI_Tools;
 
 /**
  * Created by Ellly on 2017/8/18.
+ * 自定义的加减view
+ * 设置了初始值为1
  */
 
 public class AddSubtractView extends RelativeLayout implements View.OnClickListener, TextWatcher{
@@ -39,12 +41,19 @@ public class AddSubtractView extends RelativeLayout implements View.OnClickListe
 
     @Override
     public void afterTextChanged(Editable s) {
+        /**
+         *删到空时默认最低值为1
+         */
         if (s.toString().isEmpty()){
             mFigureEditText.setText(String.valueOf(1));
             mFigureEditText.setSelection(1);
             return;
         }
         mCount = Integer.valueOf(s.toString());
+        /**
+         * 当增加到超过最大值时默认设置为MAX_COUNT
+         * 并将光标移动到最后
+         */
         if (mCount > MAX_COUNT){
             mFigureEditText.setText(String.valueOf(MAX_COUNT));
             mFigureEditText.setSelection(String.valueOf(MAX_COUNT).length());
@@ -54,6 +63,9 @@ public class AddSubtractView extends RelativeLayout implements View.OnClickListe
         }
     }
 
+    /**
+     * 数值变化时的监听器
+     */
     public interface OnCountChangeListener{
         void onCountChange(int count);
     }

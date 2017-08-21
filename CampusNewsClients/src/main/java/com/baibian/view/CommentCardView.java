@@ -14,6 +14,7 @@ import de.hdodenhof.circleimageview.CircleImageView;
 
 /**
  * Created by Ellly on 2017/8/15.
+ * 评论卡片的自定义view
  */
 
 public class CommentCardView extends RelativeLayout {
@@ -26,6 +27,14 @@ public class CommentCardView extends RelativeLayout {
         private String mCommentContent;
         private long mLikeAmount;
 
+        /**
+         * 对应的数据结构
+         * @param mPortraitUrl
+         * @param mUserName
+         * @param mCommentDate
+         * @param mCommentContent
+         * @param mLikeAmount
+         */
         public CardContent(String mPortraitUrl, String mUserName, long mCommentDate, String mCommentContent, long mLikeAmount) {
             this.mPortraitUrl = mPortraitUrl;
             this.mUserName = mUserName;

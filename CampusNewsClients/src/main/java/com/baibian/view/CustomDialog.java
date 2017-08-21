@@ -13,6 +13,8 @@ import android.widget.TextView;
 import com.baibian.R;
 import com.baibian.tool.ToastTools;
 
+import java.util.Objects;
+
 /**
  * Created by Ellly on 2017/8/17.
  */
@@ -66,10 +68,12 @@ public class CustomDialog extends Dialog implements View.OnClickListener{
     public void onClick(View v) {
         switch (v.getId()){
             case R.id.positive_btn:
-                if (mListener != null){
+                if (mListener != null && !Objects.equals(mEditText.getText().toString(), "")){
                     mListener.OnDismiss(mEditText.getText().toString(), true);
+                    dismiss();
+                }else {
+                    ToastTools.ToastShow("Empty Content");
                 }
-                dismiss();
                 break;
             case R.id.negative_btn:
                 if (mListener != null){

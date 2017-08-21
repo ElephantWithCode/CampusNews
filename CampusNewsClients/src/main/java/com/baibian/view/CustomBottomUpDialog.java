@@ -19,6 +19,7 @@ import com.baibian.tool.ToastTools;
 
 /**
  * Created by Ellly on 2017/8/18.
+ * 自定义的下弹上dialog
  */
 
 public abstract class CustomBottomUpDialog extends Dialog implements View.OnClickListener{

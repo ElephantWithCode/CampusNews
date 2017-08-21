@@ -16,268 +16,300 @@
         android:layout_width="match_parent"
         android:layout_height="?attr/actionBarSize">
     </android.support.v7.widget.Toolbar>
-    <com.baibian.view.ListenerScrollView
+
+    <com.baibian.view.pullable_view.PullToRefreshLayout
+        android:id="@+id/pull_to_refresh_layout"
         android:layout_marginTop="20dp"
         android:layout_below="@id/tool_bar"
-        android:id="@+id/scroll_view"
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
-        <LinearLayout
-            android:divider="@drawable/divider_bg"
-            android:showDividers="middle"
-            android:orientation="vertical"
-            android:id="@+id/periodical_detail_all"
+        android:layout_height="wrap_content">
+
+        <include
+            layout="@layout/refresh_head"/>
+        <com.baibian.view.ListenerScrollView
+            android:id="@+id/scroll_view"
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
-            <RelativeLayout
-                android:paddingEnd="20dp"
-                android:paddingStart="20dp"
-                android:paddingBottom="10dp"
-                android:id="@+id/periodical_detail_oversee"
+
+            <LinearLayout
+                android:divider="@drawable/divider_bg"
+                android:showDividers="middle"
+                android:orientation="vertical"
+                android:id="@+id/periodical_detail_all"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content">
-                <ImageView
-                    android:layout_marginEnd="20dp"
-                    android:layout_marginBottom="10dp"
-                    android:scaleType="centerCrop"
-                    android:id="@+id/periodical_image_cover"
-                    android:src="@drawable/ads0"
-                    android:layout_width="100dp"
-                    android:layout_height="120dp" />
-                <TextView
-                    android:textStyle="bold"
-                    android:id="@+id/periodical_title"
-                    android:layout_toEndOf="@id/periodical_image_cover"
-                    android:textSize="16sp"
-                    android:layout_marginTop="8dp"
-                    android:layout_marginBottom="10dp"
-                    android:text="顺境和逆境那个更容易成才"
-                    android:textColor="#303131"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content" />
-                <TextView
-                    android:id="@+id/periodical_subtitle"
-                    android:text="啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:textSize="13sp"
-                    android:maxLines="5"
-                    android:ellipsize="end"
-                    android:textColor="#303131"
-                    android:layout_below="@id/periodical_title"
-                    android:layout_alignStart="@id/periodical_title"
-                    android:layout_alignBottom="@id/periodical_image_cover"/>
 
                 <RelativeLayout
-                    android:layout_below="@id/periodical_image_cover"
+                    android:paddingEnd="20dp"
+                    android:paddingStart="20dp"
+                    android:paddingBottom="10dp"
+                    android:id="@+id/periodical_detail_oversee"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:layout_marginEnd="20dp"
+                        android:layout_marginBottom="10dp"
+                        android:scaleType="centerCrop"
+                        android:id="@+id/periodical_image_cover"
+                        android:src="@drawable/ads0"
+                        android:layout_width="100dp"
+                        android:layout_height="120dp" />
+
                     <TextView
+                        android:textStyle="bold"
+                        android:id="@+id/periodical_title"
+                        android:layout_toEndOf="@id/periodical_image_cover"
                         android:textSize="16sp"
+                        android:layout_marginTop="8dp"
+                        android:layout_marginBottom="10dp"
+                        android:text="顺境和逆境那个更容易成才"
                         android:textColor="#303131"
-                        android:text="推荐"
-                        android:layout_centerVertical="true"
-                        android:id="@+id/recommend_text"
-                        android:layout_toEndOf="@+id/recommend_button"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content" />
-                    <com.like.LikeButton
-                        android:id="@+id/recommend_button"
-                        app:icon_type="thumb"
-                        app:icon_size="13dp"
-                        android:layout_centerVertical="true"
+
+                    <TextView
+                        android:id="@+id/periodical_subtitle"
+                        android:text="啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊"
                         android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="13sp"
+                        android:maxLines="5"
+                        android:ellipsize="end"
+                        android:textColor="#303131"
+                        android:layout_below="@id/periodical_title"
+                        android:layout_alignStart="@id/periodical_title"
+                        android:layout_alignBottom="@id/periodical_image_cover" />
+
+                    <RelativeLayout
+                        android:layout_below="@id/periodical_image_cover"
+                        android:layout_width="match_parent"
                         android:layout_height="wrap_content">
-                    </com.like.LikeButton>
-                    <com.baibian.view.RevealFollowButton
-                        android:id="@+id/collect_btn"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_alignParentTop="true"
-                        android:layout_alignParentEnd="true">
-                    </com.baibian.view.RevealFollowButton>
-                    <TextView
-                        android:textColor="#303131"
-                        android:textSize="16sp"
-                        android:id="@+id/periodical_date"
-                        android:text="2017-7-30"
-                        android:layout_marginTop="10dp"
-                        android:layout_toStartOf="@id/collect_btn"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginEnd="15dp"/>
+
+                        <TextView
+                            android:textSize="16sp"
+                            android:textColor="#303131"
+                            android:text="推荐"
+                            android:layout_centerVertical="true"
+                            android:id="@+id/recommend_text"
+                            android:layout_toEndOf="@+id/recommend_button"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+
+                        <com.like.LikeButton
+                            android:id="@+id/recommend_button"
+                            app:icon_type="thumb"
+                            app:icon_size="13dp"
+                            android:layout_centerVertical="true"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"></com.like.LikeButton>
+
+                        <com.baibian.view.RevealFollowButton
+                            android:id="@+id/collect_btn"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentTop="true"
+                            android:layout_alignParentEnd="true"></com.baibian.view.RevealFollowButton>
+
+                        <TextView
+                            android:textColor="#303131"
+                            android:textSize="16sp"
+                            android:id="@+id/periodical_date"
+                            android:text="2017-7-30"
+                            android:layout_marginTop="10dp"
+                            android:layout_toStartOf="@id/collect_btn"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginEnd="15dp" />
+                    </RelativeLayout>
                 </RelativeLayout>
-            </RelativeLayout>
-            <LinearLayout
-                android:paddingTop="10dp"
-                android:paddingBottom="10dp"
-                android:orientation="horizontal"
-                android:id="@+id/various_counts_layout"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content">
 
-                <RelativeLayout
-                    android:id="@+id/recommend_layout"
-                    android:layout_width="0dp"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1">
-
-                    <TextView
-                        android:id="@+id/recommend_count"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_centerHorizontal="true"
-                        android:text="10W+"
-                        android:layout_marginBottom="25dp"
-                        android:textColor="#303131"
-                        android:textSize="16sp" />
-
-                    <TextView
-                        android:id="@+id/recommend_count_text"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_centerHorizontal="true"
-                        android:text="推荐"
-                        android:layout_alignParentBottom="true"
-                        android:textColor="#303131"
-                        android:textSize="16sp" />
-                </RelativeLayout>
-                <RelativeLayout
-                    android:id="@+id/read_layout"
-                    android:layout_weight="1"
-                    android:layout_width="0dp"
-                    android:layout_height="wrap_content">
-
-                    <TextView
-                        android:id="@+id/read_count"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_centerHorizontal="true"
-                        android:text="10W+"
-                        android:layout_marginBottom="25dp"
-                        android:textColor="#303131"
-                        android:textSize="16sp" />
-                    <TextView
-                        android:id="@+id/read_count_text"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_centerHorizontal="true"
-                        android:text="已读"
-                        android:layout_alignParentBottom="true"
-                        android:textColor="#303131"
-                        android:textSize="16sp" />
-                </RelativeLayout>
-                <RelativeLayout
-                    android:id="@+id/fans_layout"
-                    android:layout_width="0dp"
-                    android:layout_weight="1"
-                    android:layout_height="wrap_content">
-
-                    <TextView
-                        android:id="@+id/fans_count"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_centerHorizontal="true"
-                        android:text="10W+"
-                        android:layout_marginBottom="25dp"
-                        android:textColor="#303131"
-                        android:textSize="16sp" />
-                    <TextView
-                        android:id="@+id/fans_count_text"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_centerHorizontal="true"
-                        android:text="粉丝"
-                        android:layout_alignParentBottom="true"
-                        android:textColor="#303131"
-                        android:textSize="16sp" />
-                </RelativeLayout>
-            </LinearLayout>
-            <RelativeLayout
-                android:paddingStart="20dp"
-                android:paddingEnd="20dp"
-                android:id="@+id/category_layout"
-                android:paddingTop="10dp"
-                android:paddingBottom="10dp"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content">
-                <TextView
-                    android:layout_centerVertical="true"
-                    android:id="@+id/see_category"
-                    android:text="查看目录：共"
-                    android:textColor="#303131"
-                    android:textSize="16sp"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content" />
-                <TextView
-                    android:layout_centerVertical="true"
-                    android:id="@+id/category_count"
-                    android:layout_toEndOf="@id/see_category"
-                    android:textColor="#303131"
-                    android:textSize="16sp"
-                    android:text="10"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content" />
-                <TextView
-                    android:id="@+id/chapter"
-                    android:layout_centerVertical="true"
-                    android:layout_toEndOf="@id/category_count"
-                    android:textSize="16sp"
-                    android:text="章"
-                    android:textColor="#303131"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content" />
-                <ImageView
-                    android:padding="7dp"
-                    android:layout_centerVertical="true"
-                    android:id="@+id/arrow_category"
-                    android:src="@drawable/ic_personal_expand_right"
-                    android:layout_alignParentEnd="true"
-                    android:layout_width="30dp"
-                    android:layout_height="30dp" />
-            </RelativeLayout>
-            <RelativeLayout
-                android:id="@+id/periodical_comment_layout"
-                android:paddingTop="5dp"
-                android:paddingBottom="5dp"
-                android:paddingStart="10dp"
-                android:paddingEnd="10dp"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content">
-                <TextView
-                    android:id="@+id/comment_text"
-                    android:layout_alignBottom="@+id/write_comment_text"
-                    android:layout_alignTop="@+id/write_comment_text"
-                    android:gravity="center_vertical"
-                    android:layout_marginStart="20dp"
-                    android:text="评论"
-                    android:textStyle="bold"
-                    android:textSize="18sp"
-                    android:textColor="#303131"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content" />
-                <TextView
-                    android:id="@+id/write_comment_text"
-                    android:layout_alignParentEnd="true"
-                    android:layout_alignParentTop="true"
-                    android:padding="5dp"
-                    android:text="写评论"
-                    android:gravity="center_vertical"
-                    android:textSize="18sp"
-                    android:textColor="#47bafe"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content" />
                 <LinearLayout
-                    android:animateLayoutChanges="true"
-                    android:layout_below="@id/comment_text"
-                    android:orientation="vertical"
-                    android:id="@+id/comment_father_view_layout"
+                    android:paddingTop="10dp"
+                    android:paddingBottom="10dp"
+                    android:orientation="horizontal"
+                    android:id="@+id/various_counts_layout"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content">
+
+                    <RelativeLayout
+                        android:id="@+id/recommend_layout"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1">
+
+                        <TextView
+                            android:id="@+id/recommend_count"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerHorizontal="true"
+                            android:text="10W+"
+                            android:layout_marginBottom="25dp"
+                            android:textColor="#303131"
+                            android:textSize="16sp" />
+
+                        <TextView
+                            android:id="@+id/recommend_count_text"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerHorizontal="true"
+                            android:text="推荐"
+                            android:layout_alignParentBottom="true"
+                            android:textColor="#303131"
+                            android:textSize="16sp" />
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:id="@+id/read_layout"
+                        android:layout_weight="1"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:id="@+id/read_count"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerHorizontal="true"
+                            android:text="10W+"
+                            android:layout_marginBottom="25dp"
+                            android:textColor="#303131"
+                            android:textSize="16sp" />
+
+                        <TextView
+                            android:id="@+id/read_count_text"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerHorizontal="true"
+                            android:text="已读"
+                            android:layout_alignParentBottom="true"
+                            android:textColor="#303131"
+                            android:textSize="16sp" />
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:id="@+id/fans_layout"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:id="@+id/fans_count"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerHorizontal="true"
+                            android:text="10W+"
+                            android:layout_marginBottom="25dp"
+                            android:textColor="#303131"
+                            android:textSize="16sp" />
+
+                        <TextView
+                            android:id="@+id/fans_count_text"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerHorizontal="true"
+                            android:text="粉丝"
+                            android:layout_alignParentBottom="true"
+                            android:textColor="#303131"
+                            android:textSize="16sp" />
+                    </RelativeLayout>
                 </LinearLayout>
-            </RelativeLayout>
-        </LinearLayout>
-    </com.baibian.view.ListenerScrollView>
+
+                <RelativeLayout
+                    android:paddingStart="20dp"
+                    android:paddingEnd="20dp"
+                    android:id="@+id/category_layout"
+                    android:paddingTop="10dp"
+                    android:paddingBottom="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_centerVertical="true"
+                        android:id="@+id/see_category"
+                        android:text="查看目录：共"
+                        android:textColor="#303131"
+                        android:textSize="16sp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+                    <TextView
+                        android:layout_centerVertical="true"
+                        android:id="@+id/category_count"
+                        android:layout_toEndOf="@id/see_category"
+                        android:textColor="#303131"
+                        android:textSize="16sp"
+                        android:text="10"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+                    <TextView
+                        android:id="@+id/chapter"
+                        android:layout_centerVertical="true"
+                        android:layout_toEndOf="@id/category_count"
+                        android:textSize="16sp"
+                        android:text="章"
+                        android:textColor="#303131"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+                    <ImageView
+                        android:padding="7dp"
+                        android:layout_centerVertical="true"
+                        android:id="@+id/arrow_category"
+                        android:src="@drawable/ic_personal_expand_right"
+                        android:layout_alignParentEnd="true"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/periodical_comment_layout"
+                    android:paddingTop="5dp"
+                    android:paddingBottom="5dp"
+                    android:paddingStart="10dp"
+                    android:paddingEnd="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/comment_text"
+                        android:layout_alignBottom="@+id/write_comment_text"
+                        android:layout_alignTop="@+id/write_comment_text"
+                        android:gravity="center_vertical"
+                        android:layout_marginStart="20dp"
+                        android:text="评论"
+                        android:textStyle="bold"
+                        android:textSize="18sp"
+                        android:textColor="#303131"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+                    <TextView
+                        android:id="@+id/write_comment_text"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentTop="true"
+                        android:padding="5dp"
+                        android:text="写评论"
+                        android:gravity="center_vertical"
+                        android:textSize="18sp"
+                        android:textColor="#47bafe"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+                    <LinearLayout
+                        android:animateLayoutChanges="true"
+                        android:layout_below="@id/comment_text"
+                        android:orientation="vertical"
+                        android:id="@+id/comment_father_view_layout"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"></LinearLayout>
+                </RelativeLayout>
+            </LinearLayout>
+        </com.baibian.view.ListenerScrollView>
+        <include
+            layout="@layout/load_more"/>
+    </com.baibian.view.pullable_view.PullToRefreshLayout>
+
     <RelativeLayout
         android:layout_marginStart="20dp"
         android:layout_marginEnd="20dp"

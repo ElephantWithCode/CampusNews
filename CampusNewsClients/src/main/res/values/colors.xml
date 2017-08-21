@@ -3,6 +3,8 @@
     <color name="baibian_back_color">#02a2e8</color>
     <color name="abc_search_url_text_normal">#ff7fa87f</color>
 
+    <color name="light_blue">#6593cb</color>
+
     <item name="abc_search_url_text_selected" type="color">@*android:color/black</item>
     <item name="abc_search_url_text_pressed" type="color">@*android:color/black</item>
     <color name="white_background_color">#ffffff</color>

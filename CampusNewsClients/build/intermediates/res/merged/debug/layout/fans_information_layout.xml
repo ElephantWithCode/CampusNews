@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content" android:layout_height="wrap_content"
+    android:padding="@dimen/general_user_small_padding"
+    android:background="#ffffff">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:src="@drawable/default_round_head"
+        android:layout_centerVertical="true"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/user_portrait"
+        android:padding="10dp"/>
+    <TextView
+        android:layout_toEndOf="@id/user_portrait"
+        android:id="@+id/user_name"
+        android:layout_margin="@dimen/general_user_small_padding"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/user_name_text_size"
+        android:textColor="@color/text_color_pure_black_user_information"
+        android:text="测试测试测试" />
+    <TextView
+        android:layout_alignStart="@id/user_name"
+        android:layout_below="@id/user_name"
+        android:layout_marginBottom="@dimen/gap_in_user_information"
+        android:id="@+id/user_personal_signal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/text_size_middle_16_dp"
+        android:textColor="@color/text_color_pure_black_user_information"
+        android:text="测试测试测试" />
+    <LinearLayout
+        android:layout_below="@id/user_personal_signal"
+        android:layout_alignStart="@id/user_name"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:id="@+id/user_honor_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/user_level"
+            android:text="lv.7"
+            android:textColor="@color/pull_to_refresh_label_color"
+            android:textSize="@dimen/user_large_text_size"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <ImageView
+            android:id="@+id/honor_icon"
+            android:src="@drawable/ic_personal_achievement"
+            android:padding="@dimen/adjust_small_gap"
+            android:layout_width="@dimen/personal_image_size"
+            android:layout_height="@dimen/personal_image_size" />
+    </LinearLayout>
+    <com.baibian.view.RevealFollowButton
+        android:id="@+id/reveal_follow_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true">
+
+    </com.baibian.view.RevealFollowButton>
+</RelativeLayout>

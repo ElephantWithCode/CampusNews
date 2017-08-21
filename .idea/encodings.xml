@@ -41,6 +41,7 @@
     <file url="file://$PROJECT_DIR$/CampusNewsClients/src/main/java/com/baibian/view/HeadListView.java" charset="GBK" />
     <file url="file://$PROJECT_DIR$/CampusNewsClients/src/main/java/com/baibian/view/SwitchButton.java" charset="GBK" />
     <file url="file://$PROJECT_DIR$/CampusNewsClients/src/main/java/com/baibian/view/TopToastView.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/CampusNewsClients/src/main/java/com/baibian/view/pullable_view/PullToRefreshLayout.java" charset="GBK" />
     <file url="file://$PROJECT_DIR$/CampusNewsClients/src/main/res" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/CampusNewsClients/src/main/res/drawable-hdpi/blue_bar.xml" charset="GBK" />
     <file url="file://$PROJECT_DIR$/CampusNewsClients/src/main/res/drawable-xhdpi/ic_persoal_like_clicked.png" charset="GBK" />

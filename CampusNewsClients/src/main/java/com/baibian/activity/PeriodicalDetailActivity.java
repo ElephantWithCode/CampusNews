@@ -4,8 +4,11 @@ import android.animation.ValueAnimator;
 import android.app.AlertDialog;
 import android.content.DialogInterface;
 import android.content.Intent;
+import android.graphics.Color;
 import android.graphics.Rect;
 import android.os.Handler;
+import android.os.Message;
+import android.support.v4.content.ContextCompat;
 import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -31,6 +34,8 @@ import com.baibian.view.CommentCardView;
 import com.baibian.view.CustomBottomUpDialog;
 import com.baibian.view.CustomDialog;
 import com.baibian.view.ListenerScrollView;
+import com.baibian.view.RevealFollowButton;
+import com.baibian.view.pullable_view.PullToRefreshLayout;
 
 import org.w3c.dom.Text;
 
@@ -50,6 +55,8 @@ public class PeriodicalDetailActivity extends AppCompatActivity implements View.
     private Button mBuyButton;
     private CustomBottomUpDialog mCustomBottomUpDialog;
     private CustomBottomUpDialog mBuyRuleDetailDialog;
+    private PullToRefreshLayout mRefreshLayout;
+    private RevealFollowButton mCollectButton;
     private Handler mHandler;
     private int mBottomHeight = 0;
     private int mBottomOriginHeight = 0;
@@ -193,6 +200,30 @@ public class PeriodicalDetailActivity extends AppCompatActivity implements View.
     }
 
     private void initListeners() {
+        mRefreshLayout.setOnRefreshListener(new PullToRefreshLayout.OnRefreshListener() {
+            @Override
+            public void onRefresh(PullToRefreshLayout pullToRefreshLayout) {
+
+            }
+
+            @Override
+            public void onLoadMore(final PullToRefreshLayout pullToRefreshLayout) {
+                new Handler(){
+                    @Override
+                    public void handleMessage(Message msg) {
+                        mCommentFatherLayout.addView(new CommentCardView(PeriodicalDetailActivity.this));
+                        pullToRefreshLayout.loadmoreFinish(PullToRefreshLayout.SUCCEED);
+                    }
+                }.sendEmptyMessageDelayed(0, 1000);
+                /*mHandler.postDelayed(new Runnable() {
+                    @Override
+                    public void run() {
+//                        mCommentFatherLayout.addView(new CommentCardView(PeriodicalDetailActivity.this));
+                        pullToRefreshLayout.refreshFinish(PullToRefreshLayout.FAIL);
+                    }
+                }, 1000);*/
+            }
+        });
         mBuyButton.setOnClickListener(this);
         mArrowCategory.setOnClickListener(this);
         mWriteComment.setOnClickListener(this);
@@ -242,6 +273,14 @@ public class PeriodicalDetailActivity extends AppCompatActivity implements View.
     }
 
     private void initVariousViews() {
+        mCollectButton = (RevealFollowButton) findViewById(R.id.collect_btn);
+        mCollectButton.setPadding(40,15,40,17);
+        mCollectButton.setFollowBackground(ContextCompat.getDrawable(this, R.drawable.collect_btn_background_clicked));
+        mCollectButton.setFollowTextContent(R.string.collected);
+        mCollectButton.setUnFollowTextColor(Color.WHITE);
+        mCollectButton.setUnFollowBackground(ContextCompat.getDrawable(this, R.drawable.collect_btn_background_unclick));
+        mCollectButton.setUnFollowTvTextContent(R.string.collect);
+        mRefreshLayout = (PullToRefreshLayout) findViewById(R.id.pull_to_refresh_layout);
         mProgressBar = (ProgressBar) findViewById(R.id.progress_bar);
         mBuyButton = (Button) findViewById(R.id.buy_btn);
         mArrowCategory = (ImageView) findViewById(R.id.arrow_category);

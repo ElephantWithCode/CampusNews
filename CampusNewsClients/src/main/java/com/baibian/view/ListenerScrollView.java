@@ -13,11 +13,13 @@ import android.view.View;
 import android.view.animation.TranslateAnimation;
 import android.widget.ScrollView;
 
+import com.baibian.view.pullable_view.Pullable;
+
 /**
  * Created by Ellly on 2017/8/14.
  */
 
-public class ListenerScrollView extends ScrollView {
+public class ListenerScrollView extends ScrollView implements Pullable{
     private static final int ZOOM_SIZE = 15;
     private static final int MAX_SCROLL_LOAD = 100;
     private final String TAG = "listener_scroll_view";
@@ -58,21 +60,21 @@ public class ListenerScrollView extends ScrollView {
                 previousY = ev.getY();
                 break;
             case MotionEvent.ACTION_MOVE:
-                if (isNeedMove()){
+                /*if (isNeedMove()){
                     if (mNormalLayout.isEmpty()){
                         mNormalLayout.set(mInner.getLeft(), mInner.getTop(), mInner.getRight(), mInner.getBottom());
                     }
                     float nowY = ev.getY();
-/**
+*//**
  *  function : 1/(x+1)
- */
+ *//*
                     coefficient += 0.15;
                     resultCoe = 1/(coefficient + 1);
 //                    int offsetY = (int) ((previousY - nowY)/ ZOOM_SIZE);
-/**
+*//**
  * I need a better function to get suitable value for offsetY
  * the present one is Ln()
- */
+ *//*
 //                    int offsetY = (int) Math.log(previousY - nowY + 1);
                     int offsetY = (int) ((previousY - nowY) * resultCoe / ZOOM_SIZE);
 
@@ -81,17 +83,18 @@ public class ListenerScrollView extends ScrollView {
                         mInner.layout(mInner.getLeft(), mInner.getTop() - offsetY, mInner.getRight(), mInner.getBottom() - offsetY);
                     }
                 }
+                */
                 break;
             case MotionEvent.ACTION_UP:
                 resultCoe = coefficient = 0;
                 presentY = ev.getY();
-                if (!mNormalLayout.isEmpty()){
+                /*if (!mNormalLayout.isEmpty()){
                     Log.d(TAG + "1", mInner.getTop() - mNormalLayout.top + "");
                     animateBackTo(mNormalLayout);
-                    /*if (mListener != null){
+                    *//*if (mListener != null){
                         mNewLayout = mListener.onDropReleased(mNormalLayout.top - mInner.getTop(), mInner);
-                    }*/
-                }
+                    }*//*
+                }*/
                 if (mListener != null){
                     mListener.onScrollDownComplete(presentY - previousY);
                     Log.d(TAG, presentY + " " + previousY + "   " + presentY + previousY + "");
@@ -140,6 +143,18 @@ public class ListenerScrollView extends ScrollView {
     public void setOnScrollDownListener(OnScrollDownListener listener){
         mListener = listener;
     }
+
+    @Override
+    public boolean canPullDown() {
+        return false;
+    }
+
+    @Override
+    public boolean canPullUp() {
+        Log.d("TestPull", getMeasuredHeight() + "   " +getHeight() + "  "+ getScrollY());
+        return isNeedMove();
+    }
+
     public interface OnScrollDownListener{
         void onScrollDownComplete(float offsetY);
         Rect onDropReleased(int offsetY, View inner);

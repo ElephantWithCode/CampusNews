@@ -110,12 +110,21 @@
         <dex dex="C:\Users\Ellly\Desktop\SourceCodeTempOnDesktop\CampusNews\CampusNewsClients\build\intermediates\transforms\dex\debug\folders\1000\2\MobCommons-2016.1201.1839_c7b3522b9a63c04323d565bc05ae3555a855f528\classes.dex" />
     </item>
     <item
+        is-multidex="false"
+        jar="C:\Users\Ellly\Desktop\SourceCodeTempOnDesktop\CampusNews\library\build\intermediates\bundles\default\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="348d75431a50e1c13cc056a6019ca6b0953a60ab">
+        <dex dex="C:\Users\Ellly\Desktop\SourceCodeTempOnDesktop\CampusNews\CampusNewsClients\build\intermediates\pre-dexed\debug\classes_efb2565cdecfe80be3aa463f975e58c75177651e.jar" />
+    </item>
+    <item
         is-multidex="true"
         jar="C:\Users\Ellly\Desktop\SourceCodeTempOnDesktop\CampusNews\CampusNewsClients\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="9552a38304b28eb52aa1d667a417eeb39b391db9">
+        sha1="97f6f746fa4e6c9b94ff5a65b3b532c502bb8147">
         <dex dex="C:\Users\Ellly\Desktop\SourceCodeTempOnDesktop\CampusNews\CampusNewsClients\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_d8c7e075e4c9670dd5123bd2f7d7a56014de0361\classes.dex" />
     </item>
     <item

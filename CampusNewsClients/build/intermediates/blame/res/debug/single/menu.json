@@ -12,6 +12,10 @@
         "source": "C:\\Users\\Ellly\\Desktop\\SourceCodeTempOnDesktop\\CampusNews\\CampusNewsClients\\src\\main\\res\\menu\\other_toolbar.xml"
     },
     {
+        "merged": "C:\\Users\\Ellly\\Desktop\\SourceCodeTempOnDesktop\\CampusNews\\CampusNewsClients\\build\\intermediates\\res\\merged\\debug\\menu\\nav_menu.xml",
+        "source": "C:\\Users\\Ellly\\Desktop\\SourceCodeTempOnDesktop\\CampusNews\\CampusNewsClients\\src\\main\\res\\menu\\nav_menu.xml"
+    },
+    {
         "merged": "C:\\Users\\Ellly\\Desktop\\SourceCodeTempOnDesktop\\CampusNews\\CampusNewsClients\\build\\intermediates\\res\\merged\\debug\\menu\\toolbar.xml",
         "source": "C:\\Users\\Ellly\\Desktop\\SourceCodeTempOnDesktop\\CampusNews\\CampusNewsClients\\src\\main\\res\\menu\\toolbar.xml"
     }

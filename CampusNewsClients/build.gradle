@@ -4,11 +4,14 @@ android {
     compileSdkVersion 25
     buildToolsVersion '25.0.2'
 
-    android { compileOptions.encoding = "GBK" }
+    android { compileOptions.encoding = "UTF-8" }
     defaultConfig {
         applicationId "com.baibian"
         minSdkVersion 21
         targetSdkVersion 25
+        renderscriptTargetApi 19
+        renderscriptSupportModeEnabled true
+
     }
 
     buildTypes {

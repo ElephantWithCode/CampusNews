@@ -132,4 +132,6 @@
     <dimen name="text_size_middle_16_dp">16sp</dimen>
     <dimen name="personal_image_size">30dp</dimen>
     <dimen name="adjust_small_gap">2dp</dimen>
+    <dimen name="user_name_text_size_21">21sp</dimen>
+    <dimen name="user_small_size_16">16sp</dimen>
 </resources>

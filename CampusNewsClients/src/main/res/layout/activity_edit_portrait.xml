@@ -8,6 +8,7 @@
 
     <ImageView
         android:id="@+id/blur_back_view"
+        android:scaleType="centerCrop"
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
@@ -17,11 +18,11 @@
         android:layout_height="150dp"
         android:id="@+id/user_portrait"
         android:src="@drawable/roundimg_userhead"
-        android:layout_marginTop="42dp"
-        android:layout_below="@+id/textView"
+        android:layout_marginTop="107dp"
+        android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true" />
 
-    <TextView
+<!--    <TextView
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -34,6 +35,6 @@
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true" />
+        android:layout_centerHorizontal="true" />-->
 
 </RelativeLayout>

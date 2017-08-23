@@ -289,6 +289,7 @@ public class PeriodicalDetailActivity extends AppCompatActivity implements View.
         ActionBar actionBar = getSupportActionBar();
         if (actionBar != null){
             actionBar.setDisplayHomeAsUpEnabled(true);
+            actionBar.setTitle("测试标题栏");
         }
     }
 

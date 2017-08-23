@@ -5,10 +5,12 @@ import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.os.Handler;
+import android.support.design.widget.NavigationView;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentActivity;
 import android.support.v4.app.FragmentTransaction;
 import android.support.v4.view.ViewPager;
+import android.support.v4.widget.DrawerLayout;
 import android.support.v4.widget.SwipeRefreshLayout;
 import android.view.GestureDetector;
 import android.view.KeyEvent;
@@ -36,11 +38,14 @@ import com.baibian.fragment.main.HomepageFragment;
 import com.baibian.fragment.main.PeriodicalsFragment;
 import com.baibian.tool.BaseTools;
 import com.baibian.view.ColumnHorizontalScrollView;
+import com.baibian.view.RevealFollowButton;
 import com.baibian.view.SlidingDrawerView;
 import com.jeremyfeinstein.slidingmenu.lib.SlidingMenu;
 
 import java.util.ArrayList;
 import java.util.List;
+
+import de.hdodenhof.circleimageview.CircleImageView;
 
 /**
  *  模拟还原今日头条 --新闻阅读器
@@ -147,6 +152,22 @@ public class MainActivity extends FragmentActivity implements OnClickListener{
     private SharedPreferences.Editor editor;//判断是否是第一次登陆使用
     private GestureDetector gestureDetector;
     private SwipeRefreshLayout integration_swiperefreshlayout;
+
+    /**
+     * drawer layout 里面的东西
+     */
+    private DrawerLayout mDrawerLayout;
+    private NavigationView mNavigationView;
+    private RelativeLayout mNavHeader;
+
+    private CircleImageView mUserPortrait;
+    private RevealFollowButton mPickButton;
+    private TextView mLevel;
+    private TextView mSignature;
+    private TextView mSettingsButton;
+    private TextView mNightModeButton;
+    private TextView mUserName;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -180,9 +201,15 @@ public class MainActivity extends FragmentActivity implements OnClickListener{
         mScreenWidth = BaseTools.getWindowsWidth(this);
         mItemWidth = mScreenWidth / 4;// ???Item?????????1/4
 
-        initSlidingMenu();
+//        initSlidingMenu();
 
 //        init_guide();//引导界面的初始化
+
+        initDrawerView();
+
+
+
+
 
         initViews();
         fragmentManager = getFragmentManager();
@@ -194,10 +221,26 @@ public class MainActivity extends FragmentActivity implements OnClickListener{
 
     }
 
+    private void initDrawerView() {
+        mNightModeButton = (TextView) findViewById(R.id.night_mode);
+        mSettingsButton = (TextView) findViewById(R.id.user_setting);
+        mNavigationView = (NavigationView) findViewById(R.id.nav_view);
+        mDrawerLayout = (DrawerLayout) findViewById(R.id.drawer_layout);
+        mNavHeader = (RelativeLayout) mNavigationView.getHeaderView(0);
+        mUserPortrait = (CircleImageView) mNavHeader.findViewById(R.id.user_portrait);
+        mPickButton = (RevealFollowButton) mNavHeader.findViewById(R.id.pick_button);
+        mUserName = (TextView) mNavHeader.findViewById(R.id.user_name);
+        mLevel = (TextView) mNavHeader.findViewById(R.id.user_level);
+        mSignature = (TextView) mNavHeader.findViewById(R.id.signature_content);
+
+        mUserPortrait.setOnClickListener(this);
+    }
+
     /**
      * 在这里获取到每个需要用到的控件的实例，并给它们设置好必要的点击事件。
      */
     private void initViews() {
+
         fragmentLayout1 = findViewById(R.id.fragment1_layout);
         fragmentLayout2 = findViewById(R.id.fragment2_layout);
         fragmentLayout3 = findViewById(R.id.fragment3_layout);
@@ -281,6 +324,11 @@ public class MainActivity extends FragmentActivity implements OnClickListener{
                 imm4.hideSoftInputFromWindow(fragmentLayout1.getWindowToken(), 0);//这行代码隐藏软键盘
                 setTabSelection(3);
                 break;
+
+            case R.id.user_portrait:
+                startActivity(new Intent(this, UsersImformationActivity.class));
+                break;
+
             default:
                 break;
         }
@@ -409,12 +457,15 @@ public class MainActivity extends FragmentActivity implements OnClickListener{
         return true;
     }
 //以后移走
+/*
     protected void initSlidingMenu() {
         side_drawer = new SlidingDrawerView(this).initSlidingMenu();
 
-        /**
+        */
+/**
          * 登录切换顶部布局
-         */
+         *//*
+
        login_layout=(RelativeLayout) side_drawer.findViewById(R.id.login_layout);
         baibian_btn=(ImageView) side_drawer.findViewById(R.id.baibian_btn);//百辩登录按钮
         logout_layout_not_login=(LinearLayout) side_drawer.findViewById(R.id.logout_layout_not_login);//未登录布局
@@ -437,6 +488,7 @@ public class MainActivity extends FragmentActivity implements OnClickListener{
             }
         });
     }
+*/
 
     private long mExitTime;
 

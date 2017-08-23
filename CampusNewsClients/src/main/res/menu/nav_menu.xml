@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group>
+        <item
+            android:id="@+id/my_focus"
+            android:title="我的关注"
+            android:icon="@drawable/ic_action_favor"/>
+        <item
+            android:id="@+id/my_collection"
+            android:title="我的收藏"
+            android:icon="@drawable/ic_action_favor"/>
+        <item
+            android:id="@+id/my_bookshelf"
+            android:title="我的书架"
+            android:icon="@drawable/ic_action_favor"/>
+        <item
+            android:id="@+id/message_and_notification"
+            android:title="消息与通知"
+            android:icon="@drawable/ic_action_favor"/>
+        <item
+            android:id="@+id/recycle_station"
+            android:title="回收站"
+            android:icon="@drawable/ic_action_favor"/>
+        <item
+            android:id="@+id/history_see"
+            android:title="历史浏览"
+            android:icon="@drawable/ic_action_favor"/>
+    </group>
+</menu>

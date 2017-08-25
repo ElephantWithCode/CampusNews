@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.baibian.activity.MyBookshelfActivity">
+    <android.support.v7.widget.Toolbar
+        android:background="@color/colorPrimary"
+        android:id="@+id/tool_bar"
+        app:navigationIcon="@mipmap/back_direction"
+        app:title="我的书架"
+        app:titleTextColor="?attr/colorValue"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize">
+
+    </android.support.v7.widget.Toolbar>
+    <TextView
+        android:id="@+id/famous_sentence"
+        android:layout_centerHorizontal="true"
+        android:background="#fbec99"
+        android:layout_below="@id/tool_bar"
+        android:textSize="@dimen/text_size_middle_16_sp"
+        android:padding="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="10dp"
+        android:text="你他娘的就是老子的马斯特吗\n\t\t\t\t\t\t\t\t——李云龙"
+        android:textColor="?attr/colorValue"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content" />
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/bookshelf_recycler"
+        android:paddingBottom="20dp"
+        android:paddingTop="20dp"
+        android:paddingStart="20dp"
+        android:layout_below="@id/famous_sentence"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </android.support.v7.widget.RecyclerView>
+</RelativeLayout>

@@ -57,7 +57,7 @@ public class HisFocusActivity extends AppCompatActivity{
         ActionBar actionBar = getSupportActionBar();
         if (actionBar != null){
             actionBar.setDisplayHomeAsUpEnabled(true);
-            actionBar.setTitle("His Focus");
+            actionBar.setTitle("他的关注");
         }
     }
 

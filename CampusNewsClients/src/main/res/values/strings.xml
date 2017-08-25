@@ -136,5 +136,6 @@
 
     <string name="collect">收藏</string>
     <string name="collected">已收藏</string>
+    <string name="recycler_undo_text_content"><u>您可以在回收站撤销最近15天的内容</u></string>
 
 </resources>

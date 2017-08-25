@@ -17,6 +17,14 @@ public class AppApplication extends Application {
 	private static AppApplication mAppApplication;
 	private static Context mContext;
 	private SQLHelper sqlHelper;
+	private boolean isNightMode = false;
+
+	public void setNightMode(boolean nightMode){
+		isNightMode = nightMode;
+	}
+	public boolean isNightMode(){
+		return isNightMode;
+	}
 
 	@Override
 	public void onCreate() {

@@ -5,6 +5,7 @@ import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.os.Handler;
+import android.support.annotation.NonNull;
 import android.support.design.widget.NavigationView;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentActivity;
@@ -15,6 +16,7 @@ import android.support.v4.widget.SwipeRefreshLayout;
 import android.view.GestureDetector;
 import android.view.KeyEvent;
 import android.view.Menu;
+import android.view.MenuItem;
 import android.view.MotionEvent;
 import android.view.View;
 import android.view.View.OnClickListener;
@@ -51,7 +53,7 @@ import de.hdodenhof.circleimageview.CircleImageView;
  *  模拟还原今日头条 --新闻阅读器
  * author:XZY && RA
  */
-public class MainActivity extends FragmentActivity implements OnClickListener{
+public class MainActivity extends FragmentActivity implements OnClickListener, NavigationView.OnNavigationItemSelectedListener{
 
     /**
      * 四个碎片布局声明的变量
@@ -234,6 +236,7 @@ public class MainActivity extends FragmentActivity implements OnClickListener{
         mSignature = (TextView) mNavHeader.findViewById(R.id.signature_content);
 
         mUserPortrait.setOnClickListener(this);
+        mNavigationView.setNavigationItemSelectedListener(this);
     }
 
     /**
@@ -259,7 +262,7 @@ public class MainActivity extends FragmentActivity implements OnClickListener{
         top_more = (ImageView) findViewById(R.id.top_more);
         top_refresh = (ImageView) findViewById(R.id.top_refresh);
        top_progress = (ProgressBar) findViewById(R.id.top_progress);
-        top_head.setOnClickListener(new OnClickListener() {
+ /*       top_head.setOnClickListener(new OnClickListener() {
 
             @Override
             public void onClick(View v) {
@@ -270,7 +273,7 @@ public class MainActivity extends FragmentActivity implements OnClickListener{
                     side_drawer.showMenu();
                 }
             }
-        });
+        });*/
         top_more.setOnClickListener(new OnClickListener() {
 
             @Override
@@ -491,6 +494,7 @@ public class MainActivity extends FragmentActivity implements OnClickListener{
 */
 
     private long mExitTime;
+/*
 
     @Override
     public boolean onKeyDown(int keyCode, KeyEvent event) {
@@ -515,6 +519,7 @@ public class MainActivity extends FragmentActivity implements OnClickListener{
         }
         return super.onKeyDown(keyCode, event);
     }
+*/
     @Override
     protected void onActivityResult(int requestCode, int resultCode, Intent data) {
         // TODO Auto-generated method stub
@@ -534,6 +539,22 @@ public class MainActivity extends FragmentActivity implements OnClickListener{
                 break;
         }
         super.onActivityResult(requestCode, resultCode, data);
+    }
+
+    @Override
+    public boolean onNavigationItemSelected(@NonNull MenuItem menuItem) {
+
+        switch (menuItem.getItemId()){
+            case R.id.my_bookshelf:
+                startActivity(new Intent(this, MyBookshelfActivity.class));
+                break;
+            case R.id.recycle_station:
+                startActivity(new Intent(this, RecyclerActivity.class));
+                break;
+            case R.id.message_and_notification:
+                startActivity();
+        }
+        return true;
     }
 
     /**

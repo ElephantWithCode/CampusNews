@@ -52,7 +52,7 @@
         android:id="@+id/signature_content"
         android:text="你就是他娘的老子的马斯特吗"
         android:textColor="@color/text_color_pure_black_user_information"
-        android:textSize="@dimen/text_size_middle_16_dp"
+        android:textSize="@dimen/text_size_middle_16_sp"
         android:layout_below="@id/user_level"
         android:layout_alignStart="@id/user_level"
         android:layout_width="wrap_content"

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <cn.bingoogolapple.badgeview.BGABadgeImageView
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/recycler_notification_image"
+        android:src="@drawable/default_round_head"
+        android:layout_margin="10dp"
+        android:layout_width="70dp"
+        android:layout_height="70dp" />
+    <TextView
+        android:id="@+id/recycler_title"
+        android:textSize="18sp"
+        android:textColor="?attr/colorValue"
+        android:text="我就是李云龙"
+        android:textStyle="bold"
+        android:layout_toEndOf="@id/recycler_notification_image"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <ImageView
+        android:id="@+id/recycler_back_direction"
+        android:src="@mipmap/gray_back_mipmap"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/recycler_content"
+        android:maxLines="1"
+        android:ellipsize="end"
+        android:text="二营长，把你他娘的意大利炮给老子拿上来"
+        android:layout_alignStart="@id/recycler_title"
+        android:layout_below="@id/recycler_title"
+        android:layout_toStartOf="@id/recycler_back_direction"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="10dp"
+        android:textColor="?attr/colorValue"
+        android:textSize="16sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+</RelativeLayout>

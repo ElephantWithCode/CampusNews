@@ -65,6 +65,15 @@
         <dex dex="C:\Users\Ellly\Desktop\SourceCodeTempOnDesktop\CampusNews\CampusNewsClients\build\intermediates\pre-dexed\debug\universal-image-loader-1.9.2-SNAPSHOT-with-sources_d584a7ca9d0fba0e0ee31215f7ec7e0c44210071.jar" />
     </item>
     <item
+        is-multidex="true"
+        jar="C:\Users\Ellly\.android\build-cache\2c25943e8f3621d00dd94202cec64afa8aa39a09\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="4fbcdaf5ea465e094a0c992e262ecf0b24d6bafe">
+        <dex dex="C:\Users\Ellly\Desktop\SourceCodeTempOnDesktop\CampusNews\CampusNewsClients\build\intermediates\transforms\dex\debug\folders\1000\10\classes_bf01d36a6eb6f11408d76ecdd32c249db2c309bb\classes.dex" />
+    </item>
+    <item
         is-multidex="false"
         jar="C:\Users\Ellly\Desktop\SourceCodeTempOnDesktop\CampusNews\library_SlidingMenu\build\intermediates\bundles\default\classes.jar"
         jumboMode="false"
@@ -133,7 +142,7 @@
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="95c7875ee2d8797680ab60ca9a5d8bfbdf25e905">
+        sha1="3abdf89b9fb4af898b3cd7228a0ca0421ee12b0e">
         <dex dex="C:\Users\Ellly\Desktop\SourceCodeTempOnDesktop\CampusNews\CampusNewsClients\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_d8c7e075e4c9670dd5123bd2f7d7a56014de0361\classes.dex" />
     </item>
     <item

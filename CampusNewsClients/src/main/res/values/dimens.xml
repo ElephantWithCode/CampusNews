@@ -129,7 +129,7 @@
     <dimen name="general_user_small_padding">10dp</dimen>
     <dimen name="other_small_text_size">16sp</dimen>
     <dimen name="tool_bar_translationz_dp">5dp</dimen>
-    <dimen name="text_size_middle_16_dp">16sp</dimen>
+    <dimen name="text_size_middle_16_sp">16sp</dimen>
     <dimen name="personal_image_size">30dp</dimen>
     <dimen name="adjust_small_gap">2dp</dimen>
     <dimen name="user_name_text_size_21">21sp</dimen>

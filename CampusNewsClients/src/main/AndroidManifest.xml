@@ -63,6 +63,8 @@
         <activity android:name=".activity.LargeActivity" />
         <activity android:name=".activity.EditPortraitActivity" />
         <activity android:name=".activity.OtherInformationActivity" />
+        <activity android:name=".activity.MyBookshelfActivity" />
+        <activity android:name=".activity.RecyclerActivity" />
         <activity
             android:name="com.mob.tools.MobUIShell"
             android:configChanges="keyboardHidden|orientation|screenSize"
@@ -87,13 +89,17 @@
         <activity
             android:name=".activity.PeriodicalDetailActivity"
             android:windowSoftInputMode="adjustPan">
-            <!--<intent-filter>
+
+            <!--
+            <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>-->
+            </intent-filter>
+            -->
         </activity>
-        <activity android:name=".activity.PeriodicalCategoryActivity"></activity>
+        <activity android:name=".activity.PeriodicalCategoryActivity" />
+        <activity android:name=".activity.MessageAndNotificationActivity"></activity>
     </application>
 
 </manifest>

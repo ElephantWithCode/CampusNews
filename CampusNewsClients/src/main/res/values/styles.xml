@@ -10,7 +10,7 @@
 
     <!--用来切换夜间模式的，属性均应在这里设置-->
     <style name="DayTheme" parent="Theme.AppCompat.Light.NoActionBar">>
-        <item name="colorValue">@color/white_background_color</item>
+        <item name="colorValue">@color/text_color_pure_black_user_information</item>
         <item name="floatValue">0.35</item>
         <item name="integerValue">33</item>
         <item name="booleanValue">true</item>

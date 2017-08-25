@@ -6,6 +6,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
+import com.baibian.R;
 import com.baibian.fragment.messy_fiction.MessageFragment.OnListFragmentInteractionListener;
 import com.baibian.fragment.messy_fiction.dummy.DummyContent.DummyItem;
 

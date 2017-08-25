@@ -552,7 +552,7 @@ public class MainActivity extends FragmentActivity implements OnClickListener, N
                 startActivity(new Intent(this, RecyclerActivity.class));
                 break;
             case R.id.message_and_notification:
-                startActivity();
+//                startActivity();
         }
         return true;
     }

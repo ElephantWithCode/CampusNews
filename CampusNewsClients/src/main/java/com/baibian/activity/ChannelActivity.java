@@ -33,7 +33,7 @@ import com.baibian.view.OtherGridView;
 import java.util.ArrayList;
 
 /**
- * 频道管理
+ * 频 道管理
  */
 public class ChannelActivity extends BaseActivity implements OnItemClickListener {
 	public static String TAG = "ChannelActivity";

@@ -5,27 +5,40 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="com.baibian.activity.MessageAndNotificationActivity">
-    <android.support.v7.widget.Toolbar
-        android:id="@+id/tool_bar"
-        app:navigationIcon="@mipmap/gray_back_mipmap"
-        app:title="消息与通知"
-        app:titleTextColor="?attr/colorValue"
+
+    <android.support.design.widget.AppBarLayout
+        android:id="@+id/app_bar"
         android:layout_width="match_parent"
         android:layout_height="?attr/actionBarSize">
-    </android.support.v7.widget.Toolbar>
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/tool_bar"
+            app:navigationIcon="@mipmap/gray_back_mipmap"
+            app:title="消息与通知"
+            app:titleTextColor="?attr/colorValue"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"></android.support.v7.widget.Toolbar>
+    </android.support.design.widget.AppBarLayout>
+
     <android.support.design.widget.TabLayout
         android:id="@+id/messy_fiction_tab"
-        android:layout_below="@id/tool_bar"
+        android:layout_below="@id/app_bar"
         android:layout_marginTop="5dp"
         android:paddingBottom="2dp"
+        android:translationZ="3dp"
+        android:elevation="4dp"
         android:layout_width="match_parent"
         android:layout_height="?attr/actionBarSize">
     </android.support.design.widget.TabLayout>
+    <View
+        android:layout_below="@id/messy_fiction_tab"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#a197a1"/>
     <android.support.v4.view.ViewPager
         android:id="@+id/messy_fiction_view_pager"
         android:layout_below="@id/messy_fiction_tab"
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
-
     </android.support.v4.view.ViewPager>
 </RelativeLayout>

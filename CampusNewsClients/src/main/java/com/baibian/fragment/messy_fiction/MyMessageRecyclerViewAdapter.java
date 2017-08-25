@@ -19,11 +19,11 @@ import java.util.List;
  */
 public class MyMessageRecyclerViewAdapter extends RecyclerView.Adapter<MyMessageRecyclerViewAdapter.ViewHolder> {
 
-    private final List<DummyItem> mValues;
+    private final List<DummyItem> mData;
     private final OnListFragmentInteractionListener mListener;
 
     public MyMessageRecyclerViewAdapter(List<DummyItem> items, OnListFragmentInteractionListener listener) {
-        mValues = items;
+        mData = items;
         mListener = listener;
     }
 
@@ -36,9 +36,9 @@ public class MyMessageRecyclerViewAdapter extends RecyclerView.Adapter<MyMessage
 
     @Override
     public void onBindViewHolder(final ViewHolder holder, int position) {
-        holder.mItem = mValues.get(position);
-        holder.mIdView.setText(mValues.get(position).id);
-        holder.mContentView.setText(mValues.get(position).content);
+        holder.mItem = mData.get(position);
+        holder.mIdView.setText(mData.get(position).id);
+        holder.mContentView.setText(mData.get(position).content);
 
         holder.mView.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -54,7 +54,7 @@ public class MyMessageRecyclerViewAdapter extends RecyclerView.Adapter<MyMessage
 
     @Override
     public int getItemCount() {
-        return mValues.size();
+        return mData.size();
     }
 
     public class ViewHolder extends RecyclerView.ViewHolder {

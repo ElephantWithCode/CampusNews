@@ -10,11 +10,14 @@ import android.os.Bundle;
 import android.support.v7.widget.Toolbar;
 
 import com.baibian.R;
+import com.baibian.app.AppApplication;
+import com.baibian.fragment.messy_fiction.MessageFragment;
+import com.baibian.fragment.messy_fiction.dummy.DummyContent;
 
 import java.util.ArrayList;
 import java.util.List;
 
-public class MessageAndNotificationActivity extends AppCompatActivity {
+public class MessageAndNotificationActivity extends AppCompatActivity implements MessageFragment.OnListFragmentInteractionListener{
 
     private TabLayout mTabLayout;
     private Toolbar mToolbar;
@@ -27,6 +30,11 @@ public class MessageAndNotificationActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        if (((AppApplication)getApplication()).isNightMode()){
+            setTheme(R.style.NightTheme);
+        }else {
+            setTheme(R.style.DayTheme);
+        }
         setContentView(R.layout.activity_message_and_notification);
 
         mTabLayout = (TabLayout) findViewById(R.id.messy_fiction_tab);
@@ -35,6 +43,10 @@ public class MessageAndNotificationActivity extends AppCompatActivity {
 
         mIndicatorTexts = new ArrayList<>();
         mFragments = new ArrayList<>();
+
+        mIndicatorTexts.add("消息");
+
+        mFragments.add(MessageFragment.newInstance(1));
         mPagerAdapter = new FragmentPagerAdapter(getSupportFragmentManager()) {
             @Override
             public Fragment getItem(int i) {
@@ -51,7 +63,13 @@ public class MessageAndNotificationActivity extends AppCompatActivity {
                 return mFragments.size();
             }
         };
+        mViewPager.setAdapter(mPagerAdapter);
+        mTabLayout.setupWithViewPager(mViewPager);
+        mTabLayout.setTabMode(TabLayout.MODE_FIXED);
+    }
 
-        
+    @Override
+    public void onListFragmentInteraction(DummyContent.DummyItem item) {
+
     }
 }

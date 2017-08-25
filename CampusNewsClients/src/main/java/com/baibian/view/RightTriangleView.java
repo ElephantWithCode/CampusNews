@@ -17,7 +17,7 @@ public class RightTriangleView extends View {
 
     private int measureWidth = 0;
     private int measureHeight = 0;
-    private int mPaintColor = Color.parseColor("#123456");
+    private int mPaintColor = Color.parseColor("#47bafe");
     private Path mPath;
     private Paint mPaint;
 
@@ -38,7 +38,6 @@ public class RightTriangleView extends View {
 
     public RightTriangleView(Context context, @Nullable AttributeSet attrs, int defStyleAttr) {
         super(context, attrs, defStyleAttr);
-        init();
     }
 
     private void init() {
@@ -49,6 +48,7 @@ public class RightTriangleView extends View {
     @Override
     protected void onDraw(Canvas canvas) {
         super.onDraw(canvas);
+        init();
         mPaint.setColor(mPaintColor);
         mPath.moveTo(0, 0);
         mPath.lineTo(measureWidth, measureHeight);

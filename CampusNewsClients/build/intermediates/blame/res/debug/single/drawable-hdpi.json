@@ -1,5 +1,9 @@
 [
     {
+        "merged": "C:\\Users\\Ellly\\Desktop\\SourceCodeTempOnDesktop\\CampusNews\\CampusNewsClients\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_expand_large_holo_light.png",
+        "source": "C:\\Users\\Ellly\\.android\\build-cache\\3437c8e06606a0d0f75051e6047146b51c1f7cee\\output\\res\\drawable-hdpi\\ic_expand_large_holo_light.png"
+    },
+    {
         "merged": "C:\\Users\\Ellly\\Desktop\\SourceCodeTempOnDesktop\\CampusNews\\CampusNewsClients\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\login4qq.png",
         "source": "C:\\Users\\Ellly\\Desktop\\SourceCodeTempOnDesktop\\CampusNews\\CampusNewsClients\\src\\main\\res\\drawable-hdpi\\login4qq.png"
     },
@@ -24,8 +28,16 @@
         "source": "C:\\Users\\Ellly\\Desktop\\SourceCodeTempOnDesktop\\CampusNews\\CampusNewsClients\\src\\main\\res\\drawable-hdpi\\refresh_succeed.png"
     },
     {
+        "merged": "C:\\Users\\Ellly\\Desktop\\SourceCodeTempOnDesktop\\CampusNews\\CampusNewsClients\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_collapse_small_holo_light.png",
+        "source": "C:\\Users\\Ellly\\.android\\build-cache\\3437c8e06606a0d0f75051e6047146b51c1f7cee\\output\\res\\drawable-hdpi\\ic_collapse_small_holo_light.png"
+    },
+    {
         "merged": "C:\\Users\\Ellly\\Desktop\\SourceCodeTempOnDesktop\\CampusNews\\CampusNewsClients\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\yellow_rect_up.png",
         "source": "C:\\Users\\Ellly\\Desktop\\SourceCodeTempOnDesktop\\CampusNews\\CampusNewsClients\\src\\main\\res\\drawable-hdpi\\yellow_rect_up.png"
+    },
+    {
+        "merged": "C:\\Users\\Ellly\\Desktop\\SourceCodeTempOnDesktop\\CampusNews\\CampusNewsClients\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_expand_small_holo_light.png",
+        "source": "C:\\Users\\Ellly\\.android\\build-cache\\3437c8e06606a0d0f75051e6047146b51c1f7cee\\output\\res\\drawable-hdpi\\ic_expand_small_holo_light.png"
     },
     {
         "merged": "C:\\Users\\Ellly\\Desktop\\SourceCodeTempOnDesktop\\CampusNews\\CampusNewsClients\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\login4background2.png",
@@ -62,6 +74,10 @@
     {
         "merged": "C:\\Users\\Ellly\\Desktop\\SourceCodeTempOnDesktop\\CampusNews\\CampusNewsClients\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\book.png",
         "source": "C:\\Users\\Ellly\\Desktop\\SourceCodeTempOnDesktop\\CampusNews\\CampusNewsClients\\src\\main\\res\\drawable-hdpi\\book.png"
+    },
+    {
+        "merged": "C:\\Users\\Ellly\\Desktop\\SourceCodeTempOnDesktop\\CampusNews\\CampusNewsClients\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_collapse_large_holo_light.png",
+        "source": "C:\\Users\\Ellly\\.android\\build-cache\\3437c8e06606a0d0f75051e6047146b51c1f7cee\\output\\res\\drawable-hdpi\\ic_collapse_large_holo_light.png"
     },
     {
         "merged": "C:\\Users\\Ellly\\Desktop\\SourceCodeTempOnDesktop\\CampusNews\\CampusNewsClients\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\yellow_rect_middle.png",

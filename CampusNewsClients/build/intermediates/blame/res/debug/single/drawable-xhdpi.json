@@ -16,16 +16,16 @@
         "source": "C:\\Users\\Ellly\\Desktop\\SourceCodeTempOnDesktop\\CampusNews\\CampusNewsClients\\src\\main\\res\\drawable-xhdpi\\imformation_img.png"
     },
     {
-        "merged": "C:\\Users\\Ellly\\Desktop\\SourceCodeTempOnDesktop\\CampusNews\\CampusNewsClients\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ic_action_next_normal.png",
-        "source": "C:\\Users\\Ellly\\Desktop\\SourceCodeTempOnDesktop\\CampusNews\\CampusNewsClients\\src\\main\\res\\drawable-xhdpi\\ic_action_next_normal.png"
+        "merged": "C:\\Users\\Ellly\\Desktop\\SourceCodeTempOnDesktop\\CampusNews\\CampusNewsClients\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ic_launcher.png",
+        "source": "C:\\Users\\Ellly\\Desktop\\SourceCodeTempOnDesktop\\CampusNews\\CampusNewsClients\\src\\main\\res\\drawable-xhdpi\\ic_launcher.png"
     },
     {
         "merged": "C:\\Users\\Ellly\\Desktop\\SourceCodeTempOnDesktop\\CampusNews\\CampusNewsClients\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\login3_visitorbtn.png",
         "source": "C:\\Users\\Ellly\\Desktop\\SourceCodeTempOnDesktop\\CampusNews\\CampusNewsClients\\src\\main\\res\\drawable-xhdpi\\login3_visitorbtn.png"
     },
     {
-        "merged": "C:\\Users\\Ellly\\Desktop\\SourceCodeTempOnDesktop\\CampusNews\\CampusNewsClients\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ic_launcher.png",
-        "source": "C:\\Users\\Ellly\\Desktop\\SourceCodeTempOnDesktop\\CampusNews\\CampusNewsClients\\src\\main\\res\\drawable-xhdpi\\ic_launcher.png"
+        "merged": "C:\\Users\\Ellly\\Desktop\\SourceCodeTempOnDesktop\\CampusNews\\CampusNewsClients\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ic_action_next_normal.png",
+        "source": "C:\\Users\\Ellly\\Desktop\\SourceCodeTempOnDesktop\\CampusNews\\CampusNewsClients\\src\\main\\res\\drawable-xhdpi\\ic_action_next_normal.png"
     },
     {
         "merged": "C:\\Users\\Ellly\\Desktop\\SourceCodeTempOnDesktop\\CampusNews\\CampusNewsClients\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\listpage_more_dislike_pressed.png",
@@ -38,6 +38,10 @@
     {
         "merged": "C:\\Users\\Ellly\\Desktop\\SourceCodeTempOnDesktop\\CampusNews\\CampusNewsClients\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\channel_rightblock_night.png",
         "source": "C:\\Users\\Ellly\\Desktop\\SourceCodeTempOnDesktop\\CampusNews\\CampusNewsClients\\src\\main\\res\\drawable-xhdpi\\channel_rightblock_night.png"
+    },
+    {
+        "merged": "C:\\Users\\Ellly\\Desktop\\SourceCodeTempOnDesktop\\CampusNews\\CampusNewsClients\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ic_collapse_large_holo_light.png",
+        "source": "C:\\Users\\Ellly\\.android\\build-cache\\3437c8e06606a0d0f75051e6047146b51c1f7cee\\output\\res\\drawable-xhdpi\\ic_collapse_large_holo_light.png"
     },
     {
         "merged": "C:\\Users\\Ellly\\Desktop\\SourceCodeTempOnDesktop\\CampusNews\\CampusNewsClients\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\channel_glide_press_night.png",
@@ -176,12 +180,12 @@
         "source": "C:\\Users\\Ellly\\Desktop\\SourceCodeTempOnDesktop\\CampusNews\\CampusNewsClients\\src\\main\\res\\drawable-xhdpi\\ic_personal_share.png"
     },
     {
-        "merged": "C:\\Users\\Ellly\\Desktop\\SourceCodeTempOnDesktop\\CampusNews\\CampusNewsClients\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ic_mark_first_night.png",
-        "source": "C:\\Users\\Ellly\\Desktop\\SourceCodeTempOnDesktop\\CampusNews\\CampusNewsClients\\src\\main\\res\\drawable-xhdpi\\ic_mark_first_night.png"
-    },
-    {
         "merged": "C:\\Users\\Ellly\\Desktop\\SourceCodeTempOnDesktop\\CampusNews\\CampusNewsClients\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\channel_new.png",
         "source": "C:\\Users\\Ellly\\Desktop\\SourceCodeTempOnDesktop\\CampusNews\\CampusNewsClients\\src\\main\\res\\drawable-xhdpi\\channel_new.png"
+    },
+    {
+        "merged": "C:\\Users\\Ellly\\Desktop\\SourceCodeTempOnDesktop\\CampusNews\\CampusNewsClients\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ic_mark_first_night.png",
+        "source": "C:\\Users\\Ellly\\Desktop\\SourceCodeTempOnDesktop\\CampusNews\\CampusNewsClients\\src\\main\\res\\drawable-xhdpi\\ic_mark_first_night.png"
     },
     {
         "merged": "C:\\Users\\Ellly\\Desktop\\SourceCodeTempOnDesktop\\CampusNews\\CampusNewsClients\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ic_drawer_message_pressed.png",
@@ -194,6 +198,10 @@
     {
         "merged": "C:\\Users\\Ellly\\Desktop\\SourceCodeTempOnDesktop\\CampusNews\\CampusNewsClients\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ic_drawer_qzone.png",
         "source": "C:\\Users\\Ellly\\Desktop\\SourceCodeTempOnDesktop\\CampusNews\\CampusNewsClients\\src\\main\\res\\drawable-xhdpi\\ic_drawer_qzone.png"
+    },
+    {
+        "merged": "C:\\Users\\Ellly\\Desktop\\SourceCodeTempOnDesktop\\CampusNews\\CampusNewsClients\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ic_expand_large_holo_light.png",
+        "source": "C:\\Users\\Ellly\\.android\\build-cache\\3437c8e06606a0d0f75051e6047146b51c1f7cee\\output\\res\\drawable-xhdpi\\ic_expand_large_holo_light.png"
     },
     {
         "merged": "C:\\Users\\Ellly\\Desktop\\SourceCodeTempOnDesktop\\CampusNews\\CampusNewsClients\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\btn_back_detail_normal.png",
@@ -240,12 +248,12 @@
         "source": "C:\\Users\\Ellly\\Desktop\\SourceCodeTempOnDesktop\\CampusNews\\CampusNewsClients\\src\\main\\res\\drawable-xhdpi\\forumsfragment_selected.png"
     },
     {
-        "merged": "C:\\Users\\Ellly\\Desktop\\SourceCodeTempOnDesktop\\CampusNews\\CampusNewsClients\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ic_mark_first.png",
-        "source": "C:\\Users\\Ellly\\Desktop\\SourceCodeTempOnDesktop\\CampusNews\\CampusNewsClients\\src\\main\\res\\drawable-xhdpi\\ic_mark_first.png"
-    },
-    {
         "merged": "C:\\Users\\Ellly\\Desktop\\SourceCodeTempOnDesktop\\CampusNews\\CampusNewsClients\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ic_toast_post_fail.png",
         "source": "C:\\Users\\Ellly\\Desktop\\SourceCodeTempOnDesktop\\CampusNews\\CampusNewsClients\\src\\main\\res\\drawable-xhdpi\\ic_toast_post_fail.png"
+    },
+    {
+        "merged": "C:\\Users\\Ellly\\Desktop\\SourceCodeTempOnDesktop\\CampusNews\\CampusNewsClients\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ic_mark_first.png",
+        "source": "C:\\Users\\Ellly\\Desktop\\SourceCodeTempOnDesktop\\CampusNews\\CampusNewsClients\\src\\main\\res\\drawable-xhdpi\\ic_mark_first.png"
     },
     {
         "merged": "C:\\Users\\Ellly\\Desktop\\SourceCodeTempOnDesktop\\CampusNews\\CampusNewsClients\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\btn_tencent_pressed.png",
@@ -280,12 +288,12 @@
         "source": "C:\\Users\\Ellly\\Desktop\\SourceCodeTempOnDesktop\\CampusNews\\CampusNewsClients\\src\\main\\res\\drawable-xhdpi\\btn_common_normal.9.png"
     },
     {
-        "merged": "C:\\Users\\Ellly\\Desktop\\SourceCodeTempOnDesktop\\CampusNews\\CampusNewsClients\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ic_toast_unfav.png",
-        "source": "C:\\Users\\Ellly\\Desktop\\SourceCodeTempOnDesktop\\CampusNews\\CampusNewsClients\\src\\main\\res\\drawable-xhdpi\\ic_toast_unfav.png"
-    },
-    {
         "merged": "C:\\Users\\Ellly\\Desktop\\SourceCodeTempOnDesktop\\CampusNews\\CampusNewsClients\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ic_personal_periodical.png",
         "source": "C:\\Users\\Ellly\\Desktop\\SourceCodeTempOnDesktop\\CampusNews\\CampusNewsClients\\src\\main\\res\\drawable-xhdpi\\ic_personal_periodical.png"
+    },
+    {
+        "merged": "C:\\Users\\Ellly\\Desktop\\SourceCodeTempOnDesktop\\CampusNews\\CampusNewsClients\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ic_toast_unfav.png",
+        "source": "C:\\Users\\Ellly\\Desktop\\SourceCodeTempOnDesktop\\CampusNews\\CampusNewsClients\\src\\main\\res\\drawable-xhdpi\\ic_toast_unfav.png"
     },
     {
         "merged": "C:\\Users\\Ellly\\Desktop\\SourceCodeTempOnDesktop\\CampusNews\\CampusNewsClients\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\right_drawer_attention_normal.png",
@@ -466,6 +474,10 @@
     {
         "merged": "C:\\Users\\Ellly\\Desktop\\SourceCodeTempOnDesktop\\CampusNews\\CampusNewsClients\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\homepage_img.png",
         "source": "C:\\Users\\Ellly\\Desktop\\SourceCodeTempOnDesktop\\CampusNews\\CampusNewsClients\\src\\main\\res\\drawable-xhdpi\\homepage_img.png"
+    },
+    {
+        "merged": "C:\\Users\\Ellly\\Desktop\\SourceCodeTempOnDesktop\\CampusNews\\CampusNewsClients\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ic_expand_small_holo_light.png",
+        "source": "C:\\Users\\Ellly\\.android\\build-cache\\3437c8e06606a0d0f75051e6047146b51c1f7cee\\output\\res\\drawable-xhdpi\\ic_expand_small_holo_light.png"
     },
     {
         "merged": "C:\\Users\\Ellly\\Desktop\\SourceCodeTempOnDesktop\\CampusNews\\CampusNewsClients\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\spinner_76_inner_holo.png",
@@ -754,6 +766,10 @@
     {
         "merged": "C:\\Users\\Ellly\\Desktop\\SourceCodeTempOnDesktop\\CampusNews\\CampusNewsClients\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\crop__tile.png",
         "source": "C:\\Users\\Ellly\\.android\\build-cache\\63a0211a2c6f12a902a6e96a4b3d7f6f417835f8\\output\\res\\drawable-xhdpi\\crop__tile.png"
+    },
+    {
+        "merged": "C:\\Users\\Ellly\\Desktop\\SourceCodeTempOnDesktop\\CampusNews\\CampusNewsClients\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ic_collapse_small_holo_light.png",
+        "source": "C:\\Users\\Ellly\\.android\\build-cache\\3437c8e06606a0d0f75051e6047146b51c1f7cee\\output\\res\\drawable-xhdpi\\ic_collapse_small_holo_light.png"
     },
     {
         "merged": "C:\\Users\\Ellly\\Desktop\\SourceCodeTempOnDesktop\\CampusNews\\CampusNewsClients\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\spinner_76_outer_holo.png",

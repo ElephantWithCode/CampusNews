@@ -99,7 +99,8 @@
             -->
         </activity>
         <activity android:name=".activity.PeriodicalCategoryActivity" />
-        <activity android:name=".activity.MessageAndNotificationActivity"></activity>
+        <activity android:name=".activity.MessageAndNotificationActivity" />
+        <activity android:name=".activity.MyCollectionActivity"></activity>
     </application>
 
 </manifest>

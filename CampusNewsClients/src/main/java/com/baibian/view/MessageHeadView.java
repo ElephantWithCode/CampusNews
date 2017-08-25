@@ -24,8 +24,10 @@ public class MessageHeadView extends RelativeLayout {
     private CircleImageView mUserPortrait;
     private TextView mUserName;
     private TextView mResponseText;
+    private RightTriangleView mTriangleView;
     private ResponseType mResponsType;
     private Context mContext;
+
     private RelativeLayout.LayoutParams mLayoutParams;
 
     public MessageHeadView(Context context) {
@@ -43,7 +45,7 @@ public class MessageHeadView extends RelativeLayout {
     public MessageHeadView(Context context, AttributeSet attrs, int defStyleAttr) {
         super(context, attrs, defStyleAttr);
         mContext = context;
-        LayoutInflater.from(mContext).inflate(R.layout.message_head_view_layout, this);
+        LayoutInflater.from(getContext()).inflate(R.layout.message_head_view_layout, this);
         initView();
     }
 
@@ -51,7 +53,7 @@ public class MessageHeadView extends RelativeLayout {
         mResponseText = (TextView) findViewById(R.id.messy_fiction_head_response_type);
         mUserName = (TextView) findViewById(R.id.messy_fiction_head_user_name);
         mUserPortrait = (CircleImageView) findViewById(R.id.messy_fiction_head_user_portrait);
-
+        mTriangleView = (RightTriangleView) findViewById(R.id.messy_fiction_head_triangle);
     }
 
 }
